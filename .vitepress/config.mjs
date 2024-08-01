@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/",
   title: "keen_prt_wiki",
   description: "wiki about keenetic",
   themeConfig: {
