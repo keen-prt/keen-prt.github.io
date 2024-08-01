@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "keen_prt_wiki"
-  text: "wiki about keenetic"
+  text: "тестируем изменения"
   tagline: My great project tagline
   actions:
     - theme: brand
