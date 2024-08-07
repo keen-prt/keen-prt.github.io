@@ -11,20 +11,20 @@ hero:
     alt: Keenetic Ported Wiki
   actions:
     - theme: brand
-      text: Wiki
-      link: /markdown-examples
+      text: WIKI
+      link: /wiki
     - theme: alt
       text: Telegram канал
-      link: /api-examples
+      link: https://t.me/keen_prt
     - theme: alt
       text: Telegram чат
-      link: /api-examples
+      link: https://t.me/keen_prt_chat
     - theme: alt
       text: Поддержать нас
-      link: /api-examples
+      link: бусти
     - theme: alt
       text: Онлайн-сервис EEPROM
-      link: /api-examples
+      link: https://yeezyio.github.io/
 
 features:
   - title: 🚀 Быстрый старт

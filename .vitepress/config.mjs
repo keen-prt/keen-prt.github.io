@@ -35,48 +35,55 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Главная", link: "/" },
-      { text: "WIKI", link: "/markdown-examples" },
+      { text: "WIKI", link: "/wiki" },
     ],
 
     sidebar: [
       {
-        text: 'Инструкции по установке',
+        text: "Инструкции по установке",
         collapsed: true,
         items: [
-          { text: 'reserved', link: '/wiki/' },
-          { text: '🚀⭐Xiaomi AX6S', link: '/wiki/guides/ax6s' },
-          { text: 'XG1 AX1800', link: '/config/three' },
-          { text: 'TP-Link EC330', link: '/config/four' },
-          { text: 'Netis N6 AX1800', link: '/config/four' },
-          { text: 'МТС WG430223', link: '/config/four' },
-          { text: 'SmartBox Flash', link: '/config/four' },
-          { text: 'SmartBox Giga', link: '/config/four' },
-          { text: 'SmartBox Pro', link: '/config/four' },
-          { text: 'SmartBox Turbo+', link: '/config/four' },
-          { text: 'WiFire NBN1500', link: '/config/four' },
-          { text: 'Xiaomi 4', link: '/config/four' },
-          { text: 'HLK7621', link: '/config/four' },
-          { text: 'Linksys EA7XXX', link: '/config/four' },
-          { text: 'Mercusys MR70X', link: '/config/four' },
+          {
+            items: [
+              { text: "🚀⭐️Xiaomi AX6S", link: "/wiki/guides/ax6s/" },
+              { text: "Xiaomi 4", link: "/config/four/" },
+              { text: "XG1 AX1800", link: "/config/three/" },
+              { text: "TP-Link EC330", link: "/config/four/" },
+              { text: "Netis N6 AX1800", link: "/config/four/" },
+              { text: "МТС WG430223", link: "/config/four/" },
+              { text: "SmartBox Flash", link: "/config/four/" },
+              { text: "SmartBox Giga", link: "/config/four/" },
+              { text: "SmartBox Pro", link: "/config/four/" },
+              { text: "SmartBox Turbo+", link: "/config/four/" },
+              { text: "WiFire NBN1500", link: "/config/four/" },
+              { text: "HLK7621", link: "/config/four/" },
+              { text: "Linksys EA7XXX", link: "/config/four/" },
+              { text: "Mercusys MR70X", link: "/config/four/" },
+            ],
+          },
         ],
       },
       {
-        text: 'FAQ',
+        text: "FAQ",
         collapsed: false,
         items: [
-          { text: 'Обновление прошивок', link: '/config/' },
-          { text: 'Актуальный Breed', link: '/config/three' },
-          { text: 'BreedEnter', link: '/config/four' },
-          { text: 'Онлайн-конвертер EEPROM', link: '/config/four' },
-          { text: 'Тесты покрытия разных моделей', link: '/config/four' },
-          { text: 'Варианты удаленного доступа', link: '/config/four' },
-          { text: 'Мод для SmartBox Flash', link: '/config/four' },
-          { text: 'Мод для SmartBox Giga', link: '/config/four' },
-          { text: 'Дамп Breed для заливки через программатор', link: '/config/four' },
-          { text: 'Прошивка через MacOS', link: '/config/four' },
+          {
+            items: [
+              { text: "Обновление прошивок", link: "/config/" },
+              { text: "Актуальный Breed", link: "/config/three" },
+              { text: "BreedEnter", link: "/config/four" },
+              { text: "Онлайн-конвертер EEPROM", link: "/config/four" },
+              { text: "Тесты покрытия разных моделей", link: "/config/four" },
+              { text: "Варианты удаленного доступа", link: "/config/four" },
+              { text: "Мод для SmartBox Flash", link: "/config/four" },
+              { text: "Мод для SmartBox Giga", link: "/config/four" },
+              { text: "Дамп Breed для заливки через программатор", link: "/config/four" },
+              { text: "Прошивка через MacOS", link: "/config/four" },
+            ],
+          },
         ],
-      }
-    ],    
+      },
+    ],
 
     socialLinks: [
       {
