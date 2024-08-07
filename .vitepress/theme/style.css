@@ -76,6 +76,21 @@
 .boosty {
   background: #F15F2C;
 }
+h1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1 .VPBadge {
+  padding: 10px;
+
+}
+.keenetic {
+  background: #0F98D9;
+  font-size: 1.1rem;
+  color: white;
+}
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */

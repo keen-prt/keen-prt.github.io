@@ -1,4 +1,4 @@
-# Redmi AX6S (Xiaomi AX3200) <Badge type="warning" text="4.1.7" />
+# Redmi AX6S (Xiaomi AX3200) <Badge type="keenetic" text="4.1.7" />
 ![альтернативный текст](/assets/images/wiki/guides/ax6s/ax6s.png)
 ::: warning УТОЧНЕНИЕ
 Подходит как китайская версия `RB03 Redmi AX6S`, так и глобальная `RB01 Xiaomi AX3200`
