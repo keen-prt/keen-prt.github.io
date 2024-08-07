@@ -9,6 +9,16 @@ export default defineConfig({
   title: "keen_prt_wiki",
   description: "wiki about keenetic",
   themeConfig: {
+    outlineTitle: 'На этой странице',
+    lightModeSwitchTitle: 'Светлая тема',
+    darkModeSwitchTitle: 'Темная тема',
+    darkModeSwitchLabel: 'Оформление',
+    returnToTopLabel: 'Наверх',
+    docFooter: {
+			prev: false,
+			next: false
+		  },
+    sidebarMenuLabel: 'Меню',
     logo: "/assets/images/logo.svg",
     siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
