@@ -5,10 +5,11 @@ export default defineConfig({
   lang: "ru-RU",
   base: "/",
   cleanUrls: true,
+  assetsDir: 'static',
   title: "keen_prt_wiki",
   description: "wiki about keenetic",
   themeConfig: {
-    logo: "./assets/images/logo.svg",
+    logo: "/assets/images/logo.svg",
     siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
