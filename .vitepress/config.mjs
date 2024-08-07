@@ -7,7 +7,7 @@ export default defineConfig({
   base: "/",
   cleanUrls: true,
   assetsDir: 'static',
-  title: "keen_prt_wiki",
+  title: "Keenetic Ported Wiki",
   description: "wiki about keenetic",
   themeConfig: {
     outlineTitle: 'На этой странице',
