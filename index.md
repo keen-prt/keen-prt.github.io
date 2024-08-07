@@ -17,6 +17,9 @@ hero:
     - theme: alt
       text: Поддержать нас
       link: /api-examples
+    - theme: alt
+      text: Онлайн-сервис
+      link: /api-examples
 
 
 ---
