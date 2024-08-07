@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   lang: "ru-RU",
   base: "/",
+  cleanUrls: true,
   title: "keen_prt_wiki",
   description: "wiki about keenetic",
   themeConfig: {
