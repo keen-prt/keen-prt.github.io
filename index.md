@@ -18,7 +18,7 @@ hero:
       text: Поддержать нас
       link: /api-examples
     - theme: alt
-      text: Онлайн-сервис
+      text: Онлайн-сервис EEPROM
       link: /api-examples
 
 
