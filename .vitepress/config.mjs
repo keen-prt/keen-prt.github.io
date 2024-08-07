@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [['link', { rel: 'icon', href: '/assets/images/favicon.svg' }]],
   lang: "ru-RU",
   base: "/",
   cleanUrls: true,
