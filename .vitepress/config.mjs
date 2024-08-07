@@ -15,6 +15,10 @@ export default defineConfig({
     darkModeSwitchTitle: 'Темная тема',
     darkModeSwitchLabel: 'Оформление',
     returnToTopLabel: 'Наверх',
+    footer: {
+      message: 'здесь сообщение',
+      copyright: 'здесь копирайт'
+    },
     docFooter: {
 			prev: false,
 			next: false
