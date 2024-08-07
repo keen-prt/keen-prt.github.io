@@ -3,23 +3,21 @@
 layout: home
 
 hero:
-  name: "keen_prt_wiki"
-  text: "тестируем изменения"
-  tagline: My great project tagline
+  name: "Keenetic Ported Wiki"
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Wiki
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Telegram канал
+      link: /api-examples
+    - theme: alt
+      text: Telegram чат
+      link: /api-examples
+    - theme: alt
+      text: Поддержать нас
       link: /api-examples
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 ---
 
