@@ -45,7 +45,7 @@ export default defineConfig({
         items: [
           {
             items: [
-              { text: "🚀⭐️Xiaomi AX6S", link: "/wiki/guides/ax6s/" },
+              { text: "🚀⭐️Redmi AX6S", link: "/wiki/guides/ax6s/" },
               { text: "Xiaomi 4", link: "/config/four/" },
               { text: "XG1 AX1800", link: "/config/three/" },
               { text: "TP-Link EC330", link: "/config/four/" },
