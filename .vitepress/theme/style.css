@@ -70,22 +70,6 @@
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
 }
-
-h1:has(.VPBadge) {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-h1 .VPBadge {
-  padding: 10px;
-}
-.keenetic {
-  background: #0f98d9;
-  font-size: 1.1rem;
-  color: white;
-}
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
@@ -143,4 +127,27 @@ h1 .VPBadge {
 
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+h1:has(.VPBadge) {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 .VPBadge {
+  padding: 10px;
+}
+.keenetic {
+  background: #0f98d9;
+  font-size: 1.1rem;
+  color: white;
+}
+.medium-zoom-overlay {
+  z-index: 30;
+}
+
+.medium-zoom-image--opened {
+  z-index: 31;
 }
