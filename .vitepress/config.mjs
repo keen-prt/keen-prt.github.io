@@ -19,6 +19,10 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    lang: {
+      copy: 'Скопировано!', // Текст после копирования
+      copied: 'Скопировано!' // Текст, отображаемый после успешного копирования
+    },
     outlineTitle: "На этой странице",
     lightModeSwitchTitle: "Светлая тема",
     darkModeSwitchTitle: "Темная тема",
@@ -50,7 +54,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Инструкции по установке",
-        collapsed: true,
+        collapsed: false  ,
         items: [
           {
             items: [
@@ -74,19 +78,27 @@ export default defineConfig({
         ],
       },
       {
-        text: "FAQ",
+        text: "Полезное",
         collapsed: false,
         items: [
           {
             items: [
-              { text: "Обновление прошивок", link: "/config/" },
-              { text: "Актуальный Breed", link: "/config/three" },
+              { text: "KeenKit - обновление прошивок", link: "/wiki/helpful/keenkit" },
+              { text: "Установка Entware", link: "/wiki/helpful/entware" },
+              { text: "Онлайн-сервис для EEPROM", link: "https://yeezyio.github.io/" },
+            ],
+          },
+        ],
+      },
+      {
+        text: "Разное",
+        collapsed: true,
+        items: [
+          {
+            items: [
               { text: "BreedEnter", link: "/config/four" },
-              { text: "Онлайн-конвертер EEPROM", link: "/config/four" },
               { text: "Тесты покрытия разных моделей", link: "/config/four" },
               { text: "Варианты удаленного доступа", link: "/config/four" },
-              { text: "Мод для SmartBox Flash", link: "/config/four" },
-              { text: "Мод для SmartBox Giga", link: "/config/four" },
               { text: "Дамп Breed для заливки через программатор", link: "/config/four" },
               { text: "Прошивка через MacOS", link: "/config/four" },
             ],
