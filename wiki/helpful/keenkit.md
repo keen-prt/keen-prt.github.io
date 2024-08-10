@@ -5,7 +5,7 @@
 ## Установка
 
 1. Установить [**`Entware`**](/wiki/helpful/entware)
-2. Через Telnet/SSH попасть в Entware
+2. Через `Telnet/SSH` попасть в Entware
 3. Прописать следущие команды:
 
 ```shell
