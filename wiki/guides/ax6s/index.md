@@ -30,8 +30,8 @@ _Просьба не распространять файлы, эта небол�
 
 ## Скриншоты
 
-![альтернативный текст](/assets/images/wiki/guides/ax6s/1.png){data-zoomable}
+![альтернативный текст](/assets/images/wiki/guides/ax6s/1.png)
 
-![альтернативный текст](/assets/images/wiki/guides/ax6s/2.png){data-zoomable}
+![альтернативный текст](/assets/images/wiki/guides/ax6s/2.png)
 
-![альтернативный текст](/assets/images/wiki/guides/ax6s/3.png){data-zoomable}
+![альтернативный текст](/assets/images/wiki/guides/ax6s/3.png)
