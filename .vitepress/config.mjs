@@ -35,7 +35,7 @@ export default defineConfig({
     },
     footer: {
       message:
-        "Используемые на данном сайте товарные знаки, логотипы и другие объекты интеллектуальной собственности принадлежат компании Keenetic и ее партнерам.<br>keen_prt не владеет никакими правами на указанные объекты, и вся информация на сайте представлена исключительно для личного пользования в ознакомительных целях.",
+        "Используемые на данном сайте товарные знаки, логотипы и другие объекты интеллектуальной собственности принадлежат компании Keenetic и ее партнёрам.<br>keen_prt не владеет никакими правами на указанные объекты, вся информация на сайте представлена исключительно для личного пользования в ознакомительных целях.",
       copyright: "© 2024 keen_prt. Все права защищены.",
     },
     docFooter: {
@@ -58,21 +58,22 @@ export default defineConfig({
         items: [
           {
             items: [
-              { text: "reserved", link: "/reserved" },
-              { text: "🚀⭐️Redmi AX6S", link: "/wiki/guides/ax6s" },
+              { text: "🚀⭐️Redmi AX6S", link: "/wiki/guides/AX6S" },
+              { text: "⚡ Netis N6 AX1800", link: "/wiki/guides/NetisN6" },
               { text: "XG1 AX1800", link: "/config/three/" },
-              { text: "TP-Link EC330", link: "/config/four/" },
-              { text: "Netis N6 AX1800", link: "/config/four/" },
-              { text: "МТС WG430223", link: "/config/four/" },
-              { text: "SmartBox Flash", link: "/config/four/" },
-              { text: "SmartBox Giga", link: "/config/four/" },
-              { text: "SmartBox Pro", link: "/config/four/" },
-              { text: "SmartBox Turbo+", link: "/config/four/" },
-              { text: "WiFire NBN1500", link: "/config/four/" },
-              { text: "Xiaomi 4", link: "/config/four/" },
+              { text: "TP-Link EC330", link: "/wiki/guides/TP-Link-EC330-G5u" },
+              { text: "🥚 МТС WG430223", link: "/wiki/guides/mts-wg430223" },
+              { text: "SmartBox Flash", link: "/wiki/guides/smartbox-flash" },
+              { text: "SmartBox Giga", link: "/wiki/guides/smartbox-giga" },
+              { text: "SmartBox Pro", link: "/wiki/guides/smartbox-pro" },
+              { text: "SmartBox Turbo+", link: "/wiki/guides/smartbox-turbo+" },
+              { text: "WiFire NBN1500", link: "/wiki/guides/wifire-s1500" },
+              { text: "Xiaomi 4", link: "/wiki/guides/xiaomi-4" },
+              { text: "Xiaomi 4AG", link: "/wiki/guides/xiaomi-4AG" },
+              { text: "Xiaomi 4C", link: "/wiki/guides/xiaomi-4C" },
+              { text: "Mercusys MR70X", link: "/wiki/guides/mercusys-mr70x" },
               { text: "HLK7621", link: "/config/four/" },
               { text: "Linksys EA7XXX", link: "/config/four/" },
-              { text: "Mercusys MR70X", link: "/config/four/" },
             ],
           },
         ],
@@ -83,7 +84,9 @@ export default defineConfig({
         items: [
           {
             items: [
-              { text: "KeenKit - обновление прошивок", link: "/wiki/helpful/keenkit" },
+              { text: "FAQ", link: "/wiki/helpful/faq" },
+              { text: "Обновление Keenetic", link: "/wiki/helpful/updateFirmware" },
+              { text: "KeenKit", link: "/wiki/helpful/keenkit" },
               { text: "Установка Entware", link: "/wiki/helpful/entware" },
               { text: "Онлайн-сервис для EEPROM", link: "https://yeezyio.github.io/" },
             ],
@@ -96,6 +99,7 @@ export default defineConfig({
         items: [
           {
             items: [
+              { text: "USB-Mod", link: "/wiki/helpful/usb-mod" },
               { text: "BreedEnter", link: "/config/four" },
               { text: "Тесты покрытия разных моделей", link: "/config/four" },
               { text: "Варианты удаленного доступа", link: "/config/four" },
