@@ -2,7 +2,12 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/assets/images/favicon.svg" }]],
+  head: [["link", { rel: "icon", href: "/assets/images/favicon.svg", }],
+    ['meta', { property: 'og:title', content: 'Keenetic Ported Wiki' }],
+    ['meta', { property: 'og:image', content: '/assets/images/seo.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'Keenetic Ported Wiki' }],
+  ],
   lang: "ru-RU",
   base: "/",
   cleanUrls: true,
