@@ -1,6 +1,6 @@
 # Redmi AX6S (Xiaomi AX3200) <Badge type="keenetic" text="4.1.7" />
 
-![альтернативный текст](/assets/images/wiki/guides/AX6S/ax6s.png){width=500px height=100px}
+![альтернативный текст](/assets/images/wiki/guides/ax6s/ax6s.png){width=500px height=100px}
 ::: warning УТОЧНЕНИЕ
 Подходит как китайская версия **`RB03 Redmi AX6S`**, так и глобальная **`RB01 Xiaomi AX3200`**
 :::
@@ -31,8 +31,8 @@ _Просьба не распространять файлы, эта небол�
 
 ## Скриншоты
 
-![альтернативный текст](/assets/images/wiki/guides/AX6S/1.png)
+![альтернативный текст](/assets/images/wiki/guides/ax6s/1.png)
 
-![альтернативный текст](/assets/images/wiki/guides/AX6S/2.png)
+![альтернативный текст](/assets/images/wiki/guides/ax6s/2.png)
 
-![альтернативный текст](/assets/images/wiki/guides/AX6S/3.png)
+![альтернативный текст](/assets/images/wiki/guides/ax6s/3.png)
