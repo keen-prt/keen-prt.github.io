@@ -13,7 +13,7 @@ export default defineConfig({
   cleanUrls: true,
   assetsDir: "static",
   title: "Keenetic Ported Wiki",
-  description: "wiki about keenetic",
+  description: "Портированная прошивка на Ваш роутер",
   markdown: {
     container: {
       tipLabel: "СОВЕТ",
