@@ -35,7 +35,7 @@ export default defineConfig({
     },
     footer: {
       message:
-        "Используемые на данном сайте товарные знаки, логотипы и другие объекты интеллектуальной собственности принадлежат компании Keenetic и ее партнёрам.<br>keen_prt не владеет никакими правами на указанные объекты, вся информация на сайте представлена исключительно для личного пользования в ознакомительных целях.",
+        "Используемые на данном сайте товарные знаки, логотипы и другие объекты интеллектуальной собственности принадлежат компании Keenetic и ее партнёрам.<br>Команда keen_prt не владеет никакими правами на указанные объекты, вся информация на сайте представлена исключительно для личного пользования в ознакомительных целях.",
       copyright: "© 2024 keen_prt. Все права защищены.",
     },
     docFooter: {
@@ -72,8 +72,7 @@ export default defineConfig({
               { text: "Xiaomi 4AG", link: "/wiki/guides/xiaomi-4AG" },
               { text: "Xiaomi 4C", link: "/wiki/guides/xiaomi-4C" },
               { text: "Mercusys MR70X", link: "/wiki/guides/mercusys-mr70x" },
-              { text: "HLK7621", link: "/config/four/" },
-              { text: "Linksys EA7XXX", link: "/config/four/" },
+              { text: "Linksys EA7XXX", link: "/wiki/guides/linksys" },
             ],
           },
         ],
@@ -93,22 +92,21 @@ export default defineConfig({
           },
         ],
       },
-      {
-        text: "Разное",
-        collapsed: true,
-        items: [
-          {
-            items: [
-              { text: "USB-Mod", link: "/wiki/helpful/usb-mod" },
-              { text: "BreedEnter", link: "/config/four" },
-              { text: "Тесты покрытия разных моделей", link: "/config/four" },
-              { text: "Варианты удаленного доступа", link: "/config/four" },
-              { text: "Дамп Breed для заливки через программатор", link: "/config/four" },
-              { text: "Прошивка через MacOS", link: "/config/four" },
-            ],
-          },
-        ],
-      },
+      // {
+      //   text: "Разное",
+      //   collapsed: false,
+      //   items: [
+      //     {
+      //       items: [
+      //         { text: "BreedEnter", link: "/config/four" },
+      //         { text: "Тесты покрытия разных моделей", link: "/config/four" },
+      //         { text: "Варианты удаленного доступа", link: "/config/four" },
+      //         { text: "Дамп Breed для заливки через программатор", link: "/config/four" },
+      //         { text: "Прошивка через MacOS", link: "/config/four" },
+      //       ],
+      //     },
+      //   ],
+      // },
     ],
 
     socialLinks: [

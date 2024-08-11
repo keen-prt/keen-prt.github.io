@@ -129,7 +129,8 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-h1:has(.VPBadge) {
+h1:has(.VPBadge),
+h2:has(.VPBadge) {
   display: flex;
   gap: 10px;
   align-items: center;
