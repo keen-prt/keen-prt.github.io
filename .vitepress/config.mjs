@@ -58,7 +58,7 @@ export default defineConfig({
         items: [
           {
             items: [
-              { text: "🚀⭐️Redmi AX6S", link: "/wiki/guides/AX6S" },
+              { text: "🚀⭐️Redmi AX6S", link: "/wiki/guides/ax6s" },
               { text: "⚡ Netis N6 AX1800", link: "/wiki/guides/NetisN6" },
               { text: "XG1 AX1800", link: "/config/three/" },
               { text: "TP-Link EC330", link: "/wiki/guides/TP-Link-EC330-G5u" },
