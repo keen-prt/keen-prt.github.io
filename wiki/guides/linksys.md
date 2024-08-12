@@ -64,7 +64,7 @@ flash write 0x4140000 0x80001000 0x1a4201e
 wget http://192.168.1.2/u-state.bin
 flash write 0x3fc0000 0x80001000 0x80000
 
-env set autoboot.command "boot flash 0x8140000"
+env set autoboot.command "boot flash 0x4140000"
 env save
 reset
 ```
