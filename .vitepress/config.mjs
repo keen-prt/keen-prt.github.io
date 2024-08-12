@@ -89,6 +89,7 @@ export default defineConfig({
             items: [
               { text: "FAQ", link: "/wiki/helpful/faq" },
               { text: "Обновление Keenetic", link: "/wiki/helpful/updateFirmware" },
+              { text: "Загрузчик Breed", link: "/wiki/helpful/breedBootloader" },
               { text: "KeenKit", link: "/wiki/helpful/keenkit" },
               { text: "Установка Entware", link: "/wiki/helpful/entware" },
               { text: "Онлайн-сервис для EEPROM", link: "https://yeezyio.github.io/" },

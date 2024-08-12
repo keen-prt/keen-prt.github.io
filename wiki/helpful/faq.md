@@ -29,3 +29,28 @@
 - Зажать Reset и подать питание на роутер. Спустя 5-8 секунд зайти на `192.168.1.1` с устройства, подключённого в LAN порт роутера
 ### Способ #2
 - Запустить BreedEnter.exe -> нажать одну единственную кнопку -> включить роутер в розетку предварительно подключив LAN в ПК -> программа выдаст сообщение -> открыть `192.168.1.1`
+
+## 6. Роутер не загружается дальше загрузчика Breed
+
+Через `TelNet` введите команду
+````shell
+abstatus
+````
+   • `Autoboot command has been successfully executed / Firmware boot failed.`<br/>
+   Прошивка не может запуститься, для решения воспользуйтесь [3 способом](/wiki/helpful/updateFirmware#способ-3)<br/>
+
+   • `Autoboot was interrupted by button press.`<br/>
+   Кнопка Reset была зажата при включении. Если кнопка не нажималась, выполните откат на другую версию Breed, или версию для другого устройства
+
+````shell
+Boot and Recovery Environment for Embedded Devices
+Copyright (C) 2021 HackPascal <hackpascal@gmail.com>
+Build date 2021-12-16 [git-839fb85]
+Version 1.1 (r1338)
+
+Starting breed built-in shell
+
+breed> abstatus
+abstatus
+Autoboot command has been successfully executed / Firmware boot failed.
+````
