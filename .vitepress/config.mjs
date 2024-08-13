@@ -53,7 +53,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Главная", link: "/" },
-      { text: "WIKI", link: "/wiki" },
+      { text: "Wiki", link: "/wiki" },
     ],
 
     sidebar: [
