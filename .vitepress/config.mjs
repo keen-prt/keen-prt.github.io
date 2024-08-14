@@ -97,21 +97,21 @@ export default defineConfig({
           },
         ],
       },
-      // {
-      //   text: "Разное",
-      //   collapsed: false,
-      //   items: [
-      //     {
-      //       items: [
-      //         { text: "BreedEnter", link: "/config/four" },
-      //         { text: "Тесты покрытия разных моделей", link: "/config/four" },
-      //         { text: "Варианты удаленного доступа", link: "/config/four" },
-      //         { text: "Дамп Breed для заливки через программатор", link: "/config/four" },
-      //         { text: "Прошивка через MacOS", link: "/config/four" },
-      //       ],
-      //     },
-      //   ],
-      // },
+      {
+        text: "Разное",
+        collapsed: false,
+        items: [
+          {
+            items: [
+              { text: "BreedEnter", link: "/wiki/helpful/breedenter" },
+              { text: "Тесты покрытия разных моделей", link: "/wiki/helpful/wifitests" },
+              // { text: "Варианты удаленного доступа", link: "/config/four" },
+              // { text: "Дамп Breed для заливки через программатор", link: "/config/four" },
+              // { text: "Прошивка через MacOS", link: "/config/four" },
+            ],
+          },
+        ],
+      },
     ],
 
     socialLinks: [

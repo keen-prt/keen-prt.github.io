@@ -1,4 +1,4 @@
-# SmartBox Giga <Badge type="keenetic" text="4.1.7" />
+# SmartBox Giga <Badge type="keenetic" text="4.1.7 📂" />
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/giga.png){width=500px height=100px}
 
