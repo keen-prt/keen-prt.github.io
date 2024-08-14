@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
+
 export default defineConfig({
   head: [["link", { rel: "icon", href: "/assets/images/favicon.svg", }],
     ['meta', { property: 'og:title', content: 'Keenetic Ported Wiki' }],
@@ -8,6 +9,7 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Keenetic Ported Wiki' }],
   ],
+  ignoreDeadLinks: true,
   lang: "ru-RU",
   base: "/",
   cleanUrls: true,
