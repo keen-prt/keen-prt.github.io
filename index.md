@@ -19,9 +19,9 @@ hero:
     - theme: alt
       text: Telegram чат
       link: https://t.me/keen_prt_chat
-#    - theme: alt
-#      text: Поддержать нас на Boosty
-#      link: https://boosty.to/keen_prt
+    - theme: alt
+      text: Поддержать нас на Boosty
+      link: https://boosty.to/keen_prt
     - theme: alt
       text: Онлайн-сервис EEPROM
       link: https://yeezyio.github.io/
