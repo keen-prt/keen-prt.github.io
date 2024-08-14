@@ -1,4 +1,4 @@
-# SmartBox Pro <Badge type="keenetic" text="4.1.7 📂" />
+# SmartBox Pro [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/SmartBox-Pro-4.1.7.7z) [<YezBadge type="keenetic" text="4.0.7" />](/assets/files/firmware/SmartBox-Pro-4.0.7.7z)
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/pro.png)
 

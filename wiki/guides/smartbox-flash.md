@@ -1,4 +1,4 @@
-# SmartBox Flash <Badge type="keenetic" text="4.1.7" />
+# SmartBox Flash [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/SmartBox-Flash-4.1.7.7z) [<YezBadge type="keenetic" text="4.0.7" />](/assets/files/firmware/SmartBox-Flash-4.0.7.zip)
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/flash.png)
 
@@ -11,8 +11,6 @@
 | **Светодиоды**           | ✅                                        |
 | **Совместимость в Mesh** | ✅ С оригинальными устройствами и клонами |
 | **USB-Мод**              | ✅                                        |
-
-### 📌 [Скачать](https://vk.cc/czhZIh)
 
 ## Установка
 
