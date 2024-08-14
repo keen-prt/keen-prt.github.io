@@ -5,6 +5,7 @@ import { onMounted, watch, nextTick } from "vue";
 import { useRoute } from "vitepress";
 import mediumZoom from "medium-zoom";
 import "./style.css";
+import YezBadge from "../components/YezBadge.vue";
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -31,6 +32,6 @@ export default {
     });
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component("YezBadge", YezBadge);
   },
 };

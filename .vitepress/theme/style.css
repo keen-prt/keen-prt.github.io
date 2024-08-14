@@ -152,3 +152,8 @@ h1 .VPBadge {
 .medium-zoom-image--opened {
   z-index: 31;
 }
+.VPBadge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
