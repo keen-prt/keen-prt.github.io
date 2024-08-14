@@ -1,4 +1,4 @@
-# SmartBox Giga <Badge type="keenetic" text="4.1.7 📂" />
+# SmartBox Giga [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/SmartBox-Giga-4.1.7.7z) [<YezBadge type="keenetic" text="4.0.7" />](/assets/files/firmware/SmartBox-Giga-4.0.7.zip)
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/giga.png){width=500px height=100px}
 

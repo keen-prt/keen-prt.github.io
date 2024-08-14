@@ -1,4 +1,4 @@
-# Xiaomi Mi Router 4 <Badge type="keenetic" text="4.1.7" />
+# Xiaomi Mi Router 4 [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/Xiaomi-4-4.1.7.7z)
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/xiaomi4.jpg)
 
@@ -12,7 +12,6 @@
 | **Светодиоды**           | ✅                                        |
 | **Совместимость в Mesh** | ✅ С оригинальными устройствами и клонами |
 
-### 📌 [Скачать](https://vk.cc/czi1oJ)
 ## Установка
 
 1. В архиве запускаем !Start.bat в папке `Установка Breed`

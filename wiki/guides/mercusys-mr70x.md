@@ -1,4 +1,4 @@
-# Mercusys MR70X v1 <Badge type="keenetic" text="4.1.7" />
+# Mercusys MR70X v1 [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/Mercusys-MR70X-4.1.7.7z)
 
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/main.png){width=400px height=100px}
 
@@ -11,7 +11,6 @@
 | **Светодиоды**           | ✅                                        |
 | **Совместимость в Mesh** | ✅ С оригинальными устройствами и клонами |
 
-### 📌 [Скачать](https://vk.cc/czhZXP)
 ## Установка
 
 1. Установить Breed по инструкции [zbancam](https://4pda.to/forum/index.php?showtopic=1013969&st=920#entry114456336) или любым другим известным способом

@@ -21,7 +21,6 @@ defineProps({
     }
 })
 </script>
-
 <style scoped>
 .VPBadge.keenetic {
     display: flex;
