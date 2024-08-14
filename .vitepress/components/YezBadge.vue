@@ -1,6 +1,6 @@
 <!-- components/YezBadge.vue -->
 <template>
-    <span :class="`VPBadge ${type}`">
+    <a :href="url" :class="`VPBadge ${type}`" style="text-decoration: none; color: inherit;">
         {{ text }}
         <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Interface / Download">
@@ -8,12 +8,31 @@
                     stroke-linecap="round" stroke-linejoin="round" />
             </g>
         </svg>
-    </span>
+    </a>
 </template>
 
 <script setup>
 defineProps({
     type: String,
     text: String,
+    url: {
+        type: String,
+        required: true,
+    }
 })
 </script>
+
+<style scoped>
+.VPBadge.keenetic {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.1s linear;
+}
+
+.VPBadge.keenetic:hover {
+    background-color: white;
+    color: #0f98d9 !important;
+    transition: 0.1s linear;
+}
+</style>
