@@ -1,4 +1,5 @@
 # Тесты покрытия разных моделей
+<br/>
 
 ![альтернативный текст](/assets/images/wiki/helpful/wifi-tests/main.png)
 

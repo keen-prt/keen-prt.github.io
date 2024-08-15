@@ -1,8 +1,8 @@
-# BreedEnter  <a href="/assets/files/BreedEnter.rar" class="download">Скачать</a>
+# BreedEnter  [<YezBadge type="keenetic" text="" />](/assets/files/BreedEnter.rar)
 
 ### Программа прерывает запуск системы и загружает загрузчик
 
-## Как пользоваться:<br/>
+## Как пользоваться<br/>
 
 1. Установить `WinPcap` из архива<br/>
 
@@ -12,3 +12,7 @@
 3. Подключить роутер проводом к ПК
 
 4. Включить роутер в розетку
+
+::: tip Дождитесь уведомления в программе. Если его нет, попробуйте снова
+:::
+![альтернативный текст](/assets/images/wiki/helpful/faq/breedsuccess.png)<br/>
