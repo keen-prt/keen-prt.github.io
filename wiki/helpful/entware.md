@@ -12,10 +12,10 @@
 
    ![альтернативный текст](/assets/images/wiki/helpful/entware/2.png)
 
-   ::: warning ВНИМАНИЕ
-   **Вам нужно скачать файл, подходящий для архитектуры процессора вашего роутера.**<br>
-   Если у вас роутер с **WIFI 5**, или **WIFI 6** до **AX1800**, [**`то используем Mipsel файл.`**](/assets/files/Mipsel_Offline_2024.tar.gz)<br>
-   Если же ваш роутер **WIFI 6** начиная с **AX3000**, [**`то используем Arch файл.`**](/assets/files/Arch_Offline_2024v2.tar.gz)
+   ::: warning **Вам нужно скачать файл, подходящий для архитектуры процессора вашего роутера.**<br>
+   
+   Если у вас роутер с **Wi-Fi 5**, или **Wi-Fi 6** до **AX1800**, [**`используйте Mipsel файл`**](/assets/files/Mipsel_Offline_2024.tar.gz)<br>
+   Если же ваш роутер **Wi-Fi 6** начиная с **AX3000**, [**`используйте Arch файл`**](/assets/files/Arch_Offline_2024v2.tar.gz)
    :::
 
 3. Внутрь папки поместить нужный архив
@@ -37,19 +37,19 @@
 3. Ввести поочерёдно команды
 
 ```shell
-opkg no disk # отключит накопитель для Entware
+opkg no disk # Отключит накопитель для Entware
 ```
 
 ```shell
-no system mount storage: # размонтирует накопитель
+no system mount storage: # Размонтирует накопитель
 ```
 
 ```shell
-erase storage: # стирает накопитель
+erase storage: # Сотрёт накопитель
 ```
 
 ```shell
-system mount storage: # монтирует накопитель
+system mount storage: # Смонтирует накопитель
 ```
 
 ![альтернативный текст](/assets/images/wiki/helpful/entware/6.png)
@@ -68,11 +68,20 @@ system mount storage: # монтирует накопитель
 passwd
 ```
 
+## Не пускает по SSH
+
+1. Подключитесь по CLI (Например `192.168.1.1/a`)
+2. Выполните команды
+````shell
+exec sh
+exec /opt/etc/init.d/S51dropbear restart
+````
+
 ## Telnet
 
 **Логин** - `root`
 
-**Пароль** - `ваш пароль от веб-морды`
+**Пароль** - `ваш пароль от веб-интерфейса`
 
 **Порт** - `23`
 
