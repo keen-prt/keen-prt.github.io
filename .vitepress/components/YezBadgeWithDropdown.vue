@@ -104,6 +104,9 @@ function toggleDropdown() {
 .dropdown-content a:hover {
   background-color: #1f81e2;
 }
+.dropdown-content a:first-child:last-child {
+  border-radius: 10px 10px 10px 10px;
+}
 
 html.dark .dropdown-content a {
   color: #0f98d9;
