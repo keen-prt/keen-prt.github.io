@@ -1,6 +1,6 @@
 <!-- components/YezBadge.vue -->
 <template>
-    <a :href="url" :class="`VPBadge ${type}`" style="text-decoration: none; color: inherit;">
+    <a :href="url" target="_blank" rel="noopener noreferrer" :class="`VPBadge ${type}`" style="text-decoration: none; color: inherit;">
         {{ text }}
         <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Interface / Download">

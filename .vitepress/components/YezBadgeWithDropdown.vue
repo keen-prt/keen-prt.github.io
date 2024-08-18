@@ -13,7 +13,8 @@
         </svg>
       </button>
       <div v-if="isOpen" class="dropdown-content">
-        <a v-for="version in versions" :key="version.text" :href="version.url">
+        <a v-for="version in versions" :key="version.text" :href="version.url" target="_blank"
+          rel="noopener noreferrer">
           {{ version.text }}
         </a>
       </div>
@@ -76,7 +77,6 @@ function toggleDropdown() {
 
 .dropdown-content {
   width: 100%;
-  /* Ширина равна ширине родителя, т.е. .dropdown */
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -84,7 +84,6 @@ function toggleDropdown() {
   text-align: center;
   font-size: 1.1rem;
   z-index: 1;
-  /* Чтобы контент отображался поверх других элементов */
 }
 
 .dropdown-content a {
@@ -107,8 +106,6 @@ function toggleDropdown() {
 }
 
 html.dark .dropdown-content a {
-
-
   color: #0f98d9;
   background-color: white;
 }
