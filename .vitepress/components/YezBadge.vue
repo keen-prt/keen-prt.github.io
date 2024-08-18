@@ -34,6 +34,7 @@ defineProps({
 }
 
 .VPBadge.keenetic:hover {
+    --svg-color: #0f98d9;
     background-color: white;
     color: #0f98d9 !important;
     transition: 0.1s linear;
