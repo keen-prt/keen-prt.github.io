@@ -98,6 +98,7 @@ export default defineConfig({
         items: [
           {
             items: [
+              { text: "Ранние сборки", link: "/wiki/helpful/boosty" },
               { text: "FAQ", link: "/wiki/helpful/faq" },
               { text: "Обновление Keenetic", link: "/wiki/helpful/updateFirmware" },
               { text: "Загрузчик Breed", link: "/wiki/helpful/breedBootloader" },
