@@ -1,4 +1,4 @@
-# BreedEnter  [<YezBadge type="keenetic" text="" />](/assets/files/BreedEnter.rar)
+# BreedEnter <YezBadge type="keenetic" text="" url="/assets/files/BreedEnter.rar" />
 
 ### Программа прерывает запуск системы и загружает загрузчик
 
@@ -7,7 +7,7 @@
 1. Установить `WinPcap` из архива<br/>
 
 2. Запустить `BreedEnter.exe` от имени администратора и нажать в нём единственную кнопку
-![альтернативный текст](/assets/images/wiki/helpful/faq/breed.png)<br/>
+   ![альтернативный текст](/assets/images/wiki/helpful/faq/breed.png)<br/>
 
 3. Подключить роутер проводом к ПК
 
