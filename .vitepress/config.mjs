@@ -8,6 +8,14 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: '/assets/images/seo.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Keenetic Ported Wiki' }],
+    // Добавление Google Analytics
+    ['script', { async: true, src: `https://www.googletagmanager.com/gtag/js?id=G-GDED2LP6Y9` }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-GDED2LP6Y9');
+    `]
   ],
   ignoreDeadLinks: true,
   lang: "ru-RU",
@@ -25,6 +33,7 @@ export default defineConfig({
       detailsLabel: "Подробная информация",
     },
   },
+
   themeConfig: {
     lang: {
       copy: 'Скопировано!', // Текст после копирования
