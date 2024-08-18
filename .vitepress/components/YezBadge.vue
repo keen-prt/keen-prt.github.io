@@ -23,7 +23,9 @@ defineProps({
 </script>
 <style scoped>
 .VPBadge.keenetic {
+    transform: translateY(0px);
     display: flex;
+    color: white !important;
     align-items: center;
     gap: 10px;
     transition: 0.1s linear;

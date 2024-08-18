@@ -1,16 +1,16 @@
-# WiFire S1500.NBN [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/WiFire-S1500-4.1.7.7z)
+# WiFire S1500.NBN <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/WiFire-S1500-4.1.7.7z" />
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/s1500.png)
 
 ## Особенности сборки
 
-| Особенность              | Описание                                                     |
-|--------------------------|--------------------------------------------------------------|
+| Особенность              | Описание                                                        |
+| ------------------------ | --------------------------------------------------------------- |
 | **Работоспособность**    | ✅ кроме Мобильного приложения, KeenDNS и <br/>❗ LAN4 порта ❗ |
-| **Сброс настроек**       | ✅ через кнопку Reset                                         |
-| **Светодиоды**           | ✅                                                            |
-| **Совместимость в Mesh** | ✅ С оригинальными устройствами и клонами                     |
-| **USB-Мод**              | ✅                                                            |
+| **Сброс настроек**       | ✅ через кнопку Reset                                           |
+| **Светодиоды**           | ✅                                                              |
+| **Совместимость в Mesh** | ✅ С оригинальными устройствами и клонами                       |
+| **USB-Мод**              | ✅                                                              |
 
 ## Установка
 
@@ -20,14 +20,14 @@
 4. `Bootloader.bin` из архива открываем в HFS.exe
 5. По SSH выполняем команды:
 
-````shell
+```shell
 cd /tmp
 wget http://192.168.1.2/bootloader.bin
 insmod mtd-rw i_want_a_brick=1
 mtd unlock /dev/mtd1
 mtd write /tmp/bootloader.bin Bootloader
 reboot
-````
+```
 
 6. Обновляем Breed (bootloader.bin) на тот что лежит в архиве. Upgrade -> bootloader -> automatic reboot. В дальнейшем попасть в него можно с зажатой Reset при включении или программой BreedEnter
 7. В папке перетягиваем все.bin файлы на hfs.exe.
@@ -73,4 +73,3 @@ reset
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
 :::
-

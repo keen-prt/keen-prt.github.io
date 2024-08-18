@@ -1,11 +1,11 @@
-# Xiaomi Mi Router 4C [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/Xiaomi-4C-4.1.7.7z)
+# Xiaomi Mi Router 4C <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Xiaomi-4C-4.1.7.7z" />
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/4C.png){width=400px height=100px}
 
 ## Особенности сборки
 
-| Особенность              | Описание                                 |
-|--------------------------|------------------------------------------|
+| Особенность              | Описание                                  |
+| ------------------------ | ----------------------------------------- |
 | **Работоспособность**    | ✅ кроме Мобильного приложения, KeenDNS   |
 | **Сброс настроек**       | ✅ через кнопку Reset                     |
 | **Светодиоды**           | ✅                                        |
@@ -20,10 +20,9 @@
 4. Если уже стоял Keenetic, снимите в Breed бэкап вашего EEPROM
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/backup.png)
 5. 2. Во втором пункте второй вкладки выбираем прошивку из архива Xiaomi4C_4.1.7.bin сняв последние 2 галочки и подтвердить загрузку
-   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png)
+      ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png)
 6. После установки снова заходим в Breed зажатием Reset и восстанавливаем EEPROM снятый в 1 пункте или полученный из онлайн-сервиса.
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/eeprom.png)
-
 
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
@@ -34,4 +33,3 @@
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system1-4c.png)
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system2-4c.jpg)
-

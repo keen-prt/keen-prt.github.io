@@ -1,11 +1,11 @@
-# Mercusys MR70X v1 [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/Mercusys-MR70X-4.1.7.7z)
+# Mercusys MR70X v1 <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Mercusys-MR70X-4.1.7.7z" />
 
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/main.png){width=400px height=100px}
 
 ## Особенности сборки
 
-| Особенность              | Описание                                 |
-|--------------------------|------------------------------------------|
+| Особенность              | Описание                                  |
+| ------------------------ | ----------------------------------------- |
 | **Работоспособность**    | ✅ кроме Мобильного приложения, KeenDNS   |
 | **Сброс настроек**       | ✅ через кнопку Reset                     |
 | **Светодиоды**           | ✅                                        |

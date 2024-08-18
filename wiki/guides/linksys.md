@@ -1,5 +1,4 @@
-# Linksys EA7XXX [<YezBadge type="keenetic" text="4.1.6" />](/assets/files/firmware/Linksys-EA7xxx.zip)
-
+# Linksys EA7XXX <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Linksys-EA7xxx.zip" />
 
 ![альтернативный текст](/assets/images/wiki/guides/Linksys/main.png){width=400px height=100px}
 

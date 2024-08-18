@@ -1,11 +1,11 @@
-# Xiaomi Mi Router 4A Gigabit Edition v1 [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/Xiaomi-4AG-4.1.7.7z)
+# Xiaomi Mi Router 4A Gigabit Edition v1 <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Xiaomi-4AG-4.1.7.7z" />
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/4AG.png)
 
 ## Особенности сборки
 
-| Особенность              | Описание                                 |
-|--------------------------|------------------------------------------|
+| Особенность              | Описание                                  |
+| ------------------------ | ----------------------------------------- |
 | **Работоспособность**    | ✅ кроме Мобильного приложения, KeenDNS   |
 | **Сброс настроек**       | ✅ через кнопку Reset                     |
 | **Светодиоды**           | ✅                                        |
@@ -24,7 +24,6 @@
 6. После установки снова заходим в Breed зажатием Reset и восстанавливаем EEPROM снятый в 1 пункте или полученный из онлайн-сервиса.
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/eeprom.png)
 
-
    После перезагрузки устройство запустится в Keenetic
    ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
    :::
@@ -34,4 +33,3 @@
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system1-4ag.jpg)
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system2-4ag.jpg)
-

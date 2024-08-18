@@ -17,7 +17,7 @@ export default defineConfig({
       gtag('config', 'G-GDED2LP6Y9');
     `]
   ],
-  ignoreDeadLinks: true,
+  ignoreDeadLinks: false,
   lang: "ru-RU",
   base: "/",
   cleanUrls: true,

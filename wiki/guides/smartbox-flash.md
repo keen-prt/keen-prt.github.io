@@ -1,11 +1,11 @@
-# SmartBox Flash [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/SmartBox-Flash-4.1.7.7z) [<YezBadge type="keenetic" text="4.0.7" />](/assets/files/firmware/SmartBox-Flash-4.0.7.zip)
+# SmartBox Flash <YezBadgeWithDropdown type="keenetic" text="4.1.7" url="/assets/files/firmware/SmartBox-Flash-4.1.7.7z" :versions="[{ text: '4.0.7', url: '/assets/files/firmware/SmartBox-Flash-4.0.7.zip' }]"/>
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/flash.png)
 
 ## Особенности сборки
 
-| Особенность              | Описание                                 |
-|--------------------------|------------------------------------------|
+| Особенность              | Описание                                  |
+| ------------------------ | ----------------------------------------- |
 | **Работоспособность**    | ✅ кроме Мобильного приложения, KeenDNS   |
 | **Сброс настроек**       | ✅ через кнопку Reset                     |
 | **Светодиоды**           | ✅                                        |
@@ -59,4 +59,3 @@ reset
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
 :::
-

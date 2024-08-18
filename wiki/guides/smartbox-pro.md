@@ -1,16 +1,16 @@
-# SmartBox Pro [<YezBadge type="keenetic" text="4.1.7" />](/assets/files/firmware/SmartBox-Pro-4.1.7.7z) [<YezBadge type="keenetic" text="4.0.7" />](/assets/files/firmware/SmartBox-Pro-4.0.7.7z)
+# SmartBox Pro <YezBadgeWithDropdown type="keenetic" text="4.1.7" url="/assets/files/firmware/SmartBox-Pro-4.1.7.7z" :versions="[{ text: '4.0.7', url: '/assets/files/firmware/SmartBox-Pro-4.0.7.7z' }]"/>
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/pro.png)
 
 ## Особенности сборки
 
-| Особенность              | Описание                                                     |
-|--------------------------|--------------------------------------------------------------|
+| Особенность              | Описание                                                        |
+| ------------------------ | --------------------------------------------------------------- |
 | **Работоспособность**    | ✅ кроме Мобильного приложения, KeenDNS и <br/>❗ LAN4 порта ❗ |
-| **Сброс настроек**       | ✅ через кнопку Reset                                         |
-| **Светодиоды**           | ✅                                                            |
-| **Совместимость в Mesh** | ✅ С оригинальными устройствами и клонами                     |
-| **USB-Мод**              | ✅                                                            |
+| **Сброс настроек**       | ✅ через кнопку Reset                                           |
+| **Светодиоды**           | ✅                                                              |
+| **Совместимость в Mesh** | ✅ С оригинальными устройствами и клонами                       |
+| **USB-Мод**              | ✅                                                              |
 
 ## Установка
 
@@ -62,4 +62,3 @@ reset
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
 :::
-

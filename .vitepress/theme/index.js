@@ -6,6 +6,7 @@ import { useRoute } from "vitepress";
 import mediumZoom from "medium-zoom";
 import "./style.css";
 import YezBadge from "../components/YezBadge.vue";
+import YezBadgeWithDropdown from "../components/YezBadgeWithDropdown.vue";
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -33,5 +34,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component("YezBadge", YezBadge);
+    app.component("YezBadgeWithDropdown", YezBadgeWithDropdown);
   },
 };
