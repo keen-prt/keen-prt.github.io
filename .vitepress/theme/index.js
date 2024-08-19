@@ -35,28 +35,31 @@ export default {
     app.component("YezBadge", YezBadge);
     app.component("YezBadgeWithDropdown", YezBadgeWithDropdown);
 
-    if (typeof document !== "undefined") {
+    if (typeof document !== 'undefined') {
       // Добавляем необходимые скрипты в <head>
-      const script1 = document.createElement("script");
-      script1.text = "window.yaContextCb=window.yaContextCb||[]";
+      const script1 = document.createElement('script');
+      script1.text = 'window.yaContextCb=window.yaContextCb||[]';
       document.head.appendChild(script1);
 
-      const script2 = document.createElement("script");
-      script2.src = "https://yandex.ru/ads/system/context.js";
+      const script2 = document.createElement('script');
+      script2.src = 'https://yandex.ru/ads/system/context.js';
       script2.async = true;
       document.head.appendChild(script2);
     }
 
     onMounted(() => {
+      console.log('onMounted called');
       // Вставляем блок рекламы в нужное место
-      const sidebarNav = document.querySelector(".VPSidebarNav");
+      const sidebarNav = document.querySelector('.VPSidebarNav');
       if (sidebarNav) {
-        const groupDivs = sidebarNav.querySelectorAll(".group");
+        console.log('VPSidebarNav found');
+        const groupDivs = sidebarNav.querySelectorAll('.group');
+        console.log(`Found ${groupDivs.length} group divs`);
         if (groupDivs.length > 1) {
-          const adDiv = document.createElement("div");
-          adDiv.id = "yandex_rtb_R-A-11653208-1";
+          const adDiv = document.createElement('div');
+          adDiv.id = 'yandex_rtb_R-A-11653208-1';
 
-          const adScript = document.createElement("script");
+          const adScript = document.createElement('script');
           adScript.text = `
             window.yaContextCb.push(() => {
                 Ya.Context.AdvManager.render({
@@ -66,9 +69,14 @@ export default {
             })
           `;
 
-          groupDivs[0].insertAdjacentElement("afterend", adDiv);
-          adDiv.insertAdjacentElement("afterend", adScript);
+          groupDivs[0].insertAdjacentElement('afterend', adDiv);
+          adDiv.insertAdjacentElement('afterend', adScript);
+          console.log('Ad block inserted');
+        } else {
+          console.log('Not enough group divs found');
         }
+      } else {
+        console.log('VPSidebarNav not found');
       }
     });
   },
