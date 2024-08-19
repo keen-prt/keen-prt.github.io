@@ -14,45 +14,41 @@ export default {
     onMounted(() => {
       console.log('Setup onMounted is working');
 
-      // Наблюдатель за изменениями в DOM
-      const observer = new MutationObserver((mutationsList, observer) => {
-        for (const mutation of mutationsList) {
-          if (mutation.type === 'childList') {
-            const sidebarNav = document.querySelector('.VPSidebarNav');
-            if (sidebarNav) {
-              console.log('VPSidebarNav found via MutationObserver');
-              const groupDivs = sidebarNav.querySelectorAll('.group');
-              console.log(`Found ${groupDivs.length} group divs`);
-              if (groupDivs.length > 1) {
-                const adDiv = document.createElement('div');
-                adDiv.id = 'yandex_rtb_R-A-11653208-1';
+      // Функция для вставки рекламы
+      const insertAdBlock = () => {
+        const sidebarNav = document.querySelector('.VPSidebarNav');
+        if (sidebarNav) {
+          console.log('VPSidebarNav found via setInterval');
+          const groupDivs = sidebarNav.querySelectorAll('.group');
+          console.log(`Found ${groupDivs.length} group divs`);
+          if (groupDivs.length > 1) {
+            const adDiv = document.createElement('div');
+            adDiv.id = 'yandex_rtb_R-A-11653208-1';
 
-                const adScript = document.createElement('script');
-                adScript.text = `
-                  window.yaContextCb.push(() => {
-                      Ya.Context.AdvManager.render({
-                          "blockId": "R-A-11653208-1",
-                          "renderTo": "yandex_rtb_R-A-11653208-1"
-                      })
+            const adScript = document.createElement('script');
+            adScript.text = `
+              window.yaContextCb.push(() => {
+                  Ya.Context.AdvManager.render({
+                      "blockId": "R-A-11653208-1",
+                      "renderTo": "yandex_rtb_R-A-11653208-1"
                   })
-                `;
+              })
+            `;
 
-                groupDivs[0].insertAdjacentElement('afterend', adDiv);
-                adDiv.insertAdjacentElement('afterend', adScript);
-                console.log('Ad block inserted');
+            groupDivs[0].insertAdjacentElement('afterend', adDiv);
+            adDiv.insertAdjacentElement('afterend', adScript);
+            console.log('Ad block inserted');
 
-                // Останавливаем наблюдатель после вставки рекламы
-                observer.disconnect();
-              } else {
-                console.log('Not enough group divs found via MutationObserver');
-              }
-            }
+            // Останавливаем проверку после вставки рекламы
+            clearInterval(intervalId);
+          } else {
+            console.log('Not enough group divs found via setInterval');
           }
         }
-      });
+      };
 
-      // Начинаем наблюдение за всем документом
-      observer.observe(document.body, { childList: true, subtree: true });
+      // Проверяем DOM каждую секунду, пока не найдем элемент
+      const intervalId = setInterval(insertAdBlock, 1000);
     });
 
     const initZoom = () => {
