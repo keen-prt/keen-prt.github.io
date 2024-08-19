@@ -79,7 +79,7 @@ exec /opt/etc/init.d/S51dropbear restart
 
 ## Telnet
 
-**Логин** - `root`
+**Логин** - `admin`
 
 **Пароль** - `ваш пароль от веб-интерфейса`
 
