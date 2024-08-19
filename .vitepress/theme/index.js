@@ -14,6 +14,7 @@ export default {
     onMounted(() => {
       console.log('Setup onMounted is working');
       
+      // Добавление первого блока рекламы
       const script1 = document.createElement('script');
       script1.text = 'window.yaContextCb=window.yaContextCb||[]';
       document.head.appendChild(script1);
@@ -23,18 +24,18 @@ export default {
       script2.async = true;
       document.head.appendChild(script2);
 
-      // Ищем элемент по ID вместо класса
+      // Вставка первого рекламного блока
       const sidebarNav = document.querySelector('#VPSidebarNav');
       if (sidebarNav) {
         console.log('VPSidebarNav found');
         const groupDivs = sidebarNav.querySelectorAll('.group');
         console.log(`Found ${groupDivs.length} group divs`);
         if (groupDivs.length > 1) {
-          const adDiv = document.createElement('div');
-          adDiv.id = 'yandex_rtb_R-A-11653208-1';
+          const adDiv1 = document.createElement('div');
+          adDiv1.id = 'yandex_rtb_R-A-11653208-1';
 
-          const adScript = document.createElement('script');
-          adScript.text = `
+          const adScript1 = document.createElement('script');
+          adScript1.text = `
             window.yaContextCb.push(() => {
                 Ya.Context.AdvManager.render({
                     "blockId": "R-A-11653208-1",
@@ -43,14 +44,43 @@ export default {
             })
           `;
 
-          groupDivs[0].insertAdjacentElement('afterend', adDiv);
-          adDiv.insertAdjacentElement('afterend', adScript);
-          console.log('Ad block inserted');
+          groupDivs[0].insertAdjacentElement('afterend', adDiv1);
+          adDiv1.insertAdjacentElement('afterend', adScript1);
+          console.log('First ad block inserted');
         } else {
           console.log('Not enough group divs found');
         }
       } else {
         console.log('VPSidebarNav not found');
+      }
+
+      // Вставка второго рекламного блока
+      const docAsideOutline = document.querySelector('.VPDocAsideOutline');
+      if (docAsideOutline) {
+        console.log('VPDocAsideOutline found');
+        const contentDiv = docAsideOutline.querySelector('.content');
+        if (contentDiv) {
+          const adDiv2 = document.createElement('div');
+          adDiv2.id = 'yandex_rtb_R-A-11653208-2';
+
+          const adScript2 = document.createElement('script');
+          adScript2.text = `
+            window.yaContextCb.push(() => {
+                Ya.Context.AdvManager.render({
+                    "blockId": "R-A-11653208-2",
+                    "renderTo": "yandex_rtb_R-A-11653208-2"
+                })
+            })
+          `;
+
+          contentDiv.insertAdjacentElement('afterend', adDiv2);
+          adDiv2.insertAdjacentElement('afterend', adScript2);
+          console.log('Second ad block inserted');
+        } else {
+          console.log('Content div not found inside VPDocAsideOutline');
+        }
+      } else {
+        console.log('VPDocAsideOutline not found');
       }
     });
 
