@@ -14,46 +14,45 @@ export default {
     onMounted(() => {
       console.log('Setup onMounted is working');
 
-      // Подождем до следующего рендера, чтобы быть уверенными, что DOM полностью загружен
-      nextTick(() => {
-        const script1 = document.createElement('script');
-        script1.text = 'window.yaContextCb=window.yaContextCb||[]';
-        document.head.appendChild(script1);
+      // Наблюдатель за изменениями в DOM
+      const observer = new MutationObserver((mutationsList, observer) => {
+        for (const mutation of mutationsList) {
+          if (mutation.type === 'childList') {
+            const sidebarNav = document.querySelector('.VPSidebarNav');
+            if (sidebarNav) {
+              console.log('VPSidebarNav found via MutationObserver');
+              const groupDivs = sidebarNav.querySelectorAll('.group');
+              console.log(`Found ${groupDivs.length} group divs`);
+              if (groupDivs.length > 1) {
+                const adDiv = document.createElement('div');
+                adDiv.id = 'yandex_rtb_R-A-11653208-1';
 
-        const script2 = document.createElement('script');
-        script2.src = 'https://yandex.ru/ads/system/context.js';
-        script2.async = true;
-        document.head.appendChild(script2);
-
-        const sidebarNav = document.querySelector('.VPSidebarNav');
-        if (sidebarNav) {
-          console.log('VPSidebarNav found');
-          const groupDivs = sidebarNav.querySelectorAll('.group');
-          console.log(`Found ${groupDivs.length} group divs`);
-          if (groupDivs.length > 1) {
-            const adDiv = document.createElement('div');
-            adDiv.id = 'yandex_rtb_R-A-11653208-1';
-
-            const adScript = document.createElement('script');
-            adScript.text = `
-              window.yaContextCb.push(() => {
-                  Ya.Context.AdvManager.render({
-                      "blockId": "R-A-11653208-1",
-                      "renderTo": "yandex_rtb_R-A-11653208-1"
+                const adScript = document.createElement('script');
+                adScript.text = `
+                  window.yaContextCb.push(() => {
+                      Ya.Context.AdvManager.render({
+                          "blockId": "R-A-11653208-1",
+                          "renderTo": "yandex_rtb_R-A-11653208-1"
+                      })
                   })
-              })
-            `;
+                `;
 
-            groupDivs[0].insertAdjacentElement('afterend', adDiv);
-            adDiv.insertAdjacentElement('afterend', adScript);
-            console.log('Ad block inserted');
-          } else {
-            console.log('Not enough group divs found');
+                groupDivs[0].insertAdjacentElement('afterend', adDiv);
+                adDiv.insertAdjacentElement('afterend', adScript);
+                console.log('Ad block inserted');
+
+                // Останавливаем наблюдатель после вставки рекламы
+                observer.disconnect();
+              } else {
+                console.log('Not enough group divs found via MutationObserver');
+              }
+            }
           }
-        } else {
-          console.log('VPSidebarNav not found after nextTick');
         }
       });
+
+      // Начинаем наблюдение за всем документом
+      observer.observe(document.body, { childList: true, subtree: true });
     });
 
     const initZoom = () => {
