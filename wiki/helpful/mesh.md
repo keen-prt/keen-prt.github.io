@@ -19,7 +19,7 @@
 
 Убедитесь что у захватываемых устройств разный серийный номер, он отображается на главной странице в блоке `О системе`
    ![альтернативный текст](/assets/images/wiki/helpful/mesh/servicenumber.png){width=800px height=100px}<br/>
-Если он одинаковый, используйте [**`ServiceDataGenerator`**](/assets/files/ServiceDataGenerator.7z) или [KeenKit](/wiki/helpful/keenkit.md) с использованием функционала `Заменить сервисные данные`
+Если он одинаковый, используйте [**`ServiceDataGenerator`**](/assets/files/ServiceDataGenerator.zip) или [KeenKit](/wiki/helpful/keenkit.md) с использованием функционала `Заменить сервисные данные`
 ::: tip 
 1. Положите в корень папки со скриптом `U-Config` из архива прошивки которую прошиваете
 2. Наведите .bin на generate.bat
