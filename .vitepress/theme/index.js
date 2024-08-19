@@ -1,4 +1,3 @@
-// https://vitepress.dev/guide/custom-theme
 import { h, onMounted, watch, nextTick } from "vue";
 import DefaultTheme from "vitepress/theme";
 import { useRoute } from "vitepress";
@@ -11,32 +10,10 @@ import YezBadgeWithDropdown from "../components/YezBadgeWithDropdown.vue";
 export default {
   setup() {
     const route = useRoute();
-    const initZoom = () => {
-      mediumZoom("[data-zoomable]", { background: "var(--vp-c-bg)" });
-      mediumZoom(".main img", {
-        background: "var(--vp-c-bg)",
-      });
-    };
-    onMounted(() => {
-      initZoom();
-    });
-    watch(
-      () => route.path,
-      () => nextTick(() => initZoom())
-    );
-  },
-  extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    });
-  },
-  enhanceApp({ app, router, siteData }) {
-    app.component("YezBadge", YezBadge);
-    app.component("YezBadgeWithDropdown", YezBadgeWithDropdown);
 
-    if (typeof document !== 'undefined') {
-      // Добавляем необходимые скрипты в <head>
+    onMounted(() => {
+      console.log('Setup onMounted is working');
+      
       const script1 = document.createElement('script');
       script1.text = 'window.yaContextCb=window.yaContextCb||[]';
       document.head.appendChild(script1);
@@ -45,11 +22,7 @@ export default {
       script2.src = 'https://yandex.ru/ads/system/context.js';
       script2.async = true;
       document.head.appendChild(script2);
-    }
 
-    onMounted(() => {
-      console.log('onMounted called');
-      // Вставляем блок рекламы в нужное место
       const sidebarNav = document.querySelector('.VPSidebarNav');
       if (sidebarNav) {
         console.log('VPSidebarNav found');
@@ -78,6 +51,26 @@ export default {
       } else {
         console.log('VPSidebarNav not found');
       }
+    });
+
+    const initZoom = () => {
+      mediumZoom("[data-zoomable]", { background: "var(--vp-c-bg)" });
+      mediumZoom(".main img", {
+        background: "var(--vp-c-bg)",
+      });
+    };
+    onMounted(() => {
+      initZoom();
+    });
+    watch(
+      () => route.path,
+      () => nextTick(() => initZoom())
+    );
+  },
+  extends: DefaultTheme,
+  Layout: () => {
+    return h(DefaultTheme.Layout, null, {
+      // https://vitepress.dev/guide/extending-default-theme#layout-slots
     });
   },
 };
