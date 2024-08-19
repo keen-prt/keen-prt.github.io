@@ -1,0 +1,10 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "strict": "function",
+  "endOfLine": "auto",
+  "pugSingleQuote": false,
+  "pugAttributeSeparator": "none",
+  "printWidth": 120,
+  "trailingComma": "none"
+}

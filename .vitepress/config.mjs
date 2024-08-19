@@ -1,5 +1,5 @@
 import {defineConfig} from "vitepress";
-import {onMounted} from "vue";
+import path from 'path';
 
 // https://vitepress.dev/reference/site-config
 
@@ -94,36 +94,6 @@ export default defineConfig({
                 ],
             },
             {
-                text: "",
-                collapsed: false,
-                items: onMounted(() => {
-                    initZoom();
-                    window.yaContextCb = window.yaContextCb || [];
-                    const script = document.createElement('script');
-                    script.src = "https://yandex.ru/ads/system/context.js";
-                    script.async = true;
-                    document.head.appendChild(script);
-
-                    script.onload = () => {
-                        console.log("Yandex script loaded.");
-                        if (window.yaContextCb) {
-                            window.yaContextCb.push(() => {
-                                Ya.Context.AdvManager.render({
-                                    blockId: "R-A-11653208-1",
-                                    renderTo: "yandex_rtb_R-A-11653208-1"
-                                });
-                            });
-                        } else {
-                            console.error('yaContextCb is not defined');
-                        }
-                    };
-
-                    script.onerror = () => {
-                        console.error("Failed to load the Yandex script.");
-                    };
-                }),
-            },
-            {
                 text: "Полезное",
                 collapsed: false,
                 items: [
@@ -168,4 +138,11 @@ export default defineConfig({
             },
         ],
     },
+    vite: {
+        resolve: {
+            alias: {
+                '@theme': path.resolve(__dirname, './theme'),
+            },
+        }
+    }
 });
