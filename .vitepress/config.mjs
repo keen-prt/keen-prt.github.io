@@ -1,5 +1,4 @@
 import {defineConfig} from "vitepress";
-import path from 'path';
 
 // https://vitepress.dev/reference/site-config
 
@@ -137,12 +136,5 @@ export default defineConfig({
                 ariaLabel: "классная ссылка",
             },
         ],
-    },
-    vite: {
-        resolve: {
-            alias: {
-                '@theme': path.resolve(__dirname, './theme'),
-            },
-        }
     }
 });
