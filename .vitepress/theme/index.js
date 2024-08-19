@@ -21,7 +21,7 @@ export default {
 
     onMounted(() => {
       initZoom();
-      window.yaContextCb = window.yaContextCb || [];
+
       const script = document.createElement('script');
       script.src = "https://yandex.ru/ads/system/context.js";
       script.async = true;
@@ -29,16 +29,12 @@ export default {
 
       script.onload = () => {
         console.log("Yandex script loaded.");
-        if (window.yaContextCb) {
-          window.yaContextCb.push(() => {
-            Ya.Context.AdvManager.render({
-              blockId: "R-A-11653208-1",
-              renderTo: "yandex_rtb_R-A-11653208-1"
-            });
+        window.yaContextCb.push(() => {
+          Ya.Context.AdvManager.render({
+            "blockId": "R-A-11653208-1",
+            "renderTo": "yandex_rtb_R-A-11653208-1"
           });
-        } else {
-          console.error('yaContextCb is not defined');
-        }
+        });
       };
 
       script.onerror = () => {
