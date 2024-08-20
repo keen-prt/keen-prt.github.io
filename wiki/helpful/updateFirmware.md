@@ -1,5 +1,8 @@
 # Обновление прошивки Keenetic
 
+::: warning 
+Для NAND типа памяти
+:::
 ## Способ #1 <Badge type="keenetic" text="Автоматический, рекомендуемый" />
 
 • Используем [KeenKit](/wiki/helpful/keenkit.md) с функцией `OTA Update`
