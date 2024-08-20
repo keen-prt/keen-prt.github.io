@@ -13,7 +13,7 @@
    ![альтернативный текст](/assets/images/wiki/helpful/entware/2.png)
 
    ::: warning **Вам нужно скачать файл, подходящий для архитектуры процессора вашего роутера.**<br>
-   
+
    Если у вас роутер с **Wi-Fi 5**, или **Wi-Fi 6** до **AX1800**, [**`используйте Mipsel файл`**](/assets/files/Mipsel_Offline_2024.tar.gz)<br>
    Если же ваш роутер **Wi-Fi 6** начиная с **AX3000**, [**`используйте Arch файл`**](/assets/files/Arch_Offline_2024v2.tar.gz)
    :::
@@ -72,6 +72,7 @@ passwd
 
 1. Подключитесь по CLI (Например `192.168.1.1/a`)
 2. Выполните команды
+
 ````shell
 exec sh
 exec /opt/etc/init.d/S51dropbear restart

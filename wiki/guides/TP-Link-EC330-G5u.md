@@ -15,7 +15,9 @@
 | **USB-Мод**              | ✅                                                                                                                          |
 
 ## Обновление прошивки
+
 Для обновления воспользуйтесь любым из [способов](/wiki/helpful/updateFirmware.md)
+
 ## Установка
 
 1. [Установить OpenWRT](https://4pda.to/forum/index.php?showtopic=1030035&st=60#entry121086645) (если ранее был
