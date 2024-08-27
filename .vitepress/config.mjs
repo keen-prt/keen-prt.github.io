@@ -107,6 +107,7 @@ export default defineConfig({
                             {text: "Установка Entware", link: "/wiki/helpful/entware"},
                             {text: "Настройка Mesh", link: "/wiki/helpful/mesh"},
                             {text: "Онлайн-сервис для EEPROM", link: "https://yeezyio.github.io/"},
+                            {text: "Тесты покрытия", link: "/wiki/helpful/wifitests"},
                         ],
                     },
                 ],
@@ -118,7 +119,6 @@ export default defineConfig({
                     {
                         items: [
                             {text: "BreedEnter", link: "/wiki/helpful/breedenter"},
-                            {text: "Тесты покрытия разных моделей", link: "/wiki/helpful/wifitests"},
                             {text: "Сборник файлов", link: "/wiki/helpful/files"},
                             // { text: "Варианты удаленного доступа", link: "/config/four" },
                             // { text: "Дамп Breed для заливки через программатор", link: "/config/four" },
