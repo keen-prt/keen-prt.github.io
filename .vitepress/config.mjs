@@ -74,9 +74,9 @@ export default defineConfig({
                 items: [
                     {
                         items: [
-                            {text: "🚀Xiaomi AX3000T", link: "https://t.me/keen_prt_chat/87277"},
+                            {text: "⚡ Xiaomi AX3000T", link: "https://t.me/keen_prt_chat/87277"},
                             {text: "🚀⭐️Redmi AX6S", link: "/wiki/guides/ax6s"},
-                            {text: "⚡ Netis N6 AX1800", link: "/wiki/guides/NetisN6"},
+                            {text: "Netis N6 AX1800", link: "/wiki/guides/NetisN6"},
                             {text: "TP-Link EC330", link: "/wiki/guides/TP-Link-EC330-G5u"},
                             {text: "TP-Link Archer C6U", link: "/wiki/guides/archerc6u"},
                             {text: "МТС WG430223", link: "/wiki/guides/mts-wg430223"},
