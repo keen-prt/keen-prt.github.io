@@ -15,10 +15,10 @@ hero:
       link: /wiki
     - theme: alt
       text: Telegram канал
-      link: https://t.me/keen_prt
+      link: https://t.me/+utgtNAIEfKU4NTJi
     - theme: alt
       text: Telegram чат
-      link: https://t.me/keen_prt_chat
+      link: https://t.me/+yOcJqUEbIEo2ZTEy
     - theme: alt
       text: Поддержать нас на Boosty
       link: https://boosty.to/keen_prt
