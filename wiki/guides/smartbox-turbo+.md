@@ -1,4 +1,4 @@
-# SmartBox Turbo+ <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/SmartBox-Turbo+-4.1.7.zip" />
+# SmartBox Turbo+ <YezBadgeWithDropdown type="keenetic" text="4.1.7" url="/assets/files/firmware/SmartBox-Turbo+-4.1.7.zip" :versions="[{ text: '4.0.7', url: '/assets/files/firmware/SmartBox-Turbo+-4.0.7.zip' }]"/>
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/turbo+.png){width=300px height=100px}
 
