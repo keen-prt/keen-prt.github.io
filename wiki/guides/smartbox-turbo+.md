@@ -1,4 +1,4 @@
-# SmartBox Turbo+ <YezBadge type="keenetic" text="4.0.7" url="/assets/files/firmware/SmartBox-Turbo+-4.0.7.zip" />
+# SmartBox Turbo+ <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/SmartBox-Turbo+-4.1.7.zip" />
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/turbo+.png){width=300px height=100px}
 
@@ -47,8 +47,8 @@ flash write 0x100000 0x80001000 0x40000
 flash write 0x40c0000 0x80001000 0x40000
 
 wget http://192.168.1.2/firmware.bin
-flash write 0x180000 0x80001000 0x187c86e
-flash write 0x4140000 0x80001000 0x187c86e
+flash write 0x180000 0x80001000 0x1A3D0DA
+flash write 0x4140000 0x80001000 0x1A3D0DA
 
 wget http://192.168.1.2/u-state.bin
 flash write 0x3fc0000 0x80001000 0x80000
