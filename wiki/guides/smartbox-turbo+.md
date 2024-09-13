@@ -20,8 +20,8 @@
 1. [Установить Breed](https://4pda.to/forum/index.php?showtopic=943587&st=220#Spoil-87251265-1), сохранить все файлы бекапа
 2. Файл `factory (он же mtd2)` сконвертировать в валидный eeprom для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) с указанием вашего MAC с этикетки.
 3. Распаковать архив, добавить в папку полученный eeprom из 2 шага.
-4. Обязательно обновляем Breed на тот что лежит в архиве (breed_turbo+.bin). Upgrade -> bootloader -> automatic reboot. В дальнейшем попасть в него можно с зажатой Reset при включении или программой BreedEnter
-5. В папке перетягиваем все.bin файлы на hfs.exe.
+4. Обязательно обновляем Breed на тот что лежит в архиве `breed_turbo+.bin` через Upgrade -> bootloader -> automatic reboot. В дальнейшем попасть в него можно с зажатой `Reset` при включении или программой BreedEnter
+5. В папке перетягиваем все `bin` файлы на `HFS.exe`
    ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
 6. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
