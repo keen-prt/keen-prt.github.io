@@ -1,6 +1,10 @@
-# TP-Link Archer C6U v1 <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/TP-Link-C6U-Keenetic-4.1.7.7z" />
+# TP-Link Archer C6U v1 <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/TP-Link-C6U-4.1.7.7z" />
 
-![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/main.png){width=600px height=100px}
+::: warning **Статус устройства - EoL**
+**End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
+:::
+
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/main.png){width=550px height=100px}
 
 ## Особенности сборки
 

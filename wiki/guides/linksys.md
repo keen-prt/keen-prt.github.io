@@ -1,5 +1,9 @@
 # Linksys EA7XXX <YezBadge type="keenetic" text="4.1.6" url="/assets/files/firmware/Linksys-EA7xxx.zip" />
 
+::: warning **Статус устройства - EoD**
+**End of Development** — обновление системы возможно только для исправления критических ошибок
+:::
+
 ![альтернативный текст](/assets/images/wiki/guides/Linksys/main.png){width=400px height=100px}
 
 ## Особенности сборки
