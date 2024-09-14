@@ -1,5 +1,9 @@
 # Netis N6 AX1800 <Badge type="keenetic" text="4.1.7" />
 
+::: tip **Статус устройства - Active**
+**Active** — ведётся портирование новых версий
+:::
+
 ![альтернативный текст](/assets/images/wiki/guides/NetisN6/netisn6.png){width=400px height=100px}
 
 ## Особенности сборки

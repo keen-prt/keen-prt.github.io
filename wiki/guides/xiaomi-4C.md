@@ -1,5 +1,9 @@
 # Xiaomi Mi Router 4C <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Xiaomi-4C-4.1.7.7z" />
 
+::: warning **Статус устройства - EoL**
+**End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
+:::
+
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/4C.png){width=400px height=100px}
 
 ## Особенности сборки

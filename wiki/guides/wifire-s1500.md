@@ -1,5 +1,9 @@
 # WiFire S1500.NBN <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/WiFire-S1500-4.1.7.7z" />
 
+::: warning **Статус устройства - EoL**
+**End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
+:::
+
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/s1500.png)
 
 ## Особенности сборки
