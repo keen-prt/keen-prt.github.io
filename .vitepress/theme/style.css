@@ -138,17 +138,23 @@ h2:has(.VPBadge) {
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
-
 h1 .VPBadge {
   padding: 10px;
 }
-
+.custom-block.good {
+  background-color: #d4edda;
+  color: var(--vp-custom-block-good-text);
+}
 .keenetic {
   background: #0f98d9;
   font-size: 1.1rem;
   color: white;
 }
-
+.eod {
+  background: var(--vp-custom-block-warning-bg);
+  font-size: 1.1rem;
+  color: white;
+}
 .medium-zoom-overlay {
   z-index: 30;
 }
