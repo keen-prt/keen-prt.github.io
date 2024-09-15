@@ -91,7 +91,7 @@ export default defineConfig({
                         ],
                     },
                     {
-                        text: "End of Life",
+                        text: "EoL / EoD",
                         items: [
                             {text: "TP-Link Archer C6U", link: "/wiki/guides/archerc6u"},
                             {text: "SmartBox Pro", link: "/wiki/guides/smartbox-pro"},

@@ -20,6 +20,7 @@
 ::: danger Внимание!
 XMC память не поддерживается
 :::
+
 ## Установка
 
 1. Установить OpenWRT из папки `Breed/Data/openwrt-23.05.4-tplink_archer-c6u-v1-squashfs-factory.bin`

@@ -81,6 +81,7 @@ reset
 ![альтернативный текст](/assets/images/wiki/helpful/usb-mod/giga.jpg){width=400px height=100px}
 
 ## Добавление конденсатора для решения проблемы зависания Fibocom L860-GL при высокой загрузке
+
 ::: tip Припаяйте конденсатор C1840 в цепь питания USB 5 В. Место для него уже есть. Соблюдайте полярность конденсатора! Номинал 100-330 мкФ x 16 В
 :::
 ![альтернативный текст](/assets/images/wiki/helpful/usb-mod/giga-capacitor.jpeg){width=400px height=100px}
