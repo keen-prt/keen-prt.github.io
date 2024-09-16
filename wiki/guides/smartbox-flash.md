@@ -75,5 +75,7 @@ reset
 альтернативой.
 :::
 ![альтернативный текст](/assets/images/wiki/helpful/usb-mod/flash-1.jpg){width=300px height=100px}
-<br/>![альтернативный текст](/assets/images/wiki/helpful/usb-mod/flash-2.jpg){width=300px height=100px}
-<br/>![альтернативный текст](/assets/images/wiki/helpful/usb-mod/flash-3.jpg){width=300px height=100px}
+
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/flash-2.jpg){width=300px height=100px}
+
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/flash-3.jpg){width=300px height=100px}

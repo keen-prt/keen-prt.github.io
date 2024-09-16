@@ -73,7 +73,8 @@ reset
 ## USB-Mod
 
 ![альтернативный текст](/assets/images/wiki/helpful/usb-mod/ec330-1.jpg){width=400px height=100px}
-<br/>![альтернативный текст](/assets/images/wiki/helpful/usb-mod/ec330-2.jpg){width=400px height=100px}
+
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/ec330-2.jpg){width=400px height=100px}
 
 ## Скриншоты
 

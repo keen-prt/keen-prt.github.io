@@ -7,7 +7,8 @@
 <br/>
 
 1. В меню `"Параметры системы" (Общие настройки)` нажмите `"Изменить режим работы"` и установите режим дополнительного интернет-центра `"Усилитель/Ретранслятор"`.
-   ![альтернативный текст](/assets/images/wiki/helpful/mesh/repeater01.png){width=500px height=100px}<br/>
+   ![альтернативный текст](/assets/images/wiki/helpful/mesh/repeater01.png){width=500px height=100px}
+
    ![альтернативный текст](/assets/images/wiki/helpful/mesh/repeater03.png){width=500px height=100px}
 2. Подключите роутер проводом к контроллеру
 3. Выполните захват  
@@ -21,7 +22,8 @@
 • Не захватывается
 
 Убедитесь что у захватываемых устройств разный серийный номер, он отображается на главной странице в блоке `О системе`
-![альтернативный текст](/assets/images/wiki/helpful/mesh/servicenumber.png){width=800px height=100px}<br/>
+![альтернативный текст](/assets/images/wiki/helpful/mesh/servicenumber.png){width=800px height=100px}
+
 Если он одинаковый, используйте [**`ServiceDataGenerator`**](/assets/files/ServiceDataGenerator.zip) или [KeenKit](/wiki/helpful/keenkit.md) с использованием функционала `Заменить сервисные данные`
 ::: tip
 

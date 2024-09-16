@@ -9,7 +9,6 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: '/assets/images/seo.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Keenetic Ported Wiki' }],
-    // Добавление Google Analytics
     ['script', { async: true, src: `https://www.googletagmanager.com/gtag/js?id=G-GDED2LP6Y9` }],
     [
       'script',

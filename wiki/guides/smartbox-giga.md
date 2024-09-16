@@ -77,7 +77,8 @@ reset
 
 ::: tip Убираем R153, от U12 подпаять проводок до пятака R43.
 :::
-![альтернативный текст](/assets/images/wiki/helpful/usb-mod/giga-usb1.png){width=400px height=100px}<br/>
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/giga-usb1.png){width=400px height=100px}
+
 ![альтернативный текст](/assets/images/wiki/helpful/usb-mod/giga.jpg){width=400px height=100px}
 
 ## Добавление конденсатора для решения проблемы зависания Fibocom L860-GL при высокой загрузке

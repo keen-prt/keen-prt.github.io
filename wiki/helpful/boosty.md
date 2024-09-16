@@ -13,10 +13,13 @@
 
 1. https://boosty.to/keen_prt
 2. Авторизуемся
-   ![альтернативный текст](/assets/images/wiki/helpful/boosty/2.png){width=400px height=100px}<br/>
+   ![альтернативный текст](/assets/images/wiki/helpful/boosty/2.png){width=400px height=100px}
+
 3. В настройках профиля `обязательно подключаем Telegram`, чтобы бот вам автоматически выдал ссылку на чат
-   ![альтернативный текст](/assets/images/wiki/helpful/boosty/3.png){width=400px height=100px}<br/>
+   ![альтернативный текст](/assets/images/wiki/helpful/boosty/3.png){width=400px height=100px}
+
 4. Во вкладке `Об авторе` выбираем любую подписку и оплачиваем
-   ![альтернативный текст](/assets/images/wiki/helpful/boosty/4.png){width=400px height=100px}<br/>
+   ![альтернативный текст](/assets/images/wiki/helpful/boosty/4.png){width=400px height=100px}
+
 5. Бот пришлёт вам ссылку на чат
-   ![альтернативный текст](/assets/images/wiki/helpful/boosty/5.png){width=400px height=100px}<br/>
+   ![альтернативный текст](/assets/images/wiki/helpful/boosty/5.png){width=400px height=100px}
