@@ -7,7 +7,7 @@ hero:
 
   tagline: "Портированная прошивка на Ваш роутер"
   image:
-    src: /assets/images/logo.jpg
+    src: /assets/images/logo.png
     alt: Keenetic Ported Wiki
   actions:
     - theme: brand
