@@ -120,6 +120,7 @@ export default defineConfig({
                             {text: "Настройка Mesh", link: "/wiki/helpful/mesh"},
                             {text: "Онлайн-сервис для EEPROM", link: "https://yeezyio.github.io/"},
                             {text: "📊 Тесты покрытия", link: "/wiki/helpful/wifitests"},
+                            // {text: "Откат на сток", link: "/wiki/helpful/revertFirmware"},
                         ],
                     },
                 ],
