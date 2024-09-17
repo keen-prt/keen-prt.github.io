@@ -30,10 +30,28 @@
    ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
    :::
 
-## Скриншоты
+## Скриншоты системы
 
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/system1.png)
 
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/system2.png)
 
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/system3.png)
+
+## Компоненты для 16MB
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/16-1.png)
+
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/16-2.png)
+
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/16-3.jpg)
+
+## Компоненты для 32MB
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-1.png)
+
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-2.png)
+
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-3.png)
+
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-4.png)
+
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-5.jpg)

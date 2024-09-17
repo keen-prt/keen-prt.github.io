@@ -36,7 +36,7 @@ XMC память не поддерживается
    ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
    :::
 
-## Скриншоты
+## Скриншоты системы
 
 ![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/system1.png)
 
