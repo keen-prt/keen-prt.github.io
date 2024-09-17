@@ -39,6 +39,7 @@
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/system3.png)
 
 ## Компоненты для 16MB
+
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/16-1.png)
 
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/16-2.png)
@@ -46,6 +47,7 @@
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/16-3.jpg)
 
 ## Компоненты для 32MB
+
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-1.png)
 
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-2.png)

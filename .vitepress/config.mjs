@@ -95,7 +95,7 @@ export default defineConfig({
                             {text: "TP-Link Archer C6U", link: "/wiki/guides/archerc6u"},
                             {text: "SmartBox Pro", link: "/wiki/guides/smartbox-pro"},
                             {text: "SmartBox Turbo+", link: "/wiki/guides/smartbox-turbo+"},
-                            {text: "WiFire NBN1500", link: "/wiki/guides/wifire-s1500"},
+                            {text: "WiFire S1500.NBN", link: "/wiki/guides/wifire-s1500"},
                             {text: "Xiaomi 4AG", link: "/wiki/guides/xiaomi-4AG"},
                             {text: "Xiaomi 4C", link: "/wiki/guides/xiaomi-4C"},
                             {text: "Mercusys MR70X", link: "/wiki/guides/mercusys-mr70x"},

@@ -36,10 +36,10 @@
 <br/>
 
 • Если после успешного захвата по проводу не подключается по воздуху, включите `Беспроводную транспортную сеть`
-   <br/>
+<br/>
 
-   ![альтернативный текст](/assets/images/wiki/helpful/mesh/wireless.png){width=800px height=100px}
-   <br/>
+![альтернативный текст](/assets/images/wiki/helpful/mesh/wireless.png){width=800px height=100px}
+<br/>
 
 • Ошибка `Mws::Controller::Candidate: "xx:xx:xx:xx:xx:xx": invalid CSR response` появляется после захвата устройства с одинаковым сервисным номером и/или мак-адресом устройства. Для решения воспользуйтесь 1 пунктом
 
