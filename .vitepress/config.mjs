@@ -79,7 +79,7 @@ export default defineConfig({
                     {
                         text: "Active",
                         items: [
-                            // {text: "⚡ Xiaomi AX3000T", link: "/wiki/guides/ax3000t"},
+                            {text: "⚡ Xiaomi AX3000T", link: "/wiki/guides/ax3000t"},
                             {text: "🚀 ⭐️Redmi AX6S", link: "/wiki/guides/ax6s"},
                             {text: "Netis N6 AX1800", link: "/wiki/guides/NetisN6"},
                             {text: "TP-Link EC330-G5u", link: "/wiki/guides/TP-Link-EC330-G5u"},
