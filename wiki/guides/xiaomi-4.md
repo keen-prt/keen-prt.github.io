@@ -1,7 +1,7 @@
 # Xiaomi Mi Router 4 <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Xiaomi-4-4.1.7.7z" />
 
-::: tip **Статус устройства - Active**
-**Active** — ведётся портирование новых версий
+::: warning **Статус устройства - EoD**
+**End of Development** — обновление системы возможно только для исправления критических ошибок
 :::
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/xiaomi4.jpg)
