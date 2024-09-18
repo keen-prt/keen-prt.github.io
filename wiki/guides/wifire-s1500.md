@@ -1,4 +1,4 @@
-# WiFire S1500.NBN <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/WiFire-S1500-4.1.7.7z" />
+# WiFire S1500.NBN <YezBadgeWithDropdown type="keenetic" text="4.1.8" url="/assets/files/firmware/WiFire-S1500-4.1.8.zip" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/WiFire-S1500-4.1.7.7z' }]"/>
 
 ::: warning **Статус устройства - EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
