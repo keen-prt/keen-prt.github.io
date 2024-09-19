@@ -30,30 +30,6 @@
 
    ![альтернативный текст](/assets/images/wiki/helpful/entware/5.png)
 
-## Форматирование накопителя
-
-1. Открыть [`http://192.168.1.1/a`](http://192.168.1.1/a)
-2. Закрыть все имеющиеся соединения если они активны `(Telnet/SSH)`
-3. Ввести поочерёдно команды
-
-```shell
-opkg no disk # Отключит накопитель для Entware
-```
-
-```shell
-no system mount storage: # Размонтирует накопитель
-```
-
-```shell
-erase storage: # Сотрёт накопитель
-```
-
-```shell
-system mount storage: # Смонтирует накопитель
-```
-
-![альтернативный текст](/assets/images/wiki/helpful/entware/6.png)
-
 ## SSH
 
 **Логин** - `root`
@@ -105,3 +81,27 @@ opkg upgrade # обновление пакетов
 ```
 
 ![альтернативный текст](/assets/images/wiki/helpful/entware/8.png)
+
+## Форматирование накопителя
+
+1. Открыть [`http://192.168.1.1/a`](http://192.168.1.1/a)
+2. Закрыть все имеющиеся соединения если они активны `(Telnet/SSH)`
+3. Ввести поочерёдно команды
+
+```shell
+opkg no disk # Отключит накопитель для Entware
+```
+
+```shell
+no system mount storage: # Размонтирует накопитель
+```
+
+```shell
+erase storage: # Сотрёт накопитель
+```
+
+```shell
+system mount storage: # Смонтирует накопитель
+```
+
+![альтернативный текст](/assets/images/wiki/helpful/entware/6.png)
