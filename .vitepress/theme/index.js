@@ -4,6 +4,7 @@ import { useRoute } from 'vitepress'
 import mediumZoom from 'medium-zoom'
 import './style.css'
 import YezBadge from '../components/YezBadge.vue'
+import Popup from '../components/Popup.vue'
 import EODBadge from '../components/EODBadge.vue'
 import GoodBlock from '../components/GoodBlock.vue'
 import YezBadgeWithDropdown from '../components/YezBadgeWithDropdown.vue'
@@ -107,6 +108,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('YezBadge', YezBadge)
+    app.component('Popup', Popup)
     app.component('GoodBlock', GoodBlock)
     app.component('EODBadge', EODBadge)
     app.component('YezBadgeWithDropdown', YezBadgeWithDropdown)
