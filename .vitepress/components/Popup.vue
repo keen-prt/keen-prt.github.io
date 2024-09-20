@@ -23,8 +23,8 @@
             </div>
         </div>
         <p v-if="finalActionPerformed">
-            В личку <a href='https://t.me/yeezyio' target='_blank' rel='noreferrer'>@yeezyio</a> написать о просьбе
-            перевести на прошивку Keenetic
+            Напишите в личные сообщения <a href='https://t.me/yeezyio' target='_blank' rel='noreferrer'>@yeezyio</a> с
+            просьбой перевести роутер на прошивку Keenetic.
         </p>
     </div>
 </template>
@@ -56,7 +56,7 @@ export default {
             document.documentElement.classList.remove('blurred');
         },
         handleFinalAction() {
-            this.buttonText = "В личку <a href='https://t.me/yeezyio' target='_blank' rel='noreferrer'>@yeezyio</a> написать о просьбе перевести на прошивку Keenetic";
+            this.buttonText = "Напишите в личные сообщения <a href='https://t.me/yeezyio' target='_blank' rel='noreferrer'>@yeezyio</a> с просьбой перевести роутер на прошивку Keenetic.";
             this.finalActionPerformed = true;
             this.closePopup();
         }
