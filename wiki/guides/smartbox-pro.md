@@ -13,9 +13,11 @@
 | **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz     |
 | **Flash MB**      | 256NAND                              |
 | **RAM MB**        | 256                                  |
-| **WLAN Hardware** | MediaTek MT7602EN, MediaTek MT7612EN |
 | **Ethernet**      | 10/100/1000 Mbps x5 (1x WAN, 4x LAN) |
 | **USB**           | 2x 2.0                               |
+| **WLAN Hardware** | MediaTek MT7602EN, MediaTek MT7612EN |
+| **WLAN 5.0GHz**   | AC, 80MHz, 2x2, 867MB/s, 256QAM      |
+| **WLAN 2.4GHz**   | N, 40MHz, 2x2, 300MB/s, 64QAM        |
 
 ## Особенности сборки
 

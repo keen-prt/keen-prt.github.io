@@ -8,14 +8,16 @@
 
 ## Характеристики
 
-| Особенность       | Описание                             |
-|-------------------|--------------------------------------|
-| **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz     |
-| **Flash MB**      | 128NAND                              |
-| **RAM MB**        | 128                                  |
-| **WLAN Hardware** | MediaTek MT7603EN, MediaTek MT7615N  |
-| **Ethernet**      | 10/100/1000 Mbps x5 (1x WAN, 4x LAN) |
-| **USB**           | 1x 3.0                               |
+| Особенность       | Описание                                                                      |
+|-------------------|-------------------------------------------------------------------------------|
+| **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz                                              |
+| **Flash MB**      | 128NAND                                                                       |
+| **RAM MB**        | 128                                                                           |
+| **Ethernet**      | 10/100/1000 Mbps x5 (1x WAN, 4x LAN)                                          |
+| **USB**           | 1x 3.0                                                                        |
+| **WLAN Hardware** | MediaTek MT7603EN, MediaTek MT7615N                                           |
+| **WLAN 5.0GHz**   | Keenetic: AC, 80MHz, 2x2, 867MB/s, 256QAM<br>Stock: AC, 160MHz, 4x4, 1733MB/s |
+| **WLAN 2.4GHz**   | Stock: N, 40MHz, 2x2, 300MB/s                                                 |
 
 ## Особенности сборки
 
