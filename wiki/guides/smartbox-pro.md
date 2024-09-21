@@ -6,6 +6,17 @@
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/pro.png)
 
+## Характеристики
+
+| Особенность       | Описание                             |
+|-------------------|--------------------------------------|
+| **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz     |
+| **Flash MB**      | 256NAND                              |
+| **RAM MB**        | 256                                  |
+| **WLAN Hardware** | MediaTek MT7602EN, MediaTek MT7612EN |
+| **Ethernet**      | 10/100/1000 Mbps x5 (1x WAN, 4x LAN) |
+| **USB**           | 2x 2.0                               |
+
 ## Особенности сборки
 
 | Особенность              | Описание                                                     |

@@ -6,6 +6,17 @@
 
 ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/EC330.png){width=500px height=100px}
 
+## Характеристики
+
+| Особенность       | Описание                             |
+|-------------------|--------------------------------------|
+| **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz     |
+| **Flash MB**      | 128NAND                              |
+| **RAM MB**        | 128                                  |
+| **WLAN Hardware** | MediaTek MT7615DN                    |
+| **Ethernet**      | 10/100/1000 Mbps x5 (1x WAN, 4x LAN) |
+| **USB**           | 1x 3.0                               |
+
 ## Особенности сборки
 
 | Особенность              | Описание                                                                                                                   |

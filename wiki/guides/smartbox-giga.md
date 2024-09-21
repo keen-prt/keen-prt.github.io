@@ -6,6 +6,17 @@
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/giga.png){width=500px height=100px}
 
+## Характеристики
+
+| Особенность       | Описание                                             |
+|-------------------|------------------------------------------------------|
+| **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz                     |
+| **Flash MB**      | 128NAND                                              |
+| **RAM MB**        | 256                                                  |
+| **WLAN Hardware** | MediaTek MT7603, MediaTek MT7613                     |
+| **Ethernet**      | 10/100/1000 Mbps x2, 10/100 Mbps x1 (1x WAN, 2x LAN) |
+| **USB**           | 1x 3.0                                               |
+
 ## Особенности сборки
 
 | Особенность              | Описание                                 |

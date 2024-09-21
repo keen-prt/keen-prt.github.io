@@ -6,6 +6,17 @@
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/4AG.png)
 
+## Характеристики
+
+| Особенность       | Описание                             |
+|-------------------|--------------------------------------|
+| **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz     |
+| **Flash MB**      | 16 SPI                               |
+| **RAM MB**        | 128                                  |
+| **WLAN Hardware** | MediaTek MT7603EN, MediaTek MT7612EN |
+| **Ethernet**      | 10/100/1000 Mbps x3 (1x WAN, 2x LAN) |
+| **USB**           | -                                    |
+
 ## Особенности сборки
 
 | Особенность              | Описание                                 |

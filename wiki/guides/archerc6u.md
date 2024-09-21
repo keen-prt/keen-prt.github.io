@@ -6,6 +6,17 @@
 
 ![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/main.png){width=550px height=100px}
 
+## Характеристики
+
+| Особенность       | Описание                             |
+|-------------------|--------------------------------------|
+| **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz     |
+| **Flash MB**      | 16 SPI                               |
+| **RAM MB**        | 128                                  |
+| **WLAN Hardware** | MediaTek MT7603E, MediaTek MT7613BE  |
+| **Ethernet**      | 10/100/1000 Mbps x5 (1x WAN, 4x LAN) |
+| **USB**           | 1x 2.0                               |
+
 ## Особенности сборки
 
 | Особенность              | Описание                                                        |

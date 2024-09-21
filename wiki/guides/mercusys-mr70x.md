@@ -6,6 +6,17 @@
 
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/main.png){width=400px height=100px}
 
+## Характеристики
+
+| Особенность       | Описание                               |
+|-------------------|----------------------------------------|
+| **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz       |
+| **Flash MB**      | 16 SPI                                 |
+| **RAM MB**        | 128                                    |
+| **WLAN Hardware** | MediaTek MT7905DAN + MediaTek MT7975DN |
+| **Ethernet**      | 10/100/1000 Mbps x4 (1x WAN, 3x LAN)   |
+| **USB**           | -                                      |
+
 ## Особенности сборки
 
 | Особенность              | Описание                                 |
