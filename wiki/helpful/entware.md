@@ -32,11 +32,11 @@
 
 ## SSH
 
-**Логин** - `root`
+**Логин**: `root`
 
-**Пароль** - `keenetic`
+**Пароль**: `keenetic`
 
-**Порт** - `222`
+**Порт**: `222`
 
 **Смена пароля** -
 
@@ -56,11 +56,11 @@ exec /opt/etc/init.d/S51dropbear restart
 
 ## Telnet
 
-**Логин** - `admin`
+**Логин**: `admin`
 
-**Пароль** - `ваш пароль от веб-интерфейса`
+**Пароль**: `ваш пароль от веб-интерфейса`
 
-**Порт** - `23`
+**Порт**: `23`
 
 **Вход в Entware** -
 
@@ -70,14 +70,14 @@ exec sh
 
 ![альтернативный текст](/assets/images/wiki/helpful/entware/7.png)
 
-## Обновление модулей
-
+## Обновление
+Репозиториев
 ```shell
-opkg update # обновление репозиториев
+opkg update
 ```
-
+Пакетов
 ```shell
-opkg upgrade # обновление пакетов
+opkg upgrade
 ```
 
 ![альтернативный текст](/assets/images/wiki/helpful/entware/8.png)
@@ -89,19 +89,16 @@ opkg upgrade # обновление пакетов
 3. Ввести поочерёдно команды
 
 ```shell
-opkg no disk # Отключит накопитель для Entware
+opkg no disk
 ```
-
 ```shell
-no system mount storage: # Размонтирует накопитель
+no system mount storage:
 ```
-
 ```shell
-erase storage: # Сотрёт накопитель
+erase storage:
 ```
-
 ```shell
-system mount storage: # Смонтирует накопитель
+system mount storage:
 ```
 
 ![альтернативный текст](/assets/images/wiki/helpful/entware/6.png)
