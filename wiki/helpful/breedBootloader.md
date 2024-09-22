@@ -43,21 +43,63 @@
 :::
 
 <br/>
-Способ #1 <Badge type="keenetic" text="Автоматический, рекомендуемый" /><br/>
+Способ #1 <Badge type="keenetic" text="Автоматический, рекомендуемый"></Badge><br/>
 
 Перейти в раздел `Upgrade`, выбрать файл загрузчика в `Bootloader` и нажать `Upload`
 ![альтернативный текст](/assets/images/wiki/helpful/breed/upgrade.png)
 
 Способ #2 <Badge type="keenetic" text="Ручной" /><br/>
 ::: danger **Все действия на свой страх и риск**
-
 Ручная перезапись загрузчика может завершиться неудачно, дальнейшее восстановление возможно только через программатор и [дамп](/wiki/helpful/files). Используйте этот способ в крайнем случае
-
 :::
 
 ````shell
-wget http://192.168.1.2/bootloader.bin # Выполняет загрузку загрузчика в оперативную память через HFS
-flash erase 0x0 0x80000 # Стирает флешку длиной 80000
-flash write 0x0 0x80001000 0x80000 # Записывает содержимое оперативной памяти в область загрузчика
-reset # Перезагрузка 
+wget http://192.168.1.2/bootloader.bin
+````
+````shell
+flash erase 0x0 0x80000
+````
+````shell
+flash write 0x0 0x80001000 0x80000
+````
+````shell
+reset
+````
+
+## Как зайти в загрузчик Breed?
+
+### Способ #1
+
+- Зажать Reset и подать питание на роутер. Спустя 5-8 секунд зайти на `192.168.1.1` с устройства, подключённого в LAN порт роутера
+
+### Способ #2
+
+- Запустить BreedEnter.exe -> нажать одну единственную кнопку -> включить роутер в розетку предварительно подключив LAN в ПК -> программа выдаст сообщение -> открыть `192.168.1.1`
+
+
+## Система не загружается дальше загрузчика Breed
+
+Через `TelNet` введите команду
+
+````shell
+abstatus
+````
+
+• `Autoboot command has been successfully executed / Firmware boot failed.`<br/>
+Прошивка загружена некорректно, для решения воспользуйтесь [3 способом](/wiki/helpful/updateFirmware#способ-3) если у вас NAND память<br/>
+
+• `Autoboot was interrupted by button press.`<br/>
+Кнопка Reset была зажата при включении. Если кнопка не нажималась, выполните откат на другую версию Breed, или версию для другого устройства
+
+````shell
+Boot and Recovery Environment for Embedded Devices
+Copyright (C) 2021 HackPascal <hackpascal@gmail.com>
+Build date 2021-12-16 [git-839fb85]
+Version 1.1 (r1338)
+
+Starting breed built-in shell
+
+breed> abstatus
+abstatus
+Autoboot command has been successfully executed / Firmware boot failed.
 ````

@@ -1,7 +1,7 @@
-# Linksys EA7XXX <YezBadge type="keenetic" text="4.1.6" url="/assets/files/firmware/Linksys-EA7xxx.zip" />
+# Linksys EA7XXX <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Linksys-EA7xxx.zip" />
 
-::: warning **Статус устройства - EoD**
-**End of Development** — обновление системы возможно только при наличии свободного времени и желания
+::: warning **Статус устройства - EoL**
+**End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 
 ![альтернативный текст](/assets/images/wiki/guides/Linksys/main.png){width=400px height=100px}
@@ -76,8 +76,8 @@ flash write 0x100000 0x80001000 0x80000
 flash write 0x40c0000 0x80001000 0x80000
 
 wget http://192.168.1.2/firmware.bin
-flash write 0x180000 0x80001000 0x1a4201e
-flash write 0x4140000 0x80001000 0x1a4201e
+flash write 0x180000 0x80001000 0x1AB3F00
+flash write 0x4140000 0x80001000 0x1AB3F00
 
 wget http://192.168.1.2/u-state.bin
 flash write 0x3fc0000 0x80001000 0x80000
