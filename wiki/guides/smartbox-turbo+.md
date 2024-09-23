@@ -42,10 +42,10 @@
 
 ```shell
 cd /tmp
-wget http://192.168.1.2/bootloader.bin
+wget http://192.168.1.2/breed_turbo+.bin
 insmod mtd-rw i_want_a_brick=1
-mtd unlock /dev/mtd1
-mtd write /tmp/bootloader.bin Bootloader
+mtd unlock /dev/mtd0
+mtd write /tmp/breed_turbo+.bin u-boot
 reboot
 ```
 6. В папке перетягиваем все `bin` файлы на `HFS.exe`
