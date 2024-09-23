@@ -36,7 +36,7 @@ XMC память не поддерживается
 
 ## Установка
 
-1. Установить OpenWRT из папки `Breed/Data/openwrt-23.05.4-tplink_archer-c6u-v1-squashfs-factory.bin`
+1. Установить OpenWRT из папки `Breed -> Data -> openwrt-23.05.4-tplink_archer-c6u-v1-squashfs-factory.bin`
 2. Запустить `BreedEnter.exe` от имени администратора по пути `Keenetic/BreedEnter` (при получении ошибки установить WinPcap.exe). В китайском интерфейсе нажать всего одну кнопку. Это необходимо для последующего входа в загрузчик
    ![альтернативный текст](/assets/images/wiki/helpful/faq/breed.png)<br/>
 3. Запустить скрипт `!Start.bat` из папки `Breed`. Скрипт установит загрузчик Breed, сделает бэкап стокового загрузчика и EEPROM в папку Data, создаст полный образ прошивки содержащий ваш EEPROM и индивидуальные сервисные данные и поместит в папку Keenetic

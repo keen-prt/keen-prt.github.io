@@ -39,9 +39,11 @@
 2. Сохраняем из LuCi (вкладка System - Backup / Flash firmware) раздел `factory`
 3. Полученный файл сконвертировать в валидный eeprom для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) с указанием вашего MAC с этикетки. Добавить в папку полученный eeprom.bin
 4. `Bootloader.bin/Breed.bin` из архива открываем в HFS.exe
-5. По SSH выполняем команды:
+5. По SSH выполняем команды предварительно подключив роутер к интернету:
 
 ```shell
+opkg update
+opkg install kmod-mtd-rw
 cd /tmp
 wget http://192.168.1.2/bootloader.bin
 insmod mtd-rw i_want_a_brick=1

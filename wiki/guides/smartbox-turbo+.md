@@ -34,13 +34,15 @@
 
 ## Установка
 
-1. Из установленного [OpenWRT](https://openwrt.org/toh/beeline/smartbox_turbo_plus#oem_easy_installation) ставим пакет `kmod-mtd-rw` предварительно подав доступ к сети
+1. Устанавливаем [OpenWRT](https://openwrt.org/toh/beeline/smartbox_turbo_plus#oem_easy_installation)
 2. Сохраняем из LuCi (вкладка System - Backup / Flash firmware) раздел `factory`
 3. Полученный файл сконвертировать в валидный eeprom для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) с указанием вашего MAC с этикетки. Добавить в папку полученный eeprom.bin
 4. `breed_turbo+.bin` из архива открываем в HFS.exe
-5. По SSH выполняем команды:
+5. По SSH выполняем команды предварительно подключив роутер к интернету:
 
 ```shell
+opkg update
+opkg install kmod-mtd-rw
 cd /tmp
 wget http://192.168.1.2/breed_turbo+.bin
 insmod mtd-rw i_want_a_brick=1
