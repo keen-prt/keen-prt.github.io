@@ -35,14 +35,25 @@
 
 ## Установка
 
-1. [Установить Breed](https://4pda.to/forum/index.php?showtopic=943587&st=220#Spoil-87251265-1), сохранить все файлы бекапа
-2. Файл `factory (он же mtd2)` сконвертировать в валидный eeprom для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) с указанием вашего MAC с этикетки.
-3. Распаковать архив, добавить в папку полученный eeprom из 2 шага.
+1. Из установленного OpenWRT ставим пакет `kmod-mtd-rw` предварительно подав доступ к сети
+2. Сохраняем из LuCi (вкладка System - Backup / Flash firmware) раздел `factory`
+3. Полученный файл сконвертировать в валидный eeprom для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) с указанием вашего MAC с этикетки. Добавить в папку полученный eeprom.bin
+4. `Bootloader.bin/Breed.bin` из архива открываем в HFS.exe
+5. По SSH выполняем команды:
+
+```shell
+cd /tmp
+wget http://192.168.1.2/bootloader.bin
+insmod mtd-rw i_want_a_brick=1
+mtd unlock /dev/mtd1
+mtd write /tmp/bootloader.bin Bootloader
+reboot
+```
+
 4. Переводим физический переключатель с ROUT на REP
-5. Обязательно обновляем Breed (bootloader.bin) на тот что лежит в архиве. Upgrade -> bootloader -> automatic reboot. В дальнейшем попасть в него можно с зажатой Reset при включении или программой BreedEnter
-6. В папке перетягиваем все `bin` файлы на `HFS.exe`
+5. В папке перетягиваем все `bin` файлы на `HFS.exe`
    ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
-7. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
+6. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
    ::: warning
    • Предварительно отключите Брандмауэр и Антивирус вашей ОС
