@@ -1,6 +1,6 @@
 # SmartBox Turbo+ <YezBadgeWithDropdown type="keenetic" text="4.1.7" url="/assets/files/firmware/SmartBox-Turbo+-4.1.7.zip" :versions="[{ text: '4.0.7', url: '/assets/files/firmware/SmartBox-Turbo+-4.0.7.zip' }]"/>
 
-::: warning **Статус устройства - EoL**
+::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 

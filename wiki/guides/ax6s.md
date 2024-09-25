@@ -1,6 +1,6 @@
 # Redmi AX6S (Xiaomi AX3200) <Badge type="keenetic" text="4.1.7" />
 
-::: tip **Статус устройства - Active**
+::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
 :::
 

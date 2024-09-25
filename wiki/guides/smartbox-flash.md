@@ -1,6 +1,6 @@
 # SmartBox Flash <YezBadgeWithDropdown type="keenetic" text="4.1.7" url="/assets/files/firmware/SmartBox-Flash-4.1.7.7z" :versions="[{ text: '4.0.7', url: '/assets/files/firmware/SmartBox-Flash-4.0.7.zip' }]"/>
 
-::: tip **Статус устройства - Active**
+::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
 :::
 

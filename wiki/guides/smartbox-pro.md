@@ -1,6 +1,6 @@
 # SmartBox Pro <YezBadgeWithDropdown type="keenetic" text="4.1.8" url="/assets/files/firmware/SmartBox-Pro-4.1.8.zip" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/SmartBox-Pro-4.1.7.7z' }, { text: '4.0.7', url: '/assets/files/firmware/SmartBox-Pro-4.0.7.7z' }]"/>
 
-::: warning **Статус устройства - EoL**
+::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 

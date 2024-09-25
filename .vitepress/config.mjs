@@ -86,16 +86,16 @@ export default defineConfig({
                             {text: "МТС WG430223", link: "/wiki/guides/mtc-wg430223"},
                             {text: "SmartBox Flash", link: "/wiki/guides/smartbox-flash"},
                             {text: "SmartBox Giga", link: "/wiki/guides/smartbox-giga"},
+                            {text: "Xiaomi 4", link: "/wiki/guides/xiaomi-4"},
                         ],
                     },
                     {
-                        text: "EoL / EoD",
+                        text: "End of Life",
                         items: [
                             {text: "TP-Link Archer C6U", link: "/wiki/guides/archerc6u"},
                             {text: "SmartBox Pro", link: "/wiki/guides/smartbox-pro"},
                             {text: "SmartBox Turbo+", link: "/wiki/guides/smartbox-turbo+"},
                             {text: "WiFire S1500.NBN", link: "/wiki/guides/wifire-s1500"},
-                            {text: "Xiaomi 4", link: "/wiki/guides/xiaomi-4"},
                             {text: "Xiaomi 4AG", link: "/wiki/guides/xiaomi-4AG"},
                             {text: "Xiaomi 4C", link: "/wiki/guides/xiaomi-4C"},
                             {text: "Mercusys MR70X", link: "/wiki/guides/mercusys-mr70x"},

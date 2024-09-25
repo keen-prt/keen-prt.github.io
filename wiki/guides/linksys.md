@@ -1,6 +1,6 @@
 # Linksys EA7XXX <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Linksys-EA7xxx.zip" />
 
-::: warning **Статус устройства - EoL**
+::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 
