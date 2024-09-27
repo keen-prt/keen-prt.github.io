@@ -38,9 +38,16 @@
 1. Из установленного OpenWRT ставим пакет `kmod-mtd-rw` предварительно подав доступ к сети
 2. Сохраняем из люси-морды (вкладка System - Backup / Flash firmware) раздел `factory`
 3. Полученный файл сконвертировать в валидный eeprom для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) с указанием вашего MAC с этикетки. Добавить в папку полученный eeprom.bin
-4. `Bootloader.bin` из архива открываем в HFS.exe
+4. `Bootloader.bin` или `Breed.bin` из архива открываем в HFS.exe
 5. По SSH выполняем команды предварительно подключив роутер к интернету:
+```shell
+cat /proc/mtd
 
+вывод:
+dev:    size   erasesize  name
+mtd0: 10000000 00020000 "u-boot"
+```
+Запоминаем название mtd0 раздела, он будет `u-boot` или `Bootloader` <br/> Используем его в последней команде
 ```shell
 opkg update
 opkg install kmod-mtd-rw
