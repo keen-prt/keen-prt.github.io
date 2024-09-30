@@ -73,7 +73,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Главная', link: '/' },
-      { text: 'Wiki', link: '/wiki' }
+      { text: 'Wiki', link: '/wiki' },
+        { text: 'Telegram', link: 'https://t.me/keen_prt' }
     ],
 
         sidebar: [

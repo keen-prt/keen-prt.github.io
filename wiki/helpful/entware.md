@@ -4,17 +4,17 @@
 ## Установка
 ### Способ #1 <Badge type="keenetic" text="Автоматический, рекомендуемый" />
 :::: tip
-Начиная с KeeneticOS 4.2 Beta 4 появилась возможность установки в одну команду через CLI `192.168.1.1/a`
+Начиная с KeeneticOS 4.2 Beta 4 появилась возможность установки в одну команду через CLI [`192.168.1.1/a`](http://192.168.10.1/a)
 ::::
 ![альтернативный текст](/assets/images/wiki/helpful/entware/rci.png)
 
-Для установки на архитектуру Mipsel 
+Для архитектуры `Mipsel`
 
 ```shell
 opkg disk storage:/ https://bin.entware.net/mipselsf-k3.4/installer/mipsel-installer.tar.gz
 ````
 
-Для установки на архитектуру Arch
+Для архитектуры `Arch`
 
 ```shell
 opkg disk storage:/ https://bin.entware.net/aarch64-k3.10/installer/aarch64-installer.tar.gz
@@ -29,10 +29,10 @@ opkg disk storage:/ https://bin.entware.net/aarch64-k3.10/installer/aarch64-inst
 
    ![альтернативный текст](/assets/images/wiki/helpful/entware/2.png)
 
-   ::: warning **Вам нужно скачать файл, подходящий для архитектуры процессора вашего роутера.**<br>
+   ::: warning **Скачайте архив для вашего роутера.**<br>
 
-   Если у вас роутер с **Wi-Fi 5**, или **Wi-Fi 6** до **AX1800**, [**`используйте Mipsel файл`**](/assets/files/Mipsel_Offline_2024.tar.gz)<br>
-   Если же ваш роутер **Wi-Fi 6** начиная с **AX3000**, [**`используйте Arch файл`**](/assets/files/Arch_Offline_2024v2.tar.gz)
+   Для процессора `MT7621/28` используйте [**Mipsel**](/assets/files/Mipsel_Offline_2024.tar.gz)<br>
+   Для процессора `MT7622/MT7981` используйте [**Arch**](/assets/files/Arch_Offline_2024v2.tar.gz)
    :::
 
 3. Внутрь папки поместить нужный архив
