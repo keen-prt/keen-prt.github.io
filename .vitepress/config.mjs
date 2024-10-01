@@ -103,6 +103,7 @@ export default defineConfig({
                             {text: "SmartBox Turbo+", link: "/wiki/guides/smartbox-turbo+"},
                             {text: "WiFire S1500.NBN", link: "/wiki/guides/wifire-s1500"},
                             {text: "Xiaomi 4AG", link: "/wiki/guides/xiaomi-4AG"},
+                            {text: "Xiaomi 4Av2", link: "/wiki/guides/xiaomi-4AGv2"},
                             {text: "Xiaomi 4C", link: "/wiki/guides/xiaomi-4C"},
                             {text: "Mercusys MR70X", link: "/wiki/guides/mercusys-mr70x"},
                             {text: "Linksys EA7XXX", link: "/wiki/guides/linksys"},
