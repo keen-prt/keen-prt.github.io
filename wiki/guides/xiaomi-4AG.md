@@ -1,4 +1,4 @@
-# Xiaomi Mi Router 4A Gigabit Edition v1 <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Xiaomi-4AG-4.1.7.7z" />
+# Xiaomi Mi Router 4A Gigabit Edition v1 <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Xiaomi-4AG.7z" />
 
 ::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
