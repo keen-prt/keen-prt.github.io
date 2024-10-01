@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   head: [
-    ['link', { rel: 'icon', href: '/assets/images/favicon.svg' }],
+    ['link', { rel: 'icon', href: '/assets/images/logo.png' }],
     // ['meta', { property: 'og:title', content: 'Keenetic Ported Wiki' }],
     // ['meta', { property: 'og:image', content: '/assets/images/seo.png' }],
     // ['meta', { property: 'og:type', content: 'website' }],
