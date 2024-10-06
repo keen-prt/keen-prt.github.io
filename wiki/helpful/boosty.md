@@ -5,14 +5,15 @@
 
 ::: tip На данный момент в чате доступны:
 
-• 4.2 Beta 3 SmartBox Giga
+• **4.2 Beta 3 для SmartBox Giga**
 
-• 4.2 Beta 3 SmartBox Flash
+• **4.2 Beta 3 для SmartBox Flash**
 
-• 4.2 Beta 3 MTC WG430223
+• **4.2 Beta 3 для MTC WG430223**
 :::
 
-::: danger Netis N6/AX6S/AX3000T распространяются отдельно и в подписку не входят!
+::: danger Внимание
+**Netis N6, AX6S и AX3000T распространяются отдельно и в подписку не входят!**
 :::
 
 ## Оформление

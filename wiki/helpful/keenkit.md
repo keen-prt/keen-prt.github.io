@@ -33,4 +33,4 @@ opkg update && opkg install curl && curl -L -s "https://raw.githubusercontent.co
 
 ## Запуск
 
-Запускать через ввод команды `keenkit, KeenKit или /opt/keenkit.sh`
+Через ввод команды `keenkit, KeenKit или /opt/keenkit.sh`

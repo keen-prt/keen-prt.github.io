@@ -46,7 +46,7 @@ cat /proc/mtd
 dev:    size   erasesize  name
 mtd0: 10000000 00020000 "u-boot"
 ```
-Запоминаем название mtd0 раздела, он будет `u-boot` или `Bootloader` <br/> Используем его в последней команде
+Запоминаем название `mtd0` раздела, он будет `u-boot` или `Bootloader` <br/> Используем его в последней команде
 
 ```shell
 opkg update
