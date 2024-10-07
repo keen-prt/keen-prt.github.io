@@ -1,4 +1,4 @@
-# Установка Entware <YezBadge type="keenetic" text="Mipsel" url="/assets/files/firmware/WiFire-S1500.zip" /> <YezBadge type="keenetic" text="Arch" url="/assets/files/firmware/WiFire-S1500.zip" />
+# Установка Entware <YezBadge type="keenetic" text="Mipsel" url="/assets/files/Mipsel_Offline_2024.tar.gz" /> <YezBadge type="keenetic" text="Arch" url="/assets/files/Arch_Offline_2024.tar.gz" />
 [Официальная инструкция Keenetic](https://help.keenetic.com/hc/ru/articles/360021888880-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-OPKG-Entware-%D0%BD%D0%B0-%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%83%D1%8E-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%B0)
 ::: warning
 **Mipsel - устройства на MT7628/MT7621**
