@@ -6,7 +6,7 @@
 **Arch - устройства на MT7622/MT7981**
 :::
 ## Установка
-### Способ #1 <Badge type="keenetic" text="Автоматический, рекомендуемый" />
+### Способ #1 <Badge type="keenetic" text="Автоматическая, online" />
 :::: tip
 Начиная с KeeneticOS 4.2 Beta 4 появилась возможность установки в одну команду через CLI [`192.168.1.1/a`](http://192.168.10.1/a)
 ::::
@@ -24,7 +24,7 @@ opkg disk storage:/ https://bin.entware.net/mipselsf-k3.4/installer/mipsel-insta
 opkg disk storage:/ https://bin.entware.net/aarch64-k3.10/installer/aarch64-installer.tar.gz
 ````
 
-### Способ #2 <Badge type="keenetic" text="Ручной" />
+### Способ #2 <Badge type="keenetic" text="Ручная, offline" />
 1. В разделе `Приложения` раскрыть `Встроенное хранилище`
 
    ![альтернативный текст](/assets/images/wiki/helpful/entware/1.png)
