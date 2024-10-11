@@ -5,11 +5,15 @@
 
 ::: tip На данный момент в чате доступны:
 
-• **4.2 Beta 3 для SmartBox Giga**
+• **4.2.1 для SmartBox Giga**
 
-• **4.2 Beta 3 для SmartBox Flash**
+• **4.2.1 для SmartBox Flash**
 
-• **4.2 Beta 3 для MTC WG430223**
+• **4.2.1 для MTC WG430223**
+
+• **4.2.1 для TP-Link EC330**
+
+• **4.2.1 для Xiaomi Mi Router 4**
 :::
 
 ::: danger Внимание
