@@ -175,3 +175,7 @@ h1 .VPBadge {
 #yandex_rtb_R-A-11653208-2 {
   margin-top: 30px;
 }
+
+.aside-container {
+  width: 500px !important;
+}
