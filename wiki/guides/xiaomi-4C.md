@@ -50,3 +50,11 @@
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system1-4c.png)
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system2-4c.jpg)
+
+## Установленные компоненты
+
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4c1.png)
+
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4c2.png)
+
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4c3.png)
