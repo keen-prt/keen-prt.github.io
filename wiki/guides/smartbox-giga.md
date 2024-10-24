@@ -1,4 +1,4 @@
-# SmartBox Giga <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/SmartBox-Giga.7z" />
+# SmartBox Giga <YezBadgeWithDropdown type="keenetic" text="4.2.1" url="/assets/files/firmware/SmartBox-Giga-4.2.1.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/SmartBox-Giga-4.1.7.7z' }]"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий

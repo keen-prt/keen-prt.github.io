@@ -1,4 +1,4 @@
-# TP-Link EC330-G5u <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/TP-Link-EC330.7z" />
+# TP-Link EC330-G5u <YezBadgeWithDropdown type="keenetic" text="4.2.1" url="/assets/files/firmware/TP-Link-EC330-4.2.1.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/TP-Link-EC330-4.1.7.7z' }]"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий

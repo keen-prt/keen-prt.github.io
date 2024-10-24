@@ -1,4 +1,4 @@
-# Xiaomi Mi Router 4 <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Xiaomi-4.7z" />
+# Xiaomi Mi Router 4 <YezBadgeWithDropdown type="keenetic" text="4.2.1" url="/assets/files/firmware/TP-Link-EC330-4.2.1.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/TP-Link-EC330-4.1.7.7z' }]"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
