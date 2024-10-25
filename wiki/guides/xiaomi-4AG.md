@@ -1,4 +1,4 @@
-# Xiaomi Mi Router 4A Gigabit Edition v1 <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Xiaomi-4AG.7z" />
+# Xiaomi Mi Router 4A Gigabit Edition v1 <YezBadge type="keenetic" text="4.2.1" url="/assets/files/firmware/Xiaomi-4AGv1.7z" />
 
 ::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
@@ -28,6 +28,10 @@
 | **Светодиоды**           | ✅                                        |
 | **Совместимость в Mesh** | ✅ С оригинальными устройствами и клонами |
 
+## Обновление прошивки
+
+Для обновления воспользуйтесь способом для [SPI памяти](/wiki/helpful/updateFirmware#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb)
+
 ## Установка
 
 1. Сбросить настройки роутера, пройти первоначальную настройку и установить пароль `12345678`
@@ -50,3 +54,9 @@
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system1-4ag.jpg)
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system2-4ag.jpg)
+
+## Установленные компоненты
+
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4AG-1.png)
+
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4AG-2.png)
