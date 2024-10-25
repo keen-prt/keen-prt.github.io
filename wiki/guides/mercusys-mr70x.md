@@ -36,7 +36,7 @@
 
 1. Установить Breed по инструкции [zbancam](https://4pda.to/forum/index.php?showtopic=1013969&st=920#entry114456336) или любым другим известным способом
 2. Распаковать архив, выбрать прошивку исходя из объема вашей памяти
-3. Если уже стоял Keenetic, снимите в Breed бэкап вашего EEPROM
+3. Cнимите в Breed бэкап вашего EEPROM
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/backup.png)
 4. Во втором пункте во второй вкладке выбираем прошивку сняв последние 2 галочки и подтвердить загрузку
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png)
