@@ -1,6 +1,6 @@
 # BreedEnter <YezBadge type="keenetic" text="" url="/assets/files/BreedEnter.rar" />
 
-### Программа прерывает запуск системы и загружает загрузчик
+### Программа для прерывания запуска системы
 
 ## Как пользоваться<br/>
 
@@ -16,3 +16,7 @@
 ::: tip Дождитесь уведомления в программе. Если его нет, попробуйте снова
 :::
 ![альтернативный текст](/assets/images/wiki/helpful/faq/breedsuccess.png)
+
+5. Открыть в браузере [192.168.1.1](http://192.168.1.1)
+
+![альтернативный текст](/assets/images/wiki/helpful/breed/main.png)
