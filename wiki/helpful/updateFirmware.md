@@ -4,7 +4,9 @@
 
 ### Способ #1 <Badge type="keenetic" text="Автоматический, рекомендуемый" />
 
-• Используем [KeenKit](/wiki/helpful/keenkit.md) с функцией `OTA Update`
+• Используйте [KeenKit](/wiki/helpful/keenkit.md) с функцией `Обновить прошивку из файла` или `OTA Update`
+
+![альтернативный текст](/assets/images/wiki/helpful/keenkit/update-firmware.png){width=500px height=100px}
 
 ### Способ #2 <Badge type="keenetic" text="Ручной" />
 
