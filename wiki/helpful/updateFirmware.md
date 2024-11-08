@@ -12,7 +12,7 @@
 
 1. Поместите файл обновления на встроенный/внешний накопитель с установленной [Entware](/wiki/helpful/entware)
 2. Через `Telnet/SSH` попасть в Entware
-3. Введите команду для получения информации о разделах Firmware_1/Firmware_2
+3. Введите команду для получения информации о разделах `Firmware_1` и `Firmware_2`
 
 ```shell
 cat /proc/mtd
@@ -26,7 +26,7 @@ dd if=/opt/firmware.bin of=/dev/mtdblock13
 reboot
 ```
 
-::: info Где 3/13 разделы `Firmware_1/Firmware_2` полученные в 3 шаге, а `/opt/firmware.sh` путь до файла помещённого в 1 шаге
+::: info Где 3/13 разделы `Firmware_1` и `Firmware_2` полученные в 3 шаге, а `/opt/firmware.sh` путь до файла помещённого в 1 шаге
 :::
 ![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/manualUpdate.png)
 
@@ -37,7 +37,7 @@ reboot
 :::
 
 1. Загрузиться в Breed
-2. Запускаем Putty, заходим по TelNet `192.168.1.1 port 23` и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
+2. Запустить Putty, заходим по TelNet `192.168.1.1 port 23` и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
 3. Размещаем прошивку в `HFS.exe`, например `firmware.bin`
 ::: danger ВНИМАНИЕ
