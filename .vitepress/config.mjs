@@ -93,6 +93,7 @@ export default defineConfig({
                             {text: "SmartBox Flash", link: "/wiki/guides/smartbox-flash"},
                             {text: "SmartBox Giga", link: "/wiki/guides/smartbox-giga"},
                             {text: "Xiaomi 4", link: "/wiki/guides/xiaomi-4"},
+                            {text: "Xiaomi R3Gv1", link: "/wiki/guides/xiaomi-R3Gv1"},
                         ],
                     },
                     {
