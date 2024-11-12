@@ -5,10 +5,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/assets/images/logo.png' }],
-    // ['meta', { property: 'og:title', content: 'Keenetic Ported Wiki' }],
-    // ['meta', { property: 'og:image', content: '/assets/images/seo.png' }],
-    // ['meta', { property: 'og:type', content: 'website' }],
-    // ['meta', { property: 'og:site_name', content: 'Keenetic Ported Wiki' }],
+    ['meta', { property: 'og:title', content: 'Keenetic Ported Wiki' }],
+    ['meta', { property: 'og:image', content: '/assets/images/seo.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'Keenetic Ported Wiki' }],
     ['script', { async: true, src: `https://www.googletagmanager.com/gtag/js?id=G-GDED2LP6Y9` }],
     [
       'script',
