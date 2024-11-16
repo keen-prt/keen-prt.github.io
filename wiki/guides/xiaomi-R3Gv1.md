@@ -1,4 +1,4 @@
-# Xiaomi Mi Router 3G v1  <YezBadgeWithDropdown type="keenetic" text="4.2.3" url="/assets/files/firmware/Xiaomi-R3Gv1-4.2.3.7z" :versions="[{ text: '4.2.2', url: '/assets/files/firmware/Xiaomi-R3Gv1-4.2.2.7z' }]"/>
+# Xiaomi Router 3G v1  <YezBadgeWithDropdown type="keenetic" text="4.2.3" url="/assets/files/firmware/Xiaomi-R3Gv1-4.2.3.7z" :versions="[{ text: '4.2.2', url: '/assets/files/firmware/Xiaomi-R3Gv1-4.2.2.7z' }]"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
