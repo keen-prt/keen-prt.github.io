@@ -44,7 +44,7 @@ export default {
                     "blockId": "R-A-11653208-1",
                     "renderTo": "yandex_rtb_R-A-11653208-1"
                 })
-            })
+            });
           `
 
           groupDivs[0].insertAdjacentElement('afterend', adDiv1)
@@ -73,7 +73,7 @@ export default {
                     "blockId": "R-A-11653208-2",
                     "renderTo": "yandex_rtb_R-A-11653208-2"
                 })
-            })
+            });
           `
 
           contentDiv.insertAdjacentElement('afterend', adDiv2)
@@ -85,19 +85,51 @@ export default {
       } else {
         console.log('VPDocAsideOutline not found')
       }
+
+      if (window.location.hash) {
+        const decodedHash = decodeURIComponent(window.location.hash)
+        setTimeout(() => {
+          const element = document.querySelector(decodedHash)
+          if (element) {
+            const headerHeight = document.querySelector('header')?.offsetHeight || 80
+            const elementPosition = element.getBoundingClientRect().top + window.scrollY - headerHeight
+
+            window.scrollTo({ top: elementPosition, behavior: 'smooth' })
+          }
+        }, 100)
+      }
     })
+
     const initZoom = () => {
       mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' })
       mediumZoom('.main img', {
         background: 'var(--vp-c-bg)'
       })
     }
+
     onMounted(() => {
       initZoom()
     })
+
     watch(
       () => route.path,
-      () => nextTick(() => initZoom())
+      () =>
+        nextTick(() => {
+          initZoom()
+
+          if (window.location.hash) {
+            const decodedHash = decodeURIComponent(window.location.hash)
+            setTimeout(() => {
+              const element = document.querySelector(decodedHash)
+              if (element) {
+                const headerHeight = document.querySelector('header')?.offsetHeight || 80
+                const elementPosition = element.getBoundingClientRect().top + window.scrollY - headerHeight
+
+                window.scrollTo({ top: elementPosition, behavior: 'smooth' })
+              }
+            }, 100)
+          }
+        })
     )
   },
   extends: DefaultTheme,

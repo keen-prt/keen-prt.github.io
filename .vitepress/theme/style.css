@@ -180,6 +180,13 @@ h1 .VPBadge {
   width: 350px !important;
 }
 
+:target::before {
+  content: '';
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+}
+
 .VPSidebar {
   scrollbar-width: thin;
   scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
