@@ -16,7 +16,7 @@
 | **Ethernet**      | 10/100/1000 Mbps x5 (1x WAN, 4x LAN) |
 | **USB**           | 1x 2.0, 1x 3.0                       |
 | **WLAN Hardware** | 2x MediaTek MT7615N                  |
-| **WLAN 5.0GHz**   | AX, 160MHz, 2x2, 2402MB/s, 256QAM    |
+| **WLAN 5.0GHz**   | AC, 80MHz, 4x4, 1733MB/s, 256QAM     |
 | **WLAN 2.4GHz**   | N, 40MHz, 4x4, 800MB/s, 256QAM       |
 
 ## Особенности сборки
