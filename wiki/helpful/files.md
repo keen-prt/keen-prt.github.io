@@ -1,3 +1,3 @@
 # Сборник файлов
 
-1. [**Full Breed oob**](/assets/files/Full_Breed_oob.zip) для восстановления SPI-NAND через программатор на MT7621
+1. [**Full Breed oob 7621**](/assets/files/breed/Full_Breed_oob.zip) для восстановления NAND через программатор на MT7621

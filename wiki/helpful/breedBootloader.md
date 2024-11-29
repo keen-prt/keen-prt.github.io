@@ -5,6 +5,7 @@
 Все версии загрузчика доступны на ресурсе его автора, [HackPascal](https://breed.hackpascal.net/)
 
 ![альтернативный текст](/assets/images/wiki/helpful/breed/main.png)
+
 ## Какую версию выбрать
 
 Для устройств с флэш-накопителем NAND и CPU MT7621 `breed-mt7621-xiaomi-r3g.bin`
@@ -19,14 +20,14 @@
 
 Так же есть модифицированные версии загрузчика, предназначенные для конкретных устройств:
 
-| Роутер                          | Ссылка на загрузчик             |
-|---------------------------------|---------------------------------|
-| **SmartBox Giga**               | [Скачать](https://vk.cc/czhVZL) |
-| **SmartBox Flash/MTS WG430223** | [Скачать](https://vk.cc/czhVXy) |
-| **SmartBox Pro/WiFire S1500**   | [Скачать](https://vk.cc/czhW31) |
-| **SmartBox Turbo+**             | [Скачать](https://vk.cc/czhW5P) |
-| **Xiaomi Mi Router 4**          | [Скачать](https://vk.cc/czhW8Z) |
-| **TP-Link EC330-G5u**           | [Скачать](https://vk.cc/czhVz4) |
+| Роутер                          | Ссылка на загрузчик                                            |
+|---------------------------------|----------------------------------------------------------------|
+| **SmartBox Giga**               | [Скачать](/assets/files/breed/Breed(r1416)-Giga.bin)           |
+| **SmartBox Flash/MTS WG430223** | [Скачать](/assets/files/breed/Breed(r1416)-Flash-WG430223.bin) |
+| **SmartBox Pro/WiFire S1500**   | [Скачать](/assets/files/breed/Breed(r1416)-SBPro-S1500.bin)    |
+| **SmartBox Turbo+**             | [Скачать](/assets/files/breed/Breed(r1416)-Turbo+.bin)         |
+| **Xiaomi Mi Router 3Gv1/4**     | [Скачать](/assets/files/breed/Breed(r1416)-Xiaomi-3G-4.bin)    |
+| **TP-Link EC330-G5u**           | [Скачать](/assets/files/breed/Breed(r1416)-EC330.bin)          |
 
 В наших модифицированных загрузчиках выполненных в содружестве со [zbancam](https://4pda.to/forum/index.php?showuser=9098171), сделаны следующие патчи:<br/>
 • Кнопка Reset настроена на вход в загрузчик удержанием при включении<br/>
@@ -57,12 +58,15 @@
 ````shell
 wget http://192.168.1.2/bootloader.bin
 ````
+
 ````shell
 flash erase 0x0 0x80000
 ````
+
 ````shell
 flash write 0x0 0x80001000 0x80000
 ````
+
 ````shell
 reset
 ````
@@ -76,7 +80,6 @@ reset
 ### Способ #2
 
 - Запустить [BreedEnter](/wiki/helpful/breedenter.md) -> нажать одну единственную кнопку -> включить роутер в розетку предварительно подключив LAN в ПК -> программа выдаст сообщение -> открыть `192.168.1.1`
-
 
 ## Система не загружается дальше загрузчика Breed
 

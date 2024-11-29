@@ -22,7 +22,13 @@ cat /proc/mtd
 
 ```shell
 dd if=/opt/firmware.bin of=/dev/mtdblock3
+```
+
+```shell
 dd if=/opt/firmware.bin of=/dev/mtdblock13
+```
+
+```shell
 reboot
 ```
 
@@ -44,18 +50,28 @@ reboot
    Если ваш роутер имеет Flash накопитель на 256MB (это SmartBox Pro) <br>вместо `0x4140000` используйте `0x8140000`
 :::
 
+::: details Вводим поочередно команды 
 ```shell
 flash erase 0x180000 0x1AB3F00
+```
+```shell
 flash erase 0x4140000 0x1AB3F00
-
+```
+```shell
 wget http://192.168.1.2/firmware.bin
+```
+```shell
 flash write 0x180000 0x80001000 0x1AB3F00
-flash write 0x4140000 0x80001000 0x1AB3F00 
-
+```
+```shell
+flash write 0x4140000 0x80001000 0x1AB3F00
+```
+```shell
 reset
 ```
+:::
 
-![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/breedInstall.png)
+![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/breedInstall.png){width=500px height=100px}
 
 ## Для SPI памяти (до 32MB)
 

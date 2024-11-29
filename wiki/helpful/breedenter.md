@@ -1,4 +1,4 @@
-# BreedEnter <YezBadge type="keenetic" text="" url="/assets/files/BreedEnter.rar" />
+# BreedEnter <YezBadge type="keenetic" text="" url="/assets/files/breed/BreedEnter.rar" />
 
 ### Программа для прерывания запуска системы
 
