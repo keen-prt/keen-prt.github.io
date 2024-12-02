@@ -1,7 +1,7 @@
 # Mercusys MR70X v1 <YezBadge type="keenetic" text="4.2.1" url="/assets/files/firmware/Mercusys-MR70X.7z" />
 
-::: warning **Статус устройства: EoL**
-**End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
+::: warning **Статус устройства - EoD**
+**End of Development** — обновление системы возможно только при наличии свободного времени и желания
 :::
 
 ![альтернативный текст](/assets/images/wiki/guides/Mercusys/main.png){width=400px height=100px}

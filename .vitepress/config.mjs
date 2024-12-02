@@ -39,11 +39,12 @@ export default defineConfig({
   },
 
   themeConfig: {
-      lastUpdated: {
-          text: 'Последнее изменение',
-          formatOptions: {
-              dateStyle: 'medium'
-          }},
+    lastUpdated: {
+      text: 'Последнее изменение',
+      formatOptions: {
+        dateStyle: 'medium'
+      }
+    },
     lang: {
       copy: 'Скопировано!', // Текст после копирования
       copied: 'Скопировано!' // Текст, отображаемый после успешного копирования
@@ -74,67 +75,67 @@ export default defineConfig({
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Wiki', link: '/wiki' },
-        { text: 'Telegram', link: 'https://t.me/keen_prt' }
+      { text: 'Telegram', link: 'https://t.me/keen_prt' }
     ],
 
-        sidebar: [
-            {
-                text: "Прошивки",
-                collapsed: false,
-                items: [
-                    {
-                        text: "Active",
-                        items: [
-                            {text: "🚀 Xiaomi AX3000T", link: "/wiki/guides/ax3000t"},
-                            {text: "⭐️ Xiaomi Redmi AX6S", link: "/wiki/guides/ax6s"},
-                            {text: "📡 Netis N6 AX1800", link: "/wiki/guides/NetisN6"},
-                            {text: "TP-Link EC330-G5u", link: "/wiki/guides/TP-Link-EC330-G5u"},
-                            {text: "МТС WG430223", link: "/wiki/guides/mtc-wg430223"},
-                            {text: "SmartBox Flash", link: "/wiki/guides/smartbox-flash"},
-                            {text: "SmartBox Giga", link: "/wiki/guides/smartbox-giga"},
-                            {text: "Xiaomi 4", link: "/wiki/guides/xiaomi-4"},
-                            {text: "Xiaomi R3Gv1", link: "/wiki/guides/xiaomi-R3Gv1"},
-                        ],
-                    },
-                    {
-                        text: "End of Life",
-                        items: [
-                            {text: "TP-Link Archer C6U", link: "/wiki/guides/archerc6u"},
-                            {text: "SmartBox Pro", link: "/wiki/guides/smartbox-pro"},
-                            {text: "SmartBox Turbo+", link: "/wiki/guides/smartbox-turbo+"},
-                            {text: "WiFire S1500.NBN", link: "/wiki/guides/wifire-s1500"},
-                            {text: "Xiaomi 4AG", link: "/wiki/guides/xiaomi-4AG"},
-                            {text: "Xiaomi 4Av2", link: "/wiki/guides/xiaomi-4AGv2"},
-                            {text: "Xiaomi 4C", link: "/wiki/guides/xiaomi-4C"},
-                            {text: "Mercusys MR70X", link: "/wiki/guides/mercusys-mr70x"},
-                            {text: "Linksys EA7XXX", link: "/wiki/guides/linksys"},
-                        ]
-                    },
-                ],
-            },
-            {
-                text: "Полезное",
-                collapsed: false,
-                items: [
-                    {
-                        items: [
-                            {text: "🛠️ Ранние сборки", link: "/wiki/helpful/boosty"},
-                            {text: "📦 Установка Entware", link: "/wiki/helpful/entware"},
-                            {text: "❓ FAQ", link: "/wiki/helpful/faq"},
-                            {text: "🔄 Обновление Keenetic", link: "/wiki/helpful/updateFirmware"},
-                            {text: "⚙️ Загрузчик Breed", link: "/wiki/helpful/breedBootloader"},
-                            {text: "🧰 KeenKit", link: "/wiki/helpful/keenkit"},
-                            {text: "🌐 Настройка Mesh", link: "/wiki/helpful/mesh"},
-                            {text: "💻 Онлайн-сервис для EEPROM", link: "https://yeezyio.github.io/"},
-                            {text: "📊 Тесты покрытия", link: "/wiki/helpful/wifitests"},
-                            {text: "🧩 BreedEnter", link: "/wiki/helpful/breedenter"},
-                            {text: "🗂️ Сборник файлов", link: "/wiki/helpful/files"},
-                            // {text: "Откат на сток", link: "/wiki/helpful/revertFirmware"},
-                        ],
-                    },
-                ],
-            },
-        ],
+    sidebar: [
+      {
+        text: 'Прошивки',
+        collapsed: false,
+        items: [
+          {
+            text: 'Active',
+            items: [
+              { text: '🚀 Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
+              { text: '⭐️ Xiaomi Redmi AX6S', link: '/wiki/guides/ax6s' },
+              { text: '📡 Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
+              { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
+              { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' },
+              { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },
+              { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
+              { text: 'Xiaomi 4', link: '/wiki/guides/xiaomi-4' },
+              { text: 'Xiaomi R3Gv1', link: '/wiki/guides/xiaomi-R3Gv1' }
+            ]
+          },
+          {
+            text: 'EoL / EoD',
+            items: [
+              { text: 'TP-Link Archer C6U', link: '/wiki/guides/archerc6u' },
+              { text: 'Mercusys MR70X', link: '/wiki/guides/mercusys-mr70x' },
+              { text: 'SmartBox Pro', link: '/wiki/guides/smartbox-pro' },
+              { text: 'SmartBox Turbo+', link: '/wiki/guides/smartbox-turbo+' },
+              { text: 'WiFire S1500.NBN', link: '/wiki/guides/wifire-s1500' },
+              { text: 'Xiaomi 4AG', link: '/wiki/guides/xiaomi-4AG' },
+              { text: 'Xiaomi 4Av2', link: '/wiki/guides/xiaomi-4AGv2' },
+              { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' },
+              { text: 'Linksys EA7XXX', link: '/wiki/guides/linksys' }
+            ]
+          }
+        ]
+      },
+      {
+        text: 'Полезное',
+        collapsed: false,
+        items: [
+          {
+            items: [
+              { text: '🛠️ Ранние сборки', link: '/wiki/helpful/boosty' },
+              { text: '📦 Установка Entware', link: '/wiki/helpful/entware' },
+              { text: '❓ FAQ', link: '/wiki/helpful/faq' },
+              { text: '🔄 Обновление Keenetic', link: '/wiki/helpful/updateFirmware' },
+              { text: '⚙️ Загрузчик Breed', link: '/wiki/helpful/breedBootloader' },
+              { text: "🔙 Откат прошивки", link: "/wiki/helpful/revertFirmware"},
+              { text: '🧰 KeenKit', link: '/wiki/helpful/keenkit' },
+              { text: '🌐 Настройка Mesh', link: '/wiki/helpful/mesh' },
+              { text: '💻 Онлайн-сервис для EEPROM', link: 'https://yeezyio.github.io/' },
+              { text: '📊 Тесты покрытия', link: '/wiki/helpful/wifitests' },
+              { text: '🧩 BreedEnter', link: '/wiki/helpful/breedenter' },
+              { text: '🗂️ Сборник файлов', link: '/wiki/helpful/files' }
+            ]
+          }
+        ]
+      }
+    ],
 
     socialLinks: [
       {
