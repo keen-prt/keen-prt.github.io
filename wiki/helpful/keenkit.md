@@ -20,17 +20,13 @@
 ## Установка
 
 1. Установить [**`Entware`**](/wiki/helpful/entware)
-2. Через `SSH` попасть в Entware
-3. Прописать следущие команды:
-
-```shell
-exec sh
-```
+2. Подключиться к роутеру через [`SSH`](/wiki/helpful/entware#ssh)
+3. Ввести команду
 
 ```shell
 opkg update && opkg install curl && curl -L -s "https://raw.githubusercontent.com/spatiumstas/KeenKit/main/install.sh" > /tmp/install.sh && sh /tmp/install.sh
 ```
 
-## Запуск
+## Запуск скрипта
 
-Через ввод команды `keenkit, KeenKit или /opt/keenkit.sh`
+Через ввод команды `keenkit`, `KeenKit` или `/opt/keenkit.sh`
