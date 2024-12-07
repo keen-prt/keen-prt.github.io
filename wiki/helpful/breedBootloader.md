@@ -38,6 +38,16 @@
 Модифицированные загрузчики уже содержаться в архивах с портированными прошивками
 :::
 
+## Как зайти в загрузчик
+
+### Способ #1
+
+- Зажать Reset и подать питание на роутер. Спустя 5-8 секунд зайти на `192.168.1.1` с устройства, подключённого в LAN порт роутера
+
+### Способ #2
+
+- Запустить [BreedEnter](/wiki/helpful/breedenter.md) -> нажать одну единственную кнопку -> включить роутер в розетку предварительно подключив LAN в ПК -> программа выдаст сообщение -> открыть `192.168.1.1`
+
 ## Как обновить загрузчик
 
 ::: danger ВНИМАНИЕ
@@ -69,41 +79,4 @@ flash write 0x0 0x80001000 0x80000
 
 ````shell
 reset
-````
-
-## Как зайти в загрузчик Breed?
-
-### Способ #1
-
-- Зажать Reset и подать питание на роутер. Спустя 5-8 секунд зайти на `192.168.1.1` с устройства, подключённого в LAN порт роутера
-
-### Способ #2
-
-- Запустить [BreedEnter](/wiki/helpful/breedenter.md) -> нажать одну единственную кнопку -> включить роутер в розетку предварительно подключив LAN в ПК -> программа выдаст сообщение -> открыть `192.168.1.1`
-
-## Система не загружается дальше загрузчика Breed
-
-Через `TelNet` введите команду
-
-````shell
-abstatus
-````
-
-• `Autoboot command has been successfully executed / Firmware boot failed.`<br/>
-Прошивка загружена некорректно, для решения воспользуйтесь [3 способом](/wiki/helpful/updateFirmware#способ-3) если у вас NAND память<br/>
-
-• `Autoboot was interrupted by button press.`<br/>
-Кнопка Reset была зажата при включении. Если кнопка не нажималась, выполните откат на другую версию Breed, или версию для другого устройства
-
-````shell
-Boot and Recovery Environment for Embedded Devices
-Copyright (C) 2021 HackPascal <hackpascal@gmail.com>
-Build date 2021-12-16 [git-839fb85]
-Version 1.1 (r1338)
-
-Starting breed built-in shell
-
-breed> abstatus
-abstatus
-Autoboot command has been successfully executed / Firmware boot failed.
 ````

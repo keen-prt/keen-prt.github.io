@@ -45,3 +45,50 @@ system configuration save
 ## 6. Можно обновлять официальной прошивкой?
 
 - Нет, после самостоятельного обновления прошивка может перезаписать загрузчик. Для восстановления понадобится UART или программатор
+
+## 7. Система не загружается дальше загрузчика Breed
+
+Через `TelNet` введите команду
+
+````shell
+abstatus
+````
+
+а) `Autoboot command has been successfully executed / Firmware boot failed.`<br/>
+Прошивка загружена некорректно, для решения воспользуйтесь [3 способом](/wiki/helpful/updateFirmware#способ-3) если у вас NAND память<br/>
+
+б) `Autoboot was interrupted by button press.`<br/>
+Кнопка Reset была зажата при включении. Если кнопка не нажималась, выполните откат на другую версию Breed, или версию для другого устройства
+
+````shell
+Boot and Recovery Environment for Embedded Devices
+Copyright (C) 2021 HackPascal <hackpascal@gmail.com>
+Build date 2021-12-16 [git-839fb85]
+Version 1.1 (r1338)
+
+Starting breed built-in shell
+
+breed> abstatus
+abstatus
+Autoboot command has been successfully executed / Firmware boot failed.
+````
+в) Если вы уверены что все разделы прошиты корректно, но у вас есть Bad-блоки, попробуйте загрузить систему с другого слота 
+
+Для переключения в первый слот введите команды в `TelNet`:
+
+````shell
+env set autoboot.command "boot flash 0x180000"
+````
+````shell
+env save
+````
+Для переключения во второй слот введите команды в `TelNet`:
+::: danger ВНИМАНИЕ
+Если ваш роутер имеет Flash накопитель на 256MB (это SmartBox Pro) <br>вместо `0x4140000` используйте `0x8140000`
+:::
+````shell
+env set autoboot.command "boot flash 0x4140000"
+````
+````shell
+env save
+````
