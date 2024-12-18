@@ -124,10 +124,11 @@ export default defineConfig({
               { text: '❓ FAQ', link: '/wiki/helpful/faq' },
               { text: '🔄 Обновление Keenetic', link: '/wiki/helpful/updateFirmware' },
               { text: '⚙️ Загрузчик Breed', link: '/wiki/helpful/breedBootloader' },
-              { text: "🔙 Откат прошивки", link: "/wiki/helpful/revertFirmware"},
+              { text: '🔙 Откат прошивки', link: '/wiki/helpful/revertFirmware' },
               { text: '🧰 KeenKit', link: '/wiki/helpful/keenkit' },
               { text: '🌐 Настройка Mesh', link: '/wiki/helpful/mesh' },
               { text: '💻 Онлайн-сервис для EEPROM', link: 'https://yeezyio.github.io/' },
+              { text: '➤ Отправка SMS в Telegram', link: 'https://github.com/spatiumstas/sms2gram' },
               { text: '📊 Тесты покрытия', link: '/wiki/helpful/wifitests' },
               { text: '🧩 BreedEnter', link: '/wiki/helpful/breedenter' },
               { text: '🗂️ Сборник файлов', link: '/wiki/helpful/files' }
