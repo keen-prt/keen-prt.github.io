@@ -1,6 +1,6 @@
 import { h, onMounted, watch, nextTick } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import { useRoute } from 'vitepress'
+import { useRoute, useRouter } from 'vitepress'
 import mediumZoom from 'medium-zoom'
 import './style.css'
 import YezBadge from '../components/YezBadge.vue'
@@ -8,16 +8,29 @@ import Popup from '../components/Popup.vue'
 import EODBadge from '../components/EODBadge.vue'
 import GoodBlock from '../components/GoodBlock.vue'
 import YezBadgeWithDropdown from '../components/YezBadgeWithDropdown.vue'
+import BoostyBadge from '../components/BoostyBadge.vue'
+
+const redirects = {
+  '/wiki/guides/xiaomi-R3Gv1': '/wiki/guides/xiaomi-3Gv1'
+}
 
 /** @type {import('vitepress').Theme} */
 export default {
   setup() {
     const route = useRoute()
+    const router = useRouter()
+
+    const handleRedirects = () => {
+      const redirectPath = redirects[route.path]
+      if (redirectPath) {
+        router.go(redirectPath)
+      }
+    }
 
     onMounted(() => {
+      handleRedirects()
       console.log('Setup onMounted is working')
 
-      // Добавление первого блока рекламы
       const script1 = document.createElement('script')
       script1.text = 'window.yaContextCb=window.yaContextCb||[]'
       document.head.appendChild(script1)
@@ -27,7 +40,6 @@ export default {
       script2.async = true
       document.head.appendChild(script2)
 
-      // Вставка первого рекламного блока
       const sidebarNav = document.querySelector('#VPSidebarNav')
       if (sidebarNav) {
         console.log('VPSidebarNav found')
@@ -57,7 +69,6 @@ export default {
         console.log('VPSidebarNav not found')
       }
 
-      // Вставка второго рекламного блока
       const docAsideOutline = document.querySelector('.VPDocAsideOutline')
       if (docAsideOutline) {
         console.log('VPDocAsideOutline found')
@@ -113,7 +124,8 @@ export default {
 
     watch(
       () => route.path,
-      () =>
+      () => {
+        handleRedirects()
         nextTick(() => {
           initZoom()
 
@@ -130,19 +142,23 @@ export default {
             }, 100)
           }
         })
+      }
     )
   },
-  extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
+  extends:
+  DefaultTheme,
+  Layout:
+    () => {
+      return h(DefaultTheme.Layout, null, {
+        // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      })
+    },
   enhanceApp({ app, router, siteData }) {
     app.component('YezBadge', YezBadge)
     app.component('Popup', Popup)
     app.component('GoodBlock', GoodBlock)
     app.component('EODBadge', EODBadge)
     app.component('YezBadgeWithDropdown', YezBadgeWithDropdown)
+    app.component('BoostyBadge', BoostyBadge)
   }
 }

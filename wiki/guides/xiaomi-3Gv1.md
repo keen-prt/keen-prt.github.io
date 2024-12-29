@@ -1,10 +1,10 @@
-# Xiaomi Router 3G v1  <YezBadge type="keenetic" text="4.2.4" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.2.3" url="/assets/files/firmware/Xiaomi-R3Gv1-4.2.3.7z"/>
+# Xiaomi Router 3G v1  <BoostyBadge type="keenetic" text="4.2.5" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.2.3" url="/assets/files/firmware/Xiaomi-R3Gv1-4.2.3.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
 :::
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/R3Gv1.jpg)
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/3Gv1.jpg)
 
 ## Характеристики
 
@@ -48,11 +48,11 @@
    ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/install.png)
 
 3. Скрипт сделает бэкап `factory` (он же EEPROM) в папку `installer/data`, а так же перезагрузится в загрузчик Breed
-4. Перейдите в загрузчик Breed ([`как?`](/wiki/helpful/breedBootloader#как-заити-в-загрузчик-breed)) по адресу 192.168.1.1. 
+4. Перейдите в загрузчик Breed ([`как?`](/wiki/helpful/breedBootloader#как-заити-в-загрузчик-breed)) по адресу 192.168.1.1.
 
 Убедитесь что установлена версия `1.2 (ZM.04)`, в противном случае обновите его ([`как?`](/wiki/helpful/breedBootloader#как-обновить-загрузчик)) выбрав файл в
-   папке `Keenetic/Breed(r1416)-Xiaomi-3G-4.bin`
-   ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed_ZM.png)
+папке `Keenetic/Breed(r1416)-Xiaomi-3G-4.bin`
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed_ZM.png)
 5. Сделайте `EEPROM` и `Full` бэкап на случай отката.
    ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed.jpg)
 6. EEPROM полученный из скрипта (`если установка была со стоковой прошивки`) или снятый из Breed (`если Keenetic ранее был установлен`) конвертируем для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) выбрав `Вырезанный EEPROM` с указанием вашего MAC с этикетки. Полученный файл поместите
@@ -97,7 +97,7 @@ reset
 ::: details Примерный вывод консоли
 ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
 :::
-::: details Как убедиться что всё прошилось корректно 
+::: details Как убедиться что всё прошилось корректно
 В разделе `Settings` будут указаны сервисные данные устройства (их наличия достаточно, некоторые поля могут быть с другими значениями)
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed-env.png)
 В разделе `MAC address` будет ваш MAC-адрес с этикетки устройства, или тот, который вы указывали в конвертере (разница может быть в +- 1 символ в конце)

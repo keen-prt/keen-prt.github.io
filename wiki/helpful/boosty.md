@@ -7,9 +7,9 @@
 
 • **4.2.4 для SmartBox Giga**
 
-• **4.2.4 для SmartBox Flash**
+• **4.2.5 для SmartBox Flash**
 
-• **4.2.4 для Xiaomi Router 3Gv1**
+• **4.2.5 для Xiaomi Router 3Gv1**
 :::
 
 ::: danger Внимание
