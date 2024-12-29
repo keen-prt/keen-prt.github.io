@@ -5,9 +5,11 @@
 
 ::: tip В канале доступны:
 
-• **4.2.4 для SmartBox Giga**
+• **4.2.5 для SmartBox Giga**
 
 • **4.2.5 для SmartBox Flash**
+
+• **4.2.5 для MTC WG430223**
 
 • **4.2.5 для Xiaomi Router 3Gv1**
 :::
