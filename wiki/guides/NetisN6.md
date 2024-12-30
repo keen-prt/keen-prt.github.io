@@ -1,4 +1,4 @@
-# Netis N6 AX1800 <Badge type="keenetic" text="4.2.3"/>
+# Netis N6 AX1800 <YezBadge type="keenetic" text="4.2.3" url="/assets/files/firmware/Netis-N6-4.2.3.7z" />
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
@@ -35,43 +35,83 @@
 ## Установка
 
 ::: tip ИНФОРМАЦИЯ
-**• Удалённая установка через AnyDesk на Windows 10/11, стоимость – `400₽`**<br/>
-• Опт от 10шт - `350₽`<br/>
+**• При возникновении проблем с установкой можно воспользоваться удалённой установкой через AnyDesk на Windows 10/11, стоимость – `400₽`. Связаться со [@spatiumstas](https://t.me/spatiumstas)**<br/>
 • Роутер должен быть подключен LAN-LAN в компьютер/ноутбук. Интернет отдельно получен через Wi-Fi/LAN (раздать с телефона или другого роутера)
 :::
-_Просьба не распространять файлы, эта небольшая плата мотивирует портировать новые прошивки и скрипты распространяющиеся на бесплатной основе._
 
-## Подготовка со стоковой прошивки
+## Установка со стоковой прошивки
 
-[Скачать архив](/assets/files/firmware/Netis-N6-Breed.zip)
+1. Установить `FACTORY_N6_OpenWRT.bin` из папки `Установка Breed` поверх стоковой прошивки простым обновлением. 
 
-1. Установить `FACTORY_N6_OpenWRT.bin` из папки `Firmware` поверх стоковой прошивки простым обновлением. **Пароль на вход такой же, какой вы ставили на стоковой прошивке.**
-   ::: warning Если OpenWRT ранее был установлен, [установите](https://openwrt.org/packages/start) пакет предварительно подав интернет.
-   ````shell
-   opkg update
-   opkg install kmod-mtd-rw
-   ````
+      Если OpenWRT стоял ранее, выполните сброс настроек
+
+   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/OpenWRT_install.png)
+
+   ::: warning Если после установки открывается Recovery, установите из него же `2_FACTORY_N6_OpenWRT.bin`
    :::
-
-![альтернативный текст](/assets/images/wiki/guides/NetisN6/OpenWRT_install.png)
 
 2. После запуска OpenWRT запускаем `!Start.bat` **из под Windows 10/11**.
 
-Скрипт сделает бэкап стокового загрузчика, factory раздела (он же mtd2, он же eeprom) в папку `Data`. Установит и выполнит перезагрузку в Breed.
-![альтернативный текст](/assets/images/wiki/guides/NetisN6/script.png)
+   Скрипт сделает бэкап EEPROM в папку `Keenetic`. Установит и выполнит перезагрузку в загрузчик Breed.
+
+   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/script.png)
 
 3. Зайти в загрузчик Breed по адресу **[192.168.1.1](http://192.168.1.1)** и сделать `Full dump` бэкап на случай отката прошивки.
 
-![альтернативный текст](/assets/images/wiki/guides/NetisN6/breed1.jpg)
+   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/breed1.jpg)
 
-4. Прислать [@spatiumstas](https://t.me/spatiumstas) файл `EEPROM_XXXXXX.bin` **полученный из скрипта** для дальнейшей удалённой установки.
+4. В папке с `Keenetic` перетягиваем все `bin` файлы на `HFS.exe`
+   ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
+5. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
+   выполнения предыдущей команды.
+   ::: warning
+   • Предварительно отключите Брандмауэр и Антивирус вашей ОС
+   <br/>• Сообщения **skipped bad blocks** и **Flash erasure failed with -5** после ввода команд являются нормой
+   :::
+   ::: danger ВНИМАНИЕ
+   • Каждая строка это **отдельная команда**. Если она не выполнилась, повторить снова.
+   <br/>• Cравните IP в командах wget ниже с IP указанным в HFS, в загрузчике Breed он всегда начинается на
+   192.168.1.xxx
+   :::
+
+```shell
+flash erase 0x80000 0x7f00000
+
+wget http://192.168.1.2/u-config.bin
+flash write 0x80000 0x80001000 0x80000
+flash write 0x4040000 0x80001000 0x80000
+
+wget http://192.168.1.2/eeprom.bin
+flash write 0x100000 0x80001000 0x40000
+flash write 0x40c0000 0x80001000 0x40000
+
+wget http://192.168.1.2/firmware.bin
+flash write 0x180000 0x80001000 0x1AB3F00
+flash write 0x4140000 0x80001000 0x1AB3F00
+
+wget http://192.168.1.2/u-state.bin
+flash write 0x3fc0000 0x80001000 0x80000
+
+env set autoboot.command "boot flash 0x4140000"
+env save
+reset
+```
+
+::: details Примерный вывод консоли
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
+:::
+::: details Как убедиться что всё прошилось корректно
+В разделе `Settings` будут указаны сервисные данные устройства (их наличия достаточно, некоторые поля могут быть с другими значениями)
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed-env.png)
+В разделе `MAC address` будет ваш MAC-адрес с этикетки устройства, или тот, который вы указывали в конвертере (разница может быть в +- 1 символ в конце)
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed-mac.png)
+:::
+После перезагрузки устройство запустится в Keenetic
+::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
+:::
 
 ## Скриншоты
 
 ![альтернативный текст](/assets/images/wiki/guides/NetisN6/system1.png){width=600px height=100px}
 
 ![альтернативный текст](/assets/images/wiki/guides/NetisN6/system2.png){width=600px height=100px}
-
-![альтернативный текст](/assets/images/wiki/guides/NetisN6/system3.png){width=500px height=100px}
-
-![альтернативный текст](/assets/images/wiki/guides/NetisN6/system4.png){width=500px height=100px}

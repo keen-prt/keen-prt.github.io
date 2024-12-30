@@ -88,7 +88,7 @@ export default defineConfig({
             items: [
               { text: '🚀 Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
               { text: '⭐️ Redmi AX6S', link: '/wiki/guides/ax6s' },
-              { text: '📡 Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
+              { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
               { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
               { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' },
               { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },
