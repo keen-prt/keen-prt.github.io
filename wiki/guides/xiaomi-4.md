@@ -43,12 +43,12 @@
    ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/install.png)
 
 3. Скрипт сделает бэкап `factory` (он же EEPROM) в папку `installer/data`, а так же перезагрузится в загрузчик Breed
-4. Перейдите в загрузчик Breed ([`как?`](/wiki/helpful/breedBootloader#как-заити-в-загрузчик-breed)) по адресу 192.168.1.1. 
+4. Перейдите в загрузчик Breed ([`как?`](/wiki/helpful/breedBootloader#как-заити-в-загрузчик-breed)) по адресу `192.168.1.1`
 
 Убедитесь что установлена версия `1.2 (ZM.04)`, в противном случае обновите его ([`как?`](/wiki/helpful/breedBootloader#как-обновить-загрузчик)) выбрав файл в папке `Keenetic/Breed(r1416)-Xiaomi-3G-4.bin`
    ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed_ZM.png)
-5. Сделайте `EEPROM` и `Full` бэкап на случай отката.
-   ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed.jpg)
+5. Сделайте `Full` бэкап на случай отката прошивки.
+   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/breed1.jpg)
 6. EEPROM полученный из скрипта (`если установка была со стоковой прошивки`) или снятый из Breed (`если Keenetic ранее был установлен`) конвертируем для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) выбрав `Вырезанный EEPROM` с указанием вашего MAC с этикетки. Полученный файл поместите
    в папку с прошивкой
 7. В папке с прошивкой перетягиваем все `bin` файлы (U-Config, U-State, EEPROM, Xiaomi4_xxx) на `!HFS.exe`
