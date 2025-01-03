@@ -32,7 +32,7 @@ export default defineConfig({
     container: {
       tipLabel: 'СОВЕТ',
       warningLabel: 'ПРЕДУПРЕЖДЕНИЕ',
-      dangerLabel: 'ОПАСНОСТЬ',
+      dangerLabel: 'Внимание!',
       infoLabel: 'ИНФОРМАЦИЯ',
       detailsLabel: 'Подробная информация'
     }
@@ -114,12 +114,26 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Внешние ресурсы',
+        collapsed: false,
+        items: [
+          {
+            items: [
+              { text: '💻 Онлайн-сервис для EEPROM', link: 'https://yeezyio.github.io/' },
+              { text: '💬 Отправка SMS в Telegram', link: 'https://github.com/spatiumstas/sms2gram' },
+              { text: '🛡 VPS/VDS/Proxy', link: 'https://aeza.net/?ref=386645' },
+              { text: '📹 Видео с установкой прошивки', link: 'https://www.youtube.com/watch?v=p7mv-V5z1go' }
+            ]
+          }
+        ]
+      },
+      {
         text: 'Полезное',
         collapsed: false,
         items: [
           {
             items: [
-              { text: '🛠️ Ранние сборки', link: '/wiki/helpful/boosty' },
+              { text: '💳 Ранние сборки | Boosty', link: '/wiki/helpful/boosty' },
               { text: '📦 Установка Entware', link: '/wiki/helpful/entware' },
               { text: '❓ FAQ', link: '/wiki/helpful/faq' },
               { text: '🔄 Обновление Keenetic', link: '/wiki/helpful/updateFirmware' },
@@ -127,8 +141,6 @@ export default defineConfig({
               { text: '🔙 Откат прошивки', link: '/wiki/helpful/revertFirmware' },
               { text: '🧰 KeenKit', link: '/wiki/helpful/keenkit' },
               { text: '🌐 Настройка Mesh', link: '/wiki/helpful/mesh' },
-              { text: '💻 Онлайн-сервис для EEPROM', link: 'https://yeezyio.github.io/' },
-              { text: '➤ Отправка SMS в Telegram', link: 'https://github.com/spatiumstas/sms2gram' },
               { text: '📊 Тесты покрытия', link: '/wiki/helpful/wifitests' },
               { text: '🧩 BreedEnter', link: '/wiki/helpful/breedenter' },
               { text: '🗂️ Сборник файлов', link: '/wiki/helpful/files' }
