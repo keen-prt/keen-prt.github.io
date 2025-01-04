@@ -107,6 +107,18 @@ reset
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
 :::
 
+## USB-Mod
+
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-1.jpg){width=400px height=100px}
+
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-2.jpg){width=400px height=100px}
+
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-3.jpg){width=400px height=100px}
+
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-4.jpg){width=400px height=100px}
+
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-5.jpg){width=400px height=100px}
+
 ## Скриншоты
 
 ![альтернативный текст](/assets/images/wiki/guides/NetisN6/system1.png){width=600px height=100px}
