@@ -46,7 +46,7 @@
    ![альтернативный текст](/assets/images/wiki/helpful/faq/breed.png)<br/>
 3. Запустить скрипт `!Start.bat` из папки `Breed`. Скрипт установит загрузчик Breed, сделает бэкап стокового загрузчика и EEPROM в папку Data, создаст полный образ прошивки содержащий ваш EEPROM и индивидуальные сервисные данные и поместит в папку Keenetic
 4. Заходим в загрузчик Breed по адресу 192.168.1.1 и обязательно делаем Full бэкап. В последующем его можно использовать для отката на OpenWRT, процесс отката такой же как установка шагом ниже. `BreedEnter на этом этапе закрываем`
-   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/backup.png){width=600px height=100px}
+   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/breed1.jpg){width=600px height=100px}
 5. Во втором пункте во второй вкладке выбираем прошивку сняв последние 2 галочки и подтвердить загрузку
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png){width=600px height=100px}
 
