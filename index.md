@@ -14,11 +14,8 @@ hero:
       text: Wiki
       link: /wiki
     - theme: alt
-      text: Telegram канал
-      link: https://t.me/keen_prt
-    - theme: alt
       text: Telegram чат
-      link: https://t.me/keen_prt_chat
+      link: https://t.me/keeneticported
     - theme: alt
       text: Поддержать нас на Boosty
       link: https://boosty.to/keen_prt
@@ -26,9 +23,9 @@ hero:
       text: Онлайн-сервис EEPROM
       link: https://yeezyio.github.io/
 
-#features:
-#  - title: 🚀 Быстрый старт
-#    details: "Начните с изучения основ и быстрого освоения основных функций прошивок Keenetic."
+features:
+  - title: 🚀 Новый чат
+    details: "t.me/KeeneticPorted"
 #  - title: 📚 Полная документация
 #    details: "Подробные руководства и пошаговые инструкции по каждому аспекту работы с прошивкой."
 #  - title: 💬 Сообщество
