@@ -159,6 +159,59 @@ h1 .VPBadge {
   background-color: var(--vp-sidebar-bg-color) !important;
   color: var(--vp-c-text-1) !important;
 }
+#popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный */
+  z-index: 999; /* Позади окна, но выше основного контента */
+  display: none;
+}
+/* Стиль для всплывающего окна */
+#popup {
+  position: fixed;
+  max-width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--vp-c-bg-alt);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1000;
+  text-align: center;
+  display: none;
+}
+
+#popup button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#popup button:hover {
+  background: #0056b3;
+}
+
+/* Стиль для сообщения в углу */
+#corner-message {
+  position: fixed;
+  max-width: 300px;
+  bottom: 20px;
+  right: 20px;
+  background: var(--vp-c-bg-alt);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border-radius: 8px;
+  z-index: 100;
+}
+
 .confirm-button:enabled {
   background-color: var(--vp-c-brand-1) !important;
 }
