@@ -18,7 +18,7 @@ if (typeof window !== 'undefined') {
       popup.id = 'popup';
       popup.classList.add('vp-doc');
       popup.innerHTML = `
-        <p>У нас сменился чат. Обязательно подпишитесь на новый.<br><a href="https://t.me/keeneticported" target="_blank">Перейти в чат</a></p>
+        <p>У нас сменился чат и канал в Telegram. Обязательно подпишитесь на новый.<br><a href="https://t.me/keeneticported" target="_blank">Перейти в чат</a></p>
         <button id="popup-close">Хорошо, подпишусь</button>
       `;
   
@@ -39,7 +39,7 @@ if (typeof window !== 'undefined') {
       message.id = 'corner-message';
       message.classList.add('vp-doc');
       message.innerHTML = `
-        У нас сменился чат. Обязательно подпишитесь на новый.<br>
+        У нас сменился чат и канал в Telegram. Обязательно подпишитесь на новый.<br>
         <a href="https://t.me/keeneticported" target="_blank">Перейти в чат</a>
       `;
       document.body.appendChild(message);
