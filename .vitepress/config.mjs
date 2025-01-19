@@ -30,10 +30,10 @@ export default defineConfig({
   description: 'Портированная прошивка на Ваш роутер',
   markdown: {
     container: {
-      tipLabel: 'СОВЕТ',
+      tipLabel: 'Совет',
       warningLabel: 'ПРЕДУПРЕЖДЕНИЕ',
       dangerLabel: 'Внимание!',
-      infoLabel: 'ИНФОРМАЦИЯ',
+      infoLabel: 'Информация',
       detailsLabel: 'Подробная информация'
     }
   },

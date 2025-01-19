@@ -55,6 +55,9 @@
 
 4. В папке с `Keenetic` перетягиваем все `bin` файлы на `HFS.exe`
    ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
+   ::: tip Для минимизации проблем с установкой, рекомендуется выставить на сетевой карте IP адрес для роутера 192.168.1.2
+   ![альтернативный текст](/assets/images/wiki/helpful/breed/networkStatic.png)
+   :::
 5. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
    ::: warning
@@ -67,7 +70,8 @@
    192.168.1.xxx
    :::
    ::: tip ИНФОРМАЦИЯ
-   **• При возникновении проблем с прошивкой можно воспользоваться удалённой установкой через AnyDesk на Windows 10/11, стоимость – `500₽`. Отправить EEPROM_XXX.bin [@spatiumstas](https://t.me/spatiumstas)**<br/>
+   **• При возникновении проблем с прошивкой можно воспользоваться удалённой установкой через AnyDesk на Windows 10/11, стоимость – `500₽`. 
+   Выполнить первые 3 шага и отправить EEPROM_XXX.bin [@spatiumstas](https://t.me/spatiumstas)**<br/>
    • Роутер должен быть подключен LAN-LAN в компьютер/ноутбук. Интернет отдельно получен через Wi-Fi/LAN (раздать с телефона или другого роутера)
    :::
 
@@ -108,6 +112,9 @@ reset
 :::
 
 ## USB-Mod
+::: info
+Mod нужен для перезагрузки USB-модема по питанию, [подробнее](https://help.keenetic.com/hc/ru/articles/115000041605-%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D1%82%D1%8C-%D0%BF%D0%BE-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8E-USB-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BC-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA-Keenetic-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0)
+:::
 
 ![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-1.jpg){width=400px height=100px}
 

@@ -46,6 +46,9 @@
 6. Скачать архив, распаковать, добавить в папку полученный EEPROM из предыдущего шага.
 7. В папке перетягиваем все `bin` файлы на `HFS.exe`
    ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
+   ::: tip Для минимизации проблем с установкой, рекомендуется выставить на сетевой карте IP адрес для роутера 192.168.1.2
+   ![альтернативный текст](/assets/images/wiki/helpful/breed/networkStatic.png)
+   :::
 8. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
    ::: warning
@@ -97,7 +100,9 @@ reset
 :::
 
 ## USB-Mod
-
+::: info
+Mod нужен для перезагрузки USB-модема по питанию, [подробнее](https://help.keenetic.com/hc/ru/articles/115000041605-%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D1%82%D1%8C-%D0%BF%D0%BE-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8E-USB-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BC-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA-Keenetic-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0)
+:::
 ::: tip Убираем R153, от U12 подпаять проводок до пятака R43.
 :::
 ![альтернативный текст](/assets/images/wiki/helpful/usb-mod/giga-usb1.png){width=400px height=100px}
