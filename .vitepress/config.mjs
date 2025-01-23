@@ -89,26 +89,26 @@ export default defineConfig({
               { text: '🚀 Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
               { text: '⭐️ Redmi AX6S', link: '/wiki/guides/ax6s' },
               { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
-              { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
-              { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' },
               { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
+              { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
+              { text: 'Xiaomi 3Gv1', link: '/wiki/guides/xiaomi-3Gv1' },
               { text: 'Xiaomi 4', link: '/wiki/guides/xiaomi-4' },
-              { text: 'Xiaomi 3Gv1', link: '/wiki/guides/xiaomi-3Gv1' }
+              { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' }
             ]
           },
           {
             text: 'EoL / EoD',
             items: [
-              { text: 'TP-Link Archer C6U', link: '/wiki/guides/archerc6u' },
+              { text: 'Linksys EA7XXX', link: '/wiki/guides/linksys' },
               { text: 'Mercusys MR70X', link: '/wiki/guides/mercusys-mr70x' },
               { text: 'SmartBox Pro', link: '/wiki/guides/smartbox-pro' },
               { text: 'SmartBox Turbo+', link: '/wiki/guides/smartbox-turbo+' },
+              { text: 'TP-Link Archer C6U', link: '/wiki/guides/archerc6u' },
               { text: 'WiFire S1500.NBN', link: '/wiki/guides/wifire-s1500' },
               { text: 'Xiaomi 4AG', link: '/wiki/guides/xiaomi-4AG' },
               { text: 'Xiaomi 4Av2', link: '/wiki/guides/xiaomi-4AGv2' },
-              { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' },
-              { text: 'Linksys EA7XXX', link: '/wiki/guides/linksys' }
+              { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' }
             ]
           }
         ]
