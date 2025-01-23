@@ -4,7 +4,7 @@
 **Active** — ведётся портирование новых версий
 :::
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/xiaomi4.jpg)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/xiaomi4.jpg)
 
 ## Характеристики
 
@@ -32,7 +32,7 @@
 
 ## Обновление прошивки
 
-Для обновления воспользуйтесь любым способом для [NAND памяти](/wiki/helpful/updateFirmware#для-nand-памяти-от-128mb)
+Для обновления воспользуйтесь любым способом для [NAND памяти](/wiki/helpful/updateFirmware.md#для-nand-памяти-от-128mb)
 
 ## Установка со стоковой прошивки
 
@@ -40,21 +40,21 @@
 1. В архиве запустить `!Start.bat` в папке `Установка Breed`
 2. Поочерёдно выбрать пункты 1 -> 2 -> 3 -> 4
 
-   ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/install.png)
+   ![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/install.png)
 
 3. Скрипт сделает бэкап `factory` (он же EEPROM) в папку `installer/data`, а так же перезагрузится в загрузчик Breed
-4. Перейдите в загрузчик Breed ([`как?`](/wiki/helpful/breedBootloader#как-заити-в-загрузчик-breed)) по адресу `192.168.1.1`
+4. Перейдите в загрузчик Breed ([`как?`](/wiki/helpful/breedBootloader.md#как-заити-в-загрузчик-breed)) по адресу `192.168.1.1`
 
-Убедитесь что установлена версия `1.2 (ZM.04)`, в противном случае обновите его ([`как?`](/wiki/helpful/breedBootloader#как-обновить-загрузчик)) выбрав файл в папке `Keenetic/Breed(r1416)-Xiaomi-3G-4.bin`
-   ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed_ZM.png)
+Убедитесь что установлена версия `1.2 (ZM.04)`, в противном случае обновите его ([`как?`](/wiki/helpful/breedBootloader.md#как-обновить-загрузчик)) выбрав файл в папке `Keenetic/Breed(r1416)-Xiaomi-3G-4.bin`
+   ![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/breed_ZM.png)
 5. Сделайте `Full` бэкап на случай отката прошивки.
-   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/breed1.jpg)
+   ![альтернативный текст](/public/assets/images/wiki/guides/NetisN6/breed1.jpg)
 6. EEPROM полученный из скрипта (`если установка была со стоковой прошивки`) или снятый из Breed (`если Keenetic ранее был установлен`) конвертируем для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) выбрав `Вырезанный EEPROM` с указанием вашего MAC с этикетки. Полученный файл поместите в папку с прошивкой
 
 7. В папке с прошивкой перетягиваем все `bin` файлы (U-Config, U-State, EEPROM, Xiaomi4_xxx) на `!HFS.exe`
-   ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
+   ![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
    ::: tip Для минимизации проблем с установкой, рекомендуется выставить на сетевой карте IP адрес для роутера 192.168.1.2
-   ![альтернативный текст](/assets/images/wiki/helpful/breed/networkStatic.png)
+   ![альтернативный текст](/public/assets/images/wiki/helpful/breed/networkStatic.png)
    :::
 8. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
@@ -92,13 +92,13 @@ reset
 ```
 
 ::: details Примерный вывод консоли
-![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
+![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
 :::
 ::: details Как убедиться что всё прошилось корректно
 В разделе `Settings` будут указаны сервисные данные устройства (их наличия достаточно, некоторые поля могут быть с другими значениями)
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed-env.png)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/breed-env.png)
 В разделе `MAC address` будет ваш MAC-адрес с этикетки устройства, или тот, который вы указывали в конвертере (разница может быть в +- 1 символ в конце)
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed-mac.png)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/breed-mac.png)
 :::
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678

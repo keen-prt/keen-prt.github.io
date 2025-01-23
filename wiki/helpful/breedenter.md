@@ -7,7 +7,7 @@
 1. Установить `WinPcap` из архива<br/>
 
 2. Запустить `BreedEnter.exe` от имени администратора и нажать в нём единственную кнопку
-   ![альтернативный текст](/assets/images/wiki/helpful/faq/breed.png)
+   ![альтернативный текст](/public/assets/images/wiki/helpful/faq/breed.png)
 
 3. Подключить роутер проводом к ПК
 
@@ -15,8 +15,8 @@
 
 ::: tip Дождитесь уведомления в программе. Если его нет, попробуйте снова
 :::
-![альтернативный текст](/assets/images/wiki/helpful/faq/breedsuccess.png)
+![альтернативный текст](/public/assets/images/wiki/helpful/faq/breedsuccess.png)
 
 5. Открыть в браузере [192.168.1.1](http://192.168.1.1)
 
-![альтернативный текст](/assets/images/wiki/helpful/breed/main.png)
+![альтернативный текст](/public/assets/images/wiki/helpful/breed/main.png)

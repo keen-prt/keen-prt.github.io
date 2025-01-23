@@ -6,11 +6,11 @@
 
 • Используйте [KeenKit](/wiki/helpful/keenkit.md) с функцией `Обновить прошивку из файла` или `OTA Update`
 
-![альтернативный текст](/assets/images/wiki/helpful/keenkit/update-firmware.png){width=500px height=100px}
+![альтернативный текст](/public/assets/images/wiki/helpful/keenkit/update-firmware.png){width=500px height=100px}
 
 ### Способ #2 <Badge type="keenetic" text="Ручной" />
 
-1. Поместите файл обновления на встроенный/внешний накопитель с установленной [Entware](/wiki/helpful/entware)
+1. Поместите файл обновления на встроенный/внешний накопитель с установленной [Entware](/wiki/helpful/entware.md)
 2. Через `Telnet/SSH` попасть в Entware
 3. Введите команду для получения информации о разделах `Firmware_1` и `Firmware_2`
 
@@ -34,7 +34,7 @@ reboot
 
 ::: info Где 3/13 разделы `Firmware_1` и `Firmware_2` полученные в 3 шаге, а `/opt/firmware.sh` путь до файла помещённого в 1 шаге
 :::
-![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/manualUpdate.png)
+![альтернативный текст](/public/assets/images/wiki/helpful/updateFirmware/manualUpdate.png)
 
 ### Способ #3 <Badge type="keenetic" text="Через Breed" />
 
@@ -71,7 +71,7 @@ reset
 ```
 :::
 
-![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/breedInstall.png){width=500px height=100px}
+![альтернативный текст](/public/assets/images/wiki/helpful/updateFirmware/breedInstall.png){width=500px height=100px}
 
 ## Для SPI памяти (до 32MB)
 
@@ -80,7 +80,7 @@ reset
 1. Загрузиться в Breed
 2. В Upgrade -> Generic -> Firmware выбираем нашу прошивку. Перевод разделов может отличаться от версии Breed
 
-![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/breedSPI.png)
+![альтернативный текст](/public/assets/images/wiki/helpful/updateFirmware/breedSPI.png)
 
 ::: tip ОБРАТИТЕ ВНИМАНИЕ
 Этот пункт используется только для файла прошивки. Не используйте полный дамп флешки

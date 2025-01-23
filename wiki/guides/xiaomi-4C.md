@@ -4,7 +4,7 @@
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/4C.png){width=400px height=100px}
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/4C.png){width=400px height=100px}
 
 ## Характеристики
 
@@ -31,20 +31,20 @@
 
 ## Обновление прошивки
 
-Для обновления воспользуйтесь способом для [SPI памяти](/wiki/helpful/updateFirmware#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb)
+Для обновления воспользуйтесь способом для [SPI памяти](/wiki/helpful/updateFirmware.md#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb)
 
 ## Установка со стоковой прошивки
 
 1. Сбросить настройки роутера, пройти первоначальную настройку и установить пароль `12345678`
 2. Запустите `!Start.bat` и поочерёдно выбираете пункты от 1 до 4. В папке `data` будет бэкап текущей прошивки и eeprom.
-   ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/install-4ag.png)
+   ![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/install-4ag.png)
 3. Полученный `eeprom.bin` модифицируем через [онлайн-сервис](https://yeezyio.github.io/) указав ваш мак-адрес с этикетки. На выходе получим патченный eeprom для работы в Keenetic
 4. Если уже стоял Keenetic, снимите в Breed бэкап вашего `EEPROM`
-   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/backup.png)
+   ![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/backup.png)
 5. Во втором пункте второй вкладки выбираем прошивку из архива `Xiaomi4C_4.1.7.bin` сняв последние 2 галочки и подтвердить загрузку
-   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png)
+   ![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/install.png)
 6. После установки снова заходим в Breed зажатием Reset и восстанавливаем EEPROM снятый в 1 пункте или полученный из онлайн-сервиса.
-   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/eeprom.png)
+   ![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/eeprom.png)
 
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
@@ -52,14 +52,14 @@
 
 ## Скриншоты
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system1-4c.png)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/system1-4c.png)
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system2-4c.jpg)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/system2-4c.jpg)
 
 ## Установленные компоненты
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4c1.png)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/components-4c1.png)
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4c2.png)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/components-4c2.png)
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4c3.png)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/components-4c3.png)

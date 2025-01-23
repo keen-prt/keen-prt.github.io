@@ -4,7 +4,7 @@
 **Active** — ведётся портирование новых версий
 :::
 
-![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/EC330.png){width=500px height=100px}
+![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/EC330.png){width=500px height=100px}
 
 ## Характеристики
 
@@ -35,7 +35,7 @@
 
 ## Обновление прошивки
 
-Для обновления воспользуйтесь любым способом для [NAND памяти](/wiki/helpful/updateFirmware#для-nand-памяти-от-128mb)
+Для обновления воспользуйтесь любым способом для [NAND памяти](/wiki/helpful/updateFirmware.md#для-nand-памяти-от-128mb)
 
 ## Установка
 
@@ -44,7 +44,7 @@
 2. Скачать архив, распаковать, в папке Breed запускаем `!Start.bat`. Скрипт сделает бэкап стокового загрузчика и EEPROM,
    пропатчит EEPROM и U-Config, а так же установит Breed с дальнейшей перезагрузкой
 3. В папке `Keenetic` перетягиваем все `bin` файлы на `HFS.exe`
-   ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
+   ![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
 4. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
    ::: warning
@@ -79,13 +79,13 @@ reset
 ```
 
 ::: details Примерный вывод консоли
-![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
+![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
 :::
 ::: details Как убедиться что всё прошилось корректно
 В разделе `Settings` будут указаны сервисные данные устройства (их наличия достаточно, некоторые поля могут быть с другими значениями)
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed-env.png)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/breed-env.png)
 В разделе `MAC address` будет ваш MAC-адрес с этикетки устройства, или тот, который вы указывали в конвертере (разница может быть в +- 1 символ в конце)
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed-mac.png)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/breed-mac.png)
 :::
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
@@ -95,16 +95,16 @@ reset
 ::: info
 Mod нужен для перезагрузки USB-модема по питанию, [подробнее](https://help.keenetic.com/hc/ru/articles/115000041605-%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D1%82%D1%8C-%D0%BF%D0%BE-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8E-USB-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BC-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA-Keenetic-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0)
 :::
-![альтернативный текст](/assets/images/wiki/helpful/usb-mod/ec330-1.jpg){width=400px height=100px}
+![альтернативный текст](/public/assets/images/wiki/helpful/usb-mod/ec330-1.jpg){width=400px height=100px}
 
-![альтернативный текст](/assets/images/wiki/helpful/usb-mod/ec330-2.jpg){width=400px height=100px}
+![альтернативный текст](/public/assets/images/wiki/helpful/usb-mod/ec330-2.jpg){width=400px height=100px}
 
 ## Скриншоты
 
-![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/system1.png)
+![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/system1.png)
 
-![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/system2.png)
+![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/system2.png)
 
-![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/system3.png)
+![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/system3.png)
 
-![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/system4.png)
+![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/system4.png)

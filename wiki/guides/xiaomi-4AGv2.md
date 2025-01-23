@@ -9,7 +9,7 @@
 [Автор порта](https://4pda.to/forum/index.php?showuser=2155384)
 :::
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/4AGv2.png){width=500px height=100px}
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/4AGv2.png){width=500px height=100px}
 
 ## Характеристики
 
@@ -38,7 +38,7 @@
 
 1. Сбросить настройки роутера, пройти первоначальную настройку и установить пароль `12345678`
 2. Запустите `!Start.exe`, выберите пункт `11`. Следуйте указаниям в окне.
-   ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/install_4agv2.png)
+   ![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/install_4agv2.png)
 3. Выберите пункт `55`, создастся бэкап и установится система
 
    После перезагрузки устройство запустится в Keenetic
@@ -47,6 +47,6 @@
 
 ## Скриншоты
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system1-4ag.jpg)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/system1-4ag.jpg)
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system2-4ag.jpg)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/system2-4ag.jpg)
