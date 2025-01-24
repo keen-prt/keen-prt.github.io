@@ -22,12 +22,12 @@
 
 | Роутер                          | Ссылка на загрузчик                                            |
 |---------------------------------|----------------------------------------------------------------|
-| **SmartBox Giga**               | [Скачать](/public/assets/files/breed/Breed(r1416)-Giga.bin)           |
-| **SmartBox Flash/MTS WG430223** | [Скачать](/public/assets/files/breed/Breed(r1416)-Flash-WG430223.bin) |
-| **SmartBox Pro/WiFire S1500**   | [Скачать](/public/assets/files/breed/Breed(r1416)-SBPro-S1500.bin)    |
-| **SmartBox Turbo+**             | [Скачать](/public/assets/files/breed/Breed(r1416)-Turbo+.bin)         |
-| **Xiaomi Mi Router 3Gv1/4**     | [Скачать](/public/assets/files/breed/Breed(r1416)-Xiaomi-3G-4.bin)    |
-| **TP-Link EC330-G5u**           | [Скачать](/public/assets/files/breed/Breed(r1416)-EC330.bin)          |
+| **SmartBox Giga**               | [Скачать](/assets/files/breed/Breed(r1416)-Giga.bin)           |
+| **SmartBox Flash/MTS WG430223** | [Скачать](/assets/files/breed/Breed(r1416)-Flash-WG430223.bin) |
+| **SmartBox Pro/WiFire S1500**   | [Скачать](/assets/files/breed/Breed(r1416)-SBPro-S1500.bin)    |
+| **SmartBox Turbo+**             | [Скачать](/assets/files/breed/Breed(r1416)-Turbo+.bin)         |
+| **Xiaomi Mi Router 3Gv1/4**     | [Скачать](/assets/files/breed/Breed(r1416)-Xiaomi-3G-4.bin)    |
+| **TP-Link EC330-G5u**           | [Скачать](/assets/files/breed/Breed(r1416)-EC330.bin)          |
 
 В наших модифицированных загрузчиках выполненных в содружестве со [zbancam](https://4pda.to/forum/index.php?showuser=9098171), сделаны следующие патчи:<br/>
 • Кнопка Reset настроена на вход в загрузчик удержанием при включении<br/>
