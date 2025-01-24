@@ -110,3 +110,9 @@ reset
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
 :::
+
+## Скриншоты
+
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/3P-1.png){width=600px height=100px}
+
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/3P-2.png){width=600px height=100px}
