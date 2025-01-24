@@ -58,7 +58,7 @@
 
 6. EEPROM полученный из скрипта (`если установка была со стоковой прошивки`) или снятый из Breed (`если Keenetic ранее был установлен`) конвертируем для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) выбрав `Вырезанный EEPROM` с указанием вашего MAC с этикетки. Полученный файл поместите
    в папку с прошивкой
-7. В папке с прошивкой перетягиваем все `bin` файлы (U-Config, U-State, EEPROM, Xiaomi-R3G_xxx) на `!HFS.exe`
+7. В папке с прошивкой перетягиваем все `bin` файлы (U-Config, U-State, EEPROM, firmware_Xiaomi-R3G_xxx) на `!HFS.exe`
    ![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
    ::: tip Для минимизации проблем с установкой, рекомендуется выставить на сетевой карте IP адрес для роутера 192.168.1.2
    ![альтернативный текст](/public/assets/images/wiki/helpful/breed/networkStatic.png)

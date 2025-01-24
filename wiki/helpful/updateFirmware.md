@@ -46,11 +46,30 @@ reboot
 2. Запустить Putty, заходим по TelNet `192.168.1.1 port 23` и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
 3. Размещаем прошивку в `HFS.exe`, например `firmware.bin`
-::: danger ВНИМАНИЕ
-   Если ваш роутер имеет Flash накопитель на 256MB (это SmartBox Pro) <br>вместо `0x4140000` используйте `0x8140000`
-:::
 
-::: details Вводим поочередно команды 
+::: details Команды для устройств с Flash накопителем 256MB (SmartBox Pro, Xiaomi R3P)
+Вводить поочередно
+```shell
+flash erase 0x180000 0x1AB3F00
+```
+```shell
+flash erase 0x8140000 0x1AB3F00
+```
+```shell
+wget http://192.168.1.2/firmware.bin
+```
+```shell
+flash write 0x180000 0x80001000 0x1AB3F00
+```
+```shell
+flash write 0x8140000 0x80001000 0x1AB3F00
+```
+```shell
+reset
+```
+:::
+::: details Команды для остальных устройств
+Вводить поочередно
 ```shell
 flash erase 0x180000 0x1AB3F00
 ```

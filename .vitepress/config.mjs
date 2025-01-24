@@ -106,6 +106,7 @@ export default defineConfig({
               { text: 'SmartBox Turbo+', link: '/wiki/guides/smartbox-turbo+' },
               { text: 'TP-Link Archer C6U', link: '/wiki/guides/archerc6u' },
               { text: 'WiFire S1500.NBN', link: '/wiki/guides/wifire-s1500' },
+              // { text: 'Xiaomi 3P', link: '/wiki/guides/xiaomi-3P' },
               { text: 'Xiaomi 4AG', link: '/wiki/guides/xiaomi-4AG' },
               { text: 'Xiaomi 4Av2', link: '/wiki/guides/xiaomi-4AGv2' },
               { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' }
