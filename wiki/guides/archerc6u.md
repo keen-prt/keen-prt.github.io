@@ -4,7 +4,7 @@
 **End of Development** — обновление системы возможно только при наличии свободного времени и желания
 :::
 
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-C6U/main.png){width=550px height=100px}
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/main.png){width=550px height=100px}
 
 ## Характеристики
 
@@ -37,18 +37,18 @@
 
 ## Обновление прошивки
 
-Для обновления воспользуйтесь способом для [SPI памяти](/wiki/helpful/updateFirmware.md#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb)
+Для обновления воспользуйтесь способом для [SPI памяти](/wiki/helpful/updateFirmware#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb)
 
 ## Установка со стоковой прошивки
 
 1. Установить OpenWRT из папки `Breed -> Data -> openwrt-23.05.4-tplink_archer-c6u-v1-squashfs-factory.bin`
 2. Запустить `BreedEnter.exe` от имени администратора по пути `Keenetic/BreedEnter` (при получении ошибки установить WinPcap.exe). В китайском интерфейсе нажать всего одну кнопку. Это необходимо для последующего входа в загрузчик
-   ![альтернативный текст](/public/assets/images/wiki/helpful/faq/breed.png)<br/>
+   ![альтернативный текст](/assets/images/wiki/helpful/faq/breed.png)<br/>
 3. Запустить скрипт `!Start.bat` из папки `Breed`. Скрипт установит загрузчик Breed, сделает бэкап стокового загрузчика и EEPROM в папку Data, создаст полный образ прошивки содержащий ваш EEPROM и индивидуальные сервисные данные и поместит в папку Keenetic
 4. Заходим в загрузчик Breed по адресу 192.168.1.1 и обязательно делаем Full бэкап. В последующем его можно использовать для отката на OpenWRT, процесс отката такой же как установка шагом ниже. `BreedEnter на этом этапе закрываем`
-   ![альтернативный текст](/public/assets/images/wiki/guides/NetisN6/breed1.jpg){width=600px height=100px}
+   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/breed1.jpg){width=600px height=100px}
 5. Во втором пункте во второй вкладке выбираем прошивку сняв последние 2 галочки и подтвердить загрузку
-   ![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/install.png){width=600px height=100px}
+   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png){width=600px height=100px}
 
    После перезагрузки устройство запустится в Keenetic
    ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
@@ -56,22 +56,22 @@
 
 ## Скриншоты системы
 
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-C6U/system1.png)
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/system1.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-C6U/system2.png)
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/system2.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-C6U/system3.png)
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/system3.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-C6U/system4.png)
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/system4.png)
 
 ## Установленные компоненты
 
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-C6U/components1.png)
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/components1.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-C6U/components2.png)
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/components2.png)
 
 ## Откат на OpenWRT
 
 • Зайти в Breed, выполнить загрузку `full.bin` снятого в 4 шаге по картинке из 5 шага.
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/install.png){width=600px height=100px}<br/>
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png){width=600px height=100px}<br/>
 • Для возврата стокового загрузчика используйте Breed -> Upgrade -> Generic -> Bootloader указав загрузчик, бэкап которого сделал скрипт

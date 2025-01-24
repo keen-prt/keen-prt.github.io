@@ -4,7 +4,7 @@
 **Active** — ведётся портирование новых версий
 :::
 
-![альтернативный текст](/public/assets/images/wiki/guides/NetisN6/netisn6.png){width=500px height=100px}
+![альтернативный текст](/assets/images/wiki/guides/NetisN6/netisn6.png){width=500px height=100px}
 
 ## Характеристики
 
@@ -38,7 +38,7 @@
 
    Если OpenWRT стоял ранее, выполните сброс настроек
 
-   ![альтернативный текст](/public/assets/images/wiki/guides/NetisN6/OpenWRT_install.png)
+   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/OpenWRT_install.png)
 
    ::: warning Если после установки открывается Recovery, установите из под него `2_FACTORY_N6_OpenWRT.bin`
    :::
@@ -47,16 +47,16 @@
 
    Скрипт сделает бэкап EEPROM в папку `Keenetic`. Установит и выполнит перезагрузку в загрузчик Breed.
 
-   ![альтернативный текст](/public/assets/images/wiki/guides/NetisN6/script.png)
+   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/script.png)
 
 3. Зайти в загрузчик Breed по адресу **[192.168.1.1](http://192.168.1.1)** и сделать `Full dump` бэкап на случай отката прошивки.
 
-   ![альтернативный текст](/public/assets/images/wiki/guides/NetisN6/breed1.jpg)
+   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/breed1.jpg)
 
 4. В папке с `Keenetic` перетягиваем все `bin` файлы на `HFS.exe`
-   ![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
+   ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
    ::: tip Для минимизации проблем с установкой, рекомендуется выставить на сетевой карте IP адрес для роутера 192.168.1.2
-   ![альтернативный текст](/public/assets/images/wiki/helpful/breed/networkStatic.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/breed/networkStatic.png)
    :::
 5. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
@@ -99,13 +99,13 @@ reset
 ```
 
 ::: details Примерный вывод консоли
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
 :::
 ::: details Как убедиться что всё прошилось корректно
 В разделе `Settings` будут указаны сервисные данные устройства (их наличия достаточно, некоторые поля могут быть с другими значениями)
-![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/breed-env.png)
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed-env.png)
 В разделе `MAC address` будет ваш MAC-адрес с этикетки устройства, или тот, который вы указывали в конвертере (разница может быть в +- 1 символ в конце)
-![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/breed-mac.png)
+![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed-mac.png)
 :::
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
@@ -116,18 +116,18 @@ reset
 Mod нужен для перезагрузки USB-модема по питанию, [подробнее](https://help.keenetic.com/hc/ru/articles/115000041605-%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D1%82%D1%8C-%D0%BF%D0%BE-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8E-USB-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BC-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA-Keenetic-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0)
 :::
 
-![альтернативный текст](/public/assets/images/wiki/helpful/usb-mod/netis-1.jpg){width=400px height=100px}
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-1.jpg){width=400px height=100px}
 
-![альтернативный текст](/public/assets/images/wiki/helpful/usb-mod/netis-2.jpg){width=400px height=100px}
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-2.jpg){width=400px height=100px}
 
-![альтернативный текст](/public/assets/images/wiki/helpful/usb-mod/netis-3.jpg){width=400px height=100px}
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-3.jpg){width=400px height=100px}
 
-![альтернативный текст](/public/assets/images/wiki/helpful/usb-mod/netis-4.jpg){width=400px height=100px}
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-4.jpg){width=400px height=100px}
 
-![альтернативный текст](/public/assets/images/wiki/helpful/usb-mod/netis-5.jpg){width=400px height=100px}
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-5.jpg){width=400px height=100px}
 
 ## Скриншоты
 
-![альтернативный текст](/public/assets/images/wiki/guides/NetisN6/system1.png){width=600px height=100px}
+![альтернативный текст](/assets/images/wiki/guides/NetisN6/system1.png){width=600px height=100px}
 
-![альтернативный текст](/public/assets/images/wiki/guides/NetisN6/system2.png){width=600px height=100px}
+![альтернативный текст](/assets/images/wiki/guides/NetisN6/system2.png){width=600px height=100px}

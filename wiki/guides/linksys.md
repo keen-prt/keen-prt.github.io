@@ -4,7 +4,7 @@
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 
-![альтернативный текст](/public/assets/images/wiki/guides/Linksys/main.png){width=400px height=100px}
+![альтернативный текст](/assets/images/wiki/guides/Linksys/main.png){width=400px height=100px}
 
 ## Характеристики
 
@@ -47,12 +47,12 @@ reboot
 ````
 
 5. Перейдите в Breed по адресу 192.168.1.1. и сделайте `Full` бэкап на случай отката на сток
-   ![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/breed.jpg)
+   ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed.jpg)
 
 ## Установка Keenetic
 
 1. Запускаем `HFS`, положив все файлы из архива в него. А также ваши калибровки (EEPROM/factory/mtd2). В них предварительно должны быть записаны правильные мак-адреса с помощью [онлайн-сервиса](https://yeezyio.github.io/)
-   ![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
+   ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
 2. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
    ::: warning
@@ -89,7 +89,7 @@ reset
 ```
 
 ::: details Примерный вывод консоли
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
 :::
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678

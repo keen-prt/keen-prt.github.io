@@ -34,13 +34,13 @@ system configuration save
 
 • Для захвата прошитых устройств лучше использовать кабель. После успешного захвата кабель можно отключить, соединение переключится на Wi-FI
 :::
-При возникновении проблем ознакомьтесь со [статьёй](/wiki/helpful/mesh.md#решение-проблем)
+При возникновении проблем ознакомьтесь со [статьёй](/wiki/helpful/mesh#решение-проблем)
 
 ## 5. После захвата в Mesh ошибка failed to connect: operation timeout
 
 - Это нормально, ретранслятор пытается соединиться с серверами Keenetic, ни на что не влияет.
 
-  ![альтернативный текст](/public/assets/images/wiki/helpful/faq/mesh.png){width=500px height=100px}
+  ![альтернативный текст](/assets/images/wiki/helpful/faq/mesh.png){width=500px height=100px}
 
 ## 6. Можно обновлять официальной прошивкой?
 
@@ -55,7 +55,7 @@ abstatus
 ````
 
 а) `Autoboot command has been successfully executed / Firmware boot failed.`<br/>
-Прошивка загружена некорректно, для решения воспользуйтесь [3 способом](/wiki/helpful/updateFirmware.md#способ-3) если у вас NAND память<br/>
+Прошивка загружена некорректно, для решения воспользуйтесь [3 способом](/wiki/helpful/updateFirmware#способ-3) если у вас NAND память<br/>
 
 б) `Autoboot was interrupted by button press.`<br/>
 Кнопка Reset была зажата при включении. Если кнопка не нажималась, выполните откат на другую версию Breed, или версию для другого устройства

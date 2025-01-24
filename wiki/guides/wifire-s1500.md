@@ -4,7 +4,7 @@
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 
-![альтернативный текст](/public/assets/images/wiki/guides/SmartBox/s1500.png)
+![альтернативный текст](/assets/images/wiki/guides/SmartBox/s1500.png)
 
 ## Характеристики
 
@@ -32,7 +32,7 @@
 
 ## Обновление прошивки
 
-Для обновления воспользуйтесь любым способом для [NAND памяти](/wiki/helpful/updateFirmware.md#для-nand-памяти-от-128mb)
+Для обновления воспользуйтесь любым способом для [NAND памяти](/wiki/helpful/updateFirmware#для-nand-памяти-от-128mb)
 
 ## Установка
 
@@ -65,7 +65,7 @@ reboot
 
 6. Обновляем Breed (bootloader.bin) на тот что лежит в архиве. Upgrade -> bootloader -> automatic reboot. В дальнейшем попасть в него можно с зажатой Reset при включении или программой BreedEnter
 7. В папке перетягиваем все.bin файлы на hfs.exe.
-   ![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
+   ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
 8. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
    ::: warning
@@ -102,7 +102,7 @@ reset
 ```
 
 ::: details Примерный вывод консоли
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
 :::
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678

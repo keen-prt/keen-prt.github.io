@@ -4,7 +4,7 @@
 
 Все версии загрузчика доступны на ресурсе его автора, [HackPascal](https://breed.hackpascal.net/)
 
-![альтернативный текст](/public/assets/images/wiki/helpful/breed/main.png)
+![альтернативный текст](/assets/images/wiki/helpful/breed/main.png)
 
 ## Какую версию выбрать
 
@@ -26,7 +26,7 @@
 | **SmartBox Flash/MTS WG430223** | [Скачать](/assets/files/breed/Breed(r1416)-Flash-WG430223.bin) |
 | **SmartBox Pro/WiFire S1500**   | [Скачать](/assets/files/breed/Breed(r1416)-SBPro-S1500.bin)    |
 | **SmartBox Turbo+**             | [Скачать](/assets/files/breed/Breed(r1416)-Turbo+.bin)         |
-| **Xiaomi Mi Router 3P/3Gv1/4**  | [Скачать](/assets/files/breed/Breed(r1416)-Xiaomi-3P-3G-4.bin) |
+| **Xiaomi Mi Router 3Gv1/4**     | [Скачать](/assets/files/breed/Breed(r1416)-Xiaomi-3P-3G-4.bin) |
 | **TP-Link EC330-G5u**           | [Скачать](/assets/files/breed/Breed(r1416)-EC330.bin)          |
 
 В наших модифицированных загрузчиках выполненных в содружестве со [zbancam](https://4pda.to/forum/index.php?showuser=9098171), сделаны следующие патчи:<br/>
@@ -58,11 +58,11 @@
 Способ #1 <Badge type="keenetic" text="Автоматический, рекомендуемый"></Badge><br/>
 
 Перейти в раздел `Upgrade`, выбрать файл загрузчика в `Bootloader` и нажать `Upload`
-![альтернативный текст](/public/assets/images/wiki/helpful/breed/upgrade.png)
+![альтернативный текст](/assets/images/wiki/helpful/breed/upgrade.png)
 
 Способ #2 <Badge type="keenetic" text="Ручной" /><br/>
 ::: danger **Все действия на свой страх и риск**
-Ручная перезапись загрузчика может завершиться неудачно, дальнейшее восстановление возможно только через программатор и [дамп](/wiki/helpful/files.md). Используйте этот способ в крайнем случае
+Ручная перезапись загрузчика может завершиться неудачно, дальнейшее восстановление возможно только через программатор и [дамп](/wiki/helpful/files). Используйте этот способ в крайнем случае
 :::
 
 ````shell

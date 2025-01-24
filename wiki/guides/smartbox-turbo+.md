@@ -4,7 +4,7 @@
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 
-![альтернативный текст](/public/assets/images/wiki/guides/SmartBox/turbo+.png){width=300px height=100px}
+![альтернативный текст](/assets/images/wiki/guides/SmartBox/turbo+.png){width=300px height=100px}
 
 ## Характеристики
 
@@ -31,7 +31,7 @@
 
 ## Обновление прошивки
 
-Для обновления воспользуйтесь любым способом для [NAND памяти](/wiki/helpful/updateFirmware.md#для-nand-памяти-от-128mb)
+Для обновления воспользуйтесь любым способом для [NAND памяти](/wiki/helpful/updateFirmware#для-nand-памяти-от-128mb)
 
 ## Установка
 
@@ -64,9 +64,9 @@ reboot
 ```
 
 6. В папке перетягиваем все `bin` файлы на `HFS.exe`
-   ![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
+   ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
    ::: tip Для минимизации проблем с установкой, рекомендуется выставить на сетевой карте IP адрес для роутера 192.168.1.2
-   ![альтернативный текст](/public/assets/images/wiki/helpful/breed/networkStatic.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/breed/networkStatic.png)
    :::
 7. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
@@ -104,7 +104,7 @@ reset
 ```
 
 ::: details Примерный вывод консоли
-![альтернативный текст](/public/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
+![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
 :::
 После перезагрузки устройство запустится в Keenetic
 ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678

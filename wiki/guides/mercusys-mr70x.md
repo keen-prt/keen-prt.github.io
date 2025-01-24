@@ -4,7 +4,7 @@
 **End of Development** — обновление системы возможно только при наличии свободного времени и желания
 :::
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/main.png){width=400px height=100px}
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/main.png){width=400px height=100px}
 
 ## Характеристики
 
@@ -31,18 +31,18 @@
 
 ## Обновление прошивки
 
-Для обновления воспользуйтесь способом для [SPI памяти](/wiki/helpful/updateFirmware.md#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb)
+Для обновления воспользуйтесь способом для [SPI памяти](/wiki/helpful/updateFirmware#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb)
 
 ## Установка
 
 1. Установить Breed по инструкции [zbancam](https://4pda.to/forum/index.php?showtopic=1013969&st=920#entry114456336) или любым другим известным способом
 2. Распаковать архив, выбрать прошивку исходя из объема вашей памяти
 3. Cнимите в Breed бэкап вашего EEPROM
-   ![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/backup.png)
+   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/backup.png)
 4. Во втором пункте во второй вкладке выбираем прошивку сняв последние 2 галочки и подтвердить загрузку
-   ![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/install.png)
+   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png)
 5. После установки снова заходим в Breed зажатием Reset и восстанавливаем EEPROM снятый в 3 пункте.
-   ![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/eeprom.png)
+   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/eeprom.png)
 
    После перезагрузки устройство запустится в Keenetic
    ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
@@ -50,28 +50,28 @@
 
 ## Скриншоты системы
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/system1.png)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/system1.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/system2.png)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/system2.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/system3.png)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/system3.png)
 
 ## Компоненты для 16MB
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/16-1.png)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/16-1.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/16-2.png)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/16-2.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/16-3.jpg)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/16-3.jpg)
 
 ## Компоненты для 32MB
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/32-1.png)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-1.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/32-2.png)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-2.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/32-3.png)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-3.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/32-4.png)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-4.png)
 
-![альтернативный текст](/public/assets/images/wiki/guides/Mercusys/32-5.jpg)
+![альтернативный текст](/assets/images/wiki/guides/Mercusys/32-5.jpg)

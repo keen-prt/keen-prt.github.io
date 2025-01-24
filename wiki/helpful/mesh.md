@@ -5,35 +5,35 @@
 ## Захват по проводу
 
 1. В меню `Параметры системы` нажмите `"Изменить режим работы"` и установите режим дополнительного интернет-центра `"Усилитель/Ретранслятор"`.
-   ![альтернативный текст](/public/assets/images/wiki/helpful/mesh/repeater01.png){width=500px height=100px}
+   ![альтернативный текст](/assets/images/wiki/helpful/mesh/repeater01.png){width=500px height=100px}
 
-   ![альтернативный текст](/public/assets/images/wiki/helpful/mesh/repeater02.png){width=500px height=100px}
+   ![альтернативный текст](/assets/images/wiki/helpful/mesh/repeater02.png){width=500px height=100px}
 2. Подключите роутер проводом к контроллеру
 3. Нажмите `Захватить`. Перенос настроек может занять до 3-х минут
-   ![альтернативный текст](/public/assets/images/wiki/helpful/mesh/connect.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/mesh/connect.png)
    ::: tip При успешном захвате роутер отобразится в списке, в названии будет его серийный номер, например `Keenetic N6 AX1800 037***462`
    :::
-   ![альтернативный текст](/public/assets/images/wiki/helpful/mesh/mesh.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/mesh/mesh.png)
 
 ## Захват по беспроводному каналу
 1. В меню `"Параметры системы" (Общие настройки)` нажмите `"Изменить режим работы"` и установите режим дополнительного интернет-центра `"Усилитель/Ретранслятор"`.
-   ![альтернативный текст](/public/assets/images/wiki/helpful/mesh/repeater01.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/mesh/repeater01.png)
 
-   ![альтернативный текст](/public/assets/images/wiki/helpful/mesh/repeater02.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/mesh/repeater02.png)
 2. После перевода подключитесь к роутеру по проводу или беспроводному подключению. Веб-интерфейс будет доступен по адресу `192.168.1.3`. Для проводного подключения понадобится выставить IP на сетевой карте.
 3. В разделе `Беспроводное подключение` выполните подключение к беспроводной точке контроллера
-   ![альтернативный текст](/public/assets/images/wiki/helpful/mesh/wisp.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/mesh/wisp.png)
 4. На контроллере выполните захват. Перенос настроек может занять до 3-х минут
-   ![альтернативный текст](/public/assets/images/wiki/helpful/mesh/connect.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/mesh/connect.png)
    ::: tip При успешном захвате роутер отобразится в списке, в названии будет его серийный номер, например `Keenetic N6 AX1800 037***462`
    :::
-   ![альтернативный текст](/public/assets/images/wiki/helpful/mesh/mesh.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/mesh/mesh.png)
 ## Решение проблем
 
 ### 1. Не захватывается
 
 Убедитесь что у захватываемых устройств разный серийный номер, он отображается на главной странице в блоке `О системе`
-![альтернативный текст](/public/assets/images/wiki/helpful/mesh/servicenumber.png){width=800px height=100px}
+![альтернативный текст](/assets/images/wiki/helpful/mesh/servicenumber.png){width=800px height=100px}
 
 Если он одинаковый, используйте [**`ServiceDataGenerator`**](https://github.com/spatiumstas/ServiceDataGenerator/archive/refs/heads/main.zip) или [KeenKit](/wiki/helpful/keenkit.md) с использованием функционала `Заменить сервисные данные`
 ::: tip Использование ServiceDataGenerator:
@@ -50,7 +50,7 @@
 Включите `Беспроводную транспортную сеть` у контроллера
 <br/>
 
-![альтернативный текст](/public/assets/images/wiki/helpful/mesh/wireless.png){width=800px height=100px}
+![альтернативный текст](/assets/images/wiki/helpful/mesh/wireless.png){width=800px height=100px}
 <br/>
 
 ### 3. Ошибка Mws::Controller::Candidate: "xx:xx:xx:xx:xx:xx": invalid CSR response
