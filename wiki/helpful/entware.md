@@ -10,7 +10,7 @@
 :::: tip
 Начиная с KeeneticOS 4.2 появилась возможность установки в одну команду через CLI [`192.168.1.1/a`](http://192.168.1.1/a)
 ::::
-![альтернативный текст](/public/assets/images/wiki/helpful/entware/rci.png)
+![альтернативный текст](/assets/images/wiki/helpful/entware/rci.png)
 1. Ввести команду для установки:
 
 Для архитектуры `Mipsel`
@@ -27,28 +27,28 @@ opkg disk storage:/ https://bin.entware.net/aarch64-k3.10/installer/aarch64-inst
 
 2. Дождаться окончания установки в Журнале
 
-![альтернативный текст](/public/assets/images/wiki/helpful/entware/done_install.png)
+![альтернативный текст](/assets/images/wiki/helpful/entware/done_install.png)
 
 ### Способ #2 <Badge type="keenetic" text="Ручной, offline" />
 1. В разделе `Приложения` раскрыть `Встроенное хранилище`
 
-   ![альтернативный текст](/public/assets/images/wiki/helpful/entware/1.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/entware/1.png)
 
 2. Создать папку с названием `install`
 
-   ![альтернативный текст](/public/assets/images/wiki/helpful/entware/2.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/entware/2.png)
 
 3. Внутрь папки поместить нужный архив
 
-   ![альтернативный текст](/public/assets/images/wiki/helpful/entware/3.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/entware/3.png)
 
 4. В разделе `OPKG` в накопителе выбрать `Встроенное хранилище` и сохранить
 
-   ![альтернативный текст](/public/assets/images/wiki/helpful/entware/4.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/entware/4.png)
 
 5. На накопителе развернётся `Entware`
 
-   ![альтернативный текст](/public/assets/images/wiki/helpful/entware/5.png)
+   ![альтернативный текст](/assets/images/wiki/helpful/entware/5.png)
 
 ## SSH
 
@@ -90,7 +90,7 @@ exec /opt/etc/init.d/S51dropbear restart
 exec sh
 ```
 
-![альтернативный текст](/public/assets/images/wiki/helpful/entware/7.png)
+![альтернативный текст](/assets/images/wiki/helpful/entware/7.png)
 
 ## Обновление
 Репозиториев
@@ -102,7 +102,7 @@ opkg update
 opkg upgrade
 ```
 
-![альтернативный текст](/public/assets/images/wiki/helpful/entware/8.png)
+![альтернативный текст](/assets/images/wiki/helpful/entware/8.png)
 
 ## Форматирование накопителя
 
@@ -123,4 +123,4 @@ erase storage:
 system mount storage:
 ```
 
-![альтернативный текст](/public/assets/images/wiki/helpful/entware/6.png)
+![альтернативный текст](/assets/images/wiki/helpful/entware/6.png)

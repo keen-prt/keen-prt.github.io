@@ -1,7 +1,7 @@
 # KeenKit
 
 **Многофункциональный скрипт,** упрощающий взаимодействие с роутером
-![альтернативный текст](/public/assets/images/wiki/helpful/keenkit/main.png){width=700px height=100px}
+![альтернативный текст](/assets/images/wiki/helpful/keenkit/main.png){width=700px height=100px}
 
 ::: details Возможности скрипта
 • **Обновить прошивку из файла** <br/>Ищет файл с расширением .bin на встроенном/внешнем накопителе с последующей установкой на разделы Firmware или Firmware_1/Firmware_2.
