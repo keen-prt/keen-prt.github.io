@@ -26,7 +26,7 @@
 | **SmartBox Flash/MTS WG430223** | [Скачать](/assets/files/breed/Breed(r1416)-Flash-WG430223.bin) |
 | **SmartBox Pro/WiFire S1500**   | [Скачать](/assets/files/breed/Breed(r1416)-SBPro-S1500.bin)    |
 | **SmartBox Turbo+**             | [Скачать](/assets/files/breed/Breed(r1416)-Turbo+.bin)         |
-| **Xiaomi Mi Router 3Gv1/4**     | [Скачать](/assets/files/breed/Breed(r1416)-Xiaomi-3P-3G-4.bin) |
+| **Xiaomi Mi Router 3P/3Gv1/4**  | [Скачать](/assets/files/breed/Breed(r1416)-Xiaomi-3P-3G-4.bin) |
 | **TP-Link EC330-G5u**           | [Скачать](/assets/files/breed/Breed(r1416)-EC330.bin)          |
 
 В наших модифицированных загрузчиках выполненных в содружестве со [zbancam](https://4pda.to/forum/index.php?showuser=9098171), сделаны следующие патчи:<br/>
@@ -46,7 +46,7 @@
 
 ### Способ #2
 
-- Запустить [BreedEnter](/wiki/helpful/breedenter.md) -> нажать одну единственную кнопку -> включить роутер в розетку предварительно подключив LAN в ПК -> программа выдаст сообщение -> открыть `192.168.1.1`
+- Использовать [BreedEnter](/wiki/helpful/breedenter.md)
 
 ## Как обновить загрузчик
 

@@ -6,7 +6,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/assets/images/logo.png' }],
     ['meta', { property: 'og:title', content: 'Keenetic Ported Wiki' }],
-    ['meta', { property: 'og:image', content: '/assets/images/seo.png' }],
+    // ['meta', { property: 'og:image', content: '/assets/images/seo.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Keenetic Ported Wiki' }],
     ['script', { async: true, src: `https://www.googletagmanager.com/gtag/js?id=G-GDED2LP6Y9` }],
@@ -101,6 +101,7 @@ export default defineConfig({
             text: 'EoL / EoD',
             items: [
               { text: 'Linksys EA7XXX', link: '/wiki/guides/linksys' },
+              { text: 'HLK7621 32/256', link: '/assets/files/firmware/HLK7621_256_32.zip' },
               { text: 'Mercusys MR70X', link: '/wiki/guides/mercusys-mr70x' },
               { text: 'SmartBox Pro', link: '/wiki/guides/smartbox-pro' },
               { text: 'SmartBox Turbo+', link: '/wiki/guides/smartbox-turbo+' },
@@ -109,6 +110,7 @@ export default defineConfig({
               // { text: 'Xiaomi 3P', link: '/wiki/guides/xiaomi-3P' },
               { text: 'Xiaomi 4AG', link: '/wiki/guides/xiaomi-4AG' },
               { text: 'Xiaomi 4Av2', link: '/wiki/guides/xiaomi-4AGv2' },
+              { text: 'Xiaomi 4AC', link: 'https://t.me/keeneticported/2/16' },
               { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' }
             ]
           }
