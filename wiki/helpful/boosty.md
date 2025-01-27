@@ -1,16 +1,20 @@
 # Доступ в канал с ранними версиями
 
-::: tip В канале доступны:
+::: tip В канале доступна 4.2.5 для:
 
-• **4.2.5 для SmartBox Giga**
+• **SmartBox Giga**
 
-• **4.2.5 для SmartBox Flash**
+• **SmartBox Flash**
 
-• **4.2.5 для MTC WG430223**
+• **MTC WG430223**
 
-• **4.2.5 для TP-Link EC330**
+• **Netis N6**
 
-• **4.2.5 для Xiaomi Router 3Gv1**
+• **TP-Link EC330**
+
+• **Xiaomi Router 3Gv1**
+
+• **Xiaomi Router 4**
 :::
 
 ::: danger

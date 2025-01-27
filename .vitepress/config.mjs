@@ -93,7 +93,6 @@ export default defineConfig({
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
               { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
               { text: 'Xiaomi 3Gv1', link: '/wiki/guides/xiaomi-3Gv1' },
-              { text: 'Xiaomi 4', link: '/wiki/guides/xiaomi-4' },
               { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' }
             ]
           },
@@ -107,7 +106,8 @@ export default defineConfig({
               { text: 'SmartBox Turbo+', link: '/wiki/guides/smartbox-turbo+' },
               { text: 'TP-Link Archer C6U', link: '/wiki/guides/archerc6u' },
               { text: 'WiFire S1500.NBN', link: '/wiki/guides/wifire-s1500' },
-              // { text: 'Xiaomi 3P', link: '/wiki/guides/xiaomi-3P' },
+              { text: 'Xiaomi 3P', link: '/wiki/guides/xiaomi-3P' },
+              { text: 'Xiaomi 4', link: '/wiki/guides/xiaomi-4' },
               { text: 'Xiaomi 4AG', link: '/wiki/guides/xiaomi-4AG' },
               { text: 'Xiaomi 4Av2', link: '/wiki/guides/xiaomi-4AGv2' },
               { text: 'Xiaomi 4AC', link: 'https://t.me/keeneticported/2/16' },
