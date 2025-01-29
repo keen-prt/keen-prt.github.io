@@ -83,12 +83,18 @@ env set autoboot.command "boot flash 0x180000"
 env save
 ````
 Для переключения во второй слот введите команды в `TelNet`:
-::: danger ВНИМАНИЕ
-Если ваш роутер имеет Flash накопитель на 256MB (это SmartBox Pro) <br>вместо `0x4140000` используйте `0x8140000`
-:::
 ````shell
 env set autoboot.command "boot flash 0x4140000"
 ````
 ````shell
 env save
 ````
+::: danger
+::: details Для устройств с Flash накопителем 256MB (SmartBox Pro, Xiaomi R3P)
+````shell
+env set autoboot.command "boot flash 0x8140000"
+````
+````shell
+env save
+````
+:::
