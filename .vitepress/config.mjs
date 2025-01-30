@@ -69,7 +69,7 @@ export default defineConfig({
       next: false
     },
     sidebarMenuLabel: 'Меню',
-    logo: '/assets/images/logo-ny.svg',
+    logo: '/assets/images/logo.svg',
     siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
