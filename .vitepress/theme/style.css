@@ -199,11 +199,6 @@ h1 .VPBadge {
   background: #0056b3;
 }
 
-@media (min-width: 960px) {
-  .VPContent[class^="VPContent"] {
-      padding-top: 0;
-  }
-}
 
 /* Стиль для сообщения в углу */
 #corner-message {
