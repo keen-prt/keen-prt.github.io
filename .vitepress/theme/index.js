@@ -120,12 +120,6 @@ export default {
       `
       document.body.appendChild(adScript)
 
-      // Добавляем отступ для контента, чтобы баннер не закрывал его
-      const content = document.querySelector('#app')
-      if (content) {
-        content.style.marginTop = '90px'
-      }
-
       if (window.location.hash) {
         const decodedHash = decodeURIComponent(window.location.hash)
         setTimeout(() => {
