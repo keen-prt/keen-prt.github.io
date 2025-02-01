@@ -98,6 +98,34 @@ export default {
         console.log('VPDocAsideOutline not found')
       }
 
+      // Добавляем фиксированный рекламный блок поверх всего контента
+      const fixedAd = document.createElement('div')
+      fixedAd.id = 'yandex_rtb_R-A-11653208-4'
+      fixedAd.style.position = 'fixed'
+      fixedAd.style.bottom = '0'
+      fixedAd.style.left = '0'
+      fixedAd.style.width = '100%'
+      fixedAd.style.height = '90px'
+      fixedAd.style.zIndex = '10000'
+      document.body.appendChild(fixedAd)
+
+      const adScript = document.createElement('script')
+      adScript.text = `
+        window.yaContextCb.push(() => {
+          Ya.Context.AdvManager.render({
+            "blockId": "R-A-11653208-4",
+            "renderTo": "yandex_rtb_R-A-11653208-4"
+          })
+        })
+      `
+      document.body.appendChild(adScript)
+
+      // Добавляем отступ для контента, чтобы баннер не закрывал его
+      const content = document.querySelector('#app')
+      if (content) {
+        content.style.marginTop = '90px'
+      }
+
       if (window.location.hash) {
         const decodedHash = decodeURIComponent(window.location.hash)
         setTimeout(() => {
