@@ -16,8 +16,8 @@
 | **Ethernet**      | 10/100/1000 Mbps x3 (1x WAN, 2x LAN) |
 | **USB**           | -                                    |
 | **WLAN Hardware** | MediaTek MT7603EN, MediaTek MT7612EN |
-| **WLAN 5.0GHz**   | AC, 80MHz, 2x2, 867MB/s, 256QAM      |
 | **WLAN 2.4GHz**   | N, 40MHz, 2x2, 300MB/s, 64QAM        |
+| **WLAN 5.0GHz**   | AC, 80MHz, 2x2, 867MB/s, 256QAM      |
 
 ## Особенности сборки
 
@@ -47,7 +47,7 @@
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/eeprom.png)
 
    После перезагрузки устройство запустится в Keenetic
-   ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
+   ::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
    :::
 
 ## Скриншоты

@@ -110,8 +110,9 @@ export default defineConfig({
               { text: 'Xiaomi 4', link: '/wiki/guides/xiaomi-4' },
               { text: 'Xiaomi 4AG', link: '/wiki/guides/xiaomi-4AG' },
               { text: 'Xiaomi 4Av2', link: '/wiki/guides/xiaomi-4AGv2' },
-              { text: 'Xiaomi 4AC', link: 'https://t.me/keeneticported/2/16' },
-              { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' }
+              { text: 'Xiaomi 4AC', link: '/wiki/guides/xiaomi-4AC' },
+              { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' },
+              { text: 'Xiaomi Extender', link: '/wiki/guides/xiaomi-extender' },
             ]
           }
         ]

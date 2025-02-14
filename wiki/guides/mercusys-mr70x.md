@@ -45,7 +45,7 @@
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/eeprom.png)
 
    После перезагрузки устройство запустится в Keenetic
-   ::: tip 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
+   ::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
    :::
 
 ## Скриншоты системы
