@@ -48,6 +48,6 @@
 
 ## Установленные компоненты
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4AC-1.png)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/components-4AC-1.png)
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4AC-2.png)
+![альтернативный текст](/public/assets/images/wiki/guides/Xiaomi/components-4AC-2.png)
