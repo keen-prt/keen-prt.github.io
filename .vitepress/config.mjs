@@ -141,12 +141,12 @@ export default defineConfig({
               { text: '📦 Установка Entware', link: '/wiki/helpful/entware' },
               { text: '❓ FAQ', link: '/wiki/helpful/faq' },
               { text: '🔄 Обновление Keenetic', link: '/wiki/helpful/updateFirmware' },
-              { text: '⚙️ Загрузчик Breed', link: '/wiki/helpful/breedBootloader' },
+              { text: '⚙️ KeenBOOT', link: '/wiki/helpful/keenboot' },
+              { text: '🧩 Загрузчик Breed', link: '/wiki/helpful/breedBootloader' },
               { text: '🔙 Откат прошивки', link: '/wiki/helpful/revertFirmware' },
               { text: '🧰 KeenKit', link: '/wiki/helpful/keenkit' },
               { text: '🌐 Настройка Mesh', link: '/wiki/helpful/mesh' },
               { text: '📊 Тесты покрытия', link: '/wiki/helpful/wifitests' },
-              { text: '🧩 BreedEnter', link: '/wiki/helpful/breedenter' },
               { text: '🗂️ Сборник файлов', link: '/wiki/helpful/files' }
             ]
           }
