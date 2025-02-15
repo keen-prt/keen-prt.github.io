@@ -52,9 +52,3 @@
 После перезагрузки устройство запустится в Keenetic.
 ::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
 :::
-
-## Установленные компоненты
-
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4AC-1.png)
-
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4AC-2.png)
