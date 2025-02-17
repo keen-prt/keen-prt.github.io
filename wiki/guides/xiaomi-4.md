@@ -1,7 +1,7 @@
-# Xiaomi Router 4 <BoostyBadge type="keenetic" text="4.2.5" url="/wiki/helpful/boosty"/> <YezBadgeWithDropdown type="keenetic" text="4.2.3" url="/assets/files/firmware/Xiaomi-4-4.2.3.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/Xiaomi-4-4.1.7.7z' }]"/>
+# Xiaomi Router 4 <YezBadgeWithDropdown type="keenetic" text="4.2.5" url="/assets/files/firmware/Xiaomi-4-4.2.5.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/Xiaomi-4-4.1.7.7z' }]"/>
 
 ::: warning **Статус устройства - EoD**
-**End of Development** — обновление системы возможно только при наличии свободного времени и желания
+**End of Development** — обновление системы возможно только при наличии свободного времени и острой необходимости
 :::
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/xiaomi4.jpg)
