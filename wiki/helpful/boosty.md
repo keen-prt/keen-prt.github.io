@@ -4,17 +4,22 @@
 
 • **SmartBox Giga**
 
-• **SmartBox Flash**
-
 • **MTC WG430223**
 
 • **Netis N6**
 
 • **TP-Link EC330**
 
+• **Xiaomi Router 4**
+
+:::
+
+::: tip В канале доступна 4.2.6 для:
+
+• **SmartBox Flash**
+
 • **Xiaomi Router 3Gv1**
 
-• **Xiaomi Router 4**
 :::
 
 ::: danger
