@@ -7,23 +7,24 @@
 ## Скачать
 
 ::: danger
-**Устанавливайте загрузчик только для своей модели**
+**Устанавливайте загрузчик только для своей модели!**
 :::
 
-| Роутер             | Ссылка на загрузчик                                                                                                                |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| **SmartBox Giga**  | [v1.0](/assets/files/keenboot/KeenBOOT-MT7621_SB_Giga_v1.0.bin), [v1.1](/assets/files/keenboot/KeenBOOT-MT7621_SB_Giga_v1.1.bin)   |
-| **SmartBox Flash** | [v1.0](/assets/files/keenboot/KeenBOOT-MT7621_SB_Flash_v1.0.bin), [v1.1](/assets/files/keenboot/KeenBOOT-MT7621_SB_Flash_v1.1.bin) |
-| **Xiaomi R3Gv1**   | [v1.1](/assets/files/keenboot/KeenBOOT-MT7621_Xiaomi_3G_v1.1.bin)                                                                  |
+| Роутер             | Ссылка на загрузчик                                                                                                  |
+|--------------------|----------------------------------------------------------------------------------------------------------------------|
+| **SmartBox Giga**  | [v1.0](/assets/files/keenboot/KeenBOOT-SB_Giga_v1.0.bin), [v1.1](/assets/files/keenboot/KeenBOOT-SB_Giga_v1.1.bin)   |
+| **SmartBox Flash** | [v1.0](/assets/files/keenboot/KeenBOOT-SB_Flash_v1.0.bin), [v1.1](/assets/files/keenboot/KeenBOOT-SB_Flash_v1.1.bin) |
+| **Xiaomi R3Gv1**   | [v1.1](/assets/files/keenboot/KeenBOOT-Xiaomi_3G_v1.1.bin)                                                           |
+| **Xiaomi 4**       | [v1.1](/assets/files/keenboot/KeenBOOT-Xiaomi_4_v1.1.bin)                                                            |
 
 ## Установка
 
 Перейдите в раздел `Upgrade` загрузчика Breed, выберите файл в `Bootloader` и нажмите `Upload`
 ![альтернативный текст](/assets/images/wiki/helpful/breed/upgrade.png)
 
-## Обновление
+## Обновление/Смена
 
-Перейдите в раздел `U-Boot` загрузчика KeenBOOT, выберите файл и нажмите `Загрузить`
+Перейдите в раздел `U-Boot`, выберите файл загрузчика и нажмите `Загрузить`
 ![альтернативный текст](/assets/images/wiki/helpful/keenboot/update.png)
 
 ## Вход в загрузчик
@@ -35,17 +36,14 @@
 
 ## Установка прошивки
 
-::: warning **Внимание**
-**Не используйте браузер Firefox**
+::: warning **Внимание!**
+**Не используйте браузер Firefox!**
 :::
-
-1. Выставить в сетевой карте статический IP - `192.168.1.5`
-2. Перейти в загрузчик по адресу `192.168.1.1`
-3. Выполнить форматирование флеш-накопителя
+1. Выполнить форматирование флеш-накопителя, если необходима чистая установка
 
    ![альтернативный текст](/assets/images/wiki/helpful/keenboot/erase.png)
-4. Поочерёдно загрузить `Firmware`, `EEPROM`, `U-Config` от своей модели. U-State не обязателен
-5. Выполнить перезагрузку
+2. Поочерёдно загрузить `Firmware`, `EEPROM`, `U-Config` от своей модели. U-State не обязателен
+3. Выполнить перезагрузку
 
 ## Функционал загрузчика
 
