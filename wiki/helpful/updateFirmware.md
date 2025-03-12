@@ -21,18 +21,18 @@ cat /proc/mtd
 4. Перезаписываем разделы и перезагружаемся
 
 ```shell
-dd if=/opt/firmware.bin of=/dev/mtdblock3
+dd if=/opt/firmware.bin of=/dev/mtdblock5
 ```
 
 ```shell
-dd if=/opt/firmware.bin of=/dev/mtdblock13
+dd if=/opt/firmware.bin of=/dev/mtdblock12
 ```
 
 ```shell
 reboot
 ```
 
-::: info Где 3/13 разделы `Firmware_1` и `Firmware_2` полученные в 3 шаге, а `/opt/firmware.sh` путь до файла помещённого в 1 шаге
+::: info Где 5/12 разделы `Firmware_1` и `Firmware_2` полученные в 3 шаге, а `/opt/firmware.sh` путь до файла помещённого в 1 шаге
 :::
 ![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/manualUpdate.png)
 

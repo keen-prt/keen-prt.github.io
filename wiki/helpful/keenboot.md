@@ -10,7 +10,7 @@
 **Устанавливайте загрузчик только для своей модели!**
 :::
 
-| Роутер             | Ссылка на загрузчик                                                                                                  |
+| Модель             | Скачать                                                                                                              |
 |--------------------|----------------------------------------------------------------------------------------------------------------------|
 | **SmartBox Giga**  | [v1.0](/assets/files/keenboot/KeenBOOT-SB_Giga_v1.0.bin), [v1.1](/assets/files/keenboot/KeenBOOT-SB_Giga_v1.1.bin)   |
 | **SmartBox Flash** | [v1.0](/assets/files/keenboot/KeenBOOT-SB_Flash_v1.0.bin), [v1.1](/assets/files/keenboot/KeenBOOT-SB_Flash_v1.1.bin) |
@@ -39,6 +39,7 @@
 ::: warning **Внимание!**
 **Не используйте браузер Firefox!**
 :::
+
 1. Выполнить форматирование флеш-накопителя, если необходима чистая установка
 
    ![альтернативный текст](/assets/images/wiki/helpful/keenboot/erase.png)
