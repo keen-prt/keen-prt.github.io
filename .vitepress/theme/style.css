@@ -199,12 +199,10 @@ h1 .VPBadge {
   background: #0056b3;
 }
 
-
-/* Стиль для сообщения в углу */
 #corner-message {
   position: fixed;
   max-width: 300px;
-  bottom: 95px;
+  bottom: 35px;
   right: 20px;
   background: var(--vp-c-bg-alt);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -226,7 +224,7 @@ h1 .VPBadge {
 .medium-zoom-image--opened {
   z-index: 31;
 }
-#yandex_rtb_R-A-11653208-2 {
+#aeza-banner {
   margin-top: 30px;
 }
 
