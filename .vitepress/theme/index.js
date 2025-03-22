@@ -41,7 +41,7 @@ export default {
           bannerDiv.id = 'aeza-banner'
           bannerDiv.innerHTML = `
         <a href="https://aeza.net/?ref=keen-prt" target="_blank">
-          <img src="/public/assets/images/aeza.png" alt="Banner" style="width: 320px; height: 600px;">
+          <img src="/assets/images/aeza.png" alt="Banner" style="width: 320px; height: 600px;">
         </a>
       `
           contentDiv.insertAdjacentElement('afterend', bannerDiv)
