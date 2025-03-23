@@ -28,30 +28,41 @@ export default {
       }
     }
 
-    onMounted(() => {
-      handleRedirects()
-      console.log('Setup onMounted is working')
-
+    const insertBanner = () => {
       const docAsideOutline = document.querySelector('.VPDocAsideOutline')
       if (docAsideOutline) {
         console.log('VPDocAsideOutline found')
         const contentDiv = docAsideOutline.querySelector('.content')
-        if (contentDiv) {
+        if (contentDiv && !document.getElementById('aeza-banner')) {
           const bannerDiv = document.createElement('div')
           bannerDiv.id = 'aeza-banner'
           bannerDiv.innerHTML = `
-        <a href="https://aeza.net/?ref=keen-prt" target="_blank">
-          <img src="/assets/images/aeza.png" alt="Banner" style="width: 320px; height: 600px;">
-        </a>
-      `
+            <a href="https://aeza.net/?ref=keen-prt" target="_blank">
+              <img src="/assets/images/aeza.png" alt="Banner" style="width: 320px; height: 600px;">
+            </a>
+          `
           contentDiv.insertAdjacentElement('afterend', bannerDiv)
           console.log('Banner inserted')
-        } else {
+        } else if (!contentDiv) {
           console.log('Content div not found inside VPDocAsideOutline')
         }
       } else {
         console.log('VPDocAsideOutline not found')
       }
+    }
+
+    const initZoom = () => {
+      mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' })
+      mediumZoom('.main img', {
+        background: 'var(--vp-c-bg)'
+      })
+    }
+
+    onMounted(() => {
+      handleRedirects()
+      insertBanner()
+      initZoom()
+      console.log('Setup onMounted is working')
 
       if (window.location.hash) {
         const decodedHash = decodeURIComponent(window.location.hash)
@@ -66,22 +77,12 @@ export default {
       }
     })
 
-    const initZoom = () => {
-      mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' })
-      mediumZoom('.main img', {
-        background: 'var(--vp-c-bg)'
-      })
-    }
-
-    onMounted(() => {
-      initZoom()
-    })
-
     watch(
       () => route.path,
       () => {
         handleRedirects()
         nextTick(() => {
+          insertBanner()
           initZoom()
           if (window.location.hash) {
             const decodedHash = decodeURIComponent(window.location.hash)
