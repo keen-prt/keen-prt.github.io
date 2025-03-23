@@ -13,7 +13,7 @@
 | **CPU**           | MediaTek MT7628DAN, MIPS, 580 MHz              |
 | **Flash MB**      | 16 SPI                                         |
 | **RAM MB**        | 64                                             |
-| **Ethernet**      | 10/100/100 Mbps x1 (1x WAN)                    |
+| **Ethernet**      | 10/100 Mbps x1 (1x WAN)                        |
 | **USB**           | -                                              |
 | **WLAN Hardware** | MediaTek MT7628DAN, MediaTek MT7612EN/MT7613BE |
 | **WLAN 2.4GHz**   | N, 40MHz, 2x2, 300MB/s, 64QAM                  |

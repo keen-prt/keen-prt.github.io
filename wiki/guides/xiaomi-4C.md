@@ -8,15 +8,15 @@
 
 ## Характеристики
 
-| Особенность       | Описание                            |
-|-------------------|-------------------------------------|
-| **CPU**           | MediaTek MT7628DAN, MIPS, 580 MHz   |
-| **Flash MB**      | 16 SPI                              |
-| **RAM MB**        | 64                                  |
-| **Ethernet**      | 10/100/100 Mbps x3 (1x WAN, 2x LAN) |
-| **USB**           | -                                   |
-| **WLAN Hardware** | MediaTek MT7628DAN                  |
-| **WLAN 2.4GHz**   | N, 40MHz, 2x2, 300MB/s, 64QAM       |
+| Особенность       | Описание                          |
+|-------------------|-----------------------------------|
+| **CPU**           | MediaTek MT7628DAN, MIPS, 580 MHz |
+| **Flash MB**      | 16 SPI                            |
+| **RAM MB**        | 64                                |
+| **Ethernet**      | 10/100 Mbps x3 (1x WAN, 2x LAN)   |
+| **USB**           | -                                 |
+| **WLAN Hardware** | MediaTek MT7628DAN                |
+| **WLAN 2.4GHz**   | N, 40MHz, 2x2, 300MB/s, 64QAM     |
 
 ## Особенности сборки
 
