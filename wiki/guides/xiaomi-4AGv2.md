@@ -1,8 +1,4 @@
-# Xiaomi Router AC1200 (R4Av2/RB02) <YezBadge type="keenetic" text="4.2.1" url="/assets/files/firmware/Xiaomi-4Av2.zip" />
-
-::: warning **Статус устройства: EoL**
-**End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
-:::
+# Xiaomi Router AC1200 (R4Av2/RB02) <YezBadge type="keenetic" text="4.2.6.2" url="https://4pda.to/forum/index.php?showtopic=988197&st=10780#entry119357139" />
 
 ::: danger ВНИМАНИЕ
 **Прошивка подходит только для версии с креплением на стену**<br/>
