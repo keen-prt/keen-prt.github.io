@@ -109,8 +109,8 @@ export default defineConfig({
               { text: 'Xiaomi 3P', link: '/wiki/guides/xiaomi-3P' },
               { text: 'Xiaomi 4', link: '/wiki/guides/xiaomi-4' },
               { text: 'Xiaomi 4AC', link: '/wiki/guides/xiaomi-4AC' },
-              { text: 'Xiaomi 4AG', link: '/wiki/guides/xiaomi-4AG' },
-              { text: 'Xiaomi 4Av2', link: '/wiki/guides/xiaomi-4AGv2' },
+              { text: 'Xiaomi 4AGv1', link: '/wiki/guides/xiaomi-4AG' },
+              { text: 'Xiaomi 4AGv2', link: '/wiki/guides/xiaomi-4AGv2' },
               { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' },
               { text: 'Xiaomi Extender', link: '/wiki/guides/xiaomi-extender' }
             ]
