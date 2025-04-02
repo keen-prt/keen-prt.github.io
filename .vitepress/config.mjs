@@ -91,20 +91,21 @@ export default defineConfig({
               { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
               { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
-              { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
-              { text: 'Xiaomi 3Gv1', link: '/wiki/guides/xiaomi-3Gv1' },
-              { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' }
+              { text: 'Xiaomi 3Gv1', link: '/wiki/guides/xiaomi-3Gv1' }
             ]
           },
           {
             text: 'EoL / EoD',
+            collapsed: true,
             items: [
               { text: 'Linksys EA7XXX', link: '/wiki/guides/linksys' },
               { text: 'HLK7621 32/256', link: '/assets/files/firmware/HLK7621_256_32.zip' },
               { text: 'Mercusys MR70X', link: '/wiki/guides/mercusys-mr70x' },
+              { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' },
               { text: 'SmartBox Pro', link: '/wiki/guides/smartbox-pro' },
               { text: 'SmartBox Turbo+', link: '/wiki/guides/smartbox-turbo+' },
               { text: 'TP-Link Archer C6U', link: '/wiki/guides/archerc6u' },
+              { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
               { text: 'WiFire S1500.NBN', link: '/wiki/guides/wifire-s1500' },
               { text: 'Xiaomi 3P', link: '/wiki/guides/xiaomi-3P' },
               { text: 'Xiaomi 4', link: '/wiki/guides/xiaomi-4' },
@@ -138,12 +139,13 @@ export default defineConfig({
           {
             items: [
               { text: '💳 Ранние сборки | Boosty', link: '/wiki/helpful/boosty' },
+              { text: '🧩 Компоненты', link: '/wiki/helpful/components' },
               { text: '📦 Установка Entware', link: '/wiki/helpful/entware' },
               { text: '❓ FAQ', link: '/wiki/helpful/faq' },
-              { text: '🔄 Обновление Keenetic', link: '/wiki/helpful/updateFirmware' },
+              { text: '🔄 Обновление прошивки', link: '/wiki/helpful/updateFirmware' },
+              { text: '🔙 Откат прошивки', link: '/wiki/helpful/revertFirmware' },
               { text: '⚙️ KeenBOOT', link: '/wiki/helpful/keenboot' },
               { text: '🧩 Загрузчик Breed', link: '/wiki/helpful/breedBootloader' },
-              { text: '🔙 Откат прошивки', link: '/wiki/helpful/revertFirmware' },
               { text: '🧰 KeenKit', link: '/wiki/helpful/keenkit' },
               { text: '🌐 Настройка Mesh', link: '/wiki/helpful/mesh' },
               { text: '📊 Тесты покрытия', link: '/wiki/helpful/wifitests' },

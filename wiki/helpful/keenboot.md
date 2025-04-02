@@ -1,6 +1,6 @@
 # KeenBOOT
 
-Альтернативный загрузчик для KeeneticOS на базе процессора MediaTek 7621
+#### Фирменный загрузчик для KeeneticOS на базе процессора MediaTek 7621
 
 ![альтернативный текст](/assets/images/wiki/helpful/keenboot/main.png)
 
@@ -14,15 +14,16 @@
 |--------------------|----------------------------------------------------------------------------------------------------------------------|
 | **SmartBox Giga**  | [v1.0](/assets/files/keenboot/KeenBOOT-SB_Giga_v1.0.bin), [v1.1](/assets/files/keenboot/KeenBOOT-SB_Giga_v1.1.bin)   |
 | **SmartBox Flash** | [v1.0](/assets/files/keenboot/KeenBOOT-SB_Flash_v1.0.bin), [v1.1](/assets/files/keenboot/KeenBOOT-SB_Flash_v1.1.bin) |
+| **Netis N6**       | [v1.1](/assets/files/keenboot/KeenBOOT-Netis_N6_v1.1.bin)                                                            |
 | **Xiaomi R3Gv1**   | [v1.1](/assets/files/keenboot/KeenBOOT-Xiaomi_3G_v1.1.bin)                                                           |
 | **Xiaomi 4**       | [v1.1](/assets/files/keenboot/KeenBOOT-Xiaomi_4_v1.1.bin)                                                            |
 
-## Установка
+## Переход на загрузчик
 
 Перейдите в раздел `Upgrade` загрузчика Breed, выберите файл в `Bootloader` и нажмите `Upload`
 ![альтернативный текст](/assets/images/wiki/helpful/breed/upgrade.png)
 
-## Обновление/Смена
+## Обновление/Смена загрузчика
 
 Перейдите в раздел `U-Boot`, выберите файл загрузчика и нажмите `Загрузить`
 ![альтернативный текст](/assets/images/wiki/helpful/keenboot/update.png)
