@@ -60,7 +60,7 @@ export default {
 
     onMounted(() => {
       handleRedirects()
-      insertBanner()
+      // insertBanner()
       initZoom()
       console.log('Setup onMounted is working')
 
@@ -82,7 +82,7 @@ export default {
       () => {
         handleRedirects()
         nextTick(() => {
-          insertBanner()
+          // insertBanner()
           initZoom()
           if (window.location.hash) {
             const decodedHash = decodeURIComponent(window.location.hash)

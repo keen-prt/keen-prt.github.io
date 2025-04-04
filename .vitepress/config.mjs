@@ -126,8 +126,8 @@ export default defineConfig({
             items: [
               { text: '💻 Онлайн-сервис для EEPROM', link: 'https://yeezyio.github.io/' },
               { text: '💬 Отправка SMS в Telegram', link: 'https://github.com/spatiumstas/sms2gram' },
-              { text: '🛡 VPS/VDS/Proxy', link: 'https://aeza.net/?ref=keen-prt' },
-              { text: '📹 Видео с установкой прошивки', link: 'https://www.youtube.com/watch?v=p7mv-V5z1go' }
+              // { text: '🛡 VPS/VDS/Proxy', link: 'https://aeza.net/?ref=keen-prt' },
+              { text: '📹 Видеоустановка', link: 'https://www.youtube.com/watch?v=p7mv-V5z1go' }
             ]
           }
         ]
