@@ -50,6 +50,9 @@
 2. Загрузить `Firmware, EEPROM, U-Config` из архива по очереди через веб-интерфейс по [инструкции](/wiki/helpful/keenboot#установка-прошивки) 
 3. Перезагрузиться в систему
 
+::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
+:::
+
 ### Способ #2 <Badge type="keenetic" text="Старый" />
 1. В папке перетягиваем все `bin` файлы на `HFS.exe`
    ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
