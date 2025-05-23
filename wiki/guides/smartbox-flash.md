@@ -1,4 +1,4 @@
-# SmartBox Flash <BoostyBadge type="keenetic" text="4.2.6" url="/wiki/helpful/boosty"/> <YezBadgeWithDropdown type="keenetic" text="4.2.5" url="/assets/files/firmware/SmartBox-Flash-4.2.5.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/SmartBox-Flash-4.1.7.7z' }]"/>
+# SmartBox Flash <BoostyBadge type="keenetic" text="4.3.2" url="/wiki/helpful/boosty"/> <YezBadgeWithDropdown type="keenetic" text="4.2.6" url="/assets/files/firmware/SmartBox-Flash.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/SmartBox-Flash-4.1.7.7z' }]"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
@@ -37,8 +37,10 @@
 
 ## Подготовка со стоковой прошивки
 
-1. Скачать архив, запустить `Start_Flash.bat`
-2. Если текущая прошивка выше 1.00.16, скрипт об этом скажет, в папке data есть `SmartBoxFlash_1.00.13_sign.trx` для отката обычным обновлением через веб-интерфейс. Скрипт так же запишет ваш eeprom в папку `firmware`
+1. Скачать архив, запустить `Start_Flash.bat`. Скрипт сделает бэкап eeprom, а так же установит загрузчик Breed и выполнит перезапуск
+2. После перезагрузки роутера будет доступен загрузчик Breed по адресу `192.168.1.1`
+3. В веб-интерфейсе Breed сохранить `Backup` -> `Full dump` размером 128МБ
+   ![альтернативный текст](/assets/images/wiki/guides/NetisN6/breed1.jpg)
 
 ### Способ #1 <Badge type="keenetic" text="Новый, рекомендуемый" />
 1. Сменить загрузчик на [KeenBOOT](/wiki/helpful/keenboot.md)

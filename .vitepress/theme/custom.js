@@ -1,11 +1,6 @@
 if (typeof window !== 'undefined') {
     // Выполнится только в браузере
     document.addEventListener('DOMContentLoaded', () => {
-      if (!localStorage.getItem('popup-shown')) {
-        showPopup();
-        localStorage.setItem('popup-shown', 'true');
-      }
-
       showCornerMessage();
     });
 
