@@ -53,7 +53,6 @@
 - Прокси-сервер UDP-HTTP (udpxy)
 - Клиент динамической службы DNS (DDNS)
 - Сервер SNMP
-- Captive portal
 - Захват сетевых пакетов
 - Прокси-сервер DNS-over-TLS
 - Прокси-сервер DNS-over-HTTPS

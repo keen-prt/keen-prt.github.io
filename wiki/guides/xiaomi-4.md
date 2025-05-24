@@ -1,7 +1,7 @@
 # Xiaomi Router 4 <YezBadge type="keenetic" text="4.2.5" url="/assets/files/firmware/Xiaomi-4.7z"/>
 
-::: warning **Статус устройства - EoD**
-**End of Development** — обновление системы возможно только при наличии свободного времени и острой необходимости
+::: warning **Статус устройства: EoD**
+**End of Development** — обновление системы возможно только при наличии свободного времени и желания
 :::
 
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/xiaomi4.jpg)

@@ -8,7 +8,14 @@
 
 ![альтернативный текст](/assets/images/wiki/helpful/keenkit/update-firmware.png){width=500px height=100px}
 
-### Способ #2 <Badge type="keenetic" text="Ручной" />
+### Способ #2 <Badge type="keenetic" text="Через KeenBOOT" />
+
+1. Выполнить [вход в загрузчик](/wiki/helpful/keenboot#%D0%B2%D1%85%D0%BE%D0%B4-%D0%B2-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D1%87%D0%B8%D0%BA)
+2. Загрузить обновление поверх через веб-интерфейс
+
+![альтернативный текст](/assets/images/wiki/helpful/keenboot/main.png)
+
+### Способ #3 <Badge type="keenetic" text="Ручной" />
 
 1. Поместите файл обновления на встроенный/внешний накопитель с установленной [Entware](/wiki/helpful/entware)
 2. Через `Telnet/SSH` попасть в Entware
@@ -36,7 +43,7 @@ reboot
 :::
 ![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/manualUpdate.png)
 
-### Способ #3 <Badge type="keenetic" text="Через Breed" />
+### Способ #4 <Badge type="keenetic" text="Через Breed" />
 
 ::: danger ВНИМАНИЕ
 Данный способ при невнимательности может окирпичить роутер, внимательно следуйте командам

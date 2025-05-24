@@ -1,6 +1,6 @@
 # TP-Link EC330-G5u <BoostyBadge type="keenetic" text="4.3.2" url="/wiki/helpful/boosty"/> <YezBadgeWithDropdown type="keenetic" text="4.2.6" url="/assets/files/firmware/TP-Link-EC330.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/TP-Link-EC330-4.1.7.7z' }]"/>
 
-::: warning **Статус устройства - EoD**
+::: warning **Статус устройства: EoD**
 **End of Development** — обновление системы возможно только при наличии свободного времени и острой необходимости
 :::
 
