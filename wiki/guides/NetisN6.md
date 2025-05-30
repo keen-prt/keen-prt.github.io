@@ -1,4 +1,4 @@
-# Netis N6 AX1800 <BoostyBadge type="keenetic" text="4.2.5" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.2.3" url="/assets/files/firmware/Netis-N6-4.2.3.7z" />
+# Netis N6 AX1800 <BoostyBadge type="keenetic" text="4.3.2" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.2.6" url="/assets/files/firmware/Netis-N6.7z" />
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
@@ -90,7 +90,7 @@ wget http://192.168.1.2/EEPROM_XXX.bin
 flash write 0x100000 0x80001000 0x80000
 flash write 0x40c0000 0x80001000 0x80000
 
-wget http://192.168.1.2/Firmware_N6_4.2.3.bin
+wget http://192.168.1.2/Firmware_N6_4.2.6.bin
 flash write 0x180000 0x80001000 0x1AB3F00
 flash write 0x4140000 0x80001000 0x1AB3F00
 

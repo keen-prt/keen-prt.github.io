@@ -10,7 +10,7 @@
 
 • **Xiaomi Router 3Gv1**
 
-• **Netis N6** - 4.2.5
+• **Netis N6**
 :::
 
 ::: danger
