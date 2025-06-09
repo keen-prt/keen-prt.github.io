@@ -1,7 +1,5 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
-
 export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/assets/images/logo.png' }],
@@ -46,8 +44,8 @@ export default defineConfig({
       }
     },
     lang: {
-      copy: 'Скопировано!', // Текст после копирования
-      copied: 'Скопировано!' // Текст, отображаемый после успешного копирования
+      copy: 'Скопировано!',
+      copied: 'Скопировано!'
     },
     outlineTitle: 'На этой странице',
     lightModeSwitchTitle: 'Светлая тема',
@@ -71,7 +69,6 @@ export default defineConfig({
     sidebarMenuLabel: 'Меню',
     logo: '/assets/images/logo.svg',
     siteTitle: false,
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Wiki', link: '/wiki' },
@@ -126,7 +123,7 @@ export default defineConfig({
             items: [
               { text: '💻 Онлайн-сервис для EEPROM', link: 'https://yeezyio.github.io/' },
               { text: '💬 Отправка SMS в Telegram', link: 'https://github.com/spatiumstas/sms2gram' },
-              // { text: '🛡 VPS/VDS/Proxy', link: 'https://aeza.net/?ref=keen-prt' },
+              { text: '🛡 VPS/VDS/Proxy', link: 'https://aeza.net/?ref=386645' },
               { text: '📹 Видеоустановка', link: 'https://www.youtube.com/watch?v=p7mv-V5z1go' }
             ]
           }

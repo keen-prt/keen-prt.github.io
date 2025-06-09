@@ -49,10 +49,6 @@
 
 3. Скрипт сделает бэкап `factory` (он же EEPROM) в папку `installer/data`, а так же перезагрузится в загрузчик Breed
 4. Перейдите в загрузчик Breed ([`как?`](/wiki/helpful/breedBootloader#как-заити-в-загрузчик-breed)) по адресу `192.168.1.1`
-
-   Убедитесь что установлена версия `1.2 (ZM.04)`, если нет - обновите его ([`как?`](/wiki/helpful/breedBootloader#как-обновить-загрузчик)) выбрав файл в папке `Keenetic/Breed(r1416)-Xiaomi-3G-4.bin`
-   ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed_ZM.png)
-
 5. Сделайте `Full` бэкап на случай отката прошивки.
    ![альтернативный текст](/assets/images/wiki/guides/NetisN6/breed1.jpg)
 

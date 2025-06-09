@@ -1,4 +1,4 @@
-# SmartBox Giga <BoostyBadge type="keenetic" text="4.2.6" url="/wiki/helpful/boosty"/> <YezBadgeWithDropdown type="keenetic" text="4.2.5" url="/assets/files/firmware/SmartBox-Giga-4.2.5.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/SmartBox-Giga-4.1.7.7z' }]"/>
+# SmartBox Giga <BoostyBadge type="keenetic" text="4.3.2" url="/wiki/helpful/boosty"/> <YezBadgeWithDropdown type="keenetic" text="4.2.6" url="/assets/files/firmware/SmartBox-Giga.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/SmartBox-Giga-4.1.7.7z' }]"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
