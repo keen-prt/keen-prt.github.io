@@ -37,8 +37,8 @@
 
 1. Устанавливаем [OpenWRT](https://openwrt.org/toh/beeline/smartbox_turbo_plus#oem_easy_installation)
 2. Сохраняем из LuCi (вкладка System - Backup / Flash firmware) раздел `factory`
-3. Полученный файл сконвертировать в валидный eeprom для Keenetic через [онлайн-сервис](https://yeezyio.github.io/) с указанием вашего MAC с этикетки, а так же скопируйте калибровку 5GHz с 0x8000 на 0x0 длиной 3000
-4. Добавить в папку полученный `eeprom.bin`
+3. Полученный файл сконвертировать в валидный EEPROM для Keenetic. [Перемещаем калибровку](https://yeezyio.github.io/EepromMover.html), в полученном файле [меняем мак-адрес](https://yeezyio.github.io/EepromConverter.html) 
+4. Добавить в папку патченный EEPROM
 4. `breed_turbo+.bin` из архива открываем в HFS.exe
 5. По SSH выполняем команды предварительно подключив роутер к интернету:
 
