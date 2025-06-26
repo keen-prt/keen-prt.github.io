@@ -4,4 +4,4 @@
 
 ![альтернативный текст](/assets/images/wiki/helpful/wifi-tests/main.png)
 
-Автор таблицы [Denis Kilm](https://t.me/Eiscal)
+Источник [Lint Electronics](https://t.me/lint_electronics/30)
