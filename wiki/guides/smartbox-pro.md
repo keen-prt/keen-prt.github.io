@@ -57,19 +57,27 @@ mtd0: 10000000 00020000 "u-boot"
 opkg update
 opkg install kmod-mtd-rw
 cd /tmp
-wget http://192.168.1.2/bootloader.bin
+wget http://192.168.1.2/breed.bin
 insmod mtd-rw i_want_a_brick=1
 mtd unlock /dev/mtd1
 mtd write /tmp/breed.bin Bootloader
 reboot
 ```
+### Способ #1 <Badge type="keenetic" text="Новый, рекомендуемый" />
+1. Сменить загрузчик на [KeenBOOT](/wiki/helpful/keenboot.md)
+2. Загрузить `Firmware, EEPROM, U-Config` из архива по очереди через веб-интерфейс по [инструкции](/wiki/helpful/keenboot#установка-прошивки)
+3. Перезагрузиться в систему
 
-6. В папке перетягиваем все `bin` файлы на `HFS.exe`
+::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
+:::
+
+### Способ #2 <Badge type="keenetic" text="Старый" />
+1. В папке перетягиваем все `bin` файлы на `HFS.exe`
    ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
    ::: tip Для минимизации проблем с установкой, рекомендуется выставить на сетевой карте IP адрес для роутера 192.168.1.2
    ![альтернативный текст](/assets/images/wiki/helpful/breed/networkStatic.png)
    :::
-7. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
+2. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
    ::: warning
    • Предварительно отключите Брандмауэр и Антивирус вашей ОС

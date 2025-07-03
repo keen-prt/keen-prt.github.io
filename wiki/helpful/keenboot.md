@@ -10,15 +10,17 @@
 **Устанавливайте загрузчик только для своей модели!**
 :::
 
-| Модель             | Цвет диода                                                                   | Скачать ([список изменений](https://t.me/keeneticported/7905))                                                                                                                                    |
-|--------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SmartBox Giga**  | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴           | [v1.1](/assets/files/keenboot/v1.1/KeenBOOT-SB_Giga_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-SB_Giga_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-SB_Giga_v1.3.1.bin)       |
-| **SmartBox Flash** | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴           | [v1.1](/assets/files/keenboot/v1.1/KeenBOOT-SB_Flash_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-SB_Flash_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-SB_Flash_v1.3.1.bin)    |
-| **MTS WG430223**   | Системный - 🟢<br/>В загрузчике - 🔴 (мигает) <br/>Обновление - 🔴           | [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-MTS_WG430223_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-MTS_WG430223_v1.3.1.bin)                                                            |
-| **Netis N6**       | Системный - Power<br/>В загрузчике - Internet (мигает) <br/>Обновление - WPS | [v1.1](/assets/files/keenboot/v1.1/KeenBOOT-Netis_N6_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Netis_N6_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-Netis_N6_v1.3.1.bin)    |
-| **Xiaomi R3G**     | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [v1.1](/assets/files/keenboot/v1.1/KeenBOOT-Xiaomi_3G_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Xiaomi_3G_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-Xiaomi_3G_v1.3.1.bin) |
-| **Xiaomi R3P**     | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [v1.1](/assets/files/keenboot/v1.1/KeenBOOT-Xiaomi_3P_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Xiaomi_3P_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-Xiaomi_3P_v1.3.1.bin) |
-| **Xiaomi 4**       | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [v1.1](/assets/files/keenboot/v1.1/KeenBOOT-Xiaomi_4_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Xiaomi_4_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-Xiaomi_4_v1.3.1.bin)    |
+| Модель             | Цвет диода                                                                   | [Список изменений](https://t.me/keeneticported/7905)                      |
+|--------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| **SmartBox Giga**  | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.3.2/KeenBOOT-SB_Giga_v1.3.2.bin)      |
+| **SmartBox Flash** | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.3.2/KeenBOOT-SB_Flash_v1.3.2.bin)     |
+| **SmartBox Pro**   | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵            | [Скачать](/assets/files/keenboot/v1.3.2/KeenBOOT-SB_Pro_v1.3.2.bin)       |
+| **MTS WG430223**   | Системный - 🟢<br/>В загрузчике - 🔴 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.3.2/KeenBOOT-MTS_WG430223_v1.3.2.bin) |
+| **Netis N6**       | Системный - Power<br/>В загрузчике - Internet (мигает) <br/>Обновление - WPS | [Скачать](/assets/files/keenboot/v1.3.2/KeenBOOT-Netis_N6_v1.3.2.bin)     |
+| **WiFire S1500**   | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵            | [Скачать](/assets/files/keenboot/v1.3.2/KeenBOOT-WiFire-S1500_v1.3.2.bin) |
+| **Xiaomi R3G**     | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.3.2/KeenBOOT-Xiaomi_3G_v1.3.2.bin)    |
+| **Xiaomi R3P**     | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.3.2/KeenBOOT-Xiaomi_3P_v1.3.2.bin)    |
+| **Xiaomi 4**       | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.3.2/KeenBOOT-Xiaomi_4_v1.3.2.bin)     |
 
 ## Переход на загрузчик
 
@@ -37,13 +39,13 @@
 ::: warning **Внимание!**
 **Не используйте браузер Firefox!**
 
-**По возможности используйте `инкогнито` в браузере**
+**По возможности используйте `инкогнито`!**
 :::
 
-1. Выполнить форматирование флеш-накопителя, если переход с другой прошивки или необходима чистая установка
+1. Выполнить форматирование флеш-накопителя, если переход с другой прошивки (стоковая, кастомная и тд) или необходима чистая установка
 
    ![альтернативный текст](/assets/images/wiki/helpful/keenboot/erase.png)
-2. Поочерёдно загрузить `Firmware`, `EEPROM`, `U-Config` от своей модели. U-State не обязателен
+2. Поочерёдно загрузить `Firmware`, `EEPROM`, `U-Config` от своей модели в соответствующие разделы
 3. Выполнить перезагрузку
 
 ## Функционал загрузчика
@@ -58,3 +60,27 @@
 
 Перейдите в раздел `Bootloader`, выберите файл нужного вам загрузчика и нажмите `Обновить`
 ![альтернативный текст](/assets/images/wiki/helpful/keenboot/update.png)
+
+## Архив версий
+
+::: details SmartBox Giga
+[v1.1](/assets/files/keenboot/v1.1/KeenBOOT-SB_Giga_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-SB_Giga_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-SB_Giga_v1.3.1.bin)
+:::
+::: details SmartBox Flash
+[v1.1](/assets/files/keenboot/v1.1/KeenBOOT-SB_Flash_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-SB_Flash_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-SB_Flash_v1.3.1.bin)
+:::
+::: details MTS WG430223
+[v1.2](/assets/files/keenboot/v1.2/KeenBOOT-MTS_WG430223_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-MTS_WG430223_v1.3.1.bin)
+:::
+::: details Netis N6
+[v1.1](/assets/files/keenboot/v1.1/KeenBOOT-Netis_N6_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Netis_N6_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-Netis_N6_v1.3.1.bin)
+:::
+::: details Xiaomi R3G
+[v1.1](/assets/files/keenboot/v1.1/KeenBOOT-Xiaomi_3G_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Xiaomi_3G_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-Xiaomi_3G_v1.3.1.bin)
+:::
+::: details Xiaomi R3P
+[v1.1](/assets/files/keenboot/v1.1/KeenBOOT-Xiaomi_3P_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Xiaomi_3P_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-Xiaomi_3P_v1.3.1.bin)
+:::
+::: details Xiaomi 4
+[v1.1](/assets/files/keenboot/v1.1/KeenBOOT-Xiaomi_4_v1.1.bin), [v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Xiaomi_4_v1.2.bin), [v1.3.1](/assets/files/keenboot/v1.3.1/KeenBOOT-Xiaomi_4_v1.3.1.bin)
+:::
