@@ -29,7 +29,7 @@
 | **Светодиоды**           | ✅ Power, Internet, USB                                |
 | **Совместимость в mesh** | ✅ С оригинальными устройствами и клонами              |
 | **Встроенное хранилище** | ✅ 46.5МБ, можно установить Entware                    |
-| **USB-Мод**              | ✅                                                     |
+| **[USB-Мод](#usb-mod)**  | ✅                                                     |
 | **Компоненты**           | [Максимальный набор](/wiki/helpful/components.md)     |
 
 ## Подготовка со стоковой прошивки
@@ -54,6 +54,7 @@
    ![альтернативный текст](/assets/images/wiki/guides/NetisN6/breed1.jpg)
 
 ### Способ #1 <Badge type="keenetic" text="Новый, рекомендуемый" />
+
 1. Сменить загрузчик на [KeenBOOT](/wiki/helpful/keenboot.md)
 2. Загрузить `Firmware, EEPROM, U-Config` из архива по очереди через веб-интерфейс по [инструкции](/wiki/helpful/keenboot#установка-прошивки)
 3. Перезагрузиться в систему
@@ -62,6 +63,7 @@
 :::
 
 ### Способ #2 <Badge type="keenetic" text="Старый" />
+
 1. В папке с `Keenetic` перетягиваем все `bin` файлы на `HFS.exe`
    ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
    ::: tip Для минимизации проблем с установкой, рекомендуется выставить на сетевой карте IP адрес для роутера 192.168.1.2
@@ -116,8 +118,10 @@ reset
 :::
 
 ## USB-Mod
+
 ::: info
-Mod нужен для перезагрузки USB-модема по питанию, [подробнее](https://help.keenetic.com/hc/ru/articles/115000041605-%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D1%82%D1%8C-%D0%BF%D0%BE-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8E-USB-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BC-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA-Keenetic-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0)
+Mod нужен для перезагрузки USB-модема по
+питанию, [подробнее](https://help.keenetic.com/hc/ru/articles/115000041605-%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D1%82%D1%8C-%D0%BF%D0%BE-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8E-USB-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BC-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA-Keenetic-%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0)
 :::
 
 ![альтернативный текст](/assets/images/wiki/helpful/usb-mod/netis-1.jpg){width=400px height=100px}
