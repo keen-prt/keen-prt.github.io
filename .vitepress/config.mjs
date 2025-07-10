@@ -88,7 +88,7 @@ export default defineConfig({
               { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
               { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
-              { text: 'Xiaomi 3Gv1', link: '/wiki/guides/xiaomi-3Gv1' }
+              { text: 'Xiaomi 3G', link: '/wiki/guides/xiaomi-3Gv1' }
             ]
           },
           {
@@ -141,7 +141,7 @@ export default defineConfig({
               { text: '❓ FAQ', link: '/wiki/helpful/faq' },
               { text: '🔄 Обновление прошивки', link: '/wiki/helpful/updateFirmware' },
               { text: '🔙 Откат прошивки', link: '/wiki/helpful/revertFirmware' },
-              { text: '⚙️ KeenBOOT', link: '/wiki/helpful/keenboot' },
+              { text: '⚙️ Загрузчик KeenBOOT', link: '/wiki/helpful/keenboot' },
               { text: '🧩 Загрузчик Breed', link: '/wiki/helpful/breedBootloader' },
               { text: '🧰 KeenKit', link: '/wiki/helpful/keenkit' },
               { text: '🌐 Настройка Mesh', link: '/wiki/helpful/mesh' },
