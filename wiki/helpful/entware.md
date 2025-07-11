@@ -2,9 +2,11 @@
 
 [Официальная инструкция Keenetic](https://help.keenetic.com/hc/ru/articles/360021888880-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-OPKG-Entware-%D0%BD%D0%B0-%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%83%D1%8E-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%B0)
 ::: warning ВНИМАНИЕ
+**`Mips`** - устройства на EcoNet (EN75**)
+
 **`Mipsel`** - устройства на MT7628/MT7621
 
-**`Arch`** - устройства на MT7622/MT7981
+**`Aarch`** - устройства на MT7622/MT7981/MT7988 (ARM)
 :::
 
 ## Установка
@@ -24,7 +26,14 @@
 opkg disk storage:/ https://bin.entware.net/mipselsf-k3.4/installer/mipsel-installer.tar.gz
 ````
 
-Для архитектуры `Arch`
+Для архитектуры `Mips`
+
+```shell
+
+opkg disk storage:/ https://bin.entware.net/mipssf-k3.4/installer/mips-installer.tar.gz
+````
+
+Для архитектуры `Aarch`
 
 ```shell
 opkg disk storage:/ https://bin.entware.net/aarch64-k3.10/installer/aarch64-installer.tar.gz
@@ -74,7 +83,7 @@ passwd
 
 ## Не пускает по SSH
 
-1. Подключитесь по CLI (Например [`http://192.168.1.1/a`](http://192.168.1.1/a))
+1. Подключитесь по CLI (Например [`192.168.1.1/a`](http://192.168.1.1/a))
 2. Выполните команды
 
 ````shell
@@ -121,7 +130,7 @@ opkg upgrade
 ::: info
 Применимо только к встроенному хранилищу
 :::
-1. Подключиться по CLI (Например [`http://192.168.1.1/a`](http://192.168.1.1/a))
+1. Подключиться по CLI (Например [`192.168.1.1/a`](http://192.168.1.1/a))
 2. Закрыть все имеющиеся соединения, если они активны `(Telnet/SSH)`
 3. Ввести поочерёдно команды
 
