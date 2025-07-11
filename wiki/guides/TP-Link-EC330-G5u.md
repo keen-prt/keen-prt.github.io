@@ -90,7 +90,7 @@ reset
 ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/breed-mac.png)
 :::
 После перезагрузки устройство запустится в Keenetic
-::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
+::: tip URL: 192.168.1.1 `admin:12345678`<br/>SSID: Keenetic<br/>Password: 12345678
 :::
 
 ## USB-Mod

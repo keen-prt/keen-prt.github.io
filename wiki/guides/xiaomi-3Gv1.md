@@ -64,7 +64,7 @@
 2. Загрузить `Firmware, EEPROM, U-Config` из архива по очереди через веб-интерфейс по [инструкции](/wiki/helpful/keenboot#установка-прошивки)
 3. Перезагрузиться в систему
 
-::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
+::: tip URL: 192.168.1.1 `admin:12345678`<br/>SSID: Keenetic<br/>Password: 12345678
 :::
 
 ### Способ #2 <Badge type="keenetic" text="Старый" />
@@ -119,5 +119,5 @@ reset
 :::
 
 После перезагрузки устройство запустится в Keenetic
-::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
+::: tip URL: 192.168.1.1 `admin:12345678`<br/>SSID: Keenetic<br/>Password: 12345678
 :::
