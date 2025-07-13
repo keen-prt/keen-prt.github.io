@@ -2,8 +2,6 @@
 
 [Официальная инструкция Keenetic](https://help.keenetic.com/hc/ru/articles/360021888880-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-OPKG-Entware-%D0%BD%D0%B0-%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%83%D1%8E-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%B0)
 ::: warning ВНИМАНИЕ
-**`Mips`** - устройства на EcoNet (EN75**)
-
 **`Mipsel`** - устройства на MT7628/MT7621
 
 **`Aarch`** - устройства на MT7622/MT7981/MT7988 (ARM)
@@ -27,11 +25,6 @@ opkg disk storage:/ https://bin.entware.net/mipselsf-k3.4/installer/mipsel-insta
 ````
 
 Для архитектуры `Mips`
-
-```shell
-
-opkg disk storage:/ https://bin.entware.net/mipssf-k3.4/installer/mips-installer.tar.gz
-````
 
 Для архитектуры `Aarch`
 
