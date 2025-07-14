@@ -8,6 +8,8 @@
 
 • **Xiaomi Router 3Gv1**
 
+• **Xiaomi Router 4**
+
 • **Netis N6**
 :::
 
