@@ -2,6 +2,10 @@
 
 ::: tip В канале доступна 4.3.5 для:
 
+• **MTC WG430223**
+
+• **Netis N6**
+
 • **SmartBox Flash**
 
 • **SmartBox Giga**
@@ -9,8 +13,6 @@
 • **Xiaomi Router 3Gv1**
 
 • **Xiaomi Router 4**
-
-• **Netis N6**
 :::
 
 ::: danger
