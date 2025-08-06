@@ -1,4 +1,4 @@
-# Xiaomi Router 3P <YezBadge type="keenetic" text="4.3.3" url="/assets/files/firmware/Xiaomi-R3P.7z"/>
+# Xiaomi Router 3P <YezBadge type="keenetic" text="4.3.6" url="/assets/files/firmware/Xiaomi-R3P.7z"/>
 
 ::: warning **Статус устройства: EoD**
 **End of Development** — обновление системы возможно только при наличии свободного времени и желания
