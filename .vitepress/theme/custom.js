@@ -1,6 +1,10 @@
 if (typeof window !== 'undefined') {
     // Выполнится только в браузере
     document.addEventListener('DOMContentLoaded', () => {
+      if (!localStorage.getItem('popup-shown')) {
+        showPopup();
+        localStorage.setItem('popup-shown', 'true');
+      }
       showCornerMessage();
     });
 
@@ -13,7 +17,7 @@ if (typeof window !== 'undefined') {
       popup.id = 'popup';
       popup.classList.add('vp-doc');
       popup.innerHTML = `
-        <p>У нас сменился Telegram-чат<br><a href="https://t.me/keeneticported" target="_blank">Перейти</a></p>
+        <p>У нас сменился Telegram-чат<br><a href="https://t.me/KeeneticPorted" target="_blank">Перейти</a></p>
         <button id="popup-close">Закрыть</button>
       `;
 
