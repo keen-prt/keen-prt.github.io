@@ -83,6 +83,7 @@ export default defineConfig({
           {
             text: 'Active',
             items: [
+              { text: '⚡️ CMCC RAX3000M', link: '/wiki/guides/rax3000m' },
               { text: '🚀 Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
               { text: '⭐️ Redmi AX6S', link: '/wiki/guides/ax6s' },
               { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
