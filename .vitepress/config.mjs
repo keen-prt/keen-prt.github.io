@@ -87,7 +87,6 @@ export default defineConfig({
               { text: '🚀 Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
               { text: '⭐️ Redmi AX6S', link: '/wiki/guides/ax6s' },
               { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
-              { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
               { text: 'Xiaomi 3G', link: '/wiki/guides/xiaomi-3Gv1' }
             ]
@@ -100,6 +99,7 @@ export default defineConfig({
               { text: 'HLK7621 32/256', link: 'https://keen-prt.github.io/assets/files/firmware/HLK7621_256_32.zip' },
               { text: 'Mercusys MR70X', link: '/wiki/guides/mercusys-mr70x' },
               { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' },
+              { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },
               { text: 'SmartBox Pro', link: '/wiki/guides/smartbox-pro' },
               { text: 'SmartBox Turbo+', link: '/wiki/guides/smartbox-turbo+' },
               { text: 'TP-Link Archer C6U', link: '/wiki/guides/archerc6u' },
@@ -123,8 +123,7 @@ export default defineConfig({
           {
             items: [
               { text: '💻 Онлайн-сервис для EEPROM', link: 'https://yeezyio.github.io/' },
-              { text: '💬 Отправка SMS в Telegram', link: 'https://github.com/spatiumstas/sms2gram' },
-              { text: '📹 Видеоустановка', link: 'https://www.youtube.com/watch?v=p7mv-V5z1go' }
+              { text: '💬 Отправка SMS в Telegram', link: 'https://github.com/spatiumstas/sms2gram' }
             ]
           }
         ]

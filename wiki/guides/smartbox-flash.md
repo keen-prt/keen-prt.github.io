@@ -1,7 +1,7 @@
 # SmartBox Flash <BoostyBadge type="keenetic" text="4.3.5" url="/wiki/helpful/boosty"/> <YezBadgeWithDropdown type="keenetic" text="4.3.2" url="/assets/files/firmware/SmartBox-Flash.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/SmartBox-Flash-4.1.7.7z' }]"/>
 
-::: tip **Статус устройства: Active**
-**Active** — ведётся портирование новых версий
+::: warning **Статус устройства: EoD**
+**End of Development** — обновление системы возможно только при наличии свободного времени и желания
 :::
 
 ![альтернативный текст](/assets/images/wiki/guides/SmartBox/flash.png)

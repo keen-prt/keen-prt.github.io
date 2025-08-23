@@ -24,8 +24,6 @@
 opkg disk storage:/ https://bin.entware.net/mipselsf-k3.4/installer/mipsel-installer.tar.gz
 ````
 
-Для архитектуры `Mips`
-
 Для архитектуры `Aarch`
 
 ```shell
