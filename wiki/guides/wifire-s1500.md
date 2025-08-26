@@ -1,4 +1,4 @@
-# WiFire S1500.NBN <YezBadge type="keenetic" text="4.3.3" url="/assets/files/firmware/WiFire-S1500.zip" />
+# WiFire S1500.NBN <YezBadge type="keenetic" text="4.3.6" url="/assets/files/firmware/WiFire-S1500.zip" />
 
 ::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
