@@ -83,9 +83,10 @@ export default defineConfig({
           {
             text: 'Active',
             items: [
+              { text: '⭐️ Netis NX31', link: '/wiki/guides/netis-nx31' },
               { text: '⚡️ CMCC RAX3000M', link: '/wiki/guides/rax3000m' },
               { text: '🚀 Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
-              { text: '⭐️ Redmi AX6S', link: '/wiki/guides/ax6s' },
+              { text: 'Redmi AX6S', link: '/wiki/guides/ax6s' },
               { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
               { text: 'Xiaomi 3G', link: '/wiki/guides/xiaomi-3Gv1' }

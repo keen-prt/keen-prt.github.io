@@ -91,7 +91,7 @@ reset
 ::: details Примерный вывод консоли
 ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/breedlog.png)
 :::
-После перезагрузки устройство запустится в Keenetic
+После перезагрузки устройство запустится в KeeneticOS
 ::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
 :::
 
