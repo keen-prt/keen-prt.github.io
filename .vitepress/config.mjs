@@ -124,7 +124,8 @@ export default defineConfig({
           {
             items: [
               { text: '💻 Онлайн-сервис для EEPROM', link: 'https://yeezyio.github.io/' },
-              { text: '💬 Отправка SMS в Telegram', link: 'https://github.com/spatiumstas/sms2gram' }
+              { text: '💬 Отправка SMS в Telegram', link: 'https://github.com/spatiumstas/sms2gram' },
+              { text: '🔗 Маршрутизация трафика', link: 'https://magitrickle.dev' }
             ]
           }
         ]
@@ -163,4 +164,5 @@ export default defineConfig({
       }
     ]
   }
+
 })
