@@ -12,7 +12,7 @@
 |-------------------|-------------------------------------|
 | **CPU**           | MediaTek MT7981B, aarch64, 1300 MHz |
 | **Flash MB**      | 128NAND                             |
-| **RAM MB**        | 256                                 |
+| **RAM MB**        | 256/DDR3                            |
 | **Ethernet**      | 10/100/1000 Mbps x4 (4x LAN)        |
 | **USB**           | -                                   |
 | **WLAN Hardware** | MediaTek MT7976CN                   |

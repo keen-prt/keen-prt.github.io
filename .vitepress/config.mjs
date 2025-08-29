@@ -97,7 +97,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Linksys EA7XXX', link: '/wiki/guides/linksys' },
-              { text: 'HLK7621 32/256', link: 'https://keen-prt.github.io/assets/files/firmware/HLK7621_256_32.zip' },
+              { text: 'HLK7621 32/256', link: '/assets/files/firmware/HLK7621_256_32.zip' },
               { text: 'Mercusys MR70X', link: '/wiki/guides/mercusys-mr70x' },
               { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' },
               { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },

@@ -12,7 +12,7 @@
 |-----------------|--------------------------------------|
 | **CPU**         | MediaTek MT7621AT, MIPS, 880 MHz     |
 | **Flash MB**    | 256NAND                              |
-| **RAM MB**      | 512                                  |
+| **RAM MB**      | 512/DDR3                             |
 | **Ethernet**    | 10/100/1000 Mbps x4 (1x WAN, 3x LAN) |
 | **USB**         | 1x 3.0                               |
 | **WLAN 5.0GHz** | Mediatek 7615N 4×4:4, a/n/ac 5GHz    |
