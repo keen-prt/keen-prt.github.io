@@ -39,7 +39,7 @@ if (typeof window !== 'undefined') {
       message.classList.add('vp-doc');
       message.innerHTML = `
         У нас сменился Telegram-чат<br>
-        <a href="https://t.me/keeneticported" target="_blank">Перейти</a>
+        <a href="https://t.me/KeeneticPorted" target="_blank">Перейти</a>
       `;
       document.body.appendChild(message);
     }

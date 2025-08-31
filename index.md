@@ -15,7 +15,7 @@ hero:
       link: /wiki
     - theme: alt
       text: Telegram чат
-      link: https://t.me/keeneticported
+      link: https://t.me/KeeneticPorted
     - theme: alt
       text: Поддержать нас на Boosty
       link: https://boosty.to/keen_prt

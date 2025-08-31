@@ -33,12 +33,12 @@ export default {
       if (docAsideOutline) {
         console.log('VPDocAsideOutline found')
         const contentDiv = docAsideOutline.querySelector('.content')
-        if (contentDiv && !document.getElementById('aeza-banner')) {
+        if (contentDiv && !document.getElementById('banner')) {
           const bannerDiv = document.createElement('div')
-          bannerDiv.id = 'aeza-banner'
+          bannerDiv.id = 'banner'
           bannerDiv.innerHTML = `
-            <a href="https://aeza.net/?ref=keen-prt" target="_blank">
-              <img src="/assets/images/aeza.png" alt="Banner" style="width: 320px; height: 600px;">
+            <a href="" target="_blank">
+              <img src="/assets/images/img.png" alt="Banner" style="width: 320px; height: 600px;">
             </a>
           `
           contentDiv.insertAdjacentElement('afterend', bannerDiv)

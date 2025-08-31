@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { createGlobalUrlReplacer } from './plugins/replacer.js'
 
 export default defineConfig({
   head: [
@@ -34,6 +35,12 @@ export default defineConfig({
       infoLabel: 'Информация',
       detailsLabel: 'Подробная информация'
     }
+  },
+
+  vite: {
+    plugins: [
+      createGlobalUrlReplacer()
+    ]
   },
 
   themeConfig: {
