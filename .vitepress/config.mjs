@@ -153,7 +153,7 @@ export default defineConfig({
               { text: '🧩 Загрузчик Breed', link: '/wiki/helpful/breedBootloader' },
               { text: '🧰 KeenKit', link: '/wiki/helpful/keenkit' },
               { text: '🌐 Настройка Mesh', link: '/wiki/helpful/mesh' },
-              { text: '📊 Тесты покрытия', link: '/wiki/helpful/wifitests' },
+              { text: '📊 Тесты покрытия', link: 'https://docs.google.com/spreadsheets/d/1l3qt2GBfgMIeYq38UOzzCboxMMymEfy2UQg04Fd50Ew/' },
               { text: '🗂️ Сборник файлов', link: '/wiki/helpful/files' }
             ]
           }
