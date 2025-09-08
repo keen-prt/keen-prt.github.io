@@ -56,4 +56,10 @@
 ### 3. Ошибка Mws::Controller::Candidate: "xx:xx:xx:xx:xx:xx": invalid CSR response
 Появляется после захвата устройства с одинаковым сервисным номером и/или мак-адресом устройства. Для решения воспользуйтесь 1 пунктом
 
+### 4. Ошибка failed to connect: operation timeout
+
+- Это нормально, ретранслятор пытается соединиться с серверами, ни на что не влияет.
+
+  ![альтернативный текст](/assets/images/wiki/helpful/faq/mesh.png){width=500px height=100px}
+
 
