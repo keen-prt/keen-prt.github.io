@@ -37,8 +37,8 @@ export default {
           const bannerDiv = document.createElement('div')
           bannerDiv.id = 'banner'
           bannerDiv.innerHTML = `
-            <a href="" target="_blank">
-              <img src="/assets/images/img.png" alt="Banner" style="width: 320px; height: 600px;">
+            <a href="https://aeza.net/ru/virtual-servers/?ref=keeneticported" target="_blank">
+              <img src="/assets/images/ad.jpg" alt="Banner" style="width: 320px; height: 600px;">
             </a>
           `
           contentDiv.insertAdjacentElement('afterend', bannerDiv)
@@ -60,7 +60,7 @@ export default {
 
     onMounted(() => {
       handleRedirects()
-      // insertBanner()
+      insertBanner()
       initZoom()
       console.log('Setup onMounted is working')
 
@@ -82,7 +82,7 @@ export default {
       () => {
         handleRedirects()
         nextTick(() => {
-          // insertBanner()
+          insertBanner()
           initZoom()
           if (window.location.hash) {
             const decodedHash = decodeURIComponent(window.location.hash)
