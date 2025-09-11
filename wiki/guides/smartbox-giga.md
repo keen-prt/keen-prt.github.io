@@ -1,4 +1,4 @@
-# SmartBox Giga <YezBadge type="keenetic" text="4.3.5" url="/assets/files/firmware/SmartBox-Giga.7z"/>
+# SmartBox Giga <YezBadge type="keenetic" text="4.3.6" url="/assets/files/firmware/SmartBox-Giga.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий

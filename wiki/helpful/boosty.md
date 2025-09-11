@@ -4,11 +4,7 @@
 
 • **MTC WG430223**
 
-• **Netis N6**
-
 • **SmartBox Flash**
-
-• **SmartBox Giga**
 
 • **Xiaomi Router 3Gv1**
 
