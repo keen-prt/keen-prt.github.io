@@ -38,7 +38,7 @@ export default {
           bannerDiv.id = 'banner'
           bannerDiv.innerHTML = `
             <a href="https://aeza.net/ru/virtual-servers/?ref=keeneticported" target="_blank">
-              <img src="/assets/images/ad.jpg" alt="Banner" style="width: 320px; height: 600px;">
+              <img src="/assets/images/picture.jpg" alt="Banner" style="width: 320px; height: 600px;">
             </a>
           `
           contentDiv.insertAdjacentElement('afterend', bannerDiv)
