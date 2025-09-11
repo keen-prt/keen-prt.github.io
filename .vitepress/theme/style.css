@@ -203,7 +203,7 @@ h1 .VPBadge {
   position: fixed;
   max-width: 300px;
   bottom: 35px;
-  right: 20px;
+  left: 20px;
   background: var(--vp-c-bg-alt);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
