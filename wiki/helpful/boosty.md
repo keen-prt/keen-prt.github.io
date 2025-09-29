@@ -1,14 +1,14 @@
 # Доступ в канал с ранними версиями
 
-::: tip В канале доступна 4.3.5 для:
+::: tip В канале доступна 5.0 Beta 2 для:
 
-• **MTC WG430223**
+• **CMCC RAX3000M**
 
-• **SmartBox Flash**
+• **Netis NX31**
 
-• **Xiaomi Router 3Gv1**
+• **Netis N6**
 
-• **Xiaomi Router 4**
+• **SmartBox Giga**
 :::
 
 ## Оформление
