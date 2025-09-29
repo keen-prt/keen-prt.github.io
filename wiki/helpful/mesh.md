@@ -35,7 +35,7 @@
 Убедитесь что у захватываемых устройств разный серийный номер, он отображается на главной странице в блоке `О системе`
 ![альтернативный текст](/assets/images/wiki/helpful/mesh/servicenumber.png){width=800px height=100px}
 
-Если он одинаковый, используйте [**`ServiceDataGenerator`**](https://github.com/spatiumstas/ServiceDataGenerator/archive/refs/heads/main.zip) или [KeenKit](/wiki/helpful/keenkit.md) с использованием функционала `Заменить сервисные данные`
+Если он одинаковый, используйте [**`ServiceDataGenerator`**](/assets/files/ServiceDataGenerator.zip) или [KeenKit](/wiki/helpful/keenkit.md) с использованием функционала `Заменить сервисные данные`
 ::: tip Использование ServiceDataGenerator:
 
 1. Положить в корень папки со скриптом `U-Config` из архива прошивки которую прошиваете

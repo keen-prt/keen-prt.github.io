@@ -1,4 +1,4 @@
-# Netis NX31 <YezBadge type="keenetic" text="4.3.6" url="/assets/files/firmware/Netis-NX31.7z" />
+# Netis NX31 <BoostyBadge type="keenetic" text="5.0" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.3.6" url="/assets/files/firmware/Netis-NX31.7z" />
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
@@ -8,16 +8,16 @@
 
 ## Характеристики
 
-| Особенность       | Описание                            |
-|-------------------|-------------------------------------|
-| **CPU**           | MediaTek MT7981B, aarch64, 1300 MHz |
-| **Flash MB**      | 128NAND                             |
-| **RAM MB**        | 256/DDR3                            |
-| **Ethernet**      | 10/100/1000 Mbps x4 (4x LAN)        |
-| **USB**           | -                                   |
-| **WLAN Hardware** | MediaTek MT7976CN                   |
-| **WLAN 5.0GHz**   | AX, 160MHz, 2x2, 2402MB/s, 1024QAM  |
-| **WLAN 2.4GHz**   | AX, 40MHz, 2x2, 574MB/s, 256QAM     |
+| Особенность       | Описание                             |
+|-------------------|--------------------------------------|
+| **CPU**           | MediaTek MT7981B, aarch64, 1300 MHz  |
+| **Flash MB**      | 128NAND                              |
+| **RAM MB**        | 256/DDR3                             |
+| **Ethernet**      | 10/100/1000 Mbps x4 (1x WAN, 3x LAN) |
+| **USB**           | -                                    |
+| **WLAN Hardware** | MediaTek MT7976CN                    |
+| **WLAN 5.0GHz**   | AX, 160MHz, 2x2, 2402MB/s, 1024QAM   |
+| **WLAN 2.4GHz**   | AX, 40MHz, 2x2, 574MB/s, 256QAM      |
 
 ## Особенности сборки
 
@@ -27,8 +27,8 @@
 | **Сброс настроек**       | ✅ Через кнопку Reset                     |
 | **Кнопка Mesh**          | ✅                                        |
 | **Светодиоды**           | ✅                                        |
-| **Совместимость в mesh** | ✅ с оригинальными устройствами и клонами |
-| **Встроенное хранилище** | ✅ 48.3МБ, можно установить Entware       |
+| **Совместимость в mesh** | ✅ С оригинальными устройствами и клонами |
+| **Встроенное хранилище** | ✅ 71.3МБ, можно установить Entware       |
 
 ## Установка со стоковой прошивки
 

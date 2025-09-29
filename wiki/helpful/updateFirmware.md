@@ -2,48 +2,21 @@
 
 ## Для NAND памяти (от 128MB)
 
-### Способ #1 <Badge type="keenetic" text="Автоматический, рекомендуемый" />
+### Способ #1 <Badge type="keenetic" text="Рекомендуемый" />
+
+1. Выполнить [вход в загрузчик KeenBOOT](/wiki/helpful/keenboot#%D0%B2%D1%85%D0%BE%D0%B4-%D0%B2-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D1%87%D0%B8%D0%BA)
+2. Загрузить обновление поверх через веб-интерфейс
+
+![альтернативный текст](/assets/images/wiki/helpful/keenboot/main.png)
+
+### Способ #2 <Badge type="keenetic" text="Автоматический, менее рекомендуемый" />
 
 • Используйте [KeenKit](/wiki/helpful/keenkit.md) с функцией `Обновить прошивку из файла` или `OTA Update`
 
 ![альтернативный текст](/assets/images/wiki/helpful/keenkit/update-firmware.png){width=500px height=100px}
 
-### Способ #2 <Badge type="keenetic" text="Через KeenBOOT" />
 
-1. Выполнить [вход в загрузчик](/wiki/helpful/keenboot#%D0%B2%D1%85%D0%BE%D0%B4-%D0%B2-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D1%87%D0%B8%D0%BA)
-2. Загрузить обновление поверх через веб-интерфейс
-
-![альтернативный текст](/assets/images/wiki/helpful/keenboot/main.png)
-
-### Способ #3 <Badge type="keenetic" text="Ручной" />
-
-1. Поместите файл обновления на встроенный/внешний накопитель с установленной [Entware](/wiki/helpful/entware)
-2. Через `Telnet/SSH` попасть в Entware
-3. Введите команду для получения информации о разделах `Firmware_1` и `Firmware_2`
-
-```shell
-cat /proc/mtd
-```
-
-4. Перезаписываем разделы и перезагружаемся
-
-```shell
-dd if=/opt/firmware.bin of=/dev/mtdblock5
-```
-
-```shell
-dd if=/opt/firmware.bin of=/dev/mtdblock12
-```
-
-```shell
-reboot
-```
-
-::: info Где 5/12 разделы `Firmware_1` и `Firmware_2` полученные в 3 шаге, а `/opt/firmware.sh` путь до файла помещённого в 1 шаге
-:::
-![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/manualUpdate.png)
-
-### Способ #4 <Badge type="keenetic" text="Через Breed" />
+### Способ #3 <Badge type="keenetic" text="Через Breed" />
 
 ::: danger ВНИМАНИЕ
 Данный способ при невнимательности может окирпичить роутер, внимательно следуйте командам
