@@ -1,7 +1,7 @@
 # TP-Link EC330-G5u <YezBadge type="keenetic" text="4.3.2" url="/assets/files/firmware/TP-Link-EC330.7z"/>
 
 ::: warning **Статус устройства: EoD**
-**End of Development** — обновление системы возможно только при наличии свободного времени и острой необходимости
+**End of Development** — обновление системы возможно только при наличии свободного времени и желания
 :::
 
 ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/EC330.png){width=500px height=100px}
