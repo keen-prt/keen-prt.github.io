@@ -50,9 +50,7 @@
 ## Установка прошивки
 
 ::: warning **Внимание!**
-**Не используйте браузер Firefox!**
-
-**По возможности используйте `инкогнито`!**
+**Не используйте браузер Firefox! По возможности используйте `инкогнито`!**
 :::
 
 1. Выполнить форматирование флеш-накопителя, если переход с другой прошивки (стоковая, кастомная и тд) или необходима чистая установка
@@ -65,27 +63,3 @@
 
 Перейдите в раздел `Bootloader`, выберите файл нужного вам загрузчика и нажмите `Обновить`
 ![альтернативный текст](/assets/images/wiki/helpful/keenboot/update.png)
-
-## Архив версий
-
-::: details SmartBox Giga
-[v1.2](/assets/files/keenboot/v1.2/KeenBOOT-SB_Giga_v1.2.bin), [v1.3.3](/assets/files/keenboot/v1.3.3/KeenBOOT-SB_Giga_v1.3.3.bin)
-:::
-::: details SmartBox Flash
-[v1.2](/assets/files/keenboot/v1.2/KeenBOOT-SB_Flash_v1.2.bin), [v1.3.3](/assets/files/keenboot/v1.3.3/KeenBOOT-SB_Flash_v1.3.3.bin)
-:::
-::: details MTS WG430223
-[v1.2](/assets/files/keenboot/v1.2/KeenBOOT-MTS_WG430223_v1.2.bin), [v1.3.3](/assets/files/keenboot/v1.3.3/KeenBOOT-MTS_WG430223_v1.3.3.bin)
-:::
-::: details Netis N6
-[v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Netis_N6_v1.2.bin), [v1.3.3](/assets/files/keenboot/v1.3.3/KeenBOOT-Netis_N6_v1.3.3.bin)
-:::
-::: details Xiaomi R3G
-[v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Xiaomi_3G_v1.2.bin), [v1.3.3](/assets/files/keenboot/v1.3.3/KeenBOOT-Xiaomi_3G_v1.3.3.bin)
-:::
-::: details Xiaomi R3P
-[v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Xiaomi_3P_v1.2.bin), [v1.3.3](/assets/files/keenboot/v1.3.3/KeenBOOT-Xiaomi_3P_v1.3.3.bin)
-:::
-::: details Xiaomi 4
-[v1.2](/assets/files/keenboot/v1.2/KeenBOOT-Xiaomi_4_v1.2.bin), [v1.3.3](/assets/files/keenboot/v1.3.3/KeenBOOT-Xiaomi_4_v1.3.3.bin)
-:::
