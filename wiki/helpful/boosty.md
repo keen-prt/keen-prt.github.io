@@ -9,6 +9,8 @@
 • **Netis N6**
 
 • **SmartBox Giga**
+
+• **Xiaomi AX3000T** - 4.3.6
 :::
 
 ## Оформление
