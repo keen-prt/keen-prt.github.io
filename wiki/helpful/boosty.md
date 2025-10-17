@@ -1,16 +1,14 @@
 # Доступ в канал с ранними версиями
 
-::: tip В канале доступны:
+::: tip В канале доступна 5.0 Beta 3 для:
 
-• **CMCC RAX3000M** - 5.0 Beta 2
+• **CMCC RAX3000M/ME**
 
-• **Netis NX31** - 5.0 Beta 2
+• **Netis NX31**
 
-• **Netis N6** - 5.0 Beta 3
+• **Netis N6**
 
-• **SmartBox Giga** - 5.0 Beta 3
-
-• **Xiaomi AX3000T** - 4.3.6
+• **SmartBox Giga**
 :::
 
 ## Оформление
