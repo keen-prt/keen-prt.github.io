@@ -9,7 +9,7 @@
 
 ![альтернативный текст](/assets/images/wiki/helpful/keenboot/main.png)
 
-### Способ #2 <Badge type="keenetic" text="Автоматический, менее рекомендуемый" />
+### Способ #2 <Badge type="keenetic" text="Автоматический" />
 
 • Используйте [KeenKit](/wiki/helpful/keenkit.md) с функцией `Обновить прошивку из файла` или `OTA Update`
 

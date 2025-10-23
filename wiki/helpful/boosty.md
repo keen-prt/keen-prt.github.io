@@ -10,7 +10,7 @@
 
 • **SmartBox Giga**
 
-• **Xiaomi AX3000T** - 4.3.6
+• **Xiaomi AX3000T**
 :::
 
 ## Оформление
