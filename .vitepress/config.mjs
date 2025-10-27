@@ -121,7 +121,8 @@ export default defineConfig({
               { text: 'Xiaomi 4Av1', link: '/wiki/guides/xiaomi-4AG' },
               { text: 'Xiaomi 4Av2', link: '/wiki/guides/xiaomi-4AGv2' },
               { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' },
-              { text: 'Xiaomi Extender', link: '/wiki/guides/xiaomi-extender' }
+              { text: 'Xiaomi Extender', link: '/wiki/guides/xiaomi-extender' },
+              { text: 'Vertell Street M2', link: '/wiki/guides/vertell-street-m2' }
             ]
           }
         ]
