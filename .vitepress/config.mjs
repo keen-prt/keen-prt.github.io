@@ -90,6 +90,7 @@ export default defineConfig({
           {
             text: 'Active',
             items: [
+              { text: '🆕 Netis NX32U', link: '/wiki/guides/netis-nx32u' },
               { text: '🆕 Cudy WR3000P', link: '/wiki/guides/WR3000P' },
               { text: '⭐️ Netis NX31', link: '/wiki/guides/netis-nx31' },
               { text: '⚡️ CMCC RAX3000M', link: '/wiki/guides/rax3000m' },
