@@ -15,7 +15,7 @@
 
 ## Оформление
 
-1. https://boosty.to/keen_prt
+1. [Перейти на страницу](https://boosty.to/keen_prt)
 2. Авторизоваться
    ![альтернативный текст](/assets/images/wiki/helpful/boosty/2.png){width=500px height=100px}
 
@@ -25,5 +25,5 @@
 4. Во вкладке `Об авторе` выбирать подписку в зависимости от требуемого устройства - Mipsel и/или ARM 
    ![альтернативный текст](/assets/images/wiki/helpful/boosty/4.png){width=500px height=100px}
 
-5. Бот пришлёт ссылку на чат
+5. Бот пришлёт ссылку на чат. Если этого не случится - напишите самостоятельно команду `/start` [боту](https://t.me/boosty_to_bot)
    ![альтернативный текст](/assets/images/wiki/helpful/boosty/5.png){width=500px height=100px}

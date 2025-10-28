@@ -42,8 +42,37 @@ export default defineConfig({
       createGlobalUrlReplacer()
     ]
   },
-
   themeConfig: {
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: 'Поиск',
+                buttonAriaLabel: 'Поиск'
+              },
+              modal: {
+                displayDetails: 'Отобразить подробный список',
+                resetButtonTitle: 'Сбросить поиск',
+                backButtonTitle: 'Закрыть поиск',
+                noResultsText: 'Нет результатов по запросу',
+                footer: {
+                  selectText: 'выбрать',
+                  selectKeyAriaLabel: 'выбрать',
+                  navigateText: 'перейти',
+                  navigateUpKeyAriaLabel: 'стрелка вверх',
+                  navigateDownKeyAriaLabel: 'стрелка вниз',
+                  closeText: 'закрыть',
+                  closeKeyAriaLabel: 'esc'
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     lastUpdated: {
       text: 'Последнее изменение',
       formatOptions: {
@@ -70,8 +99,8 @@ export default defineConfig({
       copyright: '© 2025 Keenetic Ported. Все права защищены.'
     },
     docFooter: {
-      prev: false,
-      next: false
+      prev: 'Предыдущая страница',
+      next: 'Следующая страница'
     },
     sidebarMenuLabel: 'Меню',
     logo: '/assets/images/logo.svg',

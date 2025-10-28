@@ -34,7 +34,7 @@
 
 Для обновления воспользуйтесь любым способом для [NAND памяти](/wiki/helpful/updateFirmware#для-nand-памяти-от-128mb)
 
-## Установка
+## Подготовка
 
 1. Устанавливаем [OpenWRT](https://openwrt.org/toh/beeline/smartbox_turbo_plus#oem_easy_installation)
 2. Сохраняем из LuCi (вкладка System - Backup / Flash firmware) раздел `factory`
@@ -67,12 +67,22 @@ mtd write /tmp/breed_turbo+.bin u-boot
 reboot
 ```
 
-7. В папке перетягиваем все `bin` файлы на `HFS.exe`
+### Способ #1 <Badge type="keenetic" text="Новый, рекомендуемый" />
+
+1. Сменить загрузчик на [KeenBOOT](/wiki/helpful/keenboot.md)
+2. Загрузить `Firmware, EEPROM, U-Config` из архива по очереди через веб-интерфейс по [инструкции](/wiki/helpful/keenboot#установка-прошивки)
+3. Перезагрузиться в систему
+
+::: tip URL: 192.168.1.1 `admin:12345678`<br/>SSID: Keenetic<br/>Password: 12345678
+:::
+
+### Способ #2 <Badge type="keenetic" text="Старый" />
+1. В папке перетягиваем все `bin` файлы на `HFS.exe`
    ![альтернативный текст](/assets/images/wiki/guides/TP-Link-EC330/openhfs.png)
    ::: tip Для минимизации проблем с установкой, рекомендуется выставить на сетевой карте IP адрес для роутера 192.168.1.2
    ![альтернативный текст](/assets/images/wiki/helpful/breed/networkStatic.png)
    :::
-8. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
+2. Запускаем Putty, заходим по TelNet (192.168.1.1 port 23) и дальнейшие команды вставляем(ПКМ) поочередно, ожидая
    выполнения предыдущей команды.
    ::: warning
    • Предварительно отключите Брандмауэр и Антивирус вашей ОС
