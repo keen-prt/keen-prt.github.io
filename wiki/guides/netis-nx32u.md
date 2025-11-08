@@ -14,7 +14,7 @@
 | **Flash MB**      | 128NAND                              |
 | **RAM MB**        | 256/DDR3                             |
 | **Ethernet**      | 10/100/1000 Mbps x4 (1x WAN, 3x LAN) |
-| **USB**           | 1x 3.0                              |
+| **USB**           | 1x 3.0                               |
 | **WLAN Hardware** | MediaTek MT7976CN                    |
 | **WLAN 5.0GHz**   | AX, 160MHz, 2x2, 2402MB/s, 1024QAM   |
 | **WLAN 2.4GHz**   | AX, 40MHz, 2x2, 574MB/s, 256QAM      |
@@ -28,7 +28,7 @@
 | **Кнопка Mesh**          | ✅                                        |
 | **Светодиоды**           | ✅                                        |
 | **Совместимость в mesh** | ✅ С оригинальными устройствами и клонами |
-| **Встроенное хранилище** | ✅ 70.9МБ, можно установить Entware                     |
+| **Встроенное хранилище** | ✅ 70.9МБ, можно установить Entware       |
 
 ## Установка со стоковой прошивки
 
@@ -40,4 +40,20 @@
 
 После перезагрузки устройство запустится в KeeneticOS
 ::: tip URL: 192.168.1.1 `admin`<br/>SSID: Keenetic<br/>Password: 12345678
+:::
+::: tip
+Для снижения потребления ОЗУ можно отключить WHNAT, [подробнее](https://help.keenetic.ru/hc/ru/articles/214470905.html)
+
+```shell
+interface WifiMaster1 no whnat
+```
+
+```shell
+no ppe hardware
+````
+
+```shell
+system configuration save
+```
+
 :::

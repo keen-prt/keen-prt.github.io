@@ -59,7 +59,6 @@ export default {
     }
 
     onMounted(() => {
-      handleRedirects()
       insertBanner()
       initZoom()
       console.log('Setup onMounted is working')
@@ -80,7 +79,6 @@ export default {
     watch(
       () => route.path,
       () => {
-        handleRedirects()
         nextTick(() => {
           insertBanner()
           initZoom()
