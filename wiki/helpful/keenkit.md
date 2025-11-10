@@ -24,7 +24,7 @@
 3. Ввести команду
 
 ```shell
-opkg update && opkg install curl && curl -fsSL https://raw.githubusercontent.com/spatiumstas/KeenKit/main/install.sh | sh
+opkg update && opkg install curl && curl -L -s "https://raw.githubusercontent.com/spatiumstas/KeenKit/main/install.sh" > /tmp/install.sh && sh /tmp/install.sh
 ```
 
 ## Запуск скрипта
