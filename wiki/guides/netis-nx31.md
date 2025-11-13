@@ -1,4 +1,4 @@
-# Netis NX31 <BoostyBadge type="keenetic" text="5.0" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.3.6" url="/assets/files/firmware/Netis-NX31.7z" />
+# Netis NX31 <BoostyBadge type="keenetic" text="5.0.2" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.3.6" url="/assets/files/firmware/Netis-NX31.7z" />
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий

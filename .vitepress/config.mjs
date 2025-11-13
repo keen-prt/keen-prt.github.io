@@ -42,6 +42,7 @@ export default defineConfig({
     ]
   },
   themeConfig: {
+    aside: true,
     search: {
       provider: 'local',
       options: {
@@ -102,7 +103,7 @@ export default defineConfig({
       next: 'Следующая страница'
     },
     sidebarMenuLabel: 'Меню',
-    logo: '/assets/images/logo.svg',
+    logo: '/assets/images/logo-ny.svg',
     siteTitle: false,
     nav: [
       { text: 'Главная', link: '/' },
@@ -118,40 +119,46 @@ export default defineConfig({
           {
             text: 'Active',
             items: [
-              { text: '🆕 Netis NX32U', link: '/wiki/guides/netis-nx32u' },
-              { text: '🆕 Cudy WR3000P', link: '/wiki/guides/WR3000P' },
-              { text: '⭐️ Netis NX31', link: '/wiki/guides/netis-nx31' },
               { text: '⚡️ CMCC RAX3000M', link: '/wiki/guides/rax3000m' },
               { text: '⚡️ CMCC RAX3000ME', link: '/wiki/guides/rax3000me' },
-              { text: '🚀 Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
-              { text: 'Redmi AX6S', link: '/wiki/guides/ax6s' },
+              { text: '⚡️ Cudy WR3000P', link: '/wiki/guides/WR3000P' },
               { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
+              { text: '⚡️ Netis NX31', link: '/wiki/guides/netis-nx31' },
+              { text: '⚡️ Netis NX32U', link: '/wiki/guides/netis-nx32u' },
+              { text: 'Redmi AX6S', link: '/wiki/guides/ax6s' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
+              { text: '⚡️ Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
               { text: 'Xiaomi 3G', link: '/wiki/guides/xiaomi-3Gv1' }
             ]
           },
           {
-            text: 'EoL / EoD',
+            text: 'End Of Development',
             collapsed: true,
             items: [
-              { text: 'Linksys EA7XXX', link: '/wiki/guides/linksys' },
-              { text: 'HLK7621 32/256', link: '/assets/files/firmware/HLK7621_256_32.zip' },
               { text: 'Mercusys MR70X', link: '/wiki/guides/mercusys-mr70x' },
-              { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' },
               { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },
-              { text: 'SmartBox Pro', link: '/wiki/guides/smartbox-pro' },
-              { text: 'SmartBox Turbo+', link: '/wiki/guides/smartbox-turbo+' },
-              { text: 'TP-Link Archer C6U', link: '/wiki/guides/archerc6u' },
-              { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
-              { text: 'WiFire S1500.NBN', link: '/wiki/guides/wifire-s1500' },
               { text: 'Xiaomi 3P', link: '/wiki/guides/xiaomi-3P' },
               { text: 'Xiaomi 4', link: '/wiki/guides/xiaomi-4' },
+              { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
+              { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' }
+            ]
+          },
+          {
+            text: 'End Of Life',
+            collapsed: true,
+            items: [
+              { text: 'HLK7621 32/256', link: 'https://keeneticported.dev/assets/files/firmware/HLK7621_256_32.zip' },
+              { text: 'Linksys EA7XXX', link: '/wiki/guides/linksys' },
+              { text: 'SmartBox Pro', link: '/wiki/guides/smartbox-pro' },
+              { text: 'SmartBox Turbo (Plus)', link: '/wiki/guides/smartbox-turbo' },
+              { text: 'TP-Link Archer C6U', link: '/wiki/guides/archerc6u' },
+              { text: 'Vertell Street M2', link: '/wiki/guides/vertell-street-m2' },
+              { text: 'WiFire S1500.NBN', link: '/wiki/guides/wifire-s1500' },
               { text: 'Xiaomi 4AC', link: '/wiki/guides/xiaomi-4AC' },
               { text: 'Xiaomi 4Av1', link: '/wiki/guides/xiaomi-4AG' },
               { text: 'Xiaomi 4Av2', link: '/wiki/guides/xiaomi-4AGv2' },
               { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' },
-              { text: 'Xiaomi Extender', link: '/wiki/guides/xiaomi-extender' },
-              { text: 'Vertell Street M2', link: '/wiki/guides/vertell-street-m2' }
+              { text: 'Xiaomi Extender', link: '/wiki/guides/xiaomi-extender' }
             ]
           }
         ]
@@ -176,7 +183,7 @@ export default defineConfig({
         items: [
           {
             items: [
-              { text: '💳 Ранние сборки | Boosty', link: '/wiki/helpful/boosty' },
+              { text: '💳 Boosty', link: '/wiki/helpful/boosty' },
               { text: '🧩 Компоненты', link: '/wiki/helpful/components' },
               { text: '📦 Установка Entware', link: '/wiki/helpful/entware' },
               { text: '❓ FAQ', link: '/wiki/helpful/faq' },

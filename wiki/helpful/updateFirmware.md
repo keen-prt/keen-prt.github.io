@@ -1,6 +1,6 @@
 # Обновление прошивки
 
-## SPI NAND Flash память (от 128MB)
+## NAND Flash память (от 128MB)
 
 ### Способ #1 <Badge type="keenetic" text="Рекомендуемый" />
 

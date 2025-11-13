@@ -10,6 +10,7 @@ import EODBadge from '../components/EODBadge.vue'
 import GoodBlock from '../components/GoodBlock.vue'
 import YezBadgeWithDropdown from '../components/YezBadgeWithDropdown.vue'
 import BoostyBadge from '../components/BoostyBadge.vue'
+import Banner from '../components/Banner.vue'
 
 const redirects = {
   '/wiki/guides/xiaomi-R3Gv1': '/wiki/guides/xiaomi-3Gv1'
@@ -28,29 +29,6 @@ export default {
       }
     }
 
-    const insertBanner = () => {
-      const docAsideOutline = document.querySelector('.VPDocAsideOutline')
-      if (docAsideOutline) {
-        console.log('VPDocAsideOutline found')
-        const contentDiv = docAsideOutline.querySelector('.content')
-        if (contentDiv && !document.getElementById('banner')) {
-          const bannerDiv = document.createElement('div')
-          bannerDiv.id = 'banner'
-          bannerDiv.innerHTML = `
-            <a href="https://t.me/aezahost_ru" target="_blank">
-              <img src="/assets/images/picture.jpg" alt="Banner" style="width: 320px; height: 600px;">
-            </a>
-          `
-          contentDiv.insertAdjacentElement('afterend', bannerDiv)
-          console.log('Banner inserted')
-        } else if (!contentDiv) {
-          console.log('Content div not found inside VPDocAsideOutline')
-        }
-      } else {
-        console.log('VPDocAsideOutline not found')
-      }
-    }
-
     const initZoom = () => {
       mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' })
       mediumZoom('.main img', {
@@ -59,9 +37,7 @@ export default {
     }
 
     onMounted(() => {
-      insertBanner()
       initZoom()
-      console.log('Setup onMounted is working')
 
       if (window.location.hash) {
         const decodedHash = decodeURIComponent(window.location.hash)
@@ -80,7 +56,6 @@ export default {
       () => route.path,
       () => {
         nextTick(() => {
-          insertBanner()
           initZoom()
           if (window.location.hash) {
             const decodedHash = decodeURIComponent(window.location.hash)
@@ -100,7 +75,7 @@ export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      'aside-outline-after': () => h(Banner)
     })
   },
   enhanceApp({ app, router, siteData }) {

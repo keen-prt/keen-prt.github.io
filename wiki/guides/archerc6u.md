@@ -1,7 +1,7 @@
 # TP-Link Archer C6U v1 <YezBadge type="keenetic" text="4.2.2" url="/assets/files/firmware/TP-Link-C6U.7z" />
 
-::: warning **Статус устройства: EoD**
-**End of Development** — обновление системы возможно только при наличии свободного времени и желания
+::: warning **Статус устройства: EoL**
+**End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 
 ![альтернативный текст](/assets/images/wiki/guides/TP-Link-C6U/main.png){width=550px height=100px}
