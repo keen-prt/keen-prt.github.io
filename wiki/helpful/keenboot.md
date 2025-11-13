@@ -1,6 +1,6 @@
 # KeenBOOT
 
-#### Фирменный загрузчик для KeeneticOS на базе процессора MediaTek 7621
+#### Фирменный загрузчик для KeeneticOS на базе MediaTek 7621/7981
 
 ![альтернативный текст](/assets/images/wiki/helpful/keenboot/main.png)
 
@@ -13,6 +13,8 @@
 
 • Поддержка DHCP без выставления статического IP адреса
 
+• Возможность останавливать загрузку системы через BreedEnter
+
 • Совместимость с KeeneticOS
 :::
 
@@ -21,21 +23,23 @@
 ::: danger
 **Устанавливайте загрузчик только для своей модели!**
 :::
-
-| Модель                | Цвет диода                                                                   | [Список изменений](https://t.me/KeeneticPorted/7905)                       |
-|-----------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| **MTS WG430223**      | Системный - 🟢<br/>В загрузчике - 🔴 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-MTS_WG430223_v1.4.bin)      |
-| **Netis N6**          | Системный - Power<br/>В загрузчике - Internet (мигает) <br/>Обновление - WPS | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-Netis_N6_v1.4.bin)          |
-| **SmartBox Giga**     | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-SB_Giga_v1.4.bin)           |
-| **SmartBox Flash**    | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-SB_Flash_v1.4.bin)          |
-| **SmartBox Turbo+**   | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-SB_Turbo_Plus_v1.4.bin)     |
-| **SmartBox Pro**      | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵            | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-SB_Pro_v1.4.bin)            |
-| **TP-Link EC330**     | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵            | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-TP-Link_EC330_v1.4.bin)     |
-| **WiFire S1500**      | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵            | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-WiFire-S1500_v1.4.bin)      |
-| **Xiaomi R3G**        | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-Xiaomi_3G_v1.4.bin)         |
-| **Xiaomi R3P**        | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-Xiaomi_3P_v1.4.bin)         |
-| **Xiaomi 4**          | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-Xiaomi_4_v1.4.bin)          |
-| **Vertell Street M2** | Системный - Sys<br/>В загрузчике - Net (мигает) <br/>Обновление - Net        | [Скачать](/assets/files/keenboot/v1.4/KeenBOOT-Vertell-Street-M2_v1.4.bin) |
+::: tip
+Для ARM моделей используйте [новую версию](https://t.me/keeneticported/7905/74653) загрузчика. Вход на старых версиях мог осуществляться через WPS/MESH
+:::
+| Модель                    | Цвет диода                                                                   | [Список изменений](https://t.me/KeeneticPorted/7905)                       |
+|---------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| **MTS WG430223**          | Системный - 🟢<br/>В загрузчике - 🔴 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-MTS_WG430223_v1.5.bin)      |
+| **Netis N6**              | Системный - Power<br/>В загрузчике - Internet (мигает) <br/>Обновление - WPS | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-Netis_N6_v1.5.bin)          |
+| **SmartBox Giga**         | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-SB_Giga_v1.5.bin)           |
+| **SmartBox Flash**        | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-SB_Flash_v1.5.bin)          |
+| **SmartBox Turbo (Plus)** | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-SB_Turbo_v1.5.bin)          |
+| **SmartBox Pro**          | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵            | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-SB_Pro_v1.5.bin)            |
+| **TP-Link EC330**         | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵            | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-TP-Link_EC330_v1.5.bin)     |
+| **WiFire S1500**          | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵            | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-WiFire-S1500_v1.5.bin)      |
+| **Xiaomi R3G**            | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-Xiaomi_3G_v1.5.bin)         |
+| **Xiaomi R3P**            | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-Xiaomi_3P_v1.5.bin)         |
+| **Xiaomi 4**              | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴           | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-Xiaomi_4_v1.5.bin)          |
+| **Vertell Street M2**     | Системный - Sys<br/>В загрузчике - Net (мигает) <br/>Обновление - Net        | [Скачать](/assets/files/keenboot/v1.5/KeenBOOT-Vertell-Street-M2_v1.5.bin) |
 
 ## Переход на загрузчик
 
@@ -67,5 +71,5 @@
 
 ## Обновление/Смена загрузчика
 
-Перейдите в раздел `Bootloader`, выберите файл нужного вам загрузчика и нажмите `Обновить`
+Перейдите в раздел `Bootloader`/`U-Boot`, выберите файл нужного вам загрузчика и нажмите `Обновить`
 ![альтернативный текст](/assets/images/wiki/helpful/keenboot/update.png)

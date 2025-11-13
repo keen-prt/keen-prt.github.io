@@ -1,6 +1,6 @@
 # Откат прошивки
 
-## Для NAND Flash памяти
+## Для SPI NAND Flash памяти
 
 ### Способ #1
 1. Установить [KeenBOOT](/wiki/helpful/keenboot) версии 1.4 и выше

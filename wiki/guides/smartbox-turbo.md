@@ -1,4 +1,4 @@
-# SmartBox Turbo+ <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/SmartBox-Turbo+.zip" />
+# SmartBox Turbo (Plus) <YezBadge type="keenetic" text="4.3.6.3" url="/assets/files/firmware/SmartBox_Turbo.7z" />
 
 ::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
@@ -8,16 +8,16 @@
 
 ## Характеристики
 
-| Особенность       | Описание                                                                      |
-|-------------------|-------------------------------------------------------------------------------|
-| **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz                                              |
-| **Flash MB**      | 128NAND                                                                       |
-| **RAM MB**        | 128/DDR3                                                                      |
-| **Ethernet**      | 10/100/1000 Mbps x5 (1x WAN, 4x LAN)                                          |
-| **USB**           | 1x 3.0                                                                        |
-| **WLAN Hardware** | MediaTek MT7603EN, MediaTek MT7615N                                           |
-| **WLAN 5.0GHz**   | Keenetic: AC, 80MHz, 2x2, 867MB/s, 256QAM<br>Stock: AC, 160MHz, 4x4, 1733MB/s |
-| **WLAN 2.4GHz**   | Stock: N, 40MHz, 2x2, 300MB/s                                                 |
+| Особенность       | Описание                             |
+|-------------------|--------------------------------------|
+| **CPU**           | MediaTek MT7621AT, MIPS, 880 MHz     |
+| **Flash MB**      | 128NAND / 256NAND                    |
+| **RAM MB**        | 128/DDR3 / 256/DDR3                  |
+| **Ethernet**      | 10/100/1000 Mbps x5 (1x WAN, 4x LAN) |
+| **USB**           | 1x 3.0                               |
+| **WLAN Hardware** | MediaTek MT7603EN, MediaTek MT7615N  |
+| **WLAN 5.0GHz**   | AC, 160MHz, 4x4, 1733MB/s            |
+| **WLAN 2.4GHz**   | 40MHz, 2x2, 300MB/s                  |
 
 ## Особенности сборки
 
@@ -40,8 +40,9 @@
 2. Сохраняем из LuCi (вкладка System - Backup / Flash firmware) раздел `factory`
 3. Полученный файл сконвертировать в валидный EEPROM для Keenetic. [Перемещаем калибровку](https://yeezyio.github.io/EepromMover.html), в полученном файле [меняем мак-адрес](https://yeezyio.github.io/EepromConverter.html)
 4. Добавить в папку патченный EEPROM
-5. `breed_turbo+.bin` из архива открываем в HFS.exe
-6. По SSH выполняем команды предварительно подключив роутер к интернету:
+5. Установите пакет `kmod-mtd-rw` или выполните обновление файлом `openwrt-sysupgrade.bin`, в нём пакет уже содержится
+6. `KeenBOOT-SB_Turbo_v1.5.bin` из архива открываем в HFS.exe
+7. По SSH выполняем команды:
 
 ```shell
 cat /proc/mtd
@@ -54,26 +55,26 @@ dev:    size   erasesize  name
 mtd0: 10000000 00020000 "u-boot"
 ````
 
-Запоминаем название `mtd0` раздела, он будет `u-boot`, `Bootloader` или `bootloader` <br/> Используем его в последней команде вместо u-boot
+Запоминаем название `mtd0` раздела, он будет `u-boot`, `Bootloader` или `bootloader` <br/> Используем его в последней
+команде вместо u-boot
 
 ```shell
-opkg update
-opkg install kmod-mtd-rw
 cd /tmp
-wget http://192.168.1.2/breed_turbo+.bin
+wget http://192.168.1.2/KeenBOOT-SB_Turbo_v1.5.bin
 insmod mtd-rw i_want_a_brick=1
 mtd unlock /dev/mtd0
-mtd write /tmp/breed_turbo+.bin u-boot
+mtd write /tmp/KeenBOOT-SB_Turbo_v1.5.bin u-boot
 reboot
 ```
 
 ### Способ #1 <Badge type="keenetic" text="Новый, рекомендуемый" />
 
-1. Сменить загрузчик на [KeenBOOT](/wiki/helpful/keenboot.md)
-2. Загрузить `Firmware, EEPROM, U-Config` из архива по очереди через веб-интерфейс по [инструкции](/wiki/helpful/keenboot#установка-прошивки)
+1. Зайти в загрузчик KeenBOOT зажав кнопку Reset
+2. Загрузить `Firmware, EEPROM, U-Config` из архива по очереди через веб-интерфейс для модели Turbo или Turbo Plus
+   по [инструкции](/wiki/helpful/keenboot#установка-прошивки)
 3. Перезагрузиться в систему
 
-::: tip URL: 192.168.1.1 `admin:12345678`<br/>SSID: Keenetic<br/>Password: 12345678
+::: tip URL: 192.168.1.1 <br/>SSID: Keenetic<br/>Password: 12345678
 :::
 
 ### Способ #2 <Badge type="keenetic" text="Старый" />

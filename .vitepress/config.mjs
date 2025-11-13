@@ -119,8 +119,8 @@ export default defineConfig({
             text: 'Active',
             items: [
               { text: '🆕 Netis NX32U', link: '/wiki/guides/netis-nx32u' },
-              { text: '🆕 Cudy WR3000P', link: '/wiki/guides/WR3000P' },
               { text: '⭐️ Netis NX31', link: '/wiki/guides/netis-nx31' },
+              { text: '🆕 Cudy WR3000P', link: '/wiki/guides/WR3000P' },
               { text: '⚡️ CMCC RAX3000M', link: '/wiki/guides/rax3000m' },
               { text: '⚡️ CMCC RAX3000ME', link: '/wiki/guides/rax3000me' },
               { text: '🚀 Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
@@ -140,7 +140,7 @@ export default defineConfig({
               { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' },
               { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },
               { text: 'SmartBox Pro', link: '/wiki/guides/smartbox-pro' },
-              { text: 'SmartBox Turbo+', link: '/wiki/guides/smartbox-turbo+' },
+              { text: 'SmartBox Turbo (Plus)', link: '/wiki/guides/smartbox-turbo' },
               { text: 'TP-Link Archer C6U', link: '/wiki/guides/archerc6u' },
               { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
               { text: 'WiFire S1500.NBN', link: '/wiki/guides/wifire-s1500' },

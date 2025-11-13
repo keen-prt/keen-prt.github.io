@@ -1,4 +1,4 @@
-# Redmi AX6S (Xiaomi AX3200) <BoostyBadge type="keenetic" text="5.0" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.3.6.3" url="/assets/files/firmware/Redmi-AX6S(Xiaomi-AX3200).7z" />
+# Redmi AX6S (Xiaomi AX3200) <BoostyBadge type="keenetic" text="5.0.1" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.3.6.3" url="/assets/files/firmware/Redmi-AX6S(Xiaomi-AX3200).7z" />
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
