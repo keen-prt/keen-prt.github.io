@@ -119,6 +119,7 @@ export default defineConfig({
           {
             text: 'Active',
             items: [
+              { text: '⚡️ Cudy WBR3000UAX', link: '/wiki/guides/WBR3000UAX' },
               { text: '⚡️ CMCC RAX3000M', link: '/wiki/guides/rax3000m' },
               { text: '⚡️ CMCC RAX3000ME', link: '/wiki/guides/rax3000me' },
               { text: '⚡️ Cudy WR3000P', link: '/wiki/guides/WR3000P' },
