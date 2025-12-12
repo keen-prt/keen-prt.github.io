@@ -228,6 +228,14 @@ h1 .VPBadge {
   margin-top: 30px;
 }
 
+.banner-img {
+  width: 75%;
+  height: auto;
+  display: block;
+  aspect-ratio: 1080 / 2025;
+  object-fit: contain;
+}
+
 .aside-container {
   width: 350px !important;
 }
