@@ -1,4 +1,4 @@
-# Xiaomi Router 3G <BoostyBadge type="keenetic" text="5.0.2" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.3.5" url="/assets/files/firmware/Xiaomi-R3G.7z"/>
+# Xiaomi Router 3G <OTABadge type="keenetic" text="5.0.3 (OTA)"/> <YezBadge type="keenetic" text="4.3.5" url="/assets/files/firmware/Xiaomi-R3G.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
@@ -60,6 +60,13 @@
    в папку с прошивкой
 
 ### Способ #1 <Badge type="keenetic" text="Новый, рекомендуемый" />
+::: danger
+Если сейчас установлен KeeneticOS не нашей модификации, перед сменой загрузчика выполните команду через TelNet
+```` shell
+flash erase 0x80000 0x7f00000
+````
+:::
+
 1. Сменить загрузчик на [KeenBOOT](/wiki/helpful/keenboot.md)
 2. Загрузить `Firmware, EEPROM, U-Config` из архива по очереди через веб-интерфейс по [инструкции](/wiki/helpful/keenboot#установка-прошивки)
 3. Перезагрузиться в систему
