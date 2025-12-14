@@ -120,6 +120,7 @@
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-good-text: var(--vp-c-text-1);
 }
 
 /**
@@ -165,11 +166,11 @@ h1 .VPBadge {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный */
-  z-index: 999; /* Позади окна, но выше основного контента */
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
   display: none;
 }
-/* Стиль для всплывающего окна */
+
 #popup {
   position: fixed;
   max-width: 300px;
@@ -205,6 +206,7 @@ h1 .VPBadge {
   bottom: 35px;
   left: 20px;
   background: var(--vp-c-bg-alt);
+  border: 2px solid var(--vp-c-divider);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
   border-radius: 8px;
@@ -224,11 +226,11 @@ h1 .VPBadge {
 .medium-zoom-image--opened {
   z-index: 31;
 }
-.banner {
+.aside-block {
   margin-top: 30px;
 }
 
-.banner-img {
+.aside-block-img {
   width: 75%;
   height: auto;
   display: block;
@@ -270,4 +272,110 @@ h1 .VPBadge {
 
 .VPSidebar:hover::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.snowfall {
+  position: fixed;
+  top: var(--vp-nav-height);
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 70;
+  overflow: hidden;
+}
+
+.snowfall__flake {
+  position: absolute;
+  top: -12px;
+  border-radius: 999px;
+  --snowfall-sway: 20px;
+  --snowfall-size: 16px;
+  --snowfall-opacity: 0.7;
+  width: var(--snowfall-size);
+  height: var(--snowfall-size);
+  opacity: var(--snowfall-opacity);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  will-change: transform;
+  animation-name: snowfall-float;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.snowfall__glyph {
+  font-size: var(--snowfall-size);
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes snowfall-float {
+  0% {
+    transform: translate3d(0, -20px, 0);
+  }
+  50% {
+    transform: translate3d(var(--snowfall-sway, 20px), 50vh, 0);
+  }
+  100% {
+    transform: translate3d(0, calc(100vh + 40px), 0);
+  }
+}
+
+.snowfall-fade-enter-active,
+.snowfall-fade-leave-active {
+  transition: opacity 200ms ease;
+}
+.snowfall-fade-enter-from,
+.snowfall-fade-leave-to {
+  opacity: 0;
+}
+
+.snowfall-toggle {
+  display: inline-flex;
+  align-items: center;
+  height: var(--vp-nav-height);
+  padding: 0 10px;
+  margin-left: 8px;
+  border: 0;
+  border-radius: 10px;
+  color: var(--vp-c-text-2);
+  background: transparent;
+  cursor: pointer;
+}
+
+.snowfall-toggle:hover {
+  color: var(--vp-c-text-1);
+  background: transparent;
+}
+
+.snowfall-toggle[aria-pressed='true'] {
+  color: var(--vp-c-brand-1);
+}
+
+.snowfall-toggle__icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.snowfall-toggle[aria-pressed='false'] .snowfall-toggle__icon {
+  opacity: 0.45;
+}
+
+.snowfall-toggle[aria-pressed='true'] .snowfall-toggle__icon {
+  opacity: 1;
+}
+
+.snowfall-toggle:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--vp-c-brand-1) 55%, transparent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .snowfall {
+    display: none !important;
+  }
 }

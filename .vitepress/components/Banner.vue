@@ -1,9 +1,10 @@
 <template>
-  <div class="banner">
-    <a href="https://aeza.net/?ref=386645" target="_blank" rel="noopener">
+  <div class="aside-block">
+    <a href="https://vk.cc/cTZAZY" target="_blank" rel="noopener">
       <img
-        src="/assets/images/banner.jpg"
-        class="banner-img"
+        src="/assets/images/aside-partner.png"
+        class="aside-block-img"
+        alt=""
       />
     </a>
   </div>

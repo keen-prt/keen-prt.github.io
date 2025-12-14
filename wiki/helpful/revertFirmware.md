@@ -1,8 +1,25 @@
 # Откат прошивки
 
-## Для SPI NAND Flash памяти
+## MediaTek MT7981 <Badge type="keenetic" text="SPI NAND Flash" />
 
-### Способ #1
+1. Склеить файлы бэкапа через [Merger](https://osvault.keeneticported.dev/files/Merger.exe) или вручную через терминал, если нет цельного файла:
+
+```` shell
+copy /b mtd0.bin+mtd1.bin+mtd2.bin+mtd8.bin+mtd5.bin+mtd6.bin+mtd7.bin full_dump.bin
+````
+
+2. Зайти в загрузчик [KeenBOOT](/wiki/helpful/keenboot) зажатием кнопки Reset
+3. В разделе `Обновление` загрузить файл бэкапа как `Полный образ (Full)`.
+
+![альтернативный текст](/assets/images/wiki/guides/WBR3000UAX/revert.png)
+
+::: warning
+На `Xiaomi AX3000T` после перезапуска требуется восстановить устройство через MiWiFi Repair Tool
+:::
+
+## MediaTek MT7628/MT7621
+
+### Способ #1  <Badge type="keenetic" text="NAND Flash" />
 1. Установить [KeenBOOT](/wiki/helpful/keenboot) версии 1.4 и выше
 2. В загрузчике перейти во вкладку `Full`
 
@@ -11,10 +28,10 @@
 3. Загрузить бэкап устройства
 ::: tip 
 Если после восстановления роутер загрузился в Breed - выполните установку родного загрузчика от вашей модели (см. п7).
-[Архив стоковых загрузчиков](https://osvault.keeneticported.dev/files/uboot_stock_backups.7z)
+[Архив стоковых загрузчиков MT7621](https://osvault.keeneticported.dev/files/uboot_stock_backups.7z)
 :::
 
-### Способ #2 <Badge type="keenetic" text="При отсутствии Bad-блоков" />
+### Способ #2 <Badge type="keenetic" text="NAND Flash" />
 1. Открыть свой бэкап в [HxD](https://mh-nexus.de/en/hxd/)
 2. Выделить первый кусок в котором содержится загрузчик Breed и стереть
 
@@ -40,8 +57,7 @@ flash write 0x80000 0x80001000 0x7f80000
 7. Перейти в раздел `Upgrade`, выбрать файл вашего стокового загрузчика в `Bootloader` и нажать `Upload`
    ![альтернативный текст](/assets/images/wiki/helpful/breed/upgrade.png)
 
-
-## Для SPI NOR памяти
+### Способ #1 <Badge type="keenetic" text="SPI NOR" />
 
 1. Перейти в загрузчик Breed ([`как?`](/wiki/helpful/breedBootloader#как-заити-в-загрузчик-breed)) по адресу 192.168.1.1
 2. Выполнить загрузку вашего бэкапа весом 16MB или 32MB в зависимости от объёма памяти

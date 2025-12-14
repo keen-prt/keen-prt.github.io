@@ -1,4 +1,4 @@
-# Redmi AX6S (Xiaomi AX3200) <BoostyBadge type="keenetic" text="5.0.1" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.3.6.3" url="/assets/files/firmware/Redmi-AX6S(Xiaomi-AX3200).7z" />
+# Redmi AX6S (Xiaomi AX3200) <OTABadge type="keenetic" text="5.0.3 (OTA)"/> <YezBadge type="keenetic" text="4.3.6.3" url="/assets/files/firmware/Redmi-AX6S(Xiaomi-AX3200).7z" />
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
@@ -58,3 +58,12 @@
 ![альтернативный текст](/assets/images/wiki/guides/ax6s/2.png)
 
 ![альтернативный текст](/assets/images/wiki/guides/ax6s/3.png)
+
+## Восстановление/Обновление
+
+1. Подключите роутер проводом и выставите статику
+
+   ![альтернативный текст](/assets/images/wiki/helpful/breed/networkStatic.png)
+2. Скачайте [утилиту восстановления](https://osvault.keeneticported.dev/files/AX6S_recovery.7z)
+3. Запустить `tftpd64.exe`
+4. Зажать Reset и включить роутер, кнопку держать около 15 секунд. Программа начнёт загрузку файла

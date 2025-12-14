@@ -43,6 +43,7 @@ export default defineConfig({
   },
   themeConfig: {
     aside: true,
+    showBanner: true,
     search: {
       provider: 'local',
       options: {
@@ -185,15 +186,15 @@ export default defineConfig({
           {
             items: [
               { text: '💳 Boosty', link: '/wiki/helpful/boosty' },
+              { text: '🧩 Загрузчик Breed', link: '/wiki/helpful/breedBootloader' },
+              { text: '⚙️ Загрузчик KeenBOOT', link: '/wiki/helpful/keenboot' },
               { text: '🧩 Компоненты', link: '/wiki/helpful/components' },
               { text: '📦 Установка Entware', link: '/wiki/helpful/entware' },
               { text: '❓ FAQ', link: '/wiki/helpful/faq' },
+              { text: '🌐 Настройка Mesh', link: '/wiki/helpful/mesh' },
               { text: '🔄 Обновление прошивки', link: '/wiki/helpful/updateFirmware' },
               { text: '🔙 Откат прошивки', link: '/wiki/helpful/revertFirmware' },
-              { text: '⚙️ Загрузчик KeenBOOT', link: '/wiki/helpful/keenboot' },
-              { text: '🧩 Загрузчик Breed', link: '/wiki/helpful/breedBootloader' },
               { text: '🧰 KeenKit', link: '/wiki/helpful/keenkit' },
-              { text: '🌐 Настройка Mesh', link: '/wiki/helpful/mesh' },
               { text: '🗂️ Сборник файлов', link: '/wiki/helpful/files' }
             ]
           }
