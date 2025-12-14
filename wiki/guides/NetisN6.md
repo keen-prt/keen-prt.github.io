@@ -1,4 +1,4 @@
-# Netis N6 AX1800 <BoostyBadge type="keenetic" text="5.0.2" url="/wiki/helpful/boosty"/> <YezBadge type="keenetic" text="4.3.6.3" url="/assets/files/firmware/Netis-N6.7z" />
+# Netis N6 AX1800 <OTABadge type="keenetic" text="5.0.3 (OTA)"/> <YezBadge type="keenetic" text="4.3.6.3" url="/assets/files/firmware/Netis-N6.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
@@ -16,7 +16,7 @@
 | **Ethernet**      | 10/100/1000 Mbps x5 (1x WAN, 4x LAN)   |
 | **USB**           | 1x 3.0                                 |
 | **WLAN Hardware** | MediaTek MT7905DAN + MediaTek MT7975DN |
-| **WLAN 5.0GHz**   | AX, 80MHz, 2x2, 1201MB/s, 256QAM       |
+| **WLAN 5.0GHz**   | AX, 80MHz, 2x2, 1201MB/s, 1024QAM      |
 | **WLAN 2.4GHz**   | AX, 40MHz, 2x2, 574MB/s, 256QAM        |
 
 ## Особенности сборки

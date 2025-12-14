@@ -1,5 +1,16 @@
 # Обновление прошивки
 
+## Универсальный
+
+::: danger 
+Для KeeneticOS 5.0.2 и выше
+:::
+1. Открыть в браузере страницу `http://<router_ip>/fw.html`
+
+   ![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/fw.png)
+2. Загрузить файл обновления
+3. Согласиться с обновлением. Устройство уйдёт в перезагрузку
+
 ## NAND Flash память (от 128MB)
 
 ### Способ #1 <Badge type="keenetic" text="Рекомендуемый" />
@@ -11,6 +22,9 @@
 
 ### Способ #2 <Badge type="keenetic" text="Автоматический" />
 
+::: tip
+Скачать файл обновления можно [вручную](https://osvault.keeneticported.dev/osvault)
+:::
 • Используйте [KeenKit](/wiki/helpful/keenkit.md) с функцией `Обновить прошивку из файла` или `OTA Update`
 
 ![альтернативный текст](/assets/images/wiki/helpful/keenkit/update-firmware.png){width=500px height=100px}

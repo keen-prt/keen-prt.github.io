@@ -16,7 +16,7 @@
 | **Ethernet**      | 10/100/1000 Mbps x4 (1x WAN, 3x LAN)   |
 | **USB**           | -                                      |
 | **WLAN Hardware** | MediaTek MT7905DAN + MediaTek MT7975DN |
-| **WLAN 5.0GHz**   | AX, 80MHz, 2x2, 1201MB/s, 256QAM       |
+| **WLAN 5.0GHz**   | AX, 80MHz, 2x2, 1201MB/s, 1024QAM      |
 | **WLAN 2.4GHz**   | AX, 40MHz, 2x2, 574MB/s, 256QAM        |
 
 ## Особенности сборки
