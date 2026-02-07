@@ -1,11 +1,10 @@
 if (typeof window !== 'undefined') {
-    // Выполнится только в браузере
     document.addEventListener('DOMContentLoaded', () => {
       // if (!localStorage.getItem('popup-shown')) {
       //   showPopup();
       //   localStorage.setItem('popup-shown', 'true');
       // }
-      showCornerMessage();
+      // showCornerMessage();
     });
 
     function showPopup() {
@@ -34,14 +33,13 @@ if (typeof window !== 'undefined') {
     }
 
     function showCornerMessage() {
-      const message = document.createElement('div');
-      message.id = 'corner-message';
-      message.classList.add('vp-doc');
+      const message = document.createElement('div')
+      message.id = 'corner-message'
+      message.classList.add('vp-doc')
       message.innerHTML = `
-        У нас сменился Telegram-чат<br>
-        <a href="https://t.me/KeeneticPorted" target="_blank">Перейти</a>
-      `;
-      document.body.appendChild(message);
+      <a href="https://t.me/KeeneticPorted" target="_blank">Наш Telegram-чат</a>
+    `
+      document.body.appendChild(message)
     }
   }
   

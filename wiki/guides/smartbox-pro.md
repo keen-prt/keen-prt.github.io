@@ -49,7 +49,7 @@ cat /proc/mtd
 
 вывод:
 dev:    size   erasesize  name
-mtd0: 10000000 00020000 "u-boot"
+mtd0: 10000000 00020000 "Bootloader"
 ```
 
 Запоминаем название `mtd0` раздела, он будет `u-boot` или `Bootloader` <br/> Используем его в последней команде

@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { createGlobalUrlReplacer } from './plugins/replacer.js'
+import { LOGO } from './theme/snowfall.js'
+import lightbox from 'vitepress-plugin-lightbox'
 
 export default defineConfig({
   head: [
@@ -27,6 +29,9 @@ export default defineConfig({
   title: 'Keenetic Ported Wiki',
   description: 'Портированная прошивка на Ваш роутер',
   markdown: {
+    config: (md) => {
+      md.use(lightbox, {})
+    },
     container: {
       tipLabel: 'Совет',
       warningLabel: 'ПРЕДУПРЕЖДЕНИЕ',
@@ -104,7 +109,7 @@ export default defineConfig({
       next: 'Следующая страница'
     },
     sidebarMenuLabel: 'Меню',
-    logo: '/assets/images/logo-ny.svg',
+    logo: LOGO,
     siteTitle: false,
     nav: [
       { text: 'Главная', link: '/' },
@@ -130,7 +135,7 @@ export default defineConfig({
               { text: 'Redmi AX6S', link: '/wiki/guides/ax6s' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
               { text: '⚡️ Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
-              { text: 'Xiaomi 3G', link: '/wiki/guides/xiaomi-3Gv1' }
+              { text: 'Xiaomi 3G', link: '/wiki/guides/xiaomi-3G' }
             ]
           },
           {
@@ -142,7 +147,7 @@ export default defineConfig({
               { text: 'Xiaomi 3P', link: '/wiki/guides/xiaomi-3P' },
               { text: 'Xiaomi 4', link: '/wiki/guides/xiaomi-4' },
               { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
-              { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' }
+              { text: 'МТS WG430223', link: '/wiki/guides/mts-wg430223' }
             ]
           },
           {

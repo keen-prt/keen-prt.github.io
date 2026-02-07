@@ -24,7 +24,7 @@
 |---------------------------------|----------------------------------------------------------------|
 | **Netis N6**                    | [Скачать](/assets/files/breed/Breed(r1416)-Netis-N6.bin)       |
 | **SmartBox Giga**               | [Скачать](/assets/files/breed/Breed(r1416)-Giga.bin)           |
-| **SmartBox Flash/MTC WG430223** | [Скачать](/assets/files/breed/Breed(r1416)-Flash-WG430223.bin) |
+| **SmartBox Flash/MTS WG430223** | [Скачать](/assets/files/breed/Breed(r1416)-Flash-WG430223.bin) |
 | **SmartBox Pro/WiFire S1500**   | [Скачать](/assets/files/breed/Breed(r1416)-SBPro-S1500.bin)    |
 | **SmartBox Turbo+**             | [Скачать](/assets/files/breed/Breed(r1416)-Turbo+.bin)         |
 | **Xiaomi Mi Router 3P/3G/4**    | [Скачать](/assets/files/breed/Breed(r1416)-Xiaomi-3P-3G-4.bin) |
