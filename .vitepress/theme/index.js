@@ -11,8 +11,8 @@ import GoodBlock from '../components/GoodBlock.vue'
 import YezBadgeWithDropdown from '../components/YezBadgeWithDropdown.vue'
 import BoostyBadge from '../components/BoostyBadge.vue'
 import Banner from '../components/Banner.vue'
-import SnowfallLayer from './components/SnowfallLayer.vue'
-import SnowfallToggle from './components/SnowfallToggle.vue'
+import Snowfall from './components/Snowfall.vue'
+import NavBarLogo from './components/NavBarLogo.vue'
 
 const ConditionalBanner = () => {
   const { site } = useData()
@@ -83,8 +83,9 @@ export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      'layout-top': () => h(SnowfallLayer),
-      'nav-bar-content-after': () => h(SnowfallToggle),
+      'layout-top': () => h(Snowfall, { part: 'layer' }),
+      'nav-bar-title-before': () => h(NavBarLogo),
+      'nav-bar-content-after': () => h(Snowfall, { part: 'toggle' }),
       'aside-outline-after': () => h(ConditionalBanner)
     })
   },

@@ -1,10 +1,18 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
-import { useSnowfall } from '../snowfall'
+import { useSnowfall, isWinterPeriod } from '../snowfall'
 
-const { enabled } = useSnowfall()
+const props = defineProps({
+  part: {
+    type: String,
+    required: true,
+    validator: (v) => v === 'layer' || v === 'toggle'
+  }
+})
 
+const { enabled, toggle } = useSnowfall()
 const hydrated = ref(false)
+const showToggle = ref(false)
 const flakes = ref([])
 
 function buildFlakes() {
@@ -26,25 +34,27 @@ function buildFlakes() {
   flakes.value = list
 }
 
-const show = computed(() => hydrated.value && enabled.value)
+const showLayer = computed(() => hydrated.value && enabled.value)
+const ariaLabel = computed(() => (enabled.value ? 'Выключить' : 'Включить'))
 
 onMounted(() => {
   hydrated.value = true
-  if (enabled.value) buildFlakes()
+  showToggle.value = isWinterPeriod()
+  if (props.part === 'layer' && enabled.value) buildFlakes()
 })
 
 watch(
   enabled,
   (v) => {
-    if (v && flakes.value.length === 0) buildFlakes()
+    if (props.part === 'layer' && v && flakes.value.length === 0) buildFlakes()
   },
   { flush: 'post' }
 )
 </script>
 
 <template>
-  <Transition name="snowfall-fade">
-    <div v-if="show" class="snowfall" aria-hidden="true">
+  <Transition v-if="part === 'layer'" name="snowfall-fade">
+    <div v-if="showLayer" class="snowfall" aria-hidden="true">
       <div
         v-for="f in flakes"
         :key="f.id"
@@ -62,6 +72,15 @@ watch(
       </div>
     </div>
   </Transition>
+
+  <button
+    v-else-if="part === 'toggle' && showToggle"
+    class="snowfall-toggle"
+    type="button"
+    :aria-pressed="enabled"
+    :aria-label="ariaLabel"
+    @click="toggle"
+  >
+    <span class="snowfall-toggle__icon" aria-hidden="true">❄</span>
+  </button>
 </template>
-
-

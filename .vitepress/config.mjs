@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { createGlobalUrlReplacer } from './plugins/replacer.js'
+import { LOGO } from './theme/snowfall.js'
 
 export default defineConfig({
   head: [
@@ -104,7 +105,7 @@ export default defineConfig({
       next: 'Следующая страница'
     },
     sidebarMenuLabel: 'Меню',
-    logo: '/assets/images/logo-ny.svg',
+    logo: LOGO,
     siteTitle: false,
     nav: [
       { text: 'Главная', link: '/' },
