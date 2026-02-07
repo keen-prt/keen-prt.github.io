@@ -2,19 +2,19 @@
 
 ## MediaTek MT7981 <Badge type="keenetic" text="SPI NAND Flash" />
 
-1. Склеить файлы бэкапа через [Merger](https://osvault.keeneticported.dev/files/Merger.exe) или вручную через терминал, если нет цельного файла:
+1. Если у вас нет цельного бэкапа весом 128 МБ, выполните склеивание родных разделов через [Merger](https://osvault.keeneticported.dev/files/Merger.exe) или вручную через терминал:
 
 ```` shell
 copy /b mtd0.bin+mtd1.bin+mtd2.bin+mtd8.bin+mtd5.bin+mtd6.bin+mtd7.bin full_dump.bin
 ````
+> ⚠️ Для Xiaomi AX3000T размер будет равен 5.6 МБ, поскольку содержит все разделы до прошивки
+2. Зайти в загрузчик [KeenBOOT](/wiki/helpful/keenboot)
+3. В разделе `Обновление` загрузите файл бэкапа как `Полный образ (Full)`.
 
-2. Зайти в загрузчик [KeenBOOT](/wiki/helpful/keenboot) зажатием кнопки Reset
-3. В разделе `Обновление` загрузить файл бэкапа как `Полный образ (Full)`.
-
-![альтернативный текст](/assets/images/wiki/guides/WBR3000UAX/revert.png)
+![альтернативный текст](/assets/images/wiki/guides/Cudy/revert.png)
 
 ::: warning
-На `Xiaomi AX3000T` после перезапуска требуется восстановить устройство через MiWiFi Repair Tool
+На `Xiaomi AX3000T` после перезапуска восстановите устройство через MiWiFi Repair Tool
 :::
 
 ## MediaTek MT7628/MT7621

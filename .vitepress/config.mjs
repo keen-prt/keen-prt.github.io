@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { createGlobalUrlReplacer } from './plugins/replacer.js'
+import { LOGO } from './theme/snowfall.js'
+import lightbox from 'vitepress-plugin-lightbox'
 
 export default defineConfig({
   head: [
@@ -27,6 +29,9 @@ export default defineConfig({
   title: 'Keenetic Ported Wiki',
   description: 'Портированная прошивка на Ваш роутер',
   markdown: {
+    config: (md) => {
+      md.use(lightbox, {})
+    },
     container: {
       tipLabel: 'Совет',
       warningLabel: 'ПРЕДУПРЕЖДЕНИЕ',
@@ -104,7 +109,7 @@ export default defineConfig({
       next: 'Следующая страница'
     },
     sidebarMenuLabel: 'Меню',
-    logo: '/assets/images/logo-ny.svg',
+    logo: LOGO,
     siteTitle: false,
     nav: [
       { text: 'Главная', link: '/' },
@@ -121,6 +126,7 @@ export default defineConfig({
             text: 'Active',
             items: [
               { text: '⚡️ Cudy WBR3000UAX', link: '/wiki/guides/WBR3000UAX' },
+              { text: '⚡️ Cudy TR3000 256MB', link: '/wiki/guides/tr3000' },
               { text: '⚡️ CMCC RAX3000M', link: '/wiki/guides/rax3000m' },
               { text: '⚡️ CMCC RAX3000ME', link: '/wiki/guides/rax3000me' },
               { text: '⚡️ Cudy WR3000P', link: '/wiki/guides/WR3000P' },
@@ -130,7 +136,7 @@ export default defineConfig({
               { text: 'Redmi AX6S', link: '/wiki/guides/ax6s' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
               { text: '⚡️ Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
-              { text: 'Xiaomi 3G', link: '/wiki/guides/xiaomi-3Gv1' }
+              { text: 'Xiaomi 3G', link: '/wiki/guides/xiaomi-3G' }
             ]
           },
           {
@@ -142,14 +148,14 @@ export default defineConfig({
               { text: 'Xiaomi 3P', link: '/wiki/guides/xiaomi-3P' },
               { text: 'Xiaomi 4', link: '/wiki/guides/xiaomi-4' },
               { text: 'TP-Link EC330-G5u', link: '/wiki/guides/TP-Link-EC330-G5u' },
-              { text: 'МТС WG430223', link: '/wiki/guides/mtc-wg430223' }
+              { text: 'МТS WG430223', link: '/wiki/guides/mts-wg430223' }
             ]
           },
           {
             text: 'End Of Life',
             collapsed: true,
             items: [
-              { text: 'HLK7621 32/256', link: 'https://keeneticported.dev/assets/files/firmware/HLK7621_256_32.zip' },
+              { text: 'HLK7621 32/256', link: 'https://osvault.keeneticported.dev/files/firmware/HLK7621_256_32.zip' },
               { text: 'Linksys EA7XXX', link: '/wiki/guides/linksys' },
               { text: 'SmartBox Pro', link: '/wiki/guides/smartbox-pro' },
               { text: 'SmartBox Turbo (Plus)', link: '/wiki/guides/smartbox-turbo' },

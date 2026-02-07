@@ -43,6 +43,10 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
+.VPNavBarTitle .title > *:nth-child(2) {
+  display: none;
+}
+
 :root {
   --vp-nav-logo-height: 38px;
   --vp-c-default-1: var(--vp-c-gray-1);
@@ -204,7 +208,7 @@ h1 .VPBadge {
   position: fixed;
   max-width: 300px;
   bottom: 35px;
-  left: 20px;
+  right: 20px;
   background: var(--vp-c-bg-alt);
   border: 2px solid var(--vp-c-divider);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
