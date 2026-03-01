@@ -1,4 +1,4 @@
-# Netis N6 AX1800 <BoostyBadge type="keenetic" text="5.0.6"/> <YezBadge type="keenetic" text="5.0.5" url="/assets/files/firmware/Netis-N6.7z"/>
+# Netis N6 AX1800 <BoostyBadge type="keenetic" text="5.1"/> <YezBadge type="keenetic" text="5.0.7" url="/assets/files/firmware/Netis-N6.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий

@@ -38,19 +38,19 @@
 ::: details Mipsel
 | Модель | Цвет диода | [Список изменений](https://t.me/KeeneticPorted/7905)                       |
 |---------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| **ASUS RT-AX53U**          | Системный - Power<br/>В загрузчике - Power (мигает) <br/>Обновление - USB | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-ASUS-RT-AX53U_1.7.bin)      |
-| **MTS WG430223**          | Системный - 🟢<br/>В загрузчике - 🔴 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-MTS-WG430223_1.7.bin)      |
-| **Netis N6**              | Системный - Power<br/>В загрузчике - Internet (мигает) <br/>Обновление - WPS | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-Netis_N6_1.7.bin)          |
-| **SmartBox Giga**         | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-SmartBox_Giga_1.7.bin)           |
-| **SmartBox Flash**        | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-SmartBox_Flash_1.7.bin)          |
-| **SmartBox Turbo (Plus)** | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-SmartBox_Turbo_1.7.bin)          |
-| **SmartBox Pro**          | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵 | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-SmartBox_Pro_1.7.bin)            |
-| **TP-Link EC330**         | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵 | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-TP-Link_EC330_1.7.bin)     |
-| **Vertell Street M2**     | Системный - Sys<br/>В загрузчике - Net (мигает) <br/>Обновление - Net | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-Vertell-Street-M2_1.7.bin) |
-| **WiFire S1500**          | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵 | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-WiFire-S1500_1.7.bin)      |
-| **Xiaomi R3G**            | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-Xiaomi_3G_1.7.bin)         |
-| **Xiaomi R3P**            | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-Xiaomi_3P_1.7.bin)         |
-| **Xiaomi 4**              | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/1.7/KeenBOOT-Xiaomi_4_1.7.bin)          |
+| **ASUS RT-AX53U**          | Системный - Power<br/>В загрузчике - Power (мигает) <br/>Обновление - USB | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-ASUS-RT-AX53U_1.7.1.bin)      |
+| **MTS WG430223**          | Системный - 🟢<br/>В загрузчике - 🔴 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-MTS-WG430223_1.7.1.bin)      |
+| **Netis N6**              | Системный - Power<br/>В загрузчике - Internet (мигает) <br/>Обновление - WPS | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-Netis_N6_1.7.1.bin)          |
+| **SmartBox Giga**         | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-SmartBox_Giga_1.7.1.bin)           |
+| **SmartBox Flash**        | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-SmartBox_Flash_1.7.1.bin)          |
+| **SmartBox Turbo (Plus)** | Системный - 🟢<br/>В загрузчике - 🔵 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-SmartBox_Turbo_1.7.1.bin)          |
+| **SmartBox Pro**          | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵 | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-SmartBox_Pro_1.7.1.bin)            |
+| **TP-Link EC330**         | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵 | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-TP-Link_EC330_1.7.1.bin)     |
+| **Vertell Street M2**     | Системный - Sys<br/>В загрузчике - Net (мигает) <br/>Обновление - Net | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-Vertell-Street-M2_1.7.1.bin) |
+| **WiFire S1500**          | Системный - 🔵<br/>В загрузчике - ⚪ (мигает) <br/>Обновление - 🔵 | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-WiFire-S1500_1.7.1.bin)      |
+| **Xiaomi R3G**            | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-Xiaomi_3G_1.7.1.bin)         |
+| **Xiaomi R3P**            | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-Xiaomi_3P_1.7.1.bin)         |
+| **Xiaomi 4**              | Системный - 🔵<br/>В загрузчике - 🟠 (мигает) <br/>Обновление - 🔴 | [Скачать](/assets/files/keenboot/mipsel/1.7.1/KeenBOOT-Xiaomi_4_1.7.1.bin)          |
 :::
 
 ## Вход в загрузчик

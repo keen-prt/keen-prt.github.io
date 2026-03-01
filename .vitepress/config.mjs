@@ -48,7 +48,7 @@ export default defineConfig({
   },
   themeConfig: {
     aside: true,
-    showBanner: true,
+    showBanner: false,
     search: {
       provider: 'local',
       options: {
@@ -133,7 +133,7 @@ export default defineConfig({
               { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
               { text: '⚡️ Netis NX31', link: '/wiki/guides/netis-nx31' },
               { text: '⚡️ Netis NX32U', link: '/wiki/guides/netis-nx32u' },
-              { text: 'Redmi AX6S', link: '/wiki/guides/ax6s' },
+              { text: '⚡️ Redmi AX6S', link: '/wiki/guides/ax6s' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
               { text: '⚡️ Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
               { text: 'Xiaomi 3G', link: '/wiki/guides/xiaomi-3G' }
