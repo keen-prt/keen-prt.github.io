@@ -1,4 +1,4 @@
-# Cudy WBR3000UAX <BoostyBadge type="keenetic" text="5.0.6"/> <OTABadge type="keenetic" text="5.0.3 (OTA)"/> <YezBadge type="keenetic" text="5.0.2" url="/assets/files/firmware/Cudy-WBR3000UAX.7z" />
+# Cudy WBR3000UAX <BoostyBadge type="keenetic" text="5.1"/> <OTABadge type="keenetic" text="5.0.6 (OTA)"/> <YezBadge type="keenetic" text="5.0.2" url="/assets/files/firmware/Cudy-WBR3000UAX.7z" />
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий

@@ -1,4 +1,4 @@
-# Xiaomi Router 4A Gigabit Edition v1 <YezBadgeWithDropdown type="keenetic" text="4.2.5" url="/assets/files/firmware/Xiaomi-4AGv1-4.2.5.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/Xiaomi-4AGv1-4.1.7.7z' }]"/>
+# Xiaomi Router 4A Gigabit Edition v1 <YezBadge type="keenetic" text="4.2.5" url="/assets/files/firmware/Xiaomi-4AGv1.7z"/>
 
 ::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
