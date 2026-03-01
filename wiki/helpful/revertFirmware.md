@@ -17,6 +17,34 @@ copy /b mtd0.bin+mtd1.bin+mtd2.bin+mtd8.bin+mtd5.bin+mtd6.bin+mtd7.bin full_dump
 На `Xiaomi AX3000T` после перезапуска восстановите устройство через MiWiFi Repair Tool
 :::
 
+## MediaTek MT7622 <Badge type="keenetic" text="SPI NAND Flash" />
+
+1. Используя файлы и шаги для [восстановления](/wiki/guides/ax6s#восстановление-обновление), поместите в папку образ OpenWRT, предварительно переименовав в `AX6S_recovery.bin` и `KN-1811_recovery.bin`
+2. После запуска OpenWRT загрузите и прошейте родные бэкапы на флэш-память
+
+::: details Команды
+```shell
+opkg update
+opkg install kmod-mtd-rw
+insmod mtd-rw i_want_a_brick=1
+cd /tmp/
+
+
+mtd unlock /dev/mtd2
+mtd write /tmp/mtd3_uboot.bin u-boot
+
+mtd unlock /dev/mtd3
+mtd write /tmp/mtd4_Nvram.bin u-boot-env
+
+mtd unlock /dev/mtd4
+mtd write /tmp/mtd5_Bdata.bin bdata
+
+mtd unlock /dev/mtd5
+mtd write /tmp/mtd6_Factory.bin factory
+```
+:::
+3. После перезагрузки устройства воспользуйтесь `MIWIFIRepairTool` для установки стоковой прошивки
+
 ## MediaTek MT7628/MT7621
 
 ### Способ #1  <Badge type="keenetic" text="NAND Flash" />
@@ -57,7 +85,7 @@ flash write 0x80000 0x80001000 0x7f80000
 7. Перейти в раздел `Upgrade`, выбрать файл вашего стокового загрузчика в `Bootloader` и нажать `Upload`
    ![альтернативный текст](/assets/images/wiki/helpful/breed/upgrade.png)
 
-### Способ #1 <Badge type="keenetic" text="SPI NOR" />
+### Способ #3 <Badge type="keenetic" text="SPI NOR" />
 
 1. Перейти в загрузчик Breed ([`как?`](/wiki/helpful/breedBootloader#как-заити-в-загрузчик-breed)) по адресу 192.168.1.1
 2. Выполнить загрузку вашего бэкапа весом 16MB или 32MB в зависимости от объёма памяти

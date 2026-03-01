@@ -1,4 +1,4 @@
-# Xiaomi Router 4A Gigabit Edition v1 <YezBadgeWithDropdown type="keenetic" text="4.2.5" url="/assets/files/firmware/Xiaomi-4AGv1-4.2.5.7z" :versions="[{ text: '4.1.7', url: '/assets/files/firmware/Xiaomi-4AGv1-4.1.7.7z' }]"/>
+# Xiaomi Router 4A Gigabit Edition v1 <YezBadge type="keenetic" text="4.2.5" url="/assets/files/firmware/Xiaomi-4AGv1.7z"/>
 
 ::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
@@ -41,7 +41,7 @@
 3. Полученный `eeprom.bin` модифицируем через [онлайн-сервис](https://yeezyio.github.io/) указав ваш мак-адрес с этикетки. На выходе получим патченный eeprom для работы в Keenetic
 4. Если уже стоял Keenetic, снимите в Breed бэкап вашего EEPROM
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/backup.png)
-5. Во втором пункте во второй вкладке выбираем прошивку сняв последние 2 галочки и подтвердить загрузку
+5.  Во втором пункте второй вкладки выбираем прошивку сняв последние 2 галочки и подтвердить загрузку
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png)
 6. После установки снова заходим в Breed зажатием Reset и восстанавливаем EEPROM снятый в 1 пункте или полученный из онлайн-сервиса.
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/eeprom.png)

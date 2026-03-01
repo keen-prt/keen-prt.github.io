@@ -13,7 +13,8 @@ import Layout from './Layout.vue'
 
 const redirects = {
   '/wiki/guides/xiaomi-3Gv1': '/wiki/guides/xiaomi-3G',
-  '/wiki/guides/mtc-wg430223': '/wiki/guides/mts-wg430223'
+  '/wiki/guides/mtc-wg430223': '/wiki/guides/mts-wg430223',
+  '/wiki/guides/rax3000m': '/wiki/guides/rax3000me'
 }
 
 /** @type {import('vitepress').Theme} */

@@ -41,7 +41,7 @@
 
 1. Создать бэкап флешки через программатор и вытащить EEPROM через [онлайн-сервис](https://yeezyio.github.io/EepromCutter.html). Или через UART сменить загрузчик на Breed и снять EEPROM оттуда
 2. EEPROM сконвертировать в валидный для Keenetic. [Перемещаем калибровку](https://yeezyio.github.io/EepromMover.html), в полученном файле [меняем мак-адрес](https://yeezyio.github.io/EepromConverter.html)
-3. Во втором пункте во второй вкладке выбираем прошивку `RC04/RA75_4.2.6_FULL.bin`, снимаем последние две галочки и подтверждаем загрузку.
+3. Во втором пункте второй вкладки выбираем прошивку `RC04/RA75_4.2.6_FULL.bin`, снимаем последние две галочки и подтверждаем загрузку.
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png)
 4. После установки снова заходим в Breed зажатием Reset и восстанавливаем EEPROM полученный во 2 пункте.
    ![альтернативный текст](/assets/images/wiki/guides/Mercusys/eeprom.png)

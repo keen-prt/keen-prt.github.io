@@ -1,14 +1,15 @@
 # Обновление прошивки
-
+::: info
+Скачать файл обновления можно [вручную](https://osvault.keeneticported.dev/osvault)
+:::
 ## Универсальный
 
-::: danger 
-Для KeeneticOS 5.0.2 и выше
-:::
-1. Открыть в браузере страницу `http://<router_ip>/fw.html`
+> ⚠️ Для KeeneticOS 5.0.7 и выше
+
+1. Открыть `Настройки системы`
 
    ![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/fw.png)
-2. Загрузить файл обновления
+2. Загрузить файл обновления в поле `firmware`
 3. Согласиться с обновлением. Устройство уйдёт в перезагрузку
 
 ## NAND Flash память (от 128MB)
@@ -21,8 +22,6 @@
 ![альтернативный текст](/assets/images/wiki/helpful/keenboot/main.png)
 
 ### Способ #2 <Badge type="keenetic" text="Автоматический" />
-
-> ⚠️ Скачать файл обновления можно [вручную](https://osvault.keeneticported.dev/osvault)
 
 • Используйте [KeenKit](/wiki/helpful/keenkit.md) с функцией `Обновить прошивку из файла` или `OTA Update`
 
@@ -86,8 +85,6 @@ reset
 ![альтернативный текст](/assets/images/wiki/helpful/updateFirmware/breedInstall.png){width=500px height=100px}
 
 ## SPI NOR память (до 32MB)
-
-### Способ #1 <Badge type="keenetic" text="Автоматический, рекомендуемый" />
 
 1. Загрузиться в Breed
 2. В Upgrade -> Generic -> Firmware выбираем нашу прошивку. Перевод разделов может отличаться от версии Breed

@@ -49,6 +49,7 @@
 
 :root {
   --vp-nav-logo-height: 38px;
+  --kp-logo-filter: brightness(0) saturate(100%);
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -73,6 +74,14 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+}
+
+.dark {
+  --kp-logo-filter: brightness(0) saturate(100%) invert(1);
+}
+
+.VPNavBarTitle .logo {
+  filter: var(--kp-logo-filter);
 }
 
 /**

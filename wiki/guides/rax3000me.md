@@ -1,4 +1,4 @@
-# CMCC RAX3000ME <BoostyBadge type="keenetic" text="5.0.6"/> <OTABadge type="keenetic" text="5.0.3 (OTA)"/> <YezBadge type="keenetic" text="4.3.6.2" url="/assets/files/firmware/CMCC-RAX3000ME.7z"/>
+# CMCC RAX3000M/Me <BoostyBadge type="keenetic" text="5.1"/> <OTABadge type="keenetic" text="5.0.6 (OTA)"/> <YezBadge type="keenetic" text="4.3.6.2" url="/assets/files/firmware/CMCC-RAX3000M-Me.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
@@ -8,16 +8,17 @@
 
 ## Характеристики
 
-| Особенность       | Описание                            |
-|-------------------|-------------------------------------|
-| **CPU**           | MediaTek MT7981B, aarch64, 1300 MHz |
-| **Flash MB**      | 128NAND                             |
-| **RAM MB**        | 512/DDR3                            |
-| **Ethernet**      | 3x1G LAN port + 1x1G WAN port       |
-| **USB**           | 1x 3.0                              |
-| **WLAN Hardware** | MediaTek MT7976CN                   |
-| **WLAN 5.0GHz**   | AX, 160MHz, 2x2, 2402MB/s, 1024QAM  |
-| **WLAN 2.4GHz**   | AX, 40MHz, 2x2, 574MB/s, 256QAM     |
+| Особенность           | Описание                            |
+|-----------------------|-------------------------------------|
+| **CPU**               | MediaTek MT7981B, aarch64, 1300 MHz |
+| **Flash MB**          | 128NAND                             |
+| **RAM `Me-model` MB** | 512/DDR3                            |
+| **RAM `M-model` MB**  | 512/DDR4                            |
+| **Ethernet**          | 3x1G LAN port + 1x1G WAN port       |
+| **USB**               | 1x 3.0                              |
+| **WLAN Hardware**     | MediaTek MT7976CN                   |
+| **WLAN 5.0GHz**       | AX, 160MHz, 2x2, 2402MB/s, 1024QAM  |
+| **WLAN 2.4GHz**       | AX, 40MHz, 2x2, 574MB/s, 256QAM     |
 
 ## Особенности сборки
 
@@ -33,11 +34,12 @@
 | **[Перезагрузка модема](#usb-mod)** | ✅ Требует доработок                                                                  |
 
 ::: danger ВНИМАНИЕ
-Память Fudan поддерживается.
+Память **FORESEE F35SQA001G** не поддерживается.
 :::
 
-## Установка со стоковой прошивки
+## RAX3000Me
 
+### Установка со стоковой прошивки
 1. Сбросьте настройки роутера до заводских.
 2. Запустите файл **1_config-creator.exe**, введите серийный номер со стикера на дне роутера, рядом с файлом будет сгенерирован файл конфигурации **cfg_yeezyio.conf**.
 3. Перейдите в веб-интерфейс роутера по адресу `192.168.10.1`, и следуя подсказкам на скриншотах ниже установите файл конфигурации **cfg_yeezyio.conf**.
@@ -51,8 +53,7 @@
 Файл пропатчит EEPROM, сгенерирует новые сервисные цифры и установит прошивку.
 :::
 
-## Установка с Openwrt прошивки
-
+### Установка с OpenWRT
 1. В разделе `System - Backup / Flash firmware` сделать бэкапы всех разделов
 2. Из под веб-интерфейса OpenWRT загрузить `openwrt-keen_rax3000me.itb` как
    обновление.
@@ -63,6 +64,20 @@
    ::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
    :::
 
+## RAX3000M
+
+### Установка со стоковой прошивки
+1. Самостоятельно установить OpenWRT
+2. В разделе `System - Backup / Flash firmware` сделать бэкапы всех разделов
+3. Из под веб-интерфейса OpenWRT загрузить `keenetic-filogic-cmcc_rax3000m-squashfs-sysupgrade.itb` как
+   обновление.
+::: tip Внимание
+Файл пропатчит EEPROM, сгенерирует новые сервисные цифры и установит прошивку.
+:::
+4. После перезагрузки устройство в течение 3-х минут запустится в KeeneticOS
+::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
+:::
+
 ## USB-Mod
 
 ::: info
@@ -71,7 +86,14 @@ Mod нужен для перезагрузки USB-модема по
 :::
 ::: tip Переместить отмеченный резистор
 :::
+> ⚠️ **Для RAX3000Me**
+
 ![альтернативный текст](/assets/images/wiki/helpful/usb-mod/rax-3000me-1.jpg)
 
 ![альтернативный текст](/assets/images/wiki/helpful/usb-mod/rax-3000me-2.jpg)
 
+> ⚠️ **Для RAX3000M**
+
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/rax-3000m-1.jpg){width=300px height=100px}
+
+![альтернативный текст](/assets/images/wiki/helpful/usb-mod/rax-3000m-2.jpg){width=300px height=100px}

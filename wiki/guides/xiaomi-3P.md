@@ -1,4 +1,4 @@
-# Xiaomi Router 3P <YezBadge type="keenetic" text="5.0.5" url="/assets/files/firmware/Xiaomi-R3P.7z"/>
+# Xiaomi Router 3P <BoostyBadge type="keenetic" text="5.1"/> <YezBadge type="keenetic" text="5.0.7" url="/assets/files/firmware/Xiaomi-R3P.7z"/>
 
 ::: warning **Статус устройства: EoD**
 **End of Development** — обновление системы возможно только при наличии свободного времени и желания
@@ -57,7 +57,7 @@
    в папку с прошивкой
 ### Способ #1 <Badge type="keenetic" text="Новый, рекомендуемый" />
 ::: danger
-Если сейчас установлен KeeneticOS не нашей модификации, перед сменой загрузчика выполните команду через TelNet
+Если сейчас установлен KeeneticOS не нашей модификации, перед сменой загрузчика выполните команду через TelNet в Breed
 ```` shell
 flash erase 0x80000 0xff80000
 ````

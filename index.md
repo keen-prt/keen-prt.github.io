@@ -13,9 +13,9 @@ hero:
       text: Telegram чат
       link: https://t.me/KeeneticPorted
     - theme: alt
-      text: Поддержать нас на Boosty
-      link: https://boosty.to/keen_prt
+      text: Osvault
+      link: https://osvault.keeneticported.dev      
     - theme: alt
-      text: Онлайн-сервис EEPROM
-      link: https://yeezyio.github.io/
+      text: Поддержать на Boosty
+      link: https://boosty.to/keen_prt
 ---

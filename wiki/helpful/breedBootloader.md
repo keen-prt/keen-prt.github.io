@@ -84,7 +84,7 @@ reset
 
 ## BreedEnter <YezBadge type="keenetic" text="" url="/assets/files/breed/BreedEnter.rar" />
 
-#### Программа для прерывания запуска системы
+#### Прерывание запуска системы
 
 1. Установить `WinPcap` из архива<br/>
 

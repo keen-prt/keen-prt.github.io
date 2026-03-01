@@ -48,7 +48,7 @@ export default defineConfig({
   },
   themeConfig: {
     aside: true,
-    showBanner: true,
+    showBanner: false,
     search: {
       provider: 'local',
       options: {
@@ -102,7 +102,7 @@ export default defineConfig({
     footer: {
       message:
         'Используемые на данном сайте товарные знаки, логотипы и другие объекты интеллектуальной собственности принадлежат компании Keenetic и ее партнёрам.<br>Команда Keenetic Ported не владеет никакими правами на указанные объекты, вся информация на сайте представлена исключительно для личного пользования в ознакомительных целях.',
-      copyright: '© 2025 Keenetic Ported. Все права защищены.'
+      copyright: '© 2026 Keenetic Ported. Все права защищены.'
     },
     docFooter: {
       prev: 'Предыдущая страница',
@@ -112,8 +112,8 @@ export default defineConfig({
     logo: LOGO,
     siteTitle: false,
     nav: [
-      { text: 'Главная', link: '/' },
-      { text: 'Wiki', link: '/wiki' },
+      // { text: 'Главная', link: '/' },
+      { text: 'Osvault', link: 'https://osvault.keeneticported.dev' },
       { text: 'Telegram', link: 'https://t.me/KeeneticPorted' }
     ],
 
@@ -127,13 +127,12 @@ export default defineConfig({
             items: [
               { text: '⚡️ Cudy WBR3000UAX', link: '/wiki/guides/WBR3000UAX' },
               { text: '⚡️ Cudy TR3000 256MB', link: '/wiki/guides/tr3000' },
-              { text: '⚡️ CMCC RAX3000M', link: '/wiki/guides/rax3000m' },
-              { text: '⚡️ CMCC RAX3000ME', link: '/wiki/guides/rax3000me' },
+              { text: '⚡️ CMCC RAX3000M/Me', link: '/wiki/guides/rax3000me' },
               { text: '⚡️ Cudy WR3000P', link: '/wiki/guides/WR3000P' },
               { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
               { text: '⚡️ Netis NX31', link: '/wiki/guides/netis-nx31' },
               { text: '⚡️ Netis NX32U', link: '/wiki/guides/netis-nx32u' },
-              { text: 'Redmi AX6S', link: '/wiki/guides/ax6s' },
+              { text: '⚡️ Redmi AX6S', link: '/wiki/guides/ax6s' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
               { text: '⚡️ Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
               { text: 'Xiaomi 3G', link: '/wiki/guides/xiaomi-3G' }
