@@ -28,7 +28,7 @@
 - Клиент SSTP VPN
 - PPTP VPN-сервер
 - L2TP/IPsec VPN-сервер
-- IKEv1/IPsec и IKEv2/IPsec VPN-серверы, клиент L2TP/IPsec VPN, IPsec VPN сеть—сеть
+- IKEv1/IPsec VPN-серверы, клиент L2TP/IPsec VPN, IPsec VPN сеть—сеть
 - Клиент и сервер OpenVPN
 - Сенсор NetFlow
 - Шлюз прикладного уровня (ALG) для FTP
@@ -41,7 +41,7 @@
 - VPN-туннели EoIP
 - VPN-туннели GRE
 - VPN-туннели IP-IP
-- WireGuard VPN
+- WireGuard VPN-клиент 
 - IKEv1/IPsec и IKEv2/IPsec VPN-клиенты
 - Клиент прокси
 - Клиент ZeroTier

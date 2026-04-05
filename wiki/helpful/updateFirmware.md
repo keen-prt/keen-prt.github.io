@@ -2,7 +2,7 @@
 ::: info
 Скачать файл обновления можно [вручную](https://osvault.keeneticported.dev/osvault)
 :::
-## Универсальный
+## Официальный <Badge type="keenetic" text="Mipsel" />
 
 > ⚠️ Для KeeneticOS 5.0.7 и выше
 

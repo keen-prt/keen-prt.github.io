@@ -48,7 +48,7 @@ export default defineConfig({
   },
   themeConfig: {
     aside: true,
-    showBanner: false,
+    showBanner: true,
     search: {
       provider: 'local',
       options: {
@@ -142,6 +142,7 @@ export default defineConfig({
             text: 'End Of Development',
             collapsed: true,
             items: [
+              { text: '⚡️ Cudy RE3000', link: '/wiki/guides/re3000' },
               { text: 'Mercusys MR70X', link: '/wiki/guides/mercusys-mr70x' },
               { text: 'SmartBox Flash', link: '/wiki/guides/smartbox-flash' },
               { text: 'Xiaomi 3P', link: '/wiki/guides/xiaomi-3P' },

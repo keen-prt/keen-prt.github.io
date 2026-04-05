@@ -26,7 +26,10 @@
 ```shell
 opkg update && opkg install curl && curl -L -s "https://raw.githubusercontent.com/spatiumstas/KeenKit/main/install.sh" > /tmp/install.sh && sh /tmp/install.sh
 ```
-
+> Альтернативный источник
+```shell
+opkg update && opkg install curl && curl -L -s "https://osvault.keeneticported.dev/scripts/install.sh" > /tmp/install.sh && sh /tmp/install.sh
+```
 ## Запуск скрипта
 
 Через ввод команды `keenkit` или `/opt/keenkit.sh`
