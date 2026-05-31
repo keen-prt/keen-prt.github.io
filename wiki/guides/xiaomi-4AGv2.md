@@ -5,7 +5,7 @@
 [Автор порта](https://4pda.to/forum/index.php?showuser=2155384)
 :::
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/4AGv2.png){width=500px height=100px}
+![Xiaomi Router AC1200 (R4Av2/RB02)](/assets/images/wiki/guides/Xiaomi/4AGv2.png){width=500px height=100px}
 
 ## Характеристики
 
@@ -32,17 +32,21 @@
 
 ## Установка
 
-1. Сбросить настройки роутера, пройти первоначальную настройку и установить пароль `12345678`
-2. Запустите `!Start.exe`, выберите пункт `11`. Следуйте указаниям в окне.
-   ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/install_4agv2.png)
-3. Выберите пункт `55`, создастся бэкап и установится система
+1. **Сброс и настройка.** Сбросьте роутер, пройдите первоначальную настройку и установите пароль `12345678`.
+2. **Запуск установщика.** Запустите `!Start.exe`, выберите пункт `11` и следуйте указаниям в окне.
 
-   После перезагрузки устройство запустится в KeeneticOS
-   ::: tip URL: 192.168.1.1<br/>SSID: Keenetic_R4AV2<br/>Password: 12344321
-   :::
+   ![Меню установщика](/assets/images/wiki/guides/Xiaomi/install_4agv2.png)
+
+3. **Установка.** Выберите пункт `55` — создастся бэкап и установится система.
+
+После перезагрузки устройство запустится в KeeneticOS.
+
+::: tip Готово! Доступ к роутеру
+URL: `192.168.1.1`<br/>SSID: `Keenetic_R4AV2`<br/>Пароль Wi-Fi: `12344321`
+:::
 
 ## Скриншоты
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system1-4ag.jpg)
+![Система KeeneticOS на Xiaomi AC1200](/assets/images/wiki/guides/Xiaomi/system1-4ag.jpg)
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system2-4ag.jpg)
+![Система KeeneticOS на Xiaomi AC1200](/assets/images/wiki/guides/Xiaomi/system2-4ag.jpg)

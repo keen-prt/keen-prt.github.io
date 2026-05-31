@@ -4,7 +4,7 @@
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/4AG.png)
+![Xiaomi Router 4A Gigabit Edition v1](/assets/images/wiki/guides/Xiaomi/4AG.png)
 
 ## Характеристики
 
@@ -31,33 +31,42 @@
 
 ## Обновление прошивки
 
-Для обновления воспользуйтесь способом для [SPI памяти](/wiki/helpful/updateFirmware#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb)
+Для обновления воспользуйтесь способом для [SPI-памяти](/wiki/helpful/updateFirmware#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb).
 
 ## Установка со стоковой прошивки
 
-1. Сбросить настройки роутера, пройти первоначальную настройку и установить пароль `12345678`
-2. Запустите `!Start.bat` и поочерёдно выбираете пункты от 1 до 4. В папке `data` будет бэкап текущей прошивки и eeprom.
-   ![альтернативный текст](/assets/images/wiki/guides/Xiaomi/install-4ag.png)
-3. Полученный `eeprom.bin` модифицируем через [онлайн-сервис](https://yeezyio.github.io/) указав ваш мак-адрес с этикетки. На выходе получим патченный eeprom для работы в Keenetic
-4. Если уже стоял Keenetic, снимите в Breed бэкап вашего EEPROM
-   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/backup.png)
-5.  Во втором пункте второй вкладки выбираем прошивку сняв последние 2 галочки и подтвердить загрузку
-   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png)
-6. После установки снова заходим в Breed зажатием Reset и восстанавливаем EEPROM снятый в 1 пункте или полученный из онлайн-сервиса.
-   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/eeprom.png)
+1. **Сброс и настройка.** Сбросьте роутер, пройдите первоначальную настройку и установите пароль `12345678`.
+2. **Запуск скрипта.** Запустите `!Start.bat` и поочерёдно выберите пункты с 1 по 4. В папке `data` будут бэкап текущей прошивки и EEPROM.
 
-   После перезагрузки устройство запустится в KeeneticOS
-   ::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
-   :::
+   ![Меню установщика Breed](/assets/images/wiki/guides/Xiaomi/install-4ag.png)
+
+3. **Конвертация EEPROM.** Модифицируйте полученный `eeprom.bin` через [онлайн-сервис](https://yeezyio.github.io/), указав ваш MAC-адрес с этикетки — на выходе получите патченный EEPROM для работы в Keenetic.
+4. **Бэкап EEPROM (если был Keenetic).** Если ранее уже стоял Keenetic — снимите в Breed бэкап вашего EEPROM.
+
+   ![Бэкап EEPROM в Breed](/assets/images/wiki/guides/Mercusys/backup.png)
+
+5. **Прошивка.** Во втором пункте второй вкладки выберите прошивку, снимите последние 2 галочки и подтвердите загрузку.
+
+   ![Загрузка прошивки в Breed](/assets/images/wiki/guides/Mercusys/install.png)
+
+6. **Восстановление EEPROM.** После установки снова зайдите в Breed зажатием Reset и восстановите EEPROM (снятый из Breed или полученный из онлайн-сервиса).
+
+   ![Восстановление EEPROM в Breed](/assets/images/wiki/guides/Mercusys/eeprom.png)
+
+После перезагрузки устройство запустится в KeeneticOS.
+
+::: tip Готово! Доступ к роутеру
+URL: `192.168.1.1`<br/>SSID: `Keenetic`<br/>Пароль Wi-Fi: `12345678`
+:::
 
 ## Скриншоты
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system1-4ag.jpg)
+![Система KeeneticOS на Xiaomi 4A Gigabit](/assets/images/wiki/guides/Xiaomi/system1-4ag.jpg)
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/system2-4ag.jpg)
+![Система KeeneticOS на Xiaomi 4A Gigabit](/assets/images/wiki/guides/Xiaomi/system2-4ag.jpg)
 
 ## Установленные компоненты
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4AG-1.png)
+![Установленные компоненты, часть 1](/assets/images/wiki/guides/Xiaomi/components-4AG-1.png)
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/components-4AG-2.png)
+![Установленные компоненты, часть 2](/assets/images/wiki/guides/Xiaomi/components-4AG-2.png)

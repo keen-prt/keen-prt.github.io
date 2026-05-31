@@ -4,7 +4,7 @@
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
 :::
 
-![альтернативный текст](/assets/images/wiki/guides/Xiaomi/extender.png)
+![Xiaomi Range Extender RA75/RC04](/assets/images/wiki/guides/Xiaomi/extender.png)
 
 ## Характеристики
 
@@ -28,24 +28,30 @@
 | **Светодиоды**           | ✅                                              |
 | **Совместимость в Mesh** | ✅ С оригинальными устройствами и клонами       |
 | **Встроенное хранилище** | ❌ Установка Entware невозможна                 |
-| **Компоненты**           | Все для роутера без USB                        |
+| **Компоненты**           | Все для роутера без USB                         |
 
 ## Обновление прошивки
 
-Для обновления воспользуйтесь способом для [SPI памяти](/wiki/helpful/updateFirmware#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb)
+Для обновления воспользуйтесь способом для [SPI-памяти](/wiki/helpful/updateFirmware#%D0%B4%D0%BB%D1%8F-spi-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B4%D0%BE-32mb).
 
 ## Установка со стоковой прошивки
+
 ::: warning
-Установка возможна только через UART или программатор. На данной моделе невозможно перейти на сторонние прошивки без разбора
+Установка возможна только через UART или программатор. На данной модели невозможно перейти на сторонние прошивки без разбора.
 :::
 
-1. Создать бэкап флешки через программатор и вытащить EEPROM через [онлайн-сервис](https://yeezyio.github.io/EepromCutter.html). Или через UART сменить загрузчик на Breed и снять EEPROM оттуда
-2. EEPROM сконвертировать в валидный для Keenetic. [Перемещаем калибровку](https://yeezyio.github.io/EepromMover.html), в полученном файле [меняем мак-адрес](https://yeezyio.github.io/EepromConverter.html)
-3. Во втором пункте второй вкладки выбираем прошивку `RC04/RA75_4.2.6_FULL.bin`, снимаем последние две галочки и подтверждаем загрузку.
-   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/install.png)
-4. После установки снова заходим в Breed зажатием Reset и восстанавливаем EEPROM полученный во 2 пункте.
-   ![альтернативный текст](/assets/images/wiki/guides/Mercusys/eeprom.png)
+1. **Снятие EEPROM.** Создайте бэкап флеш-памяти через программатор и вытащите EEPROM через [онлайн-сервис](https://yeezyio.github.io/EepromCutter.html). Либо через UART смените загрузчик на Breed и снимите EEPROM оттуда.
+2. **Конвертация EEPROM.** Сконвертируйте EEPROM в валидный для Keenetic: [переместите калибровку](https://yeezyio.github.io/EepromMover.html), затем в полученном файле [смените MAC-адрес](https://yeezyio.github.io/EepromConverter.html).
+3. **Прошивка.** Во втором пункте второй вкладки выберите прошивку `RC04/RA75_4.2.6_FULL.bin`, снимите последние 2 галочки и подтвердите загрузку.
 
-После перезагрузки устройство запустится в KeeneticOS
-::: tip URL: 192.168.1.1<br/>SSID: Keenetic<br/>Password: 12345678
+   ![Загрузка прошивки в Breed](/assets/images/wiki/guides/Mercusys/install.png)
+
+4. **Восстановление EEPROM.** После установки снова зайдите в Breed зажатием Reset и восстановите EEPROM, полученный в шаге 2.
+
+   ![Восстановление EEPROM в Breed](/assets/images/wiki/guides/Mercusys/eeprom.png)
+
+После перезагрузки устройство запустится в KeeneticOS.
+
+::: tip Готово! Доступ к роутеру
+URL: `192.168.1.1`<br/>SSID: `Keenetic`<br/>Пароль Wi-Fi: `12345678`
 :::
