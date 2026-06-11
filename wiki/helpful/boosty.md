@@ -18,6 +18,4 @@
 
    ![альтернативный текст](/assets/images/wiki/helpful/boosty/4.png){width=300}
 
-5. После оплаты бот автоматически пришлёт ссылку.
-   Если ссылка не пришла — напишите боту команду `/start`: [@boosty_to_bot](https://t.me/boosty_to_bot)
-   ![альтернативный текст](/assets/images/wiki/helpful/boosty/5.png){width=500px height=100px}
+5. После оплаты бот автоматически пришлёт ссылку в личные сообщения Telegram. Если ссылка не пришла — напишите [боту](https://telegram.me/boosty_to_bot) команду `/start`

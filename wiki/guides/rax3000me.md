@@ -1,4 +1,4 @@
-# CMCC RAX3000M/Me <BoostyBadge type="keenetic" text="5.1"/> <OTABadge type="keenetic" text="5.0.11 (OTA)"/> <YezBadge type="keenetic" text="5.0.11" url="/assets/files/firmware/CMCC-RAX3000M-Me.7z"/>
+# CMCC RAX3000M/Me <BoostyBadge type="keenetic" text="5.1.2"/> <OTABadge type="keenetic" text="5.1.1 (OTA)"/> <YezBadge type="keenetic" text="5.0.11" url="/assets/files/firmware/CMCC-RAX3000M-Me.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
@@ -24,7 +24,7 @@
 
 | Особенность                         | Описание                                                                             |
 | ----------------------------------- | ------------------------------------------------------------------------------------ |
-| **Работоспособность**               | ✅ Кроме: <br/> • Облачных сервисов <br/> • [Компоненты](/wiki/helpful/components.md) |
+| **Работоспособность**               | ✅ Кроме: <br/> ❌ Облачных сервисов <br/> 🧩 [Компоненты](/wiki/helpful/components.md) |
 | **Сброс настроек**                  | ✅ Через кнопку Reset                                                                 |
 | **Кнопка WPS**                      | ✅ Настроена как Wi-Fi                                                                |
 | **Кнопка Mesh**                     | ✅                                                                                    |

@@ -1,10 +1,14 @@
-# Netis NX31 <BoostyBadge type="keenetic" text="5.1"/> <OTABadge type="keenetic" text="5.0.11 (OTA)"/> <YezBadge type="keenetic" text="5.0.11" url="/assets/files/firmware/Netis-NX31.7z"/>
+# Netis NX31 <BoostyBadge type="keenetic" text="5.1.2"/> <OTABadge type="keenetic" text="5.1.1 (OTA)"/> <YezBadge type="keenetic" text="5.0.11" url="/assets/files/firmware/Netis-NX31.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
 :::
 
 ![Netis NX31](/assets/images/wiki/guides/Netis-NX31/main.png){width=500px height=100px}
+
+::: warning УТОЧНЕНИЕ
+Сборка и метод установки также совместимы с `Netis NX30`. Однако полная работоспособность не гарантируется.
+:::
 
 ## Характеристики
 
@@ -23,7 +27,7 @@
 
 | Особенность              | Описание                                                                             |
 | ------------------------ | ------------------------------------------------------------------------------------ |
-| **Работоспособность**    | ✅ Кроме: <br/> • Облачных сервисов <br/> • [Компоненты](/wiki/helpful/components.md) |
+| **Работоспособность**    | ✅ Кроме: <br/> ❌ Облачных сервисов <br/> 🧩 [Компоненты](/wiki/helpful/components.md) |
 | **Сброс настроек**       | ✅ Через кнопку Reset                                                                 |
 | **Кнопка Mesh**          | ✅                                                                                    |
 | **Светодиоды**           | ✅                                                                                    |

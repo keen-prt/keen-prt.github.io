@@ -1,4 +1,4 @@
-# Xiaomi Router 3P <BoostyBadge type="keenetic" text="5.1"/> <OTABadge type="keenetic" text="5.0.9 (OTA)"/> <YezBadge type="keenetic" text="5.0.7" url="/assets/files/firmware/Xiaomi-R3P.7z"/>
+# Xiaomi Router 3P <BoostyBadge type="keenetic" text="5.1"/> <OTABadge type="keenetic" text="5.0.12 (OTA)"/> <YezBadge type="keenetic" text="5.0.12" url="/assets/files/firmware/Xiaomi-R3P.7z"/>
 
 ::: warning **Статус устройства: EoD**
 **End of Development** — обновление системы возможно только при наличии свободного времени и желания
@@ -22,7 +22,7 @@
 
 | Особенность              | Описание                                                                             |
 | ------------------------ | ------------------------------------------------------------------------------------ |
-| **Работоспособность**    | ✅ Кроме: <br/> • Облачных сервисов <br/> • [Компоненты](/wiki/helpful/components.md) |
+| **Работоспособность**    | ✅ Кроме: <br/> ❌ Облачных сервисов <br/> 🧩 [Компоненты](/wiki/helpful/components.md) |
 | **Сброс настроек**       | ✅ Через кнопку Reset                                                                 |
 | **Светодиод**            | 🔵 - Системный / Нет интернета <br/>⚪ - Есть интернет                                 |
 | **Совместимость в Mesh** | ✅ С оригинальными устройствами и клонами                                             |
