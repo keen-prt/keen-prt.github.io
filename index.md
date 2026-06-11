@@ -11,7 +11,7 @@ hero:
       link: /wiki
     - theme: alt
       text: Telegram чат
-      link: https://t.me/KeeneticPorted
+      link: https://telegram.me/keeneticported
     - theme: alt
       text: Osvault
       link: https://osvault.keeneticported.dev      

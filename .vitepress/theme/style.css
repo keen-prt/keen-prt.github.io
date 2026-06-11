@@ -48,6 +48,7 @@
 }
 
 :root {
+  --kp-mobile-banner-height: 0px;
   --vp-nav-logo-height: 38px;
   --kp-logo-filter: brightness(0) saturate(100%);
   --vp-c-default-1: var(--vp-c-gray-1);
@@ -249,6 +250,53 @@ h1 .VPBadge {
   display: block;
   aspect-ratio: 1080 / 2025;
   object-fit: contain;
+}
+
+.mobile-banner {
+  display: none;
+}
+
+/* VitePress displays the right document aside from 1280px. */
+@media (max-width: 1279px) {
+  #app {
+    padding-bottom: var(--kp-mobile-banner-height);
+  }
+
+  .aside-block {
+    display: none;
+  }
+
+  .mobile-banner {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 80;
+    display: block;
+    padding-bottom: env(safe-area-inset-bottom);
+    background: var(--vp-c-bg);
+    box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.18);
+  }
+
+  .mobile-banner a,
+  .mobile-banner-img {
+    display: block;
+    width: 100%;
+  }
+
+  .mobile-banner-img {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .mobile-banner {
+    right: auto;
+    left: 50%;
+    width: clamp(600px, 72vw, 800px);
+    max-width: 100%;
+    transform: translateX(-50%);
+  }
 }
 
 .aside-container {

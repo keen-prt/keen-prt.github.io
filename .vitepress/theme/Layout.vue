@@ -32,7 +32,10 @@ router.onAfterRouteChange = setupLightbox
       <Snowfall part="toggle" />
     </template>
     <template #aside-outline-after>
-      <Banner v-if="showBanner" />
+      <Banner v-if="showBanner" placement="desktop" />
+    </template>
+    <template #layout-bottom>
+      <Banner v-if="showBanner" placement="mobile" />
     </template>
   </DefaultLayout>
 </template>
