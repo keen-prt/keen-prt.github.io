@@ -1,4 +1,4 @@
-# CMCC RAX3000M/Me <BoostyBadge type="keenetic" text="5.1"/> <OTABadge type="keenetic" text="5.0.11 (OTA)"/> <YezBadge type="keenetic" text="5.0.11" url="/assets/files/firmware/CMCC-RAX3000M-Me.7z"/>
+# CMCC RAX3000M/Me <BoostyBadge type="keenetic" text="5.1"/> <OTABadge type="keenetic" text="5.0.12 (OTA)"/> <YezBadge type="keenetic" text="5.0.11" url="/assets/files/firmware/CMCC-RAX3000M-Me.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
