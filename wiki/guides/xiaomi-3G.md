@@ -1,4 +1,4 @@
-# Xiaomi Router 3G <BoostyBadge type="keenetic" text="5.1.3"/> <OTABadge type="keenetic" text="5.1.2 (OTA)"/> <YezBadge type="keenetic" text="5.1.1" url="/assets/files/firmware/Xiaomi-R3G.7z"/>
+# Xiaomi Router 3G <BoostyBadge type="keenetic" text="5.1.4"/> <OTABadge type="keenetic" text="5.1.3 (OTA)"/> <YezBadge type="keenetic" text="5.1.1" url="/assets/files/firmware/Xiaomi-R3G.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий

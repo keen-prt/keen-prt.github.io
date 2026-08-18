@@ -1,4 +1,4 @@
-# Netis NX32U <BoostyBadge type="keenetic" text="5.1.3"/> <OTABadge type="keenetic" text="5.1.2 (OTA)"/> <YezBadge type="keenetic" text="5.1.2" url="/assets/files/firmware/Netis-NX32U.7z"/>
+# Netis NX32U <BoostyBadge type="keenetic" text="5.1.4"/> <OTABadge type="keenetic" text="5.1.3 (OTA)"/> <YezBadge type="keenetic" text="5.1.2" url="/assets/files/firmware/Netis-NX32U.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий

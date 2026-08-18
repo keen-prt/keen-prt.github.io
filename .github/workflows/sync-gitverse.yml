@@ -1,0 +1,50 @@
+name: Sync to GitVerse
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-gitverse
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure GitVerse SSH
+        env:
+          GITVERSE_SSH_KEY_B64: ${{ secrets.GITVERSE_SSH_KEY_B64 }}
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+          printf '%s' "$GITVERSE_SSH_KEY_B64" | base64 -d > ~/.ssh/gitverse
+          chmod 600 ~/.ssh/gitverse
+
+          ssh-keygen -y -f ~/.ssh/gitverse > /dev/null
+
+          cat >> ~/.ssh/known_hosts <<'EOF'
+          gitverse.ru ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCr4Mgh2eX+tkxoVcO4BQDDkC8HqJsUiKivWc0R6umR7eQM6kBsq/LgGgO7Xqts1oHl0/QhF307t7Icwf6S3pGRw5SkQC+VdIEzre/rDlDeVbU+Mzwc5GPCJB96OlOZMUVJ/xhHkw3vUowMMiShOZxpdBjKGpb/oD2hz5UY2aheDivjq1lCennAv0iN6CJfJFRHHWb6vgRMznxC8qoce3fVzcYzFd2gXA2iupdqI+6dUZsIuhDS76W3Yc/UrHOQey3NJZonsqXepfIh7GXjt4X0DQcw8fA2SMFoxmDyHMFVeTHLj1P/S1V+8NtOlqwT+ntCN4rNYtqXXbXNUw6OhThvuusmw21kgaCm9CjSSG54wf3lp+7bEn3Tkfu8Byb8hYRtqY4U+IRrSaDfdyUO8GKCNRFEnoC3c3AeTjPQF+jyx5bYbPZLPnVrPYWBNMwgA79OS/3BTOM4EuAOzLLTITew5nxjPnuwzMChr+j6+8aGaQAjNGWv7KbZxbCFxYkrwKo7Bb9wQsvGEUpzi5AGG00SrUkq1JjCf3Ep7YNqRA7HK6i8QukBOkwJ/LgI1csIG94AcWAhICoeal7XBRjZl/EiDrgbDJp/5TKtrvKzuMeRUiH6ATz6QDi2AcCFjcAv7I0HWlphwJvlN/Um0vg71h6zK/k053VhJucMxXODC6SCrw==
+          EOF
+
+      - name: Sync to GitVerse
+        run: |
+          git remote add gitverse git@gitverse.ru:keeneticported/KeeneticPorted.git
+
+          git config core.sshCommand "ssh -i ~/.ssh/gitverse -o IdentitiesOnly=yes"
+
+          git fetch gitverse main
+          git push --force-with-lease gitverse HEAD:main
