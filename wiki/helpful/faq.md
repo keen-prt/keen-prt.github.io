@@ -107,3 +107,10 @@ env set autoboot.command "boot flash 0x8140000"
 env save
 ````
 :::
+
+## 8. При запуске установщика ошибка WebView2
+
+Ввести команду в PowerShell от имени Администратора для установки
+````shell
+Invoke-WebRequest -Uri "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/cd85e594-6b6d-4efb-ae8c-3563a0a78bfc/MicrosoftEdgeWebview2Setup.exe" -OutFile "$env:TEMP\WebView2Installer.exe" ; Start-Process -FilePath "$env:TEMP\WebView2Installer.exe" -ArgumentList "/silent /install" -Wait ; Remove-Item "$env:TEMP\WebView2Installer.exe"
+````

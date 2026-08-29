@@ -51,7 +51,7 @@ mtd write /tmp/mtd6_Factory.bin factory
 1. Установить [KeenBOOT](/wiki/helpful/keenboot) версии 1.4 и выше
 2. В загрузчике перейти во вкладку `Full`
 
-![альтернативный текст](/assets/images/wiki/helpful/keenboot/full.jpg)
+![альтернативный текст](/assets/images/wiki/helpful/keenboot/full.png)
 
 3. Загрузить бэкап устройства
 ::: danger

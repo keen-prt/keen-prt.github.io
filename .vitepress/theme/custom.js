@@ -1,10 +1,14 @@
 if (typeof window !== 'undefined') {
+    const isMirrorSite = window.location.hostname === 'keeneticported.gitverse.site';
+
     document.addEventListener('DOMContentLoaded', () => {
-      // if (!localStorage.getItem('popup-shown')) {
-      //   showPopup();
-      //   localStorage.setItem('popup-shown', 'true');
-      // }
-      // showCornerMessage();
+      if (!isMirrorSite) {
+        if (!localStorage.getItem('popup-mirror-shown')) {
+          showPopup();
+          localStorage.setItem('popup-mirror-shown', 'true');
+        }
+        // showCornerMessage();
+      }
     });
 
     function showPopup() {
@@ -16,8 +20,9 @@ if (typeof window !== 'undefined') {
       popup.id = 'popup';
       popup.classList.add('vp-doc');
       popup.innerHTML = `
-        <p>У нас сменился Telegram-чат<br><a href="https://telegram.me/keeneticported" target="_blank">Перейти</a></p>
-        <button id="popup-close">Закрыть</button>
+        <button id="popup-close" type="button" aria-label="Закрыть" title="Закрыть">&times;</button>
+        <p>Добавьте зеркало сайта в закладки — оно пригодится, если основной сайт будет недоступен.</p>
+        <a class="popup-mirror-button" href="https://keeneticported.gitverse.site/" target="_blank" rel="noopener noreferrer">Открыть</a>
       `;
 
       document.body.appendChild(overlay);
@@ -26,10 +31,13 @@ if (typeof window !== 'undefined') {
       overlay.style.display = 'block';
       popup.style.display = 'block';
 
-      document.getElementById('popup-close').addEventListener('click', () => {
+      const closePopup = () => {
         popup.style.display = 'none';
         overlay.style.display = 'none';
-      });
+      };
+
+      popup.querySelector('#popup-close').addEventListener('click', closePopup);
+      overlay.addEventListener('click', closePopup);
     }
 
     function showCornerMessage() {
@@ -37,9 +45,8 @@ if (typeof window !== 'undefined') {
       message.id = 'corner-message'
       message.classList.add('vp-doc')
       message.innerHTML = `
-      <a href="https://telegram.me/keeneticported" target="_blank">Наш Telegram-чат</a>
+      <a href="https://keeneticported.gitverse.site/" target="_blank">Зеркало сайта</a>
     `
       document.body.appendChild(message)
     }
   }
-  

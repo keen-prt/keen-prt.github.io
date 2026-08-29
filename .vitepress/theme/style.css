@@ -183,11 +183,12 @@ h1 .VPBadge {
   background: rgba(0, 0, 0, 0.5);
   z-index: 999;
   display: none;
+  cursor: pointer;
 }
 
 #popup {
   position: fixed;
-  max-width: 300px;
+  max-width: 500px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -198,6 +199,9 @@ h1 .VPBadge {
   z-index: 1000;
   text-align: center;
   display: none;
+  width: min(500px, calc(100vw - 40px));
+  box-sizing: border-box;
+  cursor: default;
 }
 
 #popup button {
@@ -212,6 +216,54 @@ h1 .VPBadge {
 
 #popup button:hover {
   background: #0056b3;
+}
+
+#popup #popup-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--vp-c-text-2);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#popup #popup-close:hover {
+  background: var(--vp-c-default-soft);
+  color: var(--vp-c-text-1);
+}
+
+#popup #popup-close:focus-visible,
+#popup .popup-mirror-button:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
+
+#popup .popup-mirror-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#popup .popup-mirror-button:hover {
+  background: #0056b3;
+  color: white;
 }
 
 #corner-message {

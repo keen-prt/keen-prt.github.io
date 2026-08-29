@@ -18,4 +18,7 @@ hero:
     - theme: alt
       text: Поддержать на Boosty
       link: https://boosty.to/keen_prt
+    - theme: alt
+      text: Зеркало сайта
+      link: https://keeneticported.gitverse.site/     
 ---

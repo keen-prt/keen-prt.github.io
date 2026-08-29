@@ -112,7 +112,7 @@ export default defineConfig({
     logo: LOGO,
     siteTitle: false,
     nav: [
-      // { text: 'Главная', link: '/' },
+      { text: 'Зеркало', link: 'https://keeneticported.gitverse.site' },
       { text: 'Osvault', link: 'https://osvault.keeneticported.dev' },
       { text: 'Telegram', link: 'https://telegram.me/keeneticported' }
     ],
