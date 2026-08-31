@@ -22,7 +22,6 @@ defineProps({
   },
   url: {
     type: String,
-    required: true,
     default: '/wiki/helpful/boosty'
   }
 })

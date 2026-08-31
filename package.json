@@ -4,8 +4,9 @@
     "vitepress-plugin-lightbox": "^1.0.3"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "uconfig:manifest": "node scripts/generate-uconfig-manifest.mjs",
+    "docs:dev": "npm run uconfig:manifest && vitepress dev",
+    "docs:build": "npm run uconfig:manifest && vitepress build",
     "docs:preview": "vitepress preview"
   },
   "dependencies": {

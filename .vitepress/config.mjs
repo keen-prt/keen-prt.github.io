@@ -79,12 +79,6 @@ export default defineConfig({
         }
       }
     },
-    lastUpdated: {
-      text: 'Последнее изменение',
-      formatOptions: {
-        dateStyle: 'medium'
-      }
-    },
     lang: {
       copy: 'Скопировано!',
       copied: 'Скопировано!'
@@ -178,7 +172,6 @@ export default defineConfig({
         items: [
           {
             items: [
-              { text: '💻 Онлайн-сервис для EEPROM', link: 'https://yeezyio.github.io/' },
               { text: '💬 Отправка SMS в Telegram', link: 'https://github.com/spatiumstas/sms2gram' },
               { text: '🔗 Маршрутизация трафика', link: 'https://magitrickle.dev' },
               { text: '📊 Тесты покрытия', link: 'https://docs.google.com/spreadsheets/d/1l3qt2GBfgMIeYq38UOzzCboxMMymEfy2UQg04Fd50Ew/' }
@@ -195,6 +188,7 @@ export default defineConfig({
               { text: '💳 Boosty', link: '/wiki/helpful/boosty' },
               { text: '🧩 Загрузчик Breed', link: '/wiki/helpful/breedBootloader' },
               { text: '⚙️ Загрузчик KeenBOOT', link: '/wiki/helpful/keenboot' },
+              { text: '💻 Инструменты', link: '/wiki/helpful/tools' },
               { text: '🧩 Компоненты', link: '/wiki/helpful/components' },
               { text: '📦 Установка Entware', link: '/wiki/helpful/entware' },
               { text: '❓ FAQ', link: '/wiki/helpful/faq' },

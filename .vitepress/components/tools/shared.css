@@ -1,0 +1,150 @@
+.eeprom-tools .tool-card,
+.eeprom-tools .uconfig-tool {
+  padding: clamp(20px, 4vw, 36px);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+}
+
+.eeprom-tools .tool-card__description,
+.eeprom-tools .uconfig-tool__description {
+  margin: 0 0 20px;
+  color: var(--vp-c-text-2);
+}
+
+.eeprom-tools .tool-form {
+  display: grid;
+  gap: 14px;
+}
+
+.eeprom-tools .tool-form__input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg);
+}
+
+.eeprom-tools .tool-button,
+.eeprom-tools .uconfig-template__button {
+  justify-self: start;
+  border: 1px solid var(--vp-button-brand-border);
+  border-radius: 20px;
+  padding: 0 20px;
+  color: var(--vp-button-brand-text);
+  background: var(--vp-button-brand-bg);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+}
+
+.eeprom-tools .tool-button:hover,
+.eeprom-tools .uconfig-template__button:hover:not(:disabled) {
+  border-color: var(--vp-button-brand-hover-border);
+  color: var(--vp-button-brand-hover-text);
+  background: var(--vp-button-brand-hover-bg);
+}
+
+.eeprom-tools .tool-button:active,
+.eeprom-tools .uconfig-template__button:active:not(:disabled) {
+  border-color: var(--vp-button-brand-active-border);
+  color: var(--vp-button-brand-active-text);
+  background: var(--vp-button-brand-active-bg);
+  transition-duration: 0.1s;
+}
+
+.eeprom-tools .tool-button--file {
+  display: inline-flex;
+  align-items: center;
+}
+
+.eeprom-tools .tool-button--file input,
+.eeprom-tools .cutter-dropzone__input,
+.eeprom-tools .uconfig-dropzone__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.eeprom-tools .tool-button--secondary {
+  border-color: var(--vp-button-alt-border);
+  color: var(--vp-button-alt-text);
+  background: var(--vp-button-alt-bg);
+}
+
+.eeprom-tools .tool-button--secondary:hover {
+  border-color: var(--vp-button-alt-hover-border);
+  color: var(--vp-button-alt-hover-text);
+  background: var(--vp-button-alt-hover-bg);
+}
+
+.eeprom-tools .tool-button--secondary:active {
+  border-color: var(--vp-button-alt-active-border);
+  color: var(--vp-button-alt-active-text);
+  background: var(--vp-button-alt-active-bg);
+}
+
+.eeprom-tools .cutter-dropzone,
+.eeprom-tools .uconfig-dropzone {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 4px;
+  min-height: 190px;
+  box-sizing: border-box;
+  border: 2px dashed var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 24px;
+  color: var(--vp-c-text-2);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.eeprom-tools .cutter-dropzone:hover,
+.eeprom-tools .cutter-dropzone--dragging,
+.eeprom-tools .uconfig-dropzone:hover,
+.eeprom-tools .uconfig-dropzone--dragging {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-brand-soft);
+}
+
+.eeprom-tools .cutter-dropzone--busy,
+.eeprom-tools .uconfig-dropzone--busy {
+  cursor: wait;
+  opacity: 0.75;
+}
+
+.eeprom-tools .cutter-dropzone:focus-visible,
+.eeprom-tools .uconfig-dropzone:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 3px;
+}
+
+.eeprom-tools .tool-message,
+.eeprom-tools .uconfig-message {
+  margin: 20px 0 0;
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+
+.eeprom-tools .tool-message--error,
+.eeprom-tools .uconfig-message--error {
+  color: var(--vp-c-danger-1);
+  background: var(--vp-c-danger-soft);
+}
+
+.eeprom-tools .tool-message--success,
+.eeprom-tools .uconfig-message--success {
+  color: var(--vp-c-green-1);
+  background: var(--vp-c-green-soft);
+}

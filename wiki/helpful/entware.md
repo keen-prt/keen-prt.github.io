@@ -1,10 +1,10 @@
-# Установка Entware <YezBadge type="keenetic" text="Mipsel" url="/assets/files/entware/Mipsel_Offline.tar.gz" /> <YezBadge type="keenetic" text="Arch" url="/assets/files/entware/Arch_Offline.tar.gz" />
+# Установка Entware <YezBadge type="keenetic" text="Mipsel" url="/assets/files/entware/Mipsel_Offline.tar.gz" /> <YezBadge type="keenetic" text="Aarch" url="/assets/files/entware/Arch_Offline.tar.gz" />
 
 [Официальная инструкция Keenetic](https://help.keenetic.com/hc/ru/articles/360021888880-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-OPKG-Entware-%D0%BD%D0%B0-%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%83%D1%8E-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C-%D1%80%D0%BE%D1%83%D1%82%D0%B5%D1%80%D0%B0)
 ::: warning ВНИМАНИЕ
-**`Mipsel`** - устройства на MT7628/MT7621
+**`Mipsel`** — устройства на MT7628/MT7621.
 
-**`Aarch`** - устройства на MT7622/MT7981/MT7988 (ARM)
+**`Aarch`** — устройства на MT7622/MT7981/MT7988 (ARM).
 :::
 
 ## Установка
@@ -12,11 +12,11 @@
 ### Способ #1 <Badge type="keenetic" text="Автоматический, online" />
 
 :::: tip
-Начиная с KeeneticOS 4.2 появилась возможность установки в одну команду через CLI [`192.168.1.1/a`](http://192.168.1.1/a)
+Начиная с KeeneticOS 4.2 Entware можно установить одной командой через CLI: [`192.168.1.1/a`](http://192.168.1.1/a).
 ::::
 ![альтернативный текст](/assets/images/wiki/helpful/entware/rci.png)
 
-1. Ввести команду для установки:
+1. Выполните команду для установки:
 
 Для архитектуры `Mipsel`
 
@@ -30,31 +30,31 @@ opkg disk storage:/ https://bin.entware.net/mipselsf-k3.4/installer/mipsel-insta
 opkg disk storage:/ https://bin.entware.net/aarch64-k3.10/installer/aarch64-installer.tar.gz
 ````
 
-2. Дождаться окончания установки в Журнале
+2. Дождитесь сообщения об окончании установки в журнале.
 
 ![альтернативный текст](/assets/images/wiki/helpful/entware/done_install.png)
 
 ### Способ #2 <Badge type="keenetic" text="Ручной, offline" />
 
-1. В разделе `Приложения` раскрыть `Встроенное хранилище` или внешний накопитель, отформатированный в ext4, если установка планируется на него.
+1. В разделе `Приложения` откройте `Встроенное хранилище` или внешний накопитель, отформатированный в ext4, если планируете установить Entware на него.
 
    ![альтернативный текст](/assets/images/wiki/helpful/entware/1.png)
 
-2. Создать папку с названием `install`
+2. Создайте папку `install`.
 
    ![альтернативный текст](/assets/images/wiki/helpful/entware/2.png)
 
-3. Внутрь папки поместить нужный архив
+3. Поместите в папку нужный архив.
 
    ![альтернативный текст](/assets/images/wiki/helpful/entware/3.png)
 
-4. В разделе `OPKG` в накопителе выбрать `Встроенное хранилище` или внешний накопитель и сохранить.
+4. В разделе `OPKG` выберите встроенное хранилище или внешний накопитель и сохраните настройки.
    ::: warning Внимание
-   Если накопитель ранее был выбран, необходимо убрать, а затем снова выбрать.
+   Если накопитель уже был выбран, сначала отмените выбор, затем выберите его снова.
    :::
    ![альтернативный текст](/assets/images/wiki/helpful/entware/4.png)
 
-5. На накопителе развернётся `Entware`
+5. Дождитесь, когда Entware будет развёрнут на накопителе.
 
    ![альтернативный текст](/assets/images/wiki/helpful/entware/5.png)
 
@@ -66,16 +66,16 @@ opkg disk storage:/ https://bin.entware.net/aarch64-k3.10/installer/aarch64-inst
 
 **Порт**: `222`
 
-**Смена пароля** -
+**Смена пароля:**
 
 ```shell
 passwd
 ```
 
-## Не пускает по SSH
+## Не удаётся подключиться по SSH
 
-1. Подключитесь по CLI (Например [`192.168.1.1/a`](http://192.168.1.1/a))
-2. Выполните команды
+1. Подключитесь через CLI, например: [`192.168.1.1/a`](http://192.168.1.1/a).
+2. Выполните команды:
 
 ````shell
 exec sh
@@ -93,7 +93,7 @@ exec /opt/etc/init.d/S51dropbear restart
 
 **Порт**: `23`
 
-**Вход в Entware** -
+**Вход в Entware:**
 
 ```shell
 exec sh
@@ -103,13 +103,13 @@ exec sh
 
 ## Обновление
 
-Репозиториев
+Списков пакетов:
 
 ```shell
 opkg update
 ```
 
-Пакетов
+Установленных пакетов:
 
 ```shell
 opkg upgrade
@@ -121,9 +121,9 @@ opkg upgrade
 ::: info
 Применимо только к встроенному хранилищу
 :::
-1. Подключиться по CLI (Например [`192.168.1.1/a`](http://192.168.1.1/a))
-2. Закрыть все имеющиеся соединения, если они активны `(Telnet/SSH)`
-3. Ввести поочерёдно команды
+1. Подключитесь через CLI, например: [`192.168.1.1/a`](http://192.168.1.1/a).
+2. Закройте все активные соединения Telnet и SSH.
+3. Выполните команды поочерёдно:
 
 ```shell
 opkg no disk

@@ -9,6 +9,7 @@ import OTABadge from '../components/OTABadge.vue'
 import GoodBlock from '../components/GoodBlock.vue'
 import YezBadgeWithDropdown from '../components/YezBadgeWithDropdown.vue'
 import BoostyBadge from '../components/BoostyBadge.vue'
+import Tools from '../components/Tools.vue'
 import Layout from './Layout.vue'
 
 const redirects = {
@@ -61,5 +62,6 @@ export default {
     app.component('OTABadge', OTABadge)
     app.component('YezBadgeWithDropdown', YezBadgeWithDropdown)
     app.component('BoostyBadge', BoostyBadge)
+    app.component('Tools', Tools)
   }
 }
