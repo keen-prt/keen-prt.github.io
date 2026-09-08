@@ -1,4 +1,4 @@
-# Xiaomi Router 4C <YezBadge type="keenetic" text="4.1.7" url="/assets/files/firmware/Xiaomi-4C.7z" />
+# Xiaomi Router 4C <YezBadge type="keenetic" text="5.1.5" url="/assets/files/firmware/Xiaomi-4C.7z" />
 
 ::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия
@@ -26,7 +26,6 @@
 | **Сброс настроек**                                                                                    | ✅ Через кнопку Reset                     |
 | **Светодиоды**                                                                                        | ✅                                        |
 | **Совместимость в Mesh**                                                                              | ✅ С оригинальными устройствами и клонами |
-| **[Перезагрузка модема](https://openwrt.org/toh/xiaomi/xiaomi_mi_router_4c#hardware_mod_-_usb_port)** | ✅ Могут поддерживаться не все модемы     |
 | **Встроенное хранилище**                                                                              | ❌ Установка Entware невозможна           |
 
 ## Обновление прошивки
@@ -57,17 +56,3 @@
 ::: tip Готово! Доступ к роутеру
 URL: `192.168.1.1`<br/>SSID: `Keenetic`<br/>Пароль Wi-Fi: `12345678`
 :::
-
-## Скриншоты
-
-![Система KeeneticOS на Xiaomi 4C](/assets/images/wiki/guides/Xiaomi/system1-4c.png)
-
-![Система KeeneticOS на Xiaomi 4C](/assets/images/wiki/guides/Xiaomi/system2-4c.jpg)
-
-## Установленные компоненты
-
-![Установленные компоненты, часть 1](/assets/images/wiki/guides/Xiaomi/components-4c1.png)
-
-![Установленные компоненты, часть 2](/assets/images/wiki/guides/Xiaomi/components-4c2.png)
-
-![Установленные компоненты, часть 3](/assets/images/wiki/guides/Xiaomi/components-4c3.png)

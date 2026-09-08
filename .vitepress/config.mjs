@@ -119,14 +119,14 @@ export default defineConfig({
           {
             text: 'Active',
             items: [
-              { text: '⚡️ Cudy WBR3000UAX', link: '/wiki/guides/WBR3000UAX' },
+              { text: '⚡️ Cudy WBR3000UAX/U', link: '/wiki/guides/WBR3000UAX' },
               { text: '⚡️ Cudy TR3000', link: '/wiki/guides/tr3000' },
               { text: '⚡️ CMCC RAX3000M/Me', link: '/wiki/guides/rax3000me' },
               { text: '⚡️ CMCC XR30', link: '/wiki/guides/cmcc-xr30' },
               { text: '⚡️ Cudy WR3000P', link: '/wiki/guides/WR3000P' },
               { text: 'Netis N6 AX1800', link: '/wiki/guides/NetisN6' },
-              { text: '⚡️ Netis NX31', link: '/wiki/guides/netis-nx31' },
-              { text: '⚡️ Netis NX32U', link: '/wiki/guides/netis-nx32u' },
+              { text: '⚡️ Netis NX31/NX30', link: '/wiki/guides/netis-nx31' },
+              { text: '⚡️ Netis NX32U/N6v2', link: '/wiki/guides/netis-nx32u' },
               { text: '⚡️ Redmi AX6S', link: '/wiki/guides/ax6s' },
               { text: 'SmartBox Giga', link: '/wiki/guides/smartbox-giga' },
               { text: '⚡️ Xiaomi AX3000T', link: '/wiki/guides/ax3000t' },
@@ -161,7 +161,8 @@ export default defineConfig({
               { text: 'Xiaomi 4Av1', link: '/wiki/guides/xiaomi-4AG' },
               { text: 'Xiaomi 4Av2', link: '/wiki/guides/xiaomi-4AGv2' },
               { text: 'Xiaomi 4C', link: '/wiki/guides/xiaomi-4C' },
-              { text: 'Xiaomi Extender', link: '/wiki/guides/xiaomi-extender' }
+              { text: 'Xiaomi Extender', link: '/wiki/guides/xiaomi-extender' },
+              { text: 'Xiaomi Redmi AC2100', link: '/wiki/guides/xiaomi-AC2100' }
             ]
           }
         ]

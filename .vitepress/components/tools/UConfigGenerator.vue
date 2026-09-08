@@ -1,5 +1,6 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { getCurrentDateInfo } from '../../theme/date'
 
 const encoder = new TextEncoder()
 const decoder = new TextDecoder()
@@ -88,8 +89,18 @@ const outputName = (fileName, serviceTag) => {
 const patchData = (data, fileName) => {
   const serviceTag = replaceValues(data, 'servicetag=', (value) => randomString(value.length, digits))
   const serialNumber = replaceValues(data, 'sernumb=', (value) => {
-    const stablePartLength = Math.max(0, value.length - 4)
-    return decoder.decode(value.slice(0, stablePartLength)) + randomString(value.length - stablePartLength, digits)
+    const original = decoder.decode(value)
+    const { year, week } = getCurrentDateInfo()
+    let serial = original
+
+    if (year >= 2020 && serial.length >= 5) {
+      const yearPart = String(year % 100).padStart(2, '0')
+      const weekPart = String(week).padStart(2, '0')
+      serial = `${serial.slice(0, 1)}${yearPart}${weekPart}${serial.slice(5)}`
+    }
+
+    const stablePartLength = Math.max(0, serial.length - 4)
+    return serial.slice(0, stablePartLength) + randomString(serial.length - stablePartLength, digits)
   })
   const servicePassword = replaceValues(data, 'servicepass=', (value) => randomString(value.length, lettersAndDigits))
   const country = replaceValues(data, 'country=', (value) => {

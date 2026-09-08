@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
-import { useSnowfall, isWinterPeriod } from '../snowfall'
+import { useSnowfall } from '../snowfall'
+import { isWinterPeriod } from '../date'
 
 const props = defineProps({
   part: {

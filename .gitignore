@@ -1,8 +1,7 @@
 node_modules/
-.vitepress/
-!.vitepress/
-.vitepress/*
-!.vitepress/components/
+/.vitepress/.temp/
+/.vitepress/cache/
+/.vitepress/dist/
 /public/assets/files/uconfig/index.json
 /.idea/
 .DS_Store
