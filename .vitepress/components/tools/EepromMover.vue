@@ -2,7 +2,6 @@
 import { ref } from 'vue'
 
 const presets = {
-  smartbox: { src: '0x8000', dst: '0x0', length: '3000' },
   xiaomi: { src: '0x8000', dst: '0x400', length: '600' }
 }
 
@@ -111,7 +110,6 @@ const handleFile = async (event) => {
       <label class="tool-form__label" for="mover-preset">Пресет</label>
       <select id="mover-preset" v-model="preset" class="tool-form__input" @change="applyPreset">
         <option value="">—</option>
-        <option value="smartbox">SmartBox Turbo+</option>
         <option value="xiaomi">Xiaomi Extender RC04</option>
       </select>
 
