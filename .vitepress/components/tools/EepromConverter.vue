@@ -127,7 +127,15 @@ const handleFile = async (event) => {
           { offset: 0x28, delta: 1 },
           { offset: 0x8004, delta: 2 }
         )
-      } else if (!is7615) {
+      } else if (
+        !is7615 || (
+          dataView.byteLength >= 0x8002
+          && dataView.getUint8(0) === mt7603[0]
+          && dataView.getUint8(1) === mt7603[1]
+          && dataView.getUint8(0x8000) === mt7615[0]
+          && dataView.getUint8(0x8001) === mt7615[1]
+        )
+      ) {
         offsets.push({ offset: 0x8004, delta: 1 })
       }
 

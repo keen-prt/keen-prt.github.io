@@ -1,4 +1,4 @@
-# SmartBox Pro <YezBadge type="keenetic" text="4.3.6.3" url="/assets/files/firmware/SmartBox-Pro.zip" />
+# SmartBox Pro <BoostyBadge type="keenetic" text="5.2"/><YezBadge type="keenetic" text="4.3.6.3" url="/assets/files/firmware/SmartBox-Pro.zip" />
 
 ::: warning **Статус устройства: EoL**
 **End of Life** — прекращение портирования операционной системы для этой модели, последняя релизная версия

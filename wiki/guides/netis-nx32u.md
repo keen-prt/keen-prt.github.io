@@ -1,20 +1,10 @@
-# Netis NX32U <BoostyBadge type="keenetic" text="5.1.4"/> <OTABadge type="keenetic" text="5.1.3 (OTA)"/> <YezBadge type="keenetic" text="5.1.2" url="/assets/files/firmware/Netis-NX32U.7z"/>
+# Netis NX32U <BoostyBadge type="keenetic" text="5.2"/> <OTABadge type="keenetic" text="5.1.4 (OTA)"/> <YezBadge type="keenetic" text="5.1.2" url="/assets/files/firmware/Netis-NX32U.7z"/>
 
 ::: tip **Статус устройства: Active**
 **Active** — ведётся портирование новых версий
 :::
 
 ![Netis NX32U](/assets/images/wiki/guides/Netis-NX32U/main.png){width=500px height=100px}
-
-::: warning УТОЧНЕНИЕ
-Сборка и метод установки также совместимы с `Netis N6 v2`. Однако полная работоспособность не гарантируется.
-
-1. Подключитесь по SSH к устройству с заводской прошивкой.
-2. Выполните команду `vi /etc/passwd`.
-3. Замените `useradmin` на `admin` и сохраните файл.
-4. Выполните команду `passwd admin`.
-5. Задайте пароль и укажите его в установщике.
-:::
 
 ## Характеристики
 

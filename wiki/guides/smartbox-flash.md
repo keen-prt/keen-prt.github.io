@@ -1,4 +1,4 @@
-# SmartBox Flash <OTABadge type="keenetic" text="5.1.4 (OTA)"/> <YezBadge type="keenetic" text="5.0.12" url="/assets/files/firmware/SmartBox-Flash.7z"/>
+# SmartBox Flash <BoostyBadge type="keenetic" text="5.2"/><OTABadge type="keenetic" text="5.1.4 (OTA)"/> <YezBadge type="keenetic" text="5.0.12" url="/assets/files/firmware/SmartBox-Flash.7z"/>
 
 ::: warning **Статус устройства: EoD**
 **End of Development** — обновление системы возможно только при наличии свободного времени и желания
